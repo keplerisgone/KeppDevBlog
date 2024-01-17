@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "182cccd9c58029c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b88c7faa57fb79d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "697c061cddbaa421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Page.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a125caecb9137623",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily/2024-01-18.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ba887b2aa5a58f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "50bc99f9eccae7a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01e00628f9a5170e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "cab3e0a5c6aa6f1f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dbe06313d7617a17",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "0f9a4f4444cb0c31",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ee83176a88eb828",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dbf408a4b9eabb7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3fefcb7e88aa2e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "468a9da7f0ba21d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main Page.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "129d8c11caaf6e6f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main Page.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "491e1bee49faa7eb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ca686862083d540c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main Page.md"
+              }
+            }
+          },
+          {
+            "id": "b509e60bc609b451",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f09cdd2a1a1b38fc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-file-cleaner:Clean files": false
+    }
+  },
+  "active": "697c061cddbaa421",
+  "lastOpenFiles": [
+    "03-Resources/Obsidian/옵시디언 사용하기.md",
+    "03-Resources/Obsidian/옵시디언 노트 정리법.md",
+    "Main Page.md",
+    "03-Resources/ETC/마크다운 문법.md",
+    "Media/Pasted image 20240118005656.png",
+    "01-Project/NeverMore/Project Nevermore - 기획.md",
+    "Gaming",
+    "Daily/2024-01-18.md",
+    "Daily/2024-01-17.md",
+    "Template/daily-note-template.md",
+    "03-Resources/ETC",
+    "Untitled.canvas",
+    "Daily/2024-01-25.md",
+    "01-Project/NeverMore",
+    "03-Resources/Obsidian",
+    "02-Area/DAS",
+    "02-Area/CS-OS",
+    "03-Resources/Python",
+    "03-Resources/C-sharp",
+    "03-Resources/C++",
+    "01-Project/Robotgame",
+    "Tasks.md",
+    "Obsidian Practice.md",
+    "옵시디언.md",
+    "Blog/C++.md",
+    "Blog/Cs.md",
+    "Blog/Develop.md",
+    "Blog/Obsidian.md",
+    "Daily/2024-01-19.md",
+    "Daily/2024-01-24.md",
+    "{{tomorrow}}.md",
+    "{{yesterday}}.md",
+    "2024-01-17.md",
+    "Welcome.md"
+  ]
+}
