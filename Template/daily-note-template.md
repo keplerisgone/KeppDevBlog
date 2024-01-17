@@ -1,11 +1,8 @@
-
 ---
-
-created: {{date}} {{time}}  
-
-tags: #daily_note 
-
-[[ {{yesterday}} |<yesterday]] | [[{{tomorrow}}|tomorrow>]]
+tags:
+  - daily_note
+created:
+---
 
 ---
 # Diary 

@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Page.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a125caecb9137623",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/2024-01-18.md",
+                "file": "03-Resources/Obsidian/옵시디언 사용하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabeticalReverse"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -93,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Page.md",
+                "file": "03-Resources/Obsidian/옵시디언 사용하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Page.md",
+                "file": "03-Resources/Obsidian/옵시디언 사용하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Page.md"
+                "file": "03-Resources/Obsidian/옵시디언 사용하기.md"
               }
             }
           },
@@ -175,12 +162,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,16 +185,28 @@
   },
   "active": "697c061cddbaa421",
   "lastOpenFiles": [
+    "03-Resources/Obsidian/옵시디언 코어 플러그인.md",
     "03-Resources/Obsidian/옵시디언 사용하기.md",
     "03-Resources/Obsidian/옵시디언 노트 정리법.md",
-    "Main Page.md",
     "03-Resources/ETC/마크다운 문법.md",
-    "Media/Pasted image 20240118005656.png",
-    "01-Project/NeverMore/Project Nevermore - 기획.md",
-    "Gaming",
-    "Daily/2024-01-18.md",
+    "README.md",
     "Daily/2024-01-17.md",
+    "03-Resources/DSA/선형 데이터 구조.md",
+    "Daily/2024-01-18.md",
     "Template/daily-note-template.md",
+    "03-Resources/C++/C++이란?.md",
+    "03-Resources/DSA/데이터 구조와 알고리즘.md",
+    "Media/Screenshot 2024-01-03 at 12.12.21 AM.png",
+    "{{tomorrow}}.md",
+    "{{yesterday}}.md",
+    "Media/Screenshot 2024-01-03 at 12.11.35 AM.png",
+    "Media/Screenshot 2024-01-03 at 12.15.32 AM.png",
+    "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
+    "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
+    "01-Project/NeverMore/Project Nevermore - 기획.md",
+    "01-Project/Robotgame/Project Robotgame - 기본.md",
+    "Media/Pasted image 20240118005656.png",
+    "Gaming",
     "03-Resources/ETC",
     "Untitled.canvas",
     "Daily/2024-01-25.md",
@@ -229,9 +227,6 @@
     "Blog/Obsidian.md",
     "Daily/2024-01-19.md",
     "Daily/2024-01-24.md",
-    "{{tomorrow}}.md",
-    "{{yesterday}}.md",
-    "2024-01-17.md",
-    "Welcome.md"
+    "2024-01-17.md"
   ]
 }
