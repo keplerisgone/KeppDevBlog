@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "옵시디언 사용하기",
-      "path": "03-Resources/Obsidian/옵시디언 사용하기.md"
+      "basename": "플레이어 구현",
+      "path": "01-Project/Robotgame/플레이어 구현.md"
     },
     {
-      "basename": "옵시디언 코어 플러그인",
-      "path": "03-Resources/Obsidian/옵시디언 코어 플러그인.md"
+      "basename": "사용 변수",
+      "path": "01-Project/Robotgame/사용 변수.md"
+    },
+    {
+      "basename": "몬스터 구현",
+      "path": "01-Project/Robotgame/몬스터 구현.md"
+    },
+    {
+      "basename": "2024-01-18",
+      "path": "Daily/2024-01-18.md"
+    },
+    {
+      "basename": "2024-01-19",
+      "path": "Daily/2024-01-19.md"
     },
     {
       "basename": "옵시디언 노트 정리법",
       "path": "03-Resources/Obsidian/옵시디언 노트 정리법.md"
     },
     {
-      "basename": "마크다운 문법",
-      "path": "03-Resources/ETC/마크다운 문법.md"
+      "basename": "Exacli-RobotgamePlayer",
+      "path": "Excalidraw/Exacli-RobotgamePlayer.md"
+    },
+    {
+      "basename": "Project Robotgame - 기본",
+      "path": "01-Project/Robotgame/Project Robotgame - 기본.md"
     },
     {
       "basename": "README",
@@ -25,16 +41,24 @@
       "path": "Daily/2024-01-17.md"
     },
     {
-      "basename": "선형 데이터 구조",
-      "path": "03-Resources/DSA/선형 데이터 구조.md"
-    },
-    {
-      "basename": "2024-01-18",
-      "path": "Daily/2024-01-18.md"
+      "basename": "옵시디언 사용하기",
+      "path": "03-Resources/Obsidian/옵시디언 사용하기.md"
     },
     {
       "basename": "daily-note-template",
       "path": "Template/daily-note-template.md"
+    },
+    {
+      "basename": "옵시디언 코어 플러그인",
+      "path": "03-Resources/Obsidian/옵시디언 코어 플러그인.md"
+    },
+    {
+      "basename": "마크다운 문법",
+      "path": "03-Resources/ETC/마크다운 문법.md"
+    },
+    {
+      "basename": "선형 데이터 구조",
+      "path": "03-Resources/DSA/선형 데이터 구조.md"
     },
     {
       "basename": "C++이란?",
@@ -47,10 +71,6 @@
     {
       "basename": "Project Nevermore - 기획",
       "path": "01-Project/NeverMore/Project Nevermore - 기획.md"
-    },
-    {
-      "basename": "Project Robotgame - 기본",
-      "path": "01-Project/Robotgame/Project Robotgame - 기본.md"
     },
     {
       "basename": "Pasted image 20240118005656",

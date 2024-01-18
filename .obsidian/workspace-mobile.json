@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "e54ab693a08c9d06",
+    "type": "split",
+    "children": [
+      {
+        "id": "915d209acab1c4f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2fe1aebe3892000a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily/2024-01-17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3e8f3c59c40a57ae",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1858661b514b1b37",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "79d0e9ef18ce30bb",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2672e697807bf701",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "8ffc9793716ec9e1",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "b1aec551d86c7ccd",
+        "type": "leaf",
+        "state": {
+          "type": "mk-path-view",
+          "state": {}
+        }
+      },
+      {
+        "id": "1403eae7dc036fb1",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "fddb38e918023cb4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "92d745401b520826",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Daily/2024-01-17.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e905b876ed1a1325",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Daily/2024-01-17.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "a5b95d56c9b88826",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Daily/2024-01-17.md"
+          }
+        }
+      },
+      {
+        "id": "e864b8a4f7ad567d",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-file-cleaner:Clean files": false
+    }
+  },
+  "active": "2fe1aebe3892000a",
+  "lastOpenFiles": [
+    "03-Resources/Obsidian/옵시디언 사용하기.md",
+    "Template/daily-note-template.md",
+    "Daily/2024-01-17.md",
+    "Daily/2024-01-18.md"
+  ]
+}

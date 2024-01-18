@@ -2,7 +2,7 @@
   "newNotePlaceholder": "Untitled",
   "defaultInitialization": false,
   "filePreviewOnHover": false,
-  "flowMenuEnabled": true,
+  "flowMenuEnabled": false,
   "markSans": false,
   "blinkEnabled": true,
   "makeMenuPlaceholder": true,
@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "Spaces/Home",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -35,7 +35,8 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//01-Project"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
