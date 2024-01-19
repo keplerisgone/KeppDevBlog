@@ -1,76 +1,140 @@
 {
   "recentFiles": [
     {
-      "basename": "플레이어 구현",
-      "path": "01-Project/Robotgame/플레이어 구현.md"
-    },
-    {
-      "basename": "사용 변수",
-      "path": "01-Project/Robotgame/사용 변수.md"
-    },
-    {
-      "basename": "몬스터 구현",
-      "path": "01-Project/Robotgame/몬스터 구현.md"
-    },
-    {
-      "basename": "2024-01-18",
-      "path": "Daily/2024-01-18.md"
+      "basename": "Notation",
+      "path": "Spaces/Home/Notation.md"
     },
     {
       "basename": "2024-01-19",
-      "path": "Daily/2024-01-19.md"
+      "path": "Spaces/Home/Daily/2024-01-19.md"
     },
     {
-      "basename": "옵시디언 노트 정리법",
-      "path": "03-Resources/Obsidian/옵시디언 노트 정리법.md"
-    },
-    {
-      "basename": "Exacli-RobotgamePlayer",
-      "path": "Excalidraw/Exacli-RobotgamePlayer.md"
-    },
-    {
-      "basename": "Project Robotgame - 기본",
-      "path": "01-Project/Robotgame/Project Robotgame - 기본.md"
+      "basename": "2024-01-18",
+      "path": "Spaces/Home/Daily/2024-01-18.md"
     },
     {
       "basename": "README",
-      "path": "README.md"
+      "path": "Spaces/Home/README.md"
     },
     {
-      "basename": "2024-01-17",
-      "path": "Daily/2024-01-17.md"
+      "basename": "Spaces",
+      "path": "Spaces/Spaces.md"
     },
     {
-      "basename": "옵시디언 사용하기",
-      "path": "03-Resources/Obsidian/옵시디언 사용하기.md"
+      "basename": "C-sharp",
+      "path": "Spaces/Home/03-Resources/C-sharp/C-sharp.md"
+    },
+    {
+      "basename": "진행 상황",
+      "path": "Spaces/Home/01-Project/Robotgame/진행 상황.md"
+    },
+    {
+      "basename": "몬스터 구현",
+      "path": "Spaces/Home/01-Project/Robotgame/몬스터 구현.md"
+    },
+    {
+      "basename": "플레이어 구현",
+      "path": "Spaces/Home/01-Project/Robotgame/플레이어 구현.md"
+    },
+    {
+      "basename": "Prefab 모음",
+      "path": "Spaces/Home/01-Project/Robotgame/Prefab 모음.md"
+    },
+    {
+      "basename": "Project Robotgame - 기본",
+      "path": "Spaces/Home/01-Project/Robotgame/Project Robotgame - 기본.md"
+    },
+    {
+      "basename": "Robotgame",
+      "path": "Spaces/Home/01-Project/Robotgame/Robotgame.md"
+    },
+    {
+      "basename": "Project Nevermore - 기획",
+      "path": "Spaces/Home/01-Project/NeverMore/Project Nevermore - 기획.md"
+    },
+    {
+      "basename": "NeverMore",
+      "path": "Spaces/Home/01-Project/NeverMore/NeverMore.md"
+    },
+    {
+      "basename": "CS-OS",
+      "path": "Spaces/Home/02-Area/CS-OS/CS-OS.md"
+    },
+    {
+      "basename": "03-Resources",
+      "path": "Spaces/Home/03-Resources/03-Resources.md"
+    },
+    {
+      "basename": "C++",
+      "path": "Spaces/Home/03-Resources/C++/C++.md"
     },
     {
       "basename": "daily-note-template",
       "path": "Template/daily-note-template.md"
     },
     {
+      "basename": "2024-01-20",
+      "path": "Spaces/Home/Daily/2024-01-20.md"
+    },
+    {
+      "basename": "2024-01-17",
+      "path": "Spaces/Home/Daily/2024-01-17.md"
+    },
+    {
+      "basename": "Daily",
+      "path": "Spaces/Home/Daily/Daily.md"
+    },
+    {
+      "basename": "옵시디언 Dateview 사용법",
+      "path": "Spaces/Home/03-Resources/Obsidian/옵시디언 Dateview 사용법.md"
+    },
+    {
+      "basename": "\b가비지 콜렉터(GC)와 오브젝트 풀링",
+      "path": "Spaces/Home/03-Resources/Unity/\b가비지 콜렉터(GC)와 오브젝트 풀링.md"
+    },
+    {
+      "basename": "코루틴(Coroutine)과 인보크(Invoke)",
+      "path": "Spaces/Home/03-Resources/Unity/코루틴(Coroutine)과 인보크(Invoke).md"
+    },
+    {
+      "basename": "옵시디언 노트 정리법",
+      "path": "Spaces/Home/03-Resources/Obsidian/옵시디언 노트 정리법.md"
+    },
+    {
+      "basename": "옵시디언 사용하기",
+      "path": "Spaces/Home/03-Resources/Obsidian/옵시디언 사용하기.md"
+    },
+    {
       "basename": "옵시디언 코어 플러그인",
-      "path": "03-Resources/Obsidian/옵시디언 코어 플러그인.md"
+      "path": "Spaces/Home/03-Resources/Obsidian/옵시디언 코어 플러그인.md"
+    },
+    {
+      "basename": "기본적인 Git-GitHub 사용",
+      "path": "Spaces/Home/03-Resources/GIt-GitHub/기본적인 Git-GitHub 사용.md"
+    },
+    {
+      "basename": "Branch merge 시에 충돌 해결법",
+      "path": "Spaces/Home/03-Resources/GIt-GitHub/Branch merge 시에 충돌 해결법.md"
     },
     {
       "basename": "마크다운 문법",
-      "path": "03-Resources/ETC/마크다운 문법.md"
+      "path": "Spaces/Home/03-Resources/ETC/마크다운 문법.md"
     },
     {
       "basename": "선형 데이터 구조",
-      "path": "03-Resources/DSA/선형 데이터 구조.md"
+      "path": "Spaces/Home/03-Resources/DSA/선형 데이터 구조.md"
     },
     {
       "basename": "C++이란?",
-      "path": "03-Resources/C++/C++이란?.md"
+      "path": "Spaces/Home/03-Resources/C++/C++이란?.md"
+    },
+    {
+      "basename": "Exacli-RobotgamePlayer",
+      "path": "Excalidraw/Exacli-RobotgamePlayer.md"
     },
     {
       "basename": "데이터 구조와 알고리즘",
-      "path": "03-Resources/DSA/데이터 구조와 알고리즘.md"
-    },
-    {
-      "basename": "Project Nevermore - 기획",
-      "path": "01-Project/NeverMore/Project Nevermore - 기획.md"
+      "path": "Spaces/Home/03-Resources/DSA/데이터 구조와 알고리즘.md"
     },
     {
       "basename": "Pasted image 20240118005656",

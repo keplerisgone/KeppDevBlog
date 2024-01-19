@@ -3,7 +3,42 @@
     {
       "type": "file",
       "ctime": 1705500648780,
-      "path": "README.md"
+      "path": "Spaces/Home/README.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1705681152391,
+      "path": "Spaces/Home/Notation.md"
+    },
+    {
+      "type": "folder",
+      "ctime": 1705681162835,
+      "path": "Spaces/Home/01-Project"
+    },
+    {
+      "type": "folder",
+      "ctime": 1705681166095,
+      "path": "Spaces/Home/02-Area"
+    },
+    {
+      "type": "folder",
+      "ctime": 1705681173228,
+      "path": "Spaces/Home/03-Resources"
+    },
+    {
+      "type": "folder",
+      "ctime": 1705681176715,
+      "path": "Spaces/Home/04-Archive"
+    },
+    {
+      "type": "folder",
+      "ctime": 1705681179946,
+      "path": "Spaces/Home/Daily"
+    },
+    {
+      "type": "folder",
+      "ctime": 1705681183840,
+      "path": "Spaces/Home/Gaming"
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "English": "checkbox",
+    "reading": "checkbox",
+    "workout": "checkbox",
+    "diary": "checkbox",
+    "blog": "checkbox",
+    "sleep": "text",
+    "wakeup": "text"
+  }
+}
