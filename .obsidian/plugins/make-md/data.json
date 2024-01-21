@@ -52,9 +52,16 @@
     "//01-Project",
     "//Spaces",
     "//Spaces/Spaces/Home",
-    "///",
     "Spaces/Home/Spaces/Home/02-Area/Spaces/Home/02-Area/CS-OS",
-    "Spaces/Home/Spaces/Home/01-Project/Spaces/Home/01-Project/Robotgame"
+    "Spaces/Home/Spaces/Home/01-Project/Spaces/Home/01-Project/Robotgame",
+    "Spaces/Home/Spaces/Home/04-Archive",
+    "Spaces/Home/Spaces/Home/04-Archive",
+    "Spaces/Home/Spaces/Home/03-Resources",
+    "Spaces/Home/Spaces/Home/03-Resources/Spaces/Home/03-Resources/ETC",
+    "//Template",
+    "//Spaces/Spaces/Home/Spaces/Home/Daily",
+    "Spaces/Home/Spaces/Home/Gaming",
+    "Spaces/Home/Spaces/Home/01-Project"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

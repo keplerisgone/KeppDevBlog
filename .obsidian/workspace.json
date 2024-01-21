@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5b88c7faa57fb79d",
+        "id": "c90fd0d509281a07",
         "type": "tabs",
         "children": [
           {
-            "id": "697c061cddbaa421",
+            "id": "ed984c9dc1bc1dcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/Notation.md",
+                "file": "Spaces/Home/01-Project/Robotgame/배터리 시스템.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#daily_note",
+                "query": "tag:#Tasks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,6 +72,14 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "d88502831b226980",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -93,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/Notation.md",
+                "file": "Spaces/Home/01-Project/Robotgame/배터리 시스템.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/Notation.md",
+                "file": "Spaces/Home/01-Project/Robotgame/배터리 시스템.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/Notation.md"
+                "file": "Spaces/Home/01-Project/Robotgame/배터리 시스템.md"
               }
             }
           },
@@ -153,7 +161,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -175,34 +184,36 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "697c061cddbaa421",
+  "active": "0f9a4f4444cb0c31",
   "lastOpenFiles": [
-    "Spaces/Home/Daily/2024-01-19.md",
+    "Spaces/Home/01-Project/Robotgame/Prefab 모음.md",
+    "Spaces/Home/01-Project/Robotgame/배터리 시스템.md",
     "Spaces/Home/Notation.md",
-    "Spaces/Home/Daily/2024-01-18.md",
+    "Spaces/Home/Gaming/Gaming.md",
+    "Spaces/Home/03-Resources/ETC/마크다운 문법.md",
+    "Spaces/Home/Daily/2024-01-21.md",
+    "Spaces/Home/Daily/Daily.md",
+    "Template/daily-note-template.md",
     "Spaces/Home/README.md",
+    "Spaces/Home/03-Resources/ETC/ETC.md",
+    "Spaces/Home/03-Resources/03-Resources.md",
+    "Spaces/Home/Daily/2024-01-20.md",
+    "Media/240E4FE5-8879-404C-86E7-F75B556BF34F_1_102_o.jpeg",
+    "Spaces/Home/Daily/2024-01-19.md",
+    "Untitled.canvas",
+    "Spaces/Home/03-Resources/Obsidian/옵시디언 Dateview 사용법.md",
+    "Spaces/Home/Daily/2024-01-18.md",
     "Spaces/Spaces.md",
     "Spaces/Home/03-Resources/C-sharp/C-sharp.md",
     "Spaces/Home/01-Project/Robotgame/진행 상황.md",
     "Untitled Kanban.md",
     "Spaces/Home/01-Project/Robotgame/몬스터 구현.md",
     "Spaces/Home/01-Project/Robotgame/플레이어 구현.md",
-    "Spaces/Home/01-Project/Robotgame/Prefab 모음.md",
     "Spaces/Home/01-Project/Robotgame/Project Robotgame - 기본.md",
     "Spaces/Home/01-Project/Robotgame/Robotgame.md",
     "Spaces/Home/01-Project/NeverMore/Project Nevermore - 기획.md",
     "Spaces/Home/01-Project/NeverMore/NeverMore.md",
     "Spaces/Home/02-Area/CS-OS/CS-OS.md",
-    "Spaces/Home/03-Resources/03-Resources.md",
-    "Spaces/Home/03-Resources/C++/C++.md",
-    "Spaces/Home/01-Project/CrossyRoad/CrossyRoad.md",
-    "Template/daily-note-template.md",
-    "Spaces/Home/Daily/2024-01-20.md",
-    "Spaces/Home/Daily/2024-01-17.md",
-    "Spaces/Home/Daily/Daily.md",
-    "Spaces/Home/Gaming/Gaming.md",
-    "Spaces/Home/03-Resources/ETC/ETC.md",
-    "Spaces/Home/03-Resources/Obsidian/Obsidian.md",
     "Spaces/Home/01-Project/CrossyRoad",
     "Spaces/Home/03-Resources/GIt-GitHub",
     "Excalidraw",
@@ -218,7 +229,6 @@
     "Media/Pasted image 20240118005656.png",
     "Spaces/Home/Gaming",
     "Spaces/Home/03-Resources/ETC",
-    "Untitled.canvas",
     "Spaces/Home/01-Project/NeverMore",
     "Spaces/Home/03-Resources/Obsidian",
     "Spaces/Home/02-Area/DAS",

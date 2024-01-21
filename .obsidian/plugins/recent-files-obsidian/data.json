@@ -1,20 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "배터리 시스템",
+      "path": "Spaces/Home/01-Project/Robotgame/배터리 시스템.md"
+    },
+    {
+      "basename": "Prefab 모음",
+      "path": "Spaces/Home/01-Project/Robotgame/Prefab 모음.md"
+    },
+    {
       "basename": "Notation",
       "path": "Spaces/Home/Notation.md"
+    },
+    {
+      "basename": "Gaming",
+      "path": "Spaces/Home/Gaming/Gaming.md"
+    },
+    {
+      "basename": "마크다운 문법",
+      "path": "Spaces/Home/03-Resources/ETC/마크다운 문법.md"
+    },
+    {
+      "basename": "2024-01-21",
+      "path": "Spaces/Home/Daily/2024-01-21.md"
+    },
+    {
+      "basename": "Daily",
+      "path": "Spaces/Home/Daily/Daily.md"
+    },
+    {
+      "basename": "daily-note-template",
+      "path": "Template/daily-note-template.md"
+    },
+    {
+      "basename": "README",
+      "path": "Spaces/Home/README.md"
+    },
+    {
+      "basename": "ETC",
+      "path": "Spaces/Home/03-Resources/ETC/ETC.md"
+    },
+    {
+      "basename": "03-Resources",
+      "path": "Spaces/Home/03-Resources/03-Resources.md"
+    },
+    {
+      "basename": "2024-01-20",
+      "path": "Spaces/Home/Daily/2024-01-20.md"
     },
     {
       "basename": "2024-01-19",
       "path": "Spaces/Home/Daily/2024-01-19.md"
     },
     {
-      "basename": "2024-01-18",
-      "path": "Spaces/Home/Daily/2024-01-18.md"
+      "basename": "옵시디언 Dateview 사용법",
+      "path": "Spaces/Home/03-Resources/Obsidian/옵시디언 Dateview 사용법.md"
     },
     {
-      "basename": "README",
-      "path": "Spaces/Home/README.md"
+      "basename": "2024-01-18",
+      "path": "Spaces/Home/Daily/2024-01-18.md"
     },
     {
       "basename": "Spaces",
@@ -37,10 +81,6 @@
       "path": "Spaces/Home/01-Project/Robotgame/플레이어 구현.md"
     },
     {
-      "basename": "Prefab 모음",
-      "path": "Spaces/Home/01-Project/Robotgame/Prefab 모음.md"
-    },
-    {
       "basename": "Project Robotgame - 기본",
       "path": "Spaces/Home/01-Project/Robotgame/Project Robotgame - 기본.md"
     },
@@ -61,32 +101,12 @@
       "path": "Spaces/Home/02-Area/CS-OS/CS-OS.md"
     },
     {
-      "basename": "03-Resources",
-      "path": "Spaces/Home/03-Resources/03-Resources.md"
-    },
-    {
       "basename": "C++",
       "path": "Spaces/Home/03-Resources/C++/C++.md"
     },
     {
-      "basename": "daily-note-template",
-      "path": "Template/daily-note-template.md"
-    },
-    {
-      "basename": "2024-01-20",
-      "path": "Spaces/Home/Daily/2024-01-20.md"
-    },
-    {
       "basename": "2024-01-17",
       "path": "Spaces/Home/Daily/2024-01-17.md"
-    },
-    {
-      "basename": "Daily",
-      "path": "Spaces/Home/Daily/Daily.md"
-    },
-    {
-      "basename": "옵시디언 Dateview 사용법",
-      "path": "Spaces/Home/03-Resources/Obsidian/옵시디언 Dateview 사용법.md"
     },
     {
       "basename": "\b가비지 콜렉터(GC)와 오브젝트 풀링",
@@ -115,10 +135,6 @@
     {
       "basename": "Branch merge 시에 충돌 해결법",
       "path": "Spaces/Home/03-Resources/GIt-GitHub/Branch merge 시에 충돌 해결법.md"
-    },
-    {
-      "basename": "마크다운 문법",
-      "path": "Spaces/Home/03-Resources/ETC/마크다운 문법.md"
     },
     {
       "basename": "선형 데이터 구조",

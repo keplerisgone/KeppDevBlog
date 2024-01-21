@@ -6,6 +6,7 @@ sticker: lucide//alarm-check
 # Questions
 ```dataview
 LIST FROM #Question 
+SORT file.name ASC
 ```
 # Tasks
 
@@ -27,12 +28,6 @@ SORT file.cday DESC
 TASK
 WHERE contains(file.tags,"#Tasks")
 ```
-- [ ] 유니티 프로젝트
-    - [x] 문서작성하기
-    - [x] 변수 변경하기
-    - [ ] 칸반 써보기 - 프로젝트용
-- [ ] 백준
-- [ ] 모니터 닦rl
 ### 니가 싼 똥
 ```dataview
 LIST
