@@ -11,20 +11,6 @@ SORT file.name ASC
 # Tasks
 
 ```dataview
-TABLE
-	wakeup as "기상",
-	sleep as "취침",
-	english as "언어",
-	reading as "독서",
-	workout as "운동",
-	diary as "일기",
-	blog as "블로그"
-FROM #daily_note and !#Template 
-WHERE file.cday > (date("today") - dur(5 days))
-SORT file.cday DESC
-```
-### 그 외 Tasks
-```dataview
 TASK
 WHERE contains(file.tags,"#Tasks")
 ```

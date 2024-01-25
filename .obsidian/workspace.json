@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/01-Project/Robotgame/배터리 시스템.md",
+                "file": "Spaces/Home/02-Area/Functional Programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39b06aa43679c95c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/Home/03-Resources/Dev/참조 투명성.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Tasks",
+                "query": "warnin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 244.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -101,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/01-Project/Robotgame/배터리 시스템.md",
+                "file": "Spaces/Home/02-Area/Functional Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/01-Project/Robotgame/배터리 시스템.md",
+                "file": "Spaces/Home/02-Area/Functional Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/01-Project/Robotgame/배터리 시스템.md"
+                "file": "Spaces/Home/02-Area/Functional Programming.md"
               }
             }
           },
@@ -184,36 +196,37 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "0f9a4f4444cb0c31",
+  "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
-    "Spaces/Home/01-Project/Robotgame/Prefab 모음.md",
+    "Spaces/Home/03-Resources/Dev/함수의 Side Effect.md",
+    "Spaces/Home/02-Area/Functional Programming.md",
+    "Spaces/Home/03-Resources/Dev/참조 투명성.md",
+    "Spaces/Home/03-Resources/Dev/선형 데이터 구조.md",
+    "Spaces/Home/02-Area/DSA.md",
+    "Spaces/Home/02-Area/CS-OS.md",
     "Spaces/Home/01-Project/Robotgame/배터리 시스템.md",
-    "Spaces/Home/Notation.md",
-    "Spaces/Home/Gaming/Gaming.md",
-    "Spaces/Home/03-Resources/ETC/마크다운 문법.md",
-    "Spaces/Home/Daily/2024-01-21.md",
-    "Spaces/Home/Daily/Daily.md",
-    "Template/daily-note-template.md",
-    "Spaces/Home/README.md",
-    "Spaces/Home/03-Resources/ETC/ETC.md",
-    "Spaces/Home/03-Resources/03-Resources.md",
-    "Spaces/Home/Daily/2024-01-20.md",
-    "Media/240E4FE5-8879-404C-86E7-F75B556BF34F_1_102_o.jpeg",
-    "Spaces/Home/Daily/2024-01-19.md",
-    "Untitled.canvas",
-    "Spaces/Home/03-Resources/Obsidian/옵시디언 Dateview 사용법.md",
-    "Spaces/Home/Daily/2024-01-18.md",
-    "Spaces/Spaces.md",
-    "Spaces/Home/03-Resources/C-sharp/C-sharp.md",
-    "Spaces/Home/01-Project/Robotgame/진행 상황.md",
-    "Untitled Kanban.md",
-    "Spaces/Home/01-Project/Robotgame/몬스터 구현.md",
-    "Spaces/Home/01-Project/Robotgame/플레이어 구현.md",
-    "Spaces/Home/01-Project/Robotgame/Project Robotgame - 기본.md",
-    "Spaces/Home/01-Project/Robotgame/Robotgame.md",
-    "Spaces/Home/01-Project/NeverMore/Project Nevermore - 기획.md",
-    "Spaces/Home/01-Project/NeverMore/NeverMore.md",
     "Spaces/Home/02-Area/CS-OS/CS-OS.md",
+    "Spaces/Home/02-Area/DAS/DAS.md",
+    "Spaces/Home/03-Resources/Dev/디자인 패턴에 대하여.md",
+    "Spaces/Home/03-Resources/Dev/마크다운 문법.md",
+    "Spaces/Home/03-Resources/Dev/DSA.md",
+    "Spaces/Home/03-Resources/ETC/ETC.md",
+    "Vault.md",
+    "Spaces/Home/03-Resources/03-Resources.md",
+    "Spaces/Home/03-Resources/CS-OS/CS-OS.md",
+    "Spaces/Home/Notation.md",
+    "Spaces/Home/Daily/2024-01-25.md",
+    "Spaces/Home/01-Project/Robotgame/진행 상황.md",
+    "Spaces/Home/Daily/2024-01-23.md",
+    "Spaces/Home/03-Resources/Obsidian/옵시디언 사용하기.md",
+    "Spaces/Home/03-Resources/Unity/\b가비지 콜렉터(GC)와 오브젝트 풀링.md",
+    "오브젝트 풀링.md",
+    "Spaces/Home/03-Resources/C++/C++.md",
+    "Spaces/Home/Daily/2024-01-22.md",
+    "Spaces/Home/01-Project/Robotgame/Prefab 모음.md",
+    "Media/Screenshot 2024-01-22 at 4.21.22 PM.png",
+    "Media/240E4FE5-8879-404C-86E7-F75B556BF34F_1_102_o.jpeg",
+    "Untitled.canvas",
     "Spaces/Home/01-Project/CrossyRoad",
     "Spaces/Home/03-Resources/GIt-GitHub",
     "Excalidraw",
@@ -226,7 +239,6 @@
     "Media/Screenshot 2024-01-03 at 12.15.32 AM.png",
     "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
     "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
-    "Media/Pasted image 20240118005656.png",
     "Spaces/Home/Gaming",
     "Spaces/Home/03-Resources/ETC",
     "Spaces/Home/01-Project/NeverMore",
