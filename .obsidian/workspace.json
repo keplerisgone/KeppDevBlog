@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/02-Area/Functional Programming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39b06aa43679c95c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spaces/Home/03-Resources/Dev/참조 투명성.md",
+                "file": "Spaces/Home/03-Resources/C++/범위 기반 for문.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/02-Area/Functional Programming.md",
+                "file": "Spaces/Home/03-Resources/C++/범위 기반 for문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/02-Area/Functional Programming.md",
+                "file": "Spaces/Home/03-Resources/C++/범위 기반 for문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/02-Area/Functional Programming.md"
+                "file": "Spaces/Home/03-Resources/C++/범위 기반 for문.md"
               }
             }
           },
@@ -174,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -198,32 +186,35 @@
   },
   "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
-    "Spaces/Home/03-Resources/Dev/함수의 Side Effect.md",
-    "Spaces/Home/02-Area/Functional Programming.md",
-    "Spaces/Home/03-Resources/Dev/참조 투명성.md",
-    "Spaces/Home/03-Resources/Dev/선형 데이터 구조.md",
-    "Spaces/Home/02-Area/DSA.md",
-    "Spaces/Home/02-Area/CS-OS.md",
-    "Spaces/Home/01-Project/Robotgame/배터리 시스템.md",
-    "Spaces/Home/02-Area/CS-OS/CS-OS.md",
-    "Spaces/Home/02-Area/DAS/DAS.md",
-    "Spaces/Home/03-Resources/Dev/디자인 패턴에 대하여.md",
-    "Spaces/Home/03-Resources/Dev/마크다운 문법.md",
-    "Spaces/Home/03-Resources/Dev/DSA.md",
-    "Spaces/Home/03-Resources/ETC/ETC.md",
-    "Vault.md",
-    "Spaces/Home/03-Resources/03-Resources.md",
-    "Spaces/Home/03-Resources/CS-OS/CS-OS.md",
     "Spaces/Home/Notation.md",
-    "Spaces/Home/Daily/2024-01-25.md",
-    "Spaces/Home/01-Project/Robotgame/진행 상황.md",
-    "Spaces/Home/Daily/2024-01-23.md",
-    "Spaces/Home/03-Resources/Obsidian/옵시디언 사용하기.md",
-    "Spaces/Home/03-Resources/Unity/\b가비지 콜렉터(GC)와 오브젝트 풀링.md",
-    "오브젝트 풀링.md",
+    "Spaces/Home/03-Resources/C++/범위 기반 for문.md",
+    "Spaces/Home/03-Resources/C++/C++이란?.md",
+    "Spaces/Home/03-Resources/C++/C++에서 string과 int의 형변환.md",
+    "Spaces/Home/03-Resources/C++/C++ Vector 사용법.md",
     "Spaces/Home/03-Resources/C++/C++.md",
-    "Spaces/Home/Daily/2024-01-22.md",
-    "Spaces/Home/01-Project/Robotgame/Prefab 모음.md",
+    "Spaces/Home/03-Resources/JavaScript/JavaScript.md",
+    "Spaces/Home/03-Resources/JavaScript",
+    "Spaces/Home/03-Resources/JavaScript.md",
+    "Spaces/Home/02-Area/C++로 문제 풀기.md",
+    "Spaces/Home/04-Archive/Python/Python.md",
+    "Spaces/Home/02-Area/Functional Programming.md",
+    "Spaces/Home/03-Resources/Dev/Lambda Calculus.md",
+    "Media/Screenshot 2024-01-27 at 2.03.19 PM.png",
+    "Spaces/Home/03-Resources/Dev/First Class Function.md",
+    "Spaces/Home/Gaming/마인크래프트 던전스가 리니지와 닮아있는 이유.md",
+    "Spaces/Home/Gaming/왜 팰월드는 흥할 수밖에 없었는가?.md",
+    "Spaces/Home/04-Archive/Python/Basic Syntax.md",
+    "Spaces/Home/Gaming/Gaming.md",
+    "Spaces/Home/01-Project/CrossyRoad/플레이어 구현.md",
+    "Spaces/Home/01-Project/CrossyRoad/전체 상황.md",
+    "Spaces/Home/01-Project/CrossyRoad/Untitled.md",
+    "Spaces/Home/01-Project/CrossyRoad/미션 구현.md",
+    "Spaces/Home/01-Project/CrossyRoad/CrossyRoad.md",
+    "Spaces/Home/01-Project/CrossyRoad/맵 구성.md",
+    "Spaces/Home/01-Project/CrossyRoad/기획.md",
+    "Media/Screenshot 2024-01-26 at 3.42.01 PM.png",
+    "Spaces/Home/03-Resources/Obsidian/옵시디언 Dateview 사용법.md",
+    "Spaces/Home/03-Resources/GIt-GitHub/Branch merge 시에 충돌 해결법.md",
     "Media/Screenshot 2024-01-22 at 4.21.22 PM.png",
     "Media/240E4FE5-8879-404C-86E7-F75B556BF34F_1_102_o.jpeg",
     "Untitled.canvas",
@@ -237,13 +228,10 @@
     "Media/Screenshot 2024-01-03 at 12.12.21 AM.png",
     "Media/Screenshot 2024-01-03 at 12.11.35 AM.png",
     "Media/Screenshot 2024-01-03 at 12.15.32 AM.png",
-    "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
-    "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
     "Spaces/Home/Gaming",
     "Spaces/Home/03-Resources/ETC",
     "Spaces/Home/01-Project/NeverMore",
     "Spaces/Home/03-Resources/Obsidian",
-    "Spaces/Home/02-Area/DAS",
-    "Spaces/Home/02-Area/CS-OS"
+    "Spaces/Home/02-Area/DAS"
   ]
 }
