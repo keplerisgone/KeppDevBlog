@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/Notation.md",
+                "file": "Spaces/Home/03-Resources/ETC/logseq을 개조해 보자.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/Notation.md",
+                "file": "Spaces/Home/03-Resources/ETC/logseq을 개조해 보자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/Notation.md",
+                "file": "Spaces/Home/03-Resources/ETC/logseq을 개조해 보자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/Notation.md"
+                "file": "Spaces/Home/03-Resources/ETC/logseq을 개조해 보자.md"
               }
             }
           },
@@ -186,8 +186,9 @@
   },
   "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
-    "Spaces/Home/03-Resources/ETC/메제드.md",
     "Spaces/Home/Notation.md",
+    "Spaces/Home/03-Resources/ETC/logseq을 개조해 보자.md",
+    "Spaces/Home/03-Resources/ETC/메제드.md",
     "Spaces/Home/03-Resources/ETC/ETC.md",
     "Spaces/Home/03-Resources/Obsidian/Obsidian.md",
     "Spaces/Home/03-Resources/ETC/옵시디언 Dateview 사용법.md",
@@ -212,7 +213,6 @@
     "Spaces/Home/01-Project/NeverMore/Project Nevermore - 기획.md",
     "Spaces/Home/01-Project/CrossyRoad/CrossyRoad.md",
     "Spaces/Home/01-Project/CrossyRoad/기획.md",
-    "Spaces/Home/02-Area/C++로 문제 풀기.md",
     "Spaces/Home/03-Resources/Dev/Software Engineering",
     "Spaces/Home/03-Resources/Dev/Network",
     "Spaces/Home/03-Resources/Dev/Database",
