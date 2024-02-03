@@ -1,52 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "범위 기반 for문",
-      "path": "Spaces/Home/03-Resources/C++/범위 기반 for문.md"
-    },
-    {
       "basename": "Notation",
       "path": "Spaces/Home/Notation.md"
     },
     {
-      "basename": "C++이란?",
-      "path": "Spaces/Home/03-Resources/C++/C++이란?.md"
+      "basename": "메제드",
+      "path": "Spaces/Home/03-Resources/ETC/메제드.md"
     },
     {
-      "basename": "C++에서 string과 int의 형변환",
-      "path": "Spaces/Home/03-Resources/C++/C++에서 string과 int의 형변환.md"
+      "basename": "ETC",
+      "path": "Spaces/Home/03-Resources/ETC/ETC.md"
     },
     {
-      "basename": "C++ Vector 사용법",
-      "path": "Spaces/Home/03-Resources/C++/C++ Vector 사용법.md"
-    },
-    {
-      "basename": "C++",
-      "path": "Spaces/Home/03-Resources/C++/C++.md"
-    },
-    {
-      "basename": "JavaScript",
-      "path": "Spaces/Home/03-Resources/JavaScript/JavaScript.md"
-    },
-    {
-      "basename": "C++로 문제 풀기",
-      "path": "Spaces/Home/02-Area/C++로 문제 풀기.md"
-    },
-    {
-      "basename": "Python",
-      "path": "Spaces/Home/04-Archive/Python/Python.md"
-    },
-    {
-      "basename": "Functional Programming",
-      "path": "Spaces/Home/02-Area/Functional Programming.md"
+      "basename": "옵시디언 Dateview 사용법",
+      "path": "Spaces/Home/03-Resources/ETC/옵시디언 Dateview 사용법.md"
     },
     {
       "basename": "Lambda Calculus",
-      "path": "Spaces/Home/03-Resources/Dev/Lambda Calculus.md"
+      "path": "Spaces/Home/03-Resources/Dev/ETC/Lambda Calculus.md"
     },
     {
-      "basename": "First Class Function",
-      "path": "Spaces/Home/03-Resources/Dev/First Class Function.md"
+      "basename": "Linux란?",
+      "path": "Spaces/Home/03-Resources/Dev/Linux/Linux란?.md"
+    },
+    {
+      "basename": "운영체제(OS)란?",
+      "path": "Spaces/Home/03-Resources/Dev/Operating System/운영체제(OS)란?.md"
+    },
+    {
+      "basename": "Tech",
+      "path": "Spaces/Home/02-Area/Tech.md"
+    },
+    {
+      "basename": "Operating System",
+      "path": "Spaces/Home/03-Resources/Dev/Operating System/Operating System.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Spaces/Home/03-Resources/Dev/Linux/Linux.md"
+    },
+    {
+      "basename": "코루틴과 Update 함수",
+      "path": "Spaces/Home/03-Resources/Unity/코루틴과 Update 함수.md"
+    },
+    {
+      "basename": "코루틴(Coroutine)과 인보크(Invoke)",
+      "path": "Spaces/Home/03-Resources/Unity/코루틴(Coroutine)과 인보크(Invoke).md"
+    },
+    {
+      "basename": "\b가비지 콜렉터(GC)와 오브젝트 풀링",
+      "path": "Spaces/Home/03-Resources/Unity/\b가비지 콜렉터(GC)와 오브젝트 풀링.md"
     },
     {
       "basename": "마인크래프트 던전스가 리니지와 닮아있는 이유",
@@ -57,6 +61,122 @@
       "path": "Spaces/Home/Gaming/왜 팰월드는 흥할 수밖에 없었는가?.md"
     },
     {
+      "basename": "Project Robotgame - 기본",
+      "path": "Spaces/Home/01-Project/Robotgame/Project Robotgame - 기본.md"
+    },
+    {
+      "basename": "진행 상황",
+      "path": "Spaces/Home/01-Project/Robotgame/진행 상황.md"
+    },
+    {
+      "basename": "ChessTowerDefence",
+      "path": "Spaces/Home/01-Project/ChessTowerDefence/ChessTowerDefence.md"
+    },
+    {
+      "basename": "C++로 문제 풀기",
+      "path": "Spaces/Home/02-Area/C++로 문제 풀기.md"
+    },
+    {
+      "basename": "C++이란?",
+      "path": "Spaces/Home/03-Resources/C++/C++이란?.md"
+    },
+    {
+      "basename": "C++ 문자열 (string)",
+      "path": "Spaces/Home/03-Resources/C++/C++ 문자열 (string).md"
+    },
+    {
+      "basename": "C++ Vector 벡터",
+      "path": "Spaces/Home/03-Resources/C++/C++ Vector 벡터.md"
+    },
+    {
+      "basename": "C++ 반복문 (for, switch, while)",
+      "path": "Spaces/Home/03-Resources/C++/C++ 반복문 (for, switch, while).md"
+    },
+    {
+      "basename": "참조 투명성",
+      "path": "Spaces/Home/03-Resources/Dev/ETC/참조 투명성.md"
+    },
+    {
+      "basename": "Exacli-RobotgamePlayer",
+      "path": "Excalidraw/Exacli-RobotgamePlayer.md"
+    },
+    {
+      "basename": "Array & Linked List & ArrayList",
+      "path": "Spaces/Home/03-Resources/Dev/Data Structure/Array & Linked List & ArrayList.md"
+    },
+    {
+      "basename": "Linked List 연결 리스트",
+      "path": "Spaces/Home/03-Resources/Dev/Data Structure/Linked List 연결 리스트.md"
+    },
+    {
+      "basename": "Array 배열",
+      "path": "Spaces/Home/03-Resources/Dev/Data Structure/Array 배열.md"
+    },
+    {
+      "basename": "선형 데이터 구조",
+      "path": "Spaces/Home/03-Resources/Dev/Data Structure/선형 데이터 구조.md"
+    },
+    {
+      "basename": "Software Engineering",
+      "path": "Spaces/Home/03-Resources/Dev/Software Engineering/Software Engineering.md"
+    },
+    {
+      "basename": "Network",
+      "path": "Spaces/Home/03-Resources/Dev/Network/Network.md"
+    },
+    {
+      "basename": "Database",
+      "path": "Spaces/Home/03-Resources/Dev/Database/Database.md"
+    },
+    {
+      "basename": "Algorithm",
+      "path": "Spaces/Home/03-Resources/Dev/Algorithm/Algorithm.md"
+    },
+    {
+      "basename": "Design Pattern",
+      "path": "Spaces/Home/03-Resources/Dev/Design Pattern/Design Pattern.md"
+    },
+    {
+      "basename": "Computer Science",
+      "path": "Spaces/Home/03-Resources/Dev/Computer Architecture/Computer Science.md"
+    },
+    {
+      "basename": "03-Resources",
+      "path": "Spaces/Home/03-Resources/03-Resources.md"
+    },
+    {
+      "basename": "ETC",
+      "path": "Spaces/Home/03-Resources/Dev/ETC/ETC.md"
+    },
+    {
+      "basename": "Data Structure",
+      "path": "Spaces/Home/03-Resources/Dev/Data Structure/Data Structure.md"
+    },
+    {
+      "basename": "Functional Programming",
+      "path": "Spaces/Home/02-Area/Functional Programming.md"
+    },
+    {
+      "basename": "플레이어 구현",
+      "path": "Spaces/Home/01-Project/Robotgame/플레이어 구현.md"
+    },
+    {
+      "basename": "C++",
+      "path": "Spaces/Home/03-Resources/C++/C++.md"
+    },
+    {
+      "basename": "JavaScript",
+      "path": "Spaces/Home/03-Resources/JavaScript/JavaScript.md"
+    },
+    {
+      "basename": "Python",
+      "path": "Spaces/Home/04-Archive/Python/Python.md"
+    },
+    {
+      "basename": "First Class Function",
+      "path": "Spaces/Home/03-Resources/Dev/Design Pattern/First Class Function.md"
+    },
+    {
       "basename": "Basic Syntax",
       "path": "Spaces/Home/04-Archive/Python/Basic Syntax.md"
     },
@@ -65,140 +185,16 @@
       "path": "Spaces/Home/Gaming/Gaming.md"
     },
     {
-      "basename": "플레이어 구현",
-      "path": "Spaces/Home/01-Project/CrossyRoad/플레이어 구현.md"
-    },
-    {
-      "basename": "전체 상황",
-      "path": "Spaces/Home/01-Project/CrossyRoad/전체 상황.md"
-    },
-    {
-      "basename": "미션 구현",
-      "path": "Spaces/Home/01-Project/CrossyRoad/미션 구현.md"
-    },
-    {
-      "basename": "CrossyRoad",
-      "path": "Spaces/Home/01-Project/CrossyRoad/CrossyRoad.md"
-    },
-    {
-      "basename": "맵 구성",
-      "path": "Spaces/Home/01-Project/CrossyRoad/맵 구성.md"
-    },
-    {
-      "basename": "기획",
-      "path": "Spaces/Home/01-Project/CrossyRoad/기획.md"
-    },
-    {
-      "basename": "옵시디언 Dateview 사용법",
-      "path": "Spaces/Home/03-Resources/Obsidian/옵시디언 Dateview 사용법.md"
-    },
-    {
       "basename": "Branch merge 시에 충돌 해결법",
       "path": "Spaces/Home/03-Resources/GIt-GitHub/Branch merge 시에 충돌 해결법.md"
     },
     {
       "basename": "마크다운 문법",
-      "path": "Spaces/Home/03-Resources/Dev/마크다운 문법.md"
-    },
-    {
-      "basename": "참조 투명성",
-      "path": "Spaces/Home/03-Resources/Dev/참조 투명성.md"
+      "path": "Spaces/Home/03-Resources/Dev/ETC/마크다운 문법.md"
     },
     {
       "basename": "Lambda Function",
       "path": "Spaces/Home/04-Archive/Python/Lambda Function.md"
-    },
-    {
-      "basename": "함수의 불변성",
-      "path": "Spaces/Home/03-Resources/Dev/함수의 불변성.md"
-    },
-    {
-      "basename": "Python에서의 인자 전달 방식",
-      "path": "Spaces/Home/04-Archive/Python/Python에서의 인자 전달 방식.md"
-    },
-    {
-      "basename": "함수의 Side Effect",
-      "path": "Spaces/Home/03-Resources/Dev/함수의 Side Effect.md"
-    },
-    {
-      "basename": "선형 데이터 구조",
-      "path": "Spaces/Home/03-Resources/Dev/선형 데이터 구조.md"
-    },
-    {
-      "basename": "DSA",
-      "path": "Spaces/Home/02-Area/DSA.md"
-    },
-    {
-      "basename": "CS-OS",
-      "path": "Spaces/Home/02-Area/CS-OS.md"
-    },
-    {
-      "basename": "배터리 시스템",
-      "path": "Spaces/Home/01-Project/Robotgame/배터리 시스템.md"
-    },
-    {
-      "basename": "디자인 패턴에 대하여",
-      "path": "Spaces/Home/03-Resources/Dev/디자인 패턴에 대하여.md"
-    },
-    {
-      "basename": "ETC",
-      "path": "Spaces/Home/03-Resources/ETC/ETC.md"
-    },
-    {
-      "basename": "03-Resources",
-      "path": "Spaces/Home/03-Resources/03-Resources.md"
-    },
-    {
-      "basename": "진행 상황",
-      "path": "Spaces/Home/01-Project/Robotgame/진행 상황.md"
-    },
-    {
-      "basename": "옵시디언 사용하기",
-      "path": "Spaces/Home/03-Resources/Obsidian/옵시디언 사용하기.md"
-    },
-    {
-      "basename": "\b가비지 콜렉터(GC)와 오브젝트 풀링",
-      "path": "Spaces/Home/03-Resources/Unity/\b가비지 콜렉터(GC)와 오브젝트 풀링.md"
-    },
-    {
-      "basename": "Prefab 모음",
-      "path": "Spaces/Home/01-Project/Robotgame/Prefab 모음.md"
-    },
-    {
-      "basename": "Obsidian",
-      "path": "Spaces/Home/03-Resources/Obsidian/Obsidian.md"
-    },
-    {
-      "basename": "몬스터 구현",
-      "path": "Spaces/Home/01-Project/Robotgame/몬스터 구현.md"
-    },
-    {
-      "basename": "코루틴과 Update 함수",
-      "path": "Spaces/Home/03-Resources/Unity/코루틴과 Update 함수.md"
-    },
-    {
-      "basename": "Unity",
-      "path": "Spaces/Home/03-Resources/Unity/Unity.md"
-    },
-    {
-      "basename": "메제드",
-      "path": "Spaces/Home/03-Resources/ETC/메제드.md"
-    },
-    {
-      "basename": "daily-note-template",
-      "path": "Template/daily-note-template.md"
-    },
-    {
-      "basename": "README",
-      "path": "Spaces/Home/README.md"
-    },
-    {
-      "basename": "Spaces",
-      "path": "Spaces/Spaces.md"
-    },
-    {
-      "basename": "C-sharp",
-      "path": "Spaces/Home/03-Resources/C-sharp/C-sharp.md"
     }
   ],
   "omittedPaths": [],

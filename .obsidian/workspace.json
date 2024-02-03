@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/03-Resources/C++/범위 기반 for문.md",
+                "file": "Spaces/Home/Notation.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "warnin",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/03-Resources/C++/범위 기반 for문.md",
+                "file": "Spaces/Home/Notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/03-Resources/C++/범위 기반 for문.md",
+                "file": "Spaces/Home/Notation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/03-Resources/C++/범위 기반 for문.md"
+                "file": "Spaces/Home/Notation.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,52 +186,52 @@
   },
   "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
+    "Spaces/Home/03-Resources/ETC/메제드.md",
     "Spaces/Home/Notation.md",
-    "Spaces/Home/03-Resources/C++/범위 기반 for문.md",
-    "Spaces/Home/03-Resources/C++/C++이란?.md",
-    "Spaces/Home/03-Resources/C++/C++에서 string과 int의 형변환.md",
-    "Spaces/Home/03-Resources/C++/C++ Vector 사용법.md",
-    "Spaces/Home/03-Resources/C++/C++.md",
-    "Spaces/Home/03-Resources/JavaScript/JavaScript.md",
-    "Spaces/Home/03-Resources/JavaScript",
-    "Spaces/Home/03-Resources/JavaScript.md",
-    "Spaces/Home/02-Area/C++로 문제 풀기.md",
-    "Spaces/Home/04-Archive/Python/Python.md",
-    "Spaces/Home/02-Area/Functional Programming.md",
-    "Spaces/Home/03-Resources/Dev/Lambda Calculus.md",
-    "Media/Screenshot 2024-01-27 at 2.03.19 PM.png",
-    "Spaces/Home/03-Resources/Dev/First Class Function.md",
+    "Spaces/Home/03-Resources/ETC/ETC.md",
+    "Spaces/Home/03-Resources/Obsidian/Obsidian.md",
+    "Spaces/Home/03-Resources/ETC/옵시디언 Dateview 사용법.md",
+    "Spaces/Home/03-Resources/Dev/ETC/Lambda Calculus.md",
+    "Spaces/Home/README.md",
+    "Spaces/Home/03-Resources/Dev/Linux/Linux란?.md",
+    "Spaces/Home/03-Resources/Dev/Operating System/운영체제(OS)란?.md",
+    "Spaces/Home/02-Area/Tech.md",
+    "Spaces/Home/03-Resources/Dev/Operating System/Operating System.md",
+    "Spaces/Home/03-Resources/Dev/Linux/Linux.md",
+    "Spaces/Home/03-Resources/Unity/코루틴과 Update 함수.md",
+    "Spaces/Home/03-Resources/Unity/코루틴(Coroutine)과 인보크(Invoke).md",
+    "Spaces/Home/03-Resources/Unity/\b가비지 콜렉터(GC)와 오브젝트 풀링.md",
     "Spaces/Home/Gaming/마인크래프트 던전스가 리니지와 닮아있는 이유.md",
     "Spaces/Home/Gaming/왜 팰월드는 흥할 수밖에 없었는가?.md",
-    "Spaces/Home/04-Archive/Python/Basic Syntax.md",
-    "Spaces/Home/Gaming/Gaming.md",
-    "Spaces/Home/01-Project/CrossyRoad/플레이어 구현.md",
-    "Spaces/Home/01-Project/CrossyRoad/전체 상황.md",
-    "Spaces/Home/01-Project/CrossyRoad/Untitled.md",
-    "Spaces/Home/01-Project/CrossyRoad/미션 구현.md",
+    "Spaces/Home/01-Project/Robotgame/Project Robotgame - 기본.md",
+    "Spaces/Home/03-Resources/Dev/Linux",
+    "Spaces/Home/03-Resources/Linux.md",
+    "Spaces/Home/01-Project/Robotgame/진행 상황.md",
+    "Spaces/Home/01-Project/ChessTowerDefence/ChessTowerDefence.md",
+    "Spaces/Home/01-Project/ChessTowerDefence/NeverMore.md",
+    "Spaces/Home/01-Project/NeverMore/Project Nevermore - 기획.md",
     "Spaces/Home/01-Project/CrossyRoad/CrossyRoad.md",
-    "Spaces/Home/01-Project/CrossyRoad/맵 구성.md",
     "Spaces/Home/01-Project/CrossyRoad/기획.md",
+    "Spaces/Home/02-Area/C++로 문제 풀기.md",
+    "Spaces/Home/03-Resources/Dev/Software Engineering",
+    "Spaces/Home/03-Resources/Dev/Network",
+    "Spaces/Home/03-Resources/Dev/Database",
+    "Spaces/Home/03-Resources/Dev/Operating System",
+    "Spaces/Home/03-Resources/Dev/ETC",
+    "Spaces/Home/03-Resources/Dev/Design Pattern",
+    "Spaces/Home/03-Resources/Dev/Data Structure",
+    "Spaces/Home/03-Resources/Dev/Computer Architecture",
+    "Spaces/Home/03-Resources/Dev/Algorithm",
+    "Media/Screenshot 2024-01-27 at 2.03.19 PM.png",
     "Media/Screenshot 2024-01-26 at 3.42.01 PM.png",
-    "Spaces/Home/03-Resources/Obsidian/옵시디언 Dateview 사용법.md",
-    "Spaces/Home/03-Resources/GIt-GitHub/Branch merge 시에 충돌 해결법.md",
     "Media/Screenshot 2024-01-22 at 4.21.22 PM.png",
     "Media/240E4FE5-8879-404C-86E7-F75B556BF34F_1_102_o.jpeg",
     "Untitled.canvas",
-    "Spaces/Home/01-Project/CrossyRoad",
-    "Spaces/Home/03-Resources/GIt-GitHub",
-    "Excalidraw",
     "Media/Screenshot 2024-01-18 at 2.49.30 PM.png",
     "Media/Screenshot 2024-01-18 at 2.46.17 PM.png",
     "Media/Screenshot 2024-01-18 at 2.43.15 PM.png",
-    "01-Project/Robotgame/Untitled",
     "Media/Screenshot 2024-01-03 at 12.12.21 AM.png",
     "Media/Screenshot 2024-01-03 at 12.11.35 AM.png",
-    "Media/Screenshot 2024-01-03 at 12.15.32 AM.png",
-    "Spaces/Home/Gaming",
-    "Spaces/Home/03-Resources/ETC",
-    "Spaces/Home/01-Project/NeverMore",
-    "Spaces/Home/03-Resources/Obsidian",
-    "Spaces/Home/02-Area/DAS"
+    "Media/Screenshot 2024-01-03 at 12.15.32 AM.png"
   ]
 }
