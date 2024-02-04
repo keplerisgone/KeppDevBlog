@@ -11,5 +11,7 @@ logseq를 사용하기 전 사용했던 어플은 다음과 같다.
 이제 logseq를 개조해보자!
 
 우선 해당 플러그인들을 다운받아 주자.
-- **Journals calandar** : 저널을 캘린더로 접근할 수 있는 플러그인이다
-- **Todo list** : 
+- **Journals calandar** : 저널을 캘린더로 접근할 수 있는 플러그인이다.
+- **Todo list** : logseq에서 Tasks를 관리할 수 있는 플러그인이다. 근데 이거 모바일에서는 안되더라
+
+여기서 쓸만한 것은 Journals Calandar인데, 날짜를 누르면 자동으로 노트가 만들어지고, 
