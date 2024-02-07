@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2024-02-07 22.35.07.excalidraw",
+      "path": "Excalidraw/Drawing 2024-02-07 22.35.07.excalidraw.md"
+    },
+    {
+      "basename": "보스 1페이즈",
+      "path": "Spaces/Home/01-Project/Robotgame/보스 1페이즈.md"
+    },
+    {
       "basename": "진행 상황",
       "path": "Spaces/Home/01-Project/Robotgame/진행 상황.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Branch merge 시에 충돌 해결법",
       "path": "Spaces/Home/03-Resources/GIt-GitHub/Branch merge 시에 충돌 해결법.md"
-    },
-    {
-      "basename": "마크다운 문법",
-      "path": "Spaces/Home/03-Resources/Dev/ETC/마크다운 문법.md"
-    },
-    {
-      "basename": "Lambda Function",
-      "path": "Spaces/Home/04-Archive/Python/Lambda Function.md"
     }
   ],
   "omittedPaths": [],

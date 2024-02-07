@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/01-Project/Robotgame/진행 상황.md",
+                "file": "Spaces/Home/01-Project/Robotgame/보스 1페이즈.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/01-Project/Robotgame/진행 상황.md",
+                "file": "Excalidraw/Drawing 2024-02-07 22.35.07.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/01-Project/Robotgame/진행 상황.md",
+                "file": "Excalidraw/Drawing 2024-02-07 22.35.07.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/01-Project/Robotgame/진행 상황.md"
+                "file": "Excalidraw/Drawing 2024-02-07 22.35.07.excalidraw.md"
               }
             }
           },
@@ -185,8 +184,46 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "ed984c9dc1bc1dcd",
+  "floating": {
+    "id": "32f5a28350eb133c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "81693c01ea4719f1",
+        "type": "window",
+        "children": [
+          {
+            "id": "5a07dce660055d34",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ff60a31a3668bd60",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2024-02-07 22.35.07.excalidraw.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 285,
+        "y": 188,
+        "width": 1232,
+        "height": 928,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "ff60a31a3668bd60",
   "lastOpenFiles": [
+    "Spaces/Home/01-Project/Robotgame/보스 1페이즈.md",
+    "Excalidraw/Drawing 2024-02-07 22.35.07.excalidraw.md",
+    "Spaces/Home/01-Project/Robotgame/진행 상황.md",
     "Spaces/Home/03-Resources/C++/C++ 반복문 (for, switch, while).md",
     "Spaces/Home/Notation.md",
     "Spaces/Home/03-Resources/C++/C++이란?.md",
@@ -211,10 +248,7 @@
     "Spaces/Home/01-Project/Robotgame/Project Robotgame - 기본.md",
     "Spaces/Home/03-Resources/Dev/Linux",
     "Spaces/Home/03-Resources/Linux.md",
-    "Spaces/Home/01-Project/Robotgame/진행 상황.md",
     "Spaces/Home/01-Project/ChessTowerDefence/ChessTowerDefence.md",
-    "Spaces/Home/01-Project/ChessTowerDefence/NeverMore.md",
-    "Spaces/Home/01-Project/NeverMore/Project Nevermore - 기획.md",
     "Spaces/Home/03-Resources/Dev/Software Engineering",
     "Spaces/Home/03-Resources/Dev/Network",
     "Spaces/Home/03-Resources/Dev/Database",
