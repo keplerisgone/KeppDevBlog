@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/03-Resources/ETC/logseq을 개조해 보자.md",
+                "file": "Spaces/Home/01-Project/Robotgame/진행 상황.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/03-Resources/ETC/logseq을 개조해 보자.md",
+                "file": "Spaces/Home/01-Project/Robotgame/진행 상황.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/03-Resources/ETC/logseq을 개조해 보자.md",
+                "file": "Spaces/Home/01-Project/Robotgame/진행 상황.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/03-Resources/ETC/logseq을 개조해 보자.md"
+                "file": "Spaces/Home/01-Project/Robotgame/진행 상황.md"
               }
             }
           },
@@ -186,15 +187,18 @@
   },
   "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
+    "Spaces/Home/03-Resources/C++/C++ 반복문 (for, switch, while).md",
     "Spaces/Home/Notation.md",
+    "Spaces/Home/03-Resources/C++/C++이란?.md",
     "Spaces/Home/03-Resources/ETC/logseq을 개조해 보자.md",
+    "Spaces/Home/03-Resources/Dev/Linux/Linux란?.md",
+    "Media/Screenshot 2024-02-04 at 5.57.57 PM.png",
     "Spaces/Home/03-Resources/ETC/메제드.md",
     "Spaces/Home/03-Resources/ETC/ETC.md",
     "Spaces/Home/03-Resources/Obsidian/Obsidian.md",
     "Spaces/Home/03-Resources/ETC/옵시디언 Dateview 사용법.md",
     "Spaces/Home/03-Resources/Dev/ETC/Lambda Calculus.md",
     "Spaces/Home/README.md",
-    "Spaces/Home/03-Resources/Dev/Linux/Linux란?.md",
     "Spaces/Home/03-Resources/Dev/Operating System/운영체제(OS)란?.md",
     "Spaces/Home/02-Area/Tech.md",
     "Spaces/Home/03-Resources/Dev/Operating System/Operating System.md",
@@ -211,8 +215,6 @@
     "Spaces/Home/01-Project/ChessTowerDefence/ChessTowerDefence.md",
     "Spaces/Home/01-Project/ChessTowerDefence/NeverMore.md",
     "Spaces/Home/01-Project/NeverMore/Project Nevermore - 기획.md",
-    "Spaces/Home/01-Project/CrossyRoad/CrossyRoad.md",
-    "Spaces/Home/01-Project/CrossyRoad/기획.md",
     "Spaces/Home/03-Resources/Dev/Software Engineering",
     "Spaces/Home/03-Resources/Dev/Network",
     "Spaces/Home/03-Resources/Dev/Database",
@@ -231,7 +233,6 @@
     "Media/Screenshot 2024-01-18 at 2.46.17 PM.png",
     "Media/Screenshot 2024-01-18 at 2.43.15 PM.png",
     "Media/Screenshot 2024-01-03 at 12.12.21 AM.png",
-    "Media/Screenshot 2024-01-03 at 12.11.35 AM.png",
-    "Media/Screenshot 2024-01-03 at 12.15.32 AM.png"
+    "Media/Screenshot 2024-01-03 at 12.11.35 AM.png"
   ]
 }
