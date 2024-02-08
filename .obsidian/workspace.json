@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/보스 1페이즈.md",
+                "file": "01-Project/Robotgame/보스 1페이즈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/보스 1페이즈.md",
+                "file": "01-Project/Robotgame/보스 1페이즈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/보스 1페이즈.md"
+                "file": "01-Project/Robotgame/보스 1페이즈.md"
               }
             }
           },
@@ -207,10 +207,10 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "4adc802d9e77113b",
+  "active": "e9261fa1b02da278",
   "lastOpenFiles": [
-    "01-Project/Robotgame/보스 1페이즈.md",
     "Excalidraw/보스 1페이즈.md",
+    "01-Project/Robotgame/보스 1페이즈.md",
     "03-Resources/\b가비지 콜렉터(GC)와 오브젝트 풀링.md",
     "01-Project/Robotgame/진행 상황.md",
     "03-Resources/운영체제(OS)란?.md",
