@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/\b가비지 콜렉터(GC)와 오브젝트 풀링.md",
+                "file": "03-Resources/Linux란?.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,11 +23,9 @@
             "id": "e9261fa1b02da278",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "01-Project/Robotgame/보스 1페이즈.md",
-                "mode": "source",
-                "source": false
+                "path": "Kanban"
               }
             }
           },
@@ -41,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/Robotgame/보스 1페이즈.md",
+                "file": "03-Resources/Linux란?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/Robotgame/보스 1페이즈.md",
+                "file": "03-Resources/Linux란?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/Robotgame/보스 1페이즈.md"
+                "file": "03-Resources/Linux란?.md"
               }
             }
           },
@@ -207,11 +204,20 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "e9261fa1b02da278",
+  "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
-    "Excalidraw/보스 1페이즈.md",
-    "01-Project/Robotgame/보스 1페이즈.md",
+    "Kanban/치워요.md",
+    "Notation.md",
+    "03-Resources/옵시디언 노트 정리법.md",
+    "03-Resources/옵시디언 사용하기.md",
+    "Kanban/Senti.md",
+    "Spaces/Spaces.md",
+    "Kanban/Kanban.md",
     "03-Resources/\b가비지 콜렉터(GC)와 오브젝트 풀링.md",
+    "Vault.md",
+    "Kanban",
+    "01-Project/Robotgame/보스 1페이즈.md",
+    "Excalidraw/보스 1페이즈.md",
     "01-Project/Robotgame/진행 상황.md",
     "03-Resources/운영체제(OS)란?.md",
     "Gaming/Gaming.md",
@@ -227,14 +233,6 @@
     "04-Archive/Basic Syntax.md",
     "03-Resources/Branch merge 시에 충돌 해결법.md",
     "03-Resources/Array & Linked List & ArrayList.md",
-    "03-Resources/Dev/Design Pattern/Design Pattern.md",
-    "03-Resources/First Class Function.md",
-    "03-Resources/logseq을 개조해 보자.md",
-    "03-Resources/Dev/Computer Architecture/Computer Science.md",
-    "03-Resources/Dev/ETC/ETC.md",
-    "03-Resources/참조 투명성.md",
-    "03-Resources/Array 배열.md",
-    "03-Resources/Dev/Data Structure/Data Structure.md",
     "Media/Screenshot 2024-02-04 at 5.57.57 PM.png",
     "03-Resources/Dev/Linux",
     "03-Resources/Dev/Software Engineering",
@@ -245,7 +243,6 @@
     "03-Resources/Dev/Design Pattern",
     "03-Resources/Dev/Data Structure",
     "03-Resources/Dev/Computer Architecture",
-    "03-Resources/Dev/Algorithm",
     "Media/Screenshot 2024-01-27 at 2.03.19 PM.png",
     "Media/Screenshot 2024-01-26 at 3.42.01 PM.png",
     "Media/Screenshot 2024-01-22 at 4.21.22 PM.png",

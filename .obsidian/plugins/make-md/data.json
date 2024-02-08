@@ -46,7 +46,6 @@
     "spaces://$tags/spaces://#Obsidian",
     "spaces://$tags/spaces://#Project",
     "spaces://$tags/spaces://#Project",
-    "//Spaces",
     "//Spaces/Spaces/Home",
     "Spaces/Home/Spaces/Home/02-Area/Spaces/Home/02-Area/CS-OS",
     "//Spaces/Spaces/Home/Spaces/Home/Daily",
@@ -87,10 +86,10 @@
     "//03-Resources/03-Resources/GIt-GitHub",
     "//04-Archive/04-Archive/Python",
     "//02-Area",
-    "//Gaming",
-    "//Gaming",
     "//01-Project",
-    "//01-Project/01-Project/Robotgame"
+    "//01-Project/01-Project/Robotgame",
+    "//Kanban",
+    "//Spaces"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -100,7 +99,10 @@
   "folderFrameFile": "frames",
   "spacesFolder": "Spaces",
   "hiddenFiles": [
-    "Spaces/Home"
+    "Spaces/Home",
+    "Template",
+    "Excalidraw",
+    "Media"
   ],
   "hiddenExtensions": [
     ".mdb"

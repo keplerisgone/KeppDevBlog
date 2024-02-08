@@ -8,13 +8,7 @@ sticker: lucide//alarm-check
 LIST FROM #Question 
 SORT file.name ASC
 ```
-# Tasks
-
-```dataview
-TASK
-WHERE contains(file.tags,"#Tasks")
-```
-### 니가 싼 똥
+## 니가 싼 똥
 ```dataview
 LIST
 FROM #Incomplete 
