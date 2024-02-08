@@ -11,11 +11,9 @@
             "id": "ed984c9dc1bc1dcd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "03-Resources/Linux란?.md",
-                "mode": "source",
-                "source": false
+                "file": "Kanban/Senti.md"
               }
             }
           },
@@ -121,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Linux란?.md",
+                "file": "Kanban/Senti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Linux란?.md",
+                "file": "Kanban/Senti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Linux란?.md"
+                "file": "Kanban/Senti.md"
               }
             }
           },
@@ -206,18 +204,19 @@
   },
   "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
+    "Excalidraw/보스 1페이즈.md",
+    "Kanban/Senti.md",
     "Kanban/치워요.md",
     "Notation.md",
+    "03-Resources/Linux란?.md",
     "03-Resources/옵시디언 노트 정리법.md",
     "03-Resources/옵시디언 사용하기.md",
-    "Kanban/Senti.md",
     "Spaces/Spaces.md",
     "Kanban/Kanban.md",
     "03-Resources/\b가비지 콜렉터(GC)와 오브젝트 풀링.md",
     "Vault.md",
     "Kanban",
     "01-Project/Robotgame/보스 1페이즈.md",
-    "Excalidraw/보스 1페이즈.md",
     "01-Project/Robotgame/진행 상황.md",
     "03-Resources/운영체제(OS)란?.md",
     "Gaming/Gaming.md",
@@ -232,7 +231,6 @@
     "03-Resources/코루틴과 Update 함수.md",
     "04-Archive/Basic Syntax.md",
     "03-Resources/Branch merge 시에 충돌 해결법.md",
-    "03-Resources/Array & Linked List & ArrayList.md",
     "Media/Screenshot 2024-02-04 at 5.57.57 PM.png",
     "03-Resources/Dev/Linux",
     "03-Resources/Dev/Software Engineering",
