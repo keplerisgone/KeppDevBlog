@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "Spaces/Home",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -36,10 +36,7 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//01-Project",
-    "//01-Project/01-Project/Robotgame",
     "//03-Resources/03-Resources/DSA",
-    "//01-Project",
     "spaces://$tags/spaces://#CPP",
     "spaces://$tags/spaces://#DSA",
     "spaces://$tags/spaces://#DSA",
@@ -49,11 +46,9 @@
     "spaces://$tags/spaces://#Obsidian",
     "spaces://$tags/spaces://#Project",
     "spaces://$tags/spaces://#Project",
-    "//01-Project",
     "//Spaces",
     "//Spaces/Spaces/Home",
     "Spaces/Home/Spaces/Home/02-Area/Spaces/Home/02-Area/CS-OS",
-    "//Template",
     "//Spaces/Spaces/Home/Spaces/Home/Daily",
     "Spaces/Home/Spaces/Home/02-Area/Spaces/Home/02-Area/CS-OS",
     "Spaces/Home/Spaces/Home/Daily",
@@ -75,7 +70,27 @@
     "Spaces/Home/Spaces/Home/03-Resources/Spaces/Home/03-Resources/Obsidian",
     "Spaces/Home/Spaces/Home/03-Resources/Spaces/Home/03-Resources/ETC",
     "Spaces/Home/Spaces/Home/01-Project",
-    "Spaces/Home/Spaces/Home/01-Project/Spaces/Home/01-Project/Robotgame"
+    "Spaces/Home/Spaces/Home/01-Project/Spaces/Home/01-Project/Robotgame",
+    "Spaces/Home/Spaces/Home/03-Resources",
+    "Spaces/Home/Spaces/Home/03-Resources/Spaces/Home/03-Resources/ETC",
+    "//03-Resources/03-Resources/Unity",
+    "//03-Resources/03-Resources/C++",
+    "//03-Resources/03-Resources/Dev",
+    "//03-Resources/03-Resources/Dev/03-Resources/Dev/Data Structure",
+    "//03-Resources/03-Resources/Dev/03-Resources/Dev/Computer Architecture",
+    "//03-Resources/03-Resources/Dev/03-Resources/Dev/Algorithm",
+    "//03-Resources/03-Resources/Dev/03-Resources/Dev/Software Engineering",
+    "//03-Resources/03-Resources/Dev/03-Resources/Dev/Linux",
+    "//03-Resources/03-Resources/Dev/03-Resources/Dev/Design Pattern",
+    "//03-Resources/03-Resources/Dev/03-Resources/Dev/Design Pattern",
+    "//03-Resources/03-Resources/Dev/03-Resources/Dev/Operating System",
+    "//03-Resources/03-Resources/GIt-GitHub",
+    "//04-Archive/04-Archive/Python",
+    "//02-Area",
+    "//Gaming",
+    "//Gaming",
+    "//01-Project",
+    "//01-Project/01-Project/Robotgame"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -84,7 +99,9 @@
   "folderContextFile": "context",
   "folderFrameFile": "frames",
   "spacesFolder": "Spaces",
-  "hiddenFiles": [],
+  "hiddenFiles": [
+    "Spaces/Home"
+  ],
   "hiddenExtensions": [
     ".mdb"
   ],
@@ -96,9 +113,8 @@
   "dataviewInlineContext": true,
   "inlineContextNameLayout": "vertical",
   "waypoints": [
-    "Spaces/Home",
-    "spaces://$tags",
-    "/"
+    "/",
+    "Spaces/Home"
   ],
   "spacesUseAlias": true,
   "fmKeyAlias": "aliases",

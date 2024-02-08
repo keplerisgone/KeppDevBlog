@@ -15,7 +15,7 @@ tags:
 - 몬스터의 공격 (임시, 일반 공격임)
 - 몬스터의 자식 오브젝트로 소환되며, 자동으로 같이 움직인다
 - `atkTime` 이후에 자동으로 사라진다
-- 플레이어가 충돌시 [[Spaces/Home/01-Project/Robotgame/플레이어 구현#TakeDamage(Transform other, int damage)|데미지 함수]] 호출
+- 플레이어가 충돌시 [[플레이어 구현#TakeDamage(Transform other, int damage)|데미지 함수]] 호출
 - [ ] #Project   이거 이름 바꿔야함
 - **Atk1_Prefab.cs**
 
