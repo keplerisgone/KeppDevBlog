@@ -89,7 +89,8 @@
     "//01-Project",
     "//01-Project/01-Project/Robotgame",
     "//Kanban",
-    "//Spaces"
+    "//Spaces",
+    "//Gaming"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Senti",
-      "path": "Kanban/Senti.md"
+      "basename": "보스 1페이즈",
+      "path": "01-Project/Robotgame/보스 1페이즈.md"
     },
     {
-      "basename": "보스 1페이즈",
-      "path": "Excalidraw/보스 1페이즈.md"
+      "basename": "Senti",
+      "path": "01-Project/Robotgame/Senti.md"
+    },
+    {
+      "basename": "C++로 문제 풀기",
+      "path": "02-Area/C++로 문제 풀기.md"
+    },
+    {
+      "basename": "Tech",
+      "path": "02-Area/Tech.md"
+    },
+    {
+      "basename": "Array & Linked List & ArrayList",
+      "path": "03-Resources/Array & Linked List & ArrayList.md"
+    },
+    {
+      "basename": "Array 배열",
+      "path": "03-Resources/Array 배열.md"
+    },
+    {
+      "basename": "Linked List 연결 리스트",
+      "path": "03-Resources/Linked List 연결 리스트.md"
     },
     {
       "basename": "치워요",
       "path": "Kanban/치워요.md"
+    },
+    {
+      "basename": "Gaming",
+      "path": "Gaming/Gaming.md"
+    },
+    {
+      "basename": "C++ Vector 벡터",
+      "path": "03-Resources/C++ Vector 벡터.md"
+    },
+    {
+      "basename": "보스 1페이즈",
+      "path": "Excalidraw/보스 1페이즈.md"
     },
     {
       "basename": "Linux란?",
@@ -37,10 +69,6 @@
       "path": "Vault.md"
     },
     {
-      "basename": "보스 1페이즈",
-      "path": "01-Project/Robotgame/보스 1페이즈.md"
-    },
-    {
       "basename": "진행 상황",
       "path": "01-Project/Robotgame/진행 상황.md"
     },
@@ -49,20 +77,8 @@
       "path": "03-Resources/운영체제(OS)란?.md"
     },
     {
-      "basename": "Gaming",
-      "path": "Gaming/Gaming.md"
-    },
-    {
-      "basename": "Tech",
-      "path": "02-Area/Tech.md"
-    },
-    {
       "basename": "Functional Programming",
       "path": "02-Area/Functional Programming.md"
-    },
-    {
-      "basename": "C++로 문제 풀기",
-      "path": "02-Area/C++로 문제 풀기.md"
     },
     {
       "basename": "C++이란?",
@@ -75,10 +91,6 @@
     {
       "basename": "C++ 문자열 (string)",
       "path": "03-Resources/C++ 문자열 (string).md"
-    },
-    {
-      "basename": "C++ Vector 벡터",
-      "path": "03-Resources/C++ Vector 벡터.md"
     },
     {
       "basename": "코루틴(Coroutine)과 인보크(Invoke)",
@@ -97,10 +109,6 @@
       "path": "03-Resources/Branch merge 시에 충돌 해결법.md"
     },
     {
-      "basename": "Array & Linked List & ArrayList",
-      "path": "03-Resources/Array & Linked List & ArrayList.md"
-    },
-    {
       "basename": "First Class Function",
       "path": "03-Resources/First Class Function.md"
     },
@@ -111,10 +119,6 @@
     {
       "basename": "참조 투명성",
       "path": "03-Resources/참조 투명성.md"
-    },
-    {
-      "basename": "Array 배열",
-      "path": "03-Resources/Array 배열.md"
     },
     {
       "basename": "마크다운 문법",
@@ -163,10 +167,6 @@
     {
       "basename": "Exacli-RobotgamePlayer",
       "path": "Excalidraw/Exacli-RobotgamePlayer.md"
-    },
-    {
-      "basename": "Linked List 연결 리스트",
-      "path": "03-Resources/Linked List 연결 리스트.md"
     },
     {
       "basename": "선형 데이터 구조",

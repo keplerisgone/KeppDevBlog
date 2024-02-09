@@ -121,4 +121,5 @@ tags:
 - [ ] 컴포지트 패턴
 - [ ] SOLID
 
-## [[Linux]] 
+# [[Linux]] 
+

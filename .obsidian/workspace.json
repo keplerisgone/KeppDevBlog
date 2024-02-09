@@ -11,9 +11,11 @@
             "id": "ed984c9dc1bc1dcd",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Kanban/Senti.md"
+                "file": "01-Project/Robotgame/보스 1페이즈.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -119,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kanban/Senti.md",
+                "file": "01-Project/Robotgame/보스 1페이즈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kanban/Senti.md",
+                "file": "01-Project/Robotgame/보스 1페이즈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kanban/Senti.md"
+                "file": "01-Project/Robotgame/보스 1페이즈.md"
               }
             }
           },
@@ -180,7 +182,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -204,9 +206,19 @@
   },
   "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
-    "Excalidraw/보스 1페이즈.md",
-    "Kanban/Senti.md",
+    "01-Project/Robotgame/Senti.md",
+    "01-Project/Robotgame/보스 1페이즈.md",
+    "02-Area/C++로 문제 풀기.md",
+    "02-Area/Tech.md",
+    "03-Resources/Array & Linked List & ArrayList.md",
+    "03-Resources/Array 배열.md",
+    "03-Resources/Linked List 연결 리스트.md",
+    "Linux.md",
     "Kanban/치워요.md",
+    "02-Area/Untitled.md",
+    "Gaming/Gaming.md",
+    "03-Resources/C++ Vector 벡터.md",
+    "Excalidraw/보스 1페이즈.md",
     "Notation.md",
     "03-Resources/Linux란?.md",
     "03-Resources/옵시디언 노트 정리법.md",
@@ -216,21 +228,11 @@
     "03-Resources/\b가비지 콜렉터(GC)와 오브젝트 풀링.md",
     "Vault.md",
     "Kanban",
-    "01-Project/Robotgame/보스 1페이즈.md",
     "01-Project/Robotgame/진행 상황.md",
     "03-Resources/운영체제(OS)란?.md",
-    "Gaming/Gaming.md",
-    "02-Area/Tech.md",
     "02-Area/Functional Programming.md",
-    "02-Area/C++로 문제 풀기.md",
     "03-Resources/C++이란?.md",
     "03-Resources/C++ 반복문 (for, switch, while).md",
-    "03-Resources/C++ 문자열 (string).md",
-    "03-Resources/C++ Vector 벡터.md",
-    "03-Resources/코루틴(Coroutine)과 인보크(Invoke).md",
-    "03-Resources/코루틴과 Update 함수.md",
-    "04-Archive/Basic Syntax.md",
-    "03-Resources/Branch merge 시에 충돌 해결법.md",
     "Media/Screenshot 2024-02-04 at 5.57.57 PM.png",
     "03-Resources/Dev/Linux",
     "03-Resources/Dev/Software Engineering",
