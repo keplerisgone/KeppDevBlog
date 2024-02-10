@@ -1,7 +1,6 @@
 [
   "table-editor-obsidian",
   "obsidian-custom-frames",
-  "obsidian-emoji-toolbar",
   "obsidian-excalidraw-plugin",
   "make-md",
   "dataview",
@@ -9,13 +8,9 @@
   "obsidian-image-toolkit",
   "obsidian-outliner",
   "url-into-selection",
-  "various-complements",
-  "calendar",
   "obsidian-git",
   "obsidian-file-cleaner",
   "file-explorer-note-count",
   "recent-files-obsidian",
-  "obsidian-icon-folder",
-  "remember-cursor-position",
   "obsidian-kanban"
 ]

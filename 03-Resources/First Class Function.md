@@ -1,6 +1,7 @@
 ---
 tags:
   - Incomplete
+  - Dev
 ---
 **First Class Function**은 한국어로 '일급 함수' 정도로 번역되곤 한다. 간단히 설명하자면 함수를 변수처럼 다룰 수 있는 경우에 이를 first class function이라고 한다. 
 

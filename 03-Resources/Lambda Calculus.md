@@ -1,6 +1,7 @@
 ---
 tags:
   - Incomplete
+  - Dev
 ---
 이게 머임???
 ## Lambda Calculus
