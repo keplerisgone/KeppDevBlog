@@ -11,12 +11,8 @@
             "id": "2fe1aebe3892000a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notation.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,7 +97,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Notation.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Notation.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -129,9 +123,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Notation.md"
-          }
+          "state": {}
         }
       },
       {
@@ -162,6 +154,8 @@
   },
   "active": "2fe1aebe3892000a",
   "lastOpenFiles": [
+    "Spaces/Home",
+    "Spaces",
     "03-Resources/logseq을 개조해 보자.md",
     "Notation.md",
     "운영체제(OS)란?.md",

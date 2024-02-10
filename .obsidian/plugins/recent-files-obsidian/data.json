@@ -9,6 +9,10 @@
       "path": "01-Project/Robotgame/Senti.md"
     },
     {
+      "basename": "치워요",
+      "path": "Kanban/치워요.md"
+    },
+    {
       "basename": "C++로 문제 풀기",
       "path": "02-Area/C++로 문제 풀기.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Linked List 연결 리스트",
       "path": "03-Resources/Linked List 연결 리스트.md"
-    },
-    {
-      "basename": "치워요",
-      "path": "Kanban/치워요.md"
     },
     {
       "basename": "Gaming",
