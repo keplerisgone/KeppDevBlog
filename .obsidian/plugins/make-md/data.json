@@ -108,6 +108,8 @@
   "hiddenExtensions": [
     ".mdb"
   ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "03-Resources",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,

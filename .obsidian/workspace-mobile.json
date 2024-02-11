@@ -11,11 +11,26 @@
             "id": "2fe1aebe3892000a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "01-Project/Robotgame/보스 3페.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "feb534d8ddb0b635",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,6 +98,14 @@
           "type": "recent-files",
           "state": {}
         }
+      },
+      {
+        "id": "84f32304b51f5588",
+        "type": "leaf",
+        "state": {
+          "type": "mk-path-view",
+          "state": {}
+        }
       }
     ],
     "currentTab": 0
@@ -97,6 +120,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,6 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -123,7 +148,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
+          }
         }
       },
       {
@@ -152,8 +179,12 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "2fe1aebe3892000a",
+  "active": "feb534d8ddb0b635",
   "lastOpenFiles": [
+    "01-Project/Robotgame/보스 2페.md",
+    "Excalidraw/보스 1페이즈.md",
+    "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
+    "01-Project/Robotgame/보스 3페.md",
     "Spaces/Home",
     "Spaces",
     "03-Resources/logseq을 개조해 보자.md",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/유튜브가 렉이 걸릴 때.md",
+                "file": "03-Resources/Unity 타일맵.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/유튜브가 렉이 걸릴 때.md",
+                "file": "03-Resources/Unity 타일맵.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/유튜브가 렉이 걸릴 때.md",
+                "file": "03-Resources/Unity 타일맵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/유튜브가 렉이 걸릴 때.md"
+                "file": "03-Resources/Unity 타일맵.md"
               }
             }
           },
@@ -178,8 +178,16 @@
   },
   "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
-    "Kanban/치워요.md",
+    "01-Project/Robotgame/보스 3페.md",
+    "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
+    "01-Project/Robotgame/보스 2페.md",
+    "01-Project/Robotgame/Untitled.md",
+    "Untitled.md",
+    "Media/Pasted image 20240211120513.png",
+    "Media/Pasted image 20240211120507.png",
+    "Media/Pasted image 20240211120502.png",
     "03-Resources/유튜브가 렉이 걸릴 때.md",
+    "Kanban/치워요.md",
     "Media/Pasted image 20240210182701.png",
     "03-Resources/Unity 타일맵.md",
     "03-Resources/운영체제(OS)란?.md",
@@ -200,11 +208,6 @@
     "03-Resources/옵시디언 Dateview 사용법.md",
     "03-Resources/메제드.md",
     "03-Resources/logseq을 개조해 보자.md",
-    "03-Resources/마크다운 문법.md",
-    "03-Resources/Lambda Calculus.md",
-    "03-Resources/함수의 불변성.md",
-    "03-Resources/함수의 Side Effect.md",
-    "03-Resources/참조 투명성.md",
     "Spaces/Home",
     "Spaces",
     "Kanban",
@@ -221,9 +224,6 @@
     "Media/Screenshot 2024-01-22 at 4.21.22 PM.png",
     "Media/240E4FE5-8879-404C-86E7-F75B556BF34F_1_102_o.jpeg",
     "Untitled.canvas",
-    "Media/Screenshot 2024-01-18 at 2.49.30 PM.png",
-    "Media/Screenshot 2024-01-18 at 2.46.17 PM.png",
-    "Media/Screenshot 2024-01-18 at 2.43.15 PM.png",
-    "Media/Screenshot 2024-01-03 at 12.12.21 AM.png"
+    "Media/Screenshot 2024-01-18 at 2.49.30 PM.png"
   ]
 }

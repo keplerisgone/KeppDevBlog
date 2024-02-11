@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2024-02-11 14.23.34.excalidraw",
+      "path": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
+    },
+    {
+      "basename": "보스 2페",
+      "path": "01-Project/Robotgame/보스 2페.md"
+    },
+    {
+      "basename": "보스 1페이즈",
+      "path": "Excalidraw/보스 1페이즈.md"
+    },
+    {
+      "basename": "보스 3페",
+      "path": "01-Project/Robotgame/보스 3페.md"
+    },
+    {
+      "basename": "Unity 타일맵",
+      "path": "03-Resources/Unity 타일맵.md"
+    },
+    {
       "basename": "유튜브가 렉이 걸릴 때",
       "path": "03-Resources/유튜브가 렉이 걸릴 때.md"
     },
     {
       "basename": "치워요",
       "path": "Kanban/치워요.md"
-    },
-    {
-      "basename": "Unity 타일맵",
-      "path": "03-Resources/Unity 타일맵.md"
     },
     {
       "basename": "운영체제(OS)란?",
@@ -39,10 +55,6 @@
     {
       "basename": "Array 배열",
       "path": "03-Resources/Array 배열.md"
-    },
-    {
-      "basename": "보스 1페이즈",
-      "path": "Excalidraw/보스 1페이즈.md"
     },
     {
       "basename": "Array & Linked List & ArrayList",
@@ -187,14 +199,6 @@
     {
       "basename": "ChessTowerDefence",
       "path": "01-Project/ChessTowerDefence/ChessTowerDefence.md"
-    },
-    {
-      "basename": "Exacli-RobotgamePlayer",
-      "path": "Excalidraw/Exacli-RobotgamePlayer.md"
-    },
-    {
-      "basename": "플레이어 구현",
-      "path": "01-Project/Robotgame/플레이어 구현.md"
     }
   ],
   "omittedPaths": [],
