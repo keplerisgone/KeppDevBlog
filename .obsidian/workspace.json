@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2024_02_12.md",
+                "file": "03-Resources/Data Structure/데이터 구조와 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,21 +48,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "logseq",
+                "query": "tag:#DSA  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "5ee83176a88eb828",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
             }
           },
           {
@@ -74,10 +66,10 @@
             }
           },
           {
-            "id": "3bf5383d90d53224",
+            "id": "eab019ba728fade4",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
+              "type": "trash-explorer",
               "state": {}
             }
           }
@@ -101,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2024_02_12.md",
+                "file": "03-Resources/Data Structure/데이터 구조와 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2024_02_12.md",
+                "file": "03-Resources/Data Structure/데이터 구조와 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2024_02_12.md"
+                "file": "03-Resources/Data Structure/데이터 구조와 알고리즘.md"
               }
             }
           },
@@ -184,53 +176,52 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-file-cleaner:Clean files": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ed984c9dc1bc1dcd",
+  "active": "01e00628f9a5170e",
   "lastOpenFiles": [
-    "04-Archive/Prefab 모음.md",
-    "01-Project/Robotgame/보스 2페.md",
-    "01-Project/Robotgame/Project Robotgame - 기본.md",
-    "01-Project/Robotgame/진행 상황.md",
+    "03-Resources/ETC",
+    "03-Resources/Linux",
+    "03-Resources/CPP",
+    "03-Resources/Data Structure/Array 배열.md",
+    "03-Resources/Obsidian",
+    "03-Resources/Dev",
+    "03-Resources/Unity",
+    "03-Resources/Data Structure/Array & Linked List & ArrayList.md",
+    "03-Resources/Data Structure/Linked List 연결 리스트.md",
+    "02-Area/Tech & Dev.md",
+    "03-Resources/Database/Database.md",
+    "03-Resources/Data Structure.md",
+    "Data Structure/Data Structure.md",
+    "03-Resources/Computer Architecture",
+    "03-Resources/Algorithm/Algorithm.md",
+    "03-Resources/Algorithm",
+    "03-Resources/Software Engineering/Software Engineering.md",
+    "03-Resources/Software Engineering",
+    "03-Resources/Operating System/Operating System.md",
+    "03-Resources/Operating System",
+    "03-Resources/Network/Network.md",
+    "03-Resources/Network",
+    "Linux/Linux.md",
+    "03-Resources/GIt-GitHub/GIt-GitHub.md",
+    "03-Resources/Design Pattern/Design Pattern.md",
+    "02-Area/Functional Programming.md",
+    "03-Resources/Linux/Linux란?.md",
+    "03-Resources/Unity/Unity 타일맵.md",
+    "03-Resources/ETC/유튜브가 렉이 걸릴 때.md",
+    "03-Resources/Operating System/운영체제(OS)란?.md",
+    "99-Daily/2024_02_12.md",
     "01-Project/Robotgame/보스 1페이즈.md",
-    "01-Project/Robotgame/Senti.md",
-    "03-Resources/C++이란?.md",
-    "03-Resources/마크다운 문법.md",
-    "03-Resources/메제드.md",
-    "04-Archive/Basic Syntax.md",
-    "04-Archive/logseq을 개조해 보자.md",
-    "Daily/2024_02_11.md",
-    "Daily/2024_02_10.md",
-    "Template/daily-note-template.md",
-    "Daily/2024_02_12.md",
-    "Daily/2024_02_09.md",
-    "Daily/2024_02_07.md",
-    "Daily/2024_02_06.md",
-    "Daily/2024_02_04.md",
-    "Daily/2024_02_05.md",
-    "Daily/2024_02_08.md",
-    "Spaces",
-    "Daily/Feb 12th, 2024.md",
-    "Daily/02.md",
-    "Daily/Feb 1st, 2024.md",
-    "Daily/Daily.md",
-    "Daily/2024-02-12.md",
-    "Daily",
+    "01-Project/Robotgame/보스 2페.md",
+    "02-Area/생산성 프로젝트.md",
+    "Kanban/치워요.md",
     "Media/Pasted image 20240211120513.png",
     "Media/Pasted image 20240211120507.png",
     "Media/Pasted image 20240211120502.png",
     "Media/Pasted image 20240210182701.png",
-    "Spaces/Home",
-    "Kanban",
     "Media/Screenshot 2024-02-04 at 5.57.57 PM.png",
-    "03-Resources/Dev/Linux",
-    "03-Resources/Dev/Software Engineering",
-    "03-Resources/Dev/Network",
-    "03-Resources/Dev/Database",
-    "03-Resources/Dev/Operating System",
-    "03-Resources/Dev/ETC",
     "Media/Screenshot 2024-01-27 at 2.03.19 PM.png",
     "Media/Screenshot 2024-01-26 at 3.42.01 PM.png",
     "Media/Screenshot 2024-01-22 at 4.21.22 PM.png",

@@ -1,8 +1,6 @@
 ---
 tags:
-  - DSA
-  - CS
-  - OS
+  - Dev
 ---
 알아두면 좋은 (x)
 반드시 알아야 할 테크 상식들
@@ -40,7 +38,7 @@ tags:
 - [ ] 패리티 피브 & 해밍 코드
 - [ ] ARM 프로세서
 
-## Data Structure
+## [[Data Structure]]
 
 - [x] [[Array 배열]]
 - [x] [[Linked List 연결 리스트]]

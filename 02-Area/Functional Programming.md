@@ -1,6 +1,7 @@
 ---
 tags:
   - Incomplete
+  - Dev
 sticker: lucide//airplay
 ---
 함수형 프로그래밍은 뭘까?

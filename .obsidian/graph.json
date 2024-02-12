@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:01-Project  ",
@@ -15,38 +15,31 @@
       }
     },
     {
-      "query": "path:Spaces/Home/02-Area  ",
+      "query": "path:02-Area  ",
       "color": {
         "a": 1,
         "rgb": 14069084
       }
     },
     {
-      "query": "path:Spaces/Home/03-Resources  ",
+      "query": "path:03-Resources  ",
       "color": {
         "a": 1,
         "rgb": 11392604
       }
     },
     {
-      "query": "path:Spaces/Home/04-Archive  ",
+      "query": "path:04-Archive  ",
       "color": {
         "a": 1,
         "rgb": 6084188
       }
     },
     {
-      "query": "path:Spaces/Home/Daily  ",
+      "query": "tag:#daily_note  ",
       "color": {
         "a": 1,
         "rgb": 6084269
-      }
-    },
-    {
-      "query": "path:Spaces/Home/Gaming  ",
-      "color": {
-        "a": 1,
-        "rgb": 6073814
       }
     }
   ],
@@ -55,7 +48,7 @@
   "textFadeMultiplier": -0.7,
   "nodeSizeMultiplier": 1.73074137369792,
   "lineSizeMultiplier": 3.16469319661458,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,

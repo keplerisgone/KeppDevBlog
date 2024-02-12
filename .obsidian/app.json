@@ -1,7 +1,7 @@
 {
   "spellcheck": false,
   "strictLineBreaks": true,
-  "trashOption": "system",
+  "trashOption": "local",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "Media",
   "promptDelete": false,
