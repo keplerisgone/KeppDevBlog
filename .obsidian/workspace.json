@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Project/Robotgame/보스 3페.md",
+                "file": "01-Project/Robotgame/보스 2페.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "5efae2728b44090e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/Robotgame/보스 3페.md",
+                "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/Robotgame/보스 3페.md",
+                "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/Robotgame/보스 3페.md"
+                "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
               }
             }
           },
@@ -176,11 +187,12 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "ed984c9dc1bc1dcd",
+  "active": "5efae2728b44090e",
   "lastOpenFiles": [
     "01-Project/Robotgame/보스 2페.md",
-    "01-Project/Robotgame/보스 3페.md",
     "03-Resources/Unity 타일맵.md",
+    "Kanban/치워요.md",
+    "01-Project/Robotgame/보스 3페.md",
     "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
     "01-Project/Robotgame/Untitled.md",
     "Untitled.md",
@@ -188,7 +200,6 @@
     "Media/Pasted image 20240211120507.png",
     "Media/Pasted image 20240211120502.png",
     "03-Resources/유튜브가 렉이 걸릴 때.md",
-    "Kanban/치워요.md",
     "Media/Pasted image 20240210182701.png",
     "03-Resources/운영체제(OS)란?.md",
     "03-Resources/기본적인 Git-GitHub 사용.md",

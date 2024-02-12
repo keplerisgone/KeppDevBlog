@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "보스 3페",
-      "path": "01-Project/Robotgame/보스 3페.md"
+      "basename": "Drawing 2024-02-11 14.23.34.excalidraw",
+      "path": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
     },
     {
       "basename": "보스 2페",
@@ -13,12 +13,16 @@
       "path": "03-Resources/Unity 타일맵.md"
     },
     {
-      "basename": "유튜브가 렉이 걸릴 때",
-      "path": "03-Resources/유튜브가 렉이 걸릴 때.md"
-    },
-    {
       "basename": "치워요",
       "path": "Kanban/치워요.md"
+    },
+    {
+      "basename": "보스 3페",
+      "path": "01-Project/Robotgame/보스 3페.md"
+    },
+    {
+      "basename": "유튜브가 렉이 걸릴 때",
+      "path": "03-Resources/유튜브가 렉이 걸릴 때.md"
     },
     {
       "basename": "운영체제(OS)란?",
@@ -195,10 +199,6 @@
     {
       "basename": "ChessTowerDefence",
       "path": "01-Project/ChessTowerDefence/ChessTowerDefence.md"
-    },
-    {
-      "basename": "Exacli-RobotgamePlayer",
-      "path": "Excalidraw/Exacli-RobotgamePlayer.md"
     }
   ],
   "omittedPaths": [],
