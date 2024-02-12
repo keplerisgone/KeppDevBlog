@@ -11,11 +11,9 @@
             "id": "ed984c9dc1bc1dcd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "01-Project/Robotgame/보스 2페.md",
-                "mode": "source",
-                "source": false
+                "file": "01-Project/Robotgame/Senti.md"
               }
             }
           },
@@ -23,9 +21,9 @@
             "id": "5efae2728b44090e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "kanban",
               "state": {
-                "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
+                "file": "01-Project/Robotgame/Senti.md"
               }
             }
           }
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/Robotgame/보스 2페.md",
+                "file": "01-Project/Robotgame/Senti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/Robotgame/보스 2페.md",
+                "file": "01-Project/Robotgame/Senti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/Robotgame/보스 2페.md"
+                "file": "01-Project/Robotgame/Senti.md"
               }
             }
           },
@@ -188,8 +186,9 @@
   },
   "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
     "01-Project/Robotgame/보스 2페.md",
+    "01-Project/Robotgame/Senti.md",
+    "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
     "03-Resources/Unity 타일맵.md",
     "Kanban/치워요.md",
     "01-Project/Robotgame/보스 3페.md",
@@ -217,7 +216,6 @@
     "03-Resources/옵시디언 노트 정리법.md",
     "03-Resources/옵시디언 Dateview 사용법.md",
     "03-Resources/메제드.md",
-    "03-Resources/logseq을 개조해 보자.md",
     "Spaces/Home",
     "Spaces",
     "Kanban",
