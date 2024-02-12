@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/daily-note-template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6acb563d5ac96e18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Daily/2024_02_12.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -46,11 +33,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f9a4f4444cb0c31",
+            "id": "01e00628f9a5170e",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {}
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
             }
           },
           {
@@ -59,22 +48,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "오브젝트 풀링",
+                "query": "logseq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "01e00628f9a5170e",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -91,6 +70,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "3bf5383d90d53224",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
               "state": {}
             }
           }
@@ -197,41 +184,43 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-file-cleaner:Clean files": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "6acb563d5ac96e18",
+  "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
-    "Spaces",
+    "04-Archive/Prefab 모음.md",
+    "01-Project/Robotgame/보스 2페.md",
+    "01-Project/Robotgame/Project Robotgame - 기본.md",
+    "01-Project/Robotgame/진행 상황.md",
+    "01-Project/Robotgame/보스 1페이즈.md",
+    "01-Project/Robotgame/Senti.md",
+    "03-Resources/C++이란?.md",
+    "03-Resources/마크다운 문법.md",
+    "03-Resources/메제드.md",
+    "04-Archive/Basic Syntax.md",
+    "04-Archive/logseq을 개조해 보자.md",
     "Daily/2024_02_11.md",
     "Daily/2024_02_10.md",
-    "Daily/2024_02_12.md",
     "Template/daily-note-template.md",
+    "Daily/2024_02_12.md",
+    "Daily/2024_02_09.md",
+    "Daily/2024_02_07.md",
+    "Daily/2024_02_06.md",
     "Daily/2024_02_04.md",
     "Daily/2024_02_05.md",
-    "Daily/2024_02_07.md",
     "Daily/2024_02_08.md",
+    "Spaces",
     "Daily/Feb 12th, 2024.md",
-    "Daily/2024_02_09.md",
-    "Daily/2024_02_06.md",
     "Daily/02.md",
     "Daily/Feb 1st, 2024.md",
     "Daily/Daily.md",
-    "01-Project/Robotgame/Senti.md",
     "Daily/2024-02-12.md",
     "Daily",
-    "Vault.md",
-    "01-Project/Robotgame/보스 2페.md",
-    "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
-    "03-Resources/Unity 타일맵.md",
-    "Kanban/치워요.md",
-    "01-Project/Robotgame/보스 3페.md",
-    "01-Project/Robotgame/Untitled.md",
-    "Untitled.md",
     "Media/Pasted image 20240211120513.png",
     "Media/Pasted image 20240211120507.png",
     "Media/Pasted image 20240211120502.png",
-    "03-Resources/유튜브가 렉이 걸릴 때.md",
     "Media/Pasted image 20240210182701.png",
     "Spaces/Home",
     "Kanban",

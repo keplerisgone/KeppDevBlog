@@ -1,16 +1,13 @@
 ---
 tags:
   - daily_note
-sticker:
+sticker: 
+English: 
+workout: 
+reading:
 ---
----
-
 ## memo
 
-- #daily
-- #weekly
-- #monthly
-- #yearly
 
 ## tasks
 

@@ -5,8 +5,40 @@
       "path": "Daily/2024_02_12.md"
     },
     {
-      "basename": "몬스터 구현",
-      "path": "01-Project/Robotgame/몬스터 구현.md"
+      "basename": "Prefab 모음",
+      "path": "04-Archive/Prefab 모음.md"
+    },
+    {
+      "basename": "보스 2페",
+      "path": "01-Project/Robotgame/보스 2페.md"
+    },
+    {
+      "basename": "보스 1페이즈",
+      "path": "01-Project/Robotgame/보스 1페이즈.md"
+    },
+    {
+      "basename": "Senti",
+      "path": "01-Project/Robotgame/Senti.md"
+    },
+    {
+      "basename": "C++이란?",
+      "path": "03-Resources/C++이란?.md"
+    },
+    {
+      "basename": "마크다운 문법",
+      "path": "03-Resources/마크다운 문법.md"
+    },
+    {
+      "basename": "메제드",
+      "path": "03-Resources/메제드.md"
+    },
+    {
+      "basename": "Basic Syntax",
+      "path": "04-Archive/Basic Syntax.md"
+    },
+    {
+      "basename": "logseq을 개조해 보자",
+      "path": "04-Archive/logseq을 개조해 보자.md"
     },
     {
       "basename": "2024_02_11",
@@ -21,6 +53,18 @@
       "path": "Template/daily-note-template.md"
     },
     {
+      "basename": "2024_02_09",
+      "path": "Daily/2024_02_09.md"
+    },
+    {
+      "basename": "2024_02_07",
+      "path": "Daily/2024_02_07.md"
+    },
+    {
+      "basename": "2024_02_06",
+      "path": "Daily/2024_02_06.md"
+    },
+    {
       "basename": "2024_02_04",
       "path": "Daily/2024_02_04.md"
     },
@@ -29,24 +73,16 @@
       "path": "Daily/2024_02_05.md"
     },
     {
-      "basename": "2024_02_07",
-      "path": "Daily/2024_02_07.md"
-    },
-    {
       "basename": "2024_02_08",
       "path": "Daily/2024_02_08.md"
     },
     {
-      "basename": "Senti",
-      "path": "01-Project/Robotgame/Senti.md"
+      "basename": "몬스터 구현",
+      "path": "01-Project/Robotgame/몬스터 구현.md"
     },
     {
       "basename": "Drawing 2024-02-11 14.23.34.excalidraw",
       "path": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
-    },
-    {
-      "basename": "보스 2페",
-      "path": "01-Project/Robotgame/보스 2페.md"
     },
     {
       "basename": "Unity 타일맵",
@@ -121,18 +157,6 @@
       "path": "03-Resources/옵시디언 Dateview 사용법.md"
     },
     {
-      "basename": "메제드",
-      "path": "03-Resources/메제드.md"
-    },
-    {
-      "basename": "logseq을 개조해 보자",
-      "path": "03-Resources/logseq을 개조해 보자.md"
-    },
-    {
-      "basename": "마크다운 문법",
-      "path": "03-Resources/마크다운 문법.md"
-    },
-    {
       "basename": "Lambda Calculus",
       "path": "03-Resources/Lambda Calculus.md"
     },
@@ -147,10 +171,6 @@
     {
       "basename": "참조 투명성",
       "path": "03-Resources/참조 투명성.md"
-    },
-    {
-      "basename": "C++이란?",
-      "path": "03-Resources/C++이란?.md"
     },
     {
       "basename": "C++ 반복문 (for, switch, while)",
@@ -177,28 +197,8 @@
       "path": "03-Resources/\b가비지 콜렉터(GC)와 오브젝트 풀링.md"
     },
     {
-      "basename": "진행 상황",
-      "path": "01-Project/Robotgame/진행 상황.md"
-    },
-    {
-      "basename": "보스 1페이즈",
-      "path": "01-Project/Robotgame/보스 1페이즈.md"
-    },
-    {
       "basename": "C++로 문제 풀기",
       "path": "02-Area/C++로 문제 풀기.md"
-    },
-    {
-      "basename": "Tech",
-      "path": "02-Area/Tech.md"
-    },
-    {
-      "basename": "Gaming",
-      "path": "Gaming/Gaming.md"
-    },
-    {
-      "basename": "Kanban",
-      "path": "Kanban/Kanban.md"
     }
   ],
   "omittedPaths": [],
