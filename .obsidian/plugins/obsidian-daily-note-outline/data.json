@@ -25,7 +25,7 @@
   ],
   "allRootItems": false,
   "allTasks": true,
-  "taskOnly": false,
+  "taskOnly": true,
   "hideCompletedTasks": false,
   "displayFileInfo": "lines",
   "displayFileInfoDaily": "lines",

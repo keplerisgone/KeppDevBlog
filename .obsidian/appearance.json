@@ -1,4 +1,7 @@
 {
   "accentColor": "#b0b0b0",
-  "cssTheme": "Obsidian Nord"
+  "cssTheme": "Obsidian Nord",
+  "enabledCssSnippets": [
+    "img"
+  ]
 }

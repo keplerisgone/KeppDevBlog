@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"313a9c9ffb6d1b16","type":"text","text":"### 학교에서 도움받기\n- 교수님의 도움\n\t- 수업을 열심히 듣고, 질문을 열심히 한다\n\t- 자연스럽게 진로 상담 기회를 가진다","x":-480,"y":-340,"width":360,"height":180},
+		{"id":"bd9d21ef7c2ba841","type":"text","text":"### 무슨 질문을 할까?","x":-20,"y":-280,"width":250,"height":60},
+		{"id":"4f2a8d0cd7a2d8b8","type":"text","text":"### Question\n- 내가 낭만 하나만을 보고 개발자를 선택하는 것이 맞을까?\n\t- 특히 임베디드 분야는 진입도 어렵고, 웹/앱보다 낮은 대우를 받으며 일해야 한다\n- 현실의 벽에 부딪히지는 않을까?","x":-540,"y":-760,"width":350,"height":220}
+	],
+	"edges":[
+		{"id":"b7def94b461eb277","fromNode":"313a9c9ffb6d1b16","fromSide":"right","toNode":"bd9d21ef7c2ba841","toSide":"left"}
+	]
+}

@@ -1,11 +1,9 @@
 [
-  "table-editor-obsidian",
   "obsidian-custom-frames",
   "obsidian-excalidraw-plugin",
   "make-md",
   "dataview",
   "editing-toolbar",
-  "obsidian-image-toolkit",
   "obsidian-outliner",
   "url-into-selection",
   "obsidian-git",
@@ -13,5 +11,7 @@
   "file-explorer-note-count",
   "obsidian-kanban",
   "obsidian-daily-note-outline",
-  "obsidian-trash-explorer"
+  "obsidian-trash-explorer",
+  "obsidian-omnivore",
+  "terminal"
 ]

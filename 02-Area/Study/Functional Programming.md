@@ -25,16 +25,15 @@ Side effect는 [[함수의 Side Effect]]를 참고.
 Referential Transparency는 [[참조 투명성]]을 참고.
 ### Immutabiliy
 
-pure function은 불변성을 가진다.
-[[함수의 불변성]]은 해당 문서를 참고
+pure function은 불변성을 가진다. [[함수의 불변성]]이 무엇인지에 대해서는 해당 문서를 참고.
 
 ### First Class Function
 
-[[First Class Function]]
+[[First Class Function]] 문서를 참고.
 
 ## Lambda Calculus
 
-[[Lambda Calculus]]
+[[Lambda Calculus]] 문서를 참고.
 ## Category Theory
 
 이건 그냥 수학이야긴데요
