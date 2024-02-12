@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Area/Life/생산성 프로젝트.md",
+                "file": "99-Omnivore/2024-02-13/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,18 +23,18 @@
             "id": "1d629f11d393f236",
             "type": "leaf",
             "state": {
-              "type": "terminal:documentation",
+              "type": "canvas",
               "state": {
-                "terminal:documentation": {
-                  "data": "# Terminal for Obsidian [![release](https://img.shields.io/github/v/release/polyipseity/obsidian-terminal)][latest release] [![Obsidian downloads](https://img.shields.io/badge/dynamic/json?logo=Obsidian&color=%238b6cef&label=downloads&query=$[\"terminal\"].downloads&url=https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json)][community plugin] [![Python](https://img.shields.io/badge/Python-≥3.10-gold?labelColor=blue&logo=Python&logoColor=white)][Python]\n\n[Buy Me a Coffee]: https://buymeacoffee.com/polyipseity\n[Buy Me a Coffee/embed]: https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=polyipseity&button_colour=40DCA5&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00\n[Obsidian]: https://obsidian.md/\n[Python]: https://python.org/downloads/\n[changelog]: https://github.com/polyipseity/obsidian-terminal/blob/main/CHANGELOG.md\n[community plugin]: https://obsidian.md/plugins?id=terminal\n[latest release]: https://github.com/polyipseity/obsidian-terminal/releases/latest\n[other things]: https://github.com/polyipseity/obsidian-monorepo\n[plugin library]: https://github.com/polyipseity/obsidian-plugin-library\n[repository]: https://github.com/polyipseity/obsidian-terminal\n[trailer]: https://raw.githubusercontent.com/polyipseity/obsidian-terminal/main/assets/trailer.png\n\nIntegrate consoles, shells, and terminals inside [Obsidian].\n\n[![Buy Me a Coffee/embed]][Buy Me a Coffee]\n\n__[Repository] · [Changelog] · [Community plugin] · [Other things] · [Features](#features) · [Installation](#installation) · [Usage](#usage) · [Contributing](#contributing) · [Security](#security)__\n\n![Trailer]\n\nFor first time users, read the [installation](#installation) section first!\n\nThis file is automatically opened on first install. You can reopen it in settings or command palette.\n\n## Features\n\n- Start external terminals from Obsidian.\n- Integrate terminals into Obsidian.\n- Has an emulated developer console usable on all platforms.\n- Supports multiple terminal profiles.\n- Has built-in keyboard shortcuts.\n- Automatically save and restore integrated terminal history.\n- Find in terminal.\n- Save terminal history as file.\n- Customize terminal appearance.\n\n## Installation\n\n1. Install plugin.\n\t- Community plugins\n\t\t1. Install the [plugin][community plugin] from community plugins directly.\n\t- Manual\n\t\t1. Create directory `terminal` under `.obsidian/plugins` of your vault.\n\t\t2. Place `manifest.json`, `main.js`, and `styles.css` from the [latest release] into the directory.\n\t- Building (latest)\n\t\t1. Clone this repository, including its submodules.\n\t\t2. Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).\n\t\t3. Run `npm install` in the root directory.\n\t\t4. Run `npm run obsidian:install <vault directory>` in the root directory.\n\t- [Obsidian42 - BRAT](https://obsidian.md/plugins?id=obsidian42-brat) (latest)\n\t\t- See [their readme](https://github.com/TfTHacker/obsidian42-brat#readme).\n2. (optional for Windows, recommended) Install Python and dependencies.\n\t1. Install [Python] 3.10/+.\n\t2. (Windows only) Run `pip3 install psutil==5.9.5 pywinctl==0.0.50 typing_extensions==4.7.1`. <!-- Update `README.md`, `magic.ts`, and `requirements.txt` together. -->\n\t3. Configure Python executable in plugin settings. Press the \"Check\" button to validate the Python configuration.\n3. Enable plugin.\n4. (optional) Configure plugin settings.\n\n## Usage\n\n- To start a new external or integrated terminal\n\t- Ribbon\n\t\t1. Click on the `Open terminal` ribbon.\n\t\t2. Choose the desired profile.\n\t- Context menu\n\t\t1. Right-click on files, folders, or tab headers.\n\t\t2. Choose the desired action (and profile).\n\t- Command palette\n\t\t1. Press `Ctrl`+`P` or click on the `Open command palette` ribbon next to the left window border.\n\t\t2. Choose the desired action (and profile).\n- To save and restore integrated terminal history\n\t1. Keep the terminal open when exiting Obsidian.\n\t2. Terminal history will be restored next time Obsidian is opened.\n- Additional actions\n\t- Includes\n\t\t- Find in terminal: (1), (4)\n\t\t- Clear terminal: (1), (4)\n\t\t- Restart terminal: (1)\n\t\t- Edit terminal: (1)\n\t\t- Save terminal history as file: (1)\n\t\t- Export, import, or edit settings: (2), (3)\n\t\t- Open documentation: (2), (3)\n\t- Available by\n\t\t- (1) Right-click on tab header/`More options`\n\t\t- (2) Open settings\n\t\t- (3) Open command palette\n\t\t- (4) Use keyboard shortcuts\n\n### Keyboard shortcuts\n\n__Terminal tab is focused__\n- Focus terminal: `Ctrl`+`Shift`+`` ` ``\n- Inherits global keyboard shortcuts\n\n__Terminal is focused__\n- Focus terminal tab/Unfocus terminal: `Ctrl`+`Shift`+`` ` ``\n- Clear terminal: `Ctrl`+`Shift`+`K`, `Command`+`K` (macOS)\n- Find in terminal: `Ctrl`+`Shift`+`F`, `Command`+`F` (macOS)\n\n### Profiles\n\nThis plugin comes with several profile presets that you can reference.\n\nWhen setting up a terminal profile, you need to distinguish between shells and terminal emulators. (Search online if needed.) Generally, integrated profiles only work with shells while external ones only work with terminal emulators.\n\n#### Examples\n\n__Shells__\n- Bash: `bash`\n- Bourne shell: `sh`\n- Command Prompt: `cmd`\n- Dash: `dash`\n- Git Bash: `<Git installation>\\bin\\bash.exe` (e.g. `C:\\Program Files\\Git\\bin\\bash.exe`)\n- PowerShell Core: `pwsh`\n- Windows PowerShell: `powershell`\n- Windows Subsystem for Linux: `wsl` or `wsl -d <distribution name>`\n- Z shell: `zsh`\n\n__Terminal emulators__\n- Command Prompt: `cmd`\n- GNOME Terminal: `gnome-terminal`\n- Konsole: `konsole`\n- Terminal (macOS): `/System/Applications/Utilities/Terminal.app/Contents/macOS/Terminal \"$PWD\"`\n- Windows Terminal: `wt`\n- iTerm2: `/Applications/iTerm.app/Contents/MacOS/iTerm2 \"$PWD\"`\n- xterm: `xterm`\n\n### Miscellaneous\n\nThis plugin patches `require` so that `require(\"obsidian\")` and other Obsidian modules work in the developer console. It is toggleable as `Expose internal modules` in settings.\n\nIn the developer console, a context variable `$$` is passed into the code, which can be used to dynamically change terminal options.\n\nThe full API is available from [`sources/@types/obsidian-terminal.ts`](sources/%40types/obsidian-terminal.ts).\n\n## Contributing\n\nContributions are welcome!\n\n### Todos\n\nThe todos here, ordered alphabetically, are things planned for the plugin. There are no guarantees that they will be completed. However, we are likely to accept contributions for them.\n\n- Connect to remote shells.\n- Copy terminal tabs.\n- Create ad-hoc profile in `Open terminal: Select`.\n- Detect sandboxed environment and notify users.\n- Edit profile before opening terminal in `Open terminal: Select` when a modifier key is pressed.\n- External link confirmation.\n- Filter console log by severity in the developer console.\n- Fix broken section links in builtin documentations.\n- Indicate that the terminal resizer has crashed or is disabled.\n- Shared terminal tabs.\n- Vim mode switch.\n\n### Translating\n\nTranslation files are under [`assets/locales/`](assets/locales/). Each locale has its own directory named with its corresponding __[IETF language tag](https://wikipedia.org/wiki/IETF_language_tag)__. Some translation keys are missing here and instead located at [`obsidian-plugin-library`][plugin library].\n\nTo contribute translation for an existing locale, modify the files in the corresponding directory.\n\nFor a new locale, create a new directory named with its language tag and copy [`assets/locales/en/translation.json`](assets/locales/en/translation.json) into it. Then, add an entry to [`assets/locales/en/language.json`](assets/locales/en/language.json) in this format:\n```JSONc\n{\n\t// ...\n\t\"en\": \"English\",\n\t\"(your-language-tag)\": \"(Native name of your language)\",\n\t\"uwu\": \"Uwuish\",\n\t// ...\n}\n```\nSort the list of languages by the alphabetical order of their language tags. Then modify the files in the new directory. There will be errors in [`assets/locales.ts`](assets/locales.ts), which you can ignore and we will fix them for you. You are welcome to fix them yourself if you know TypeScript.\n\nWhen translating, keep in mind the following things:\n- Do not translate anything between `{{` and `}}` (`{{example}}`). They are __interpolations__ and will be replaced by localized strings at runtime.\n- Do not translate anything between `$t(` and `)` (`$t(example)`). They refer to other localized strings. To find the localized string being referred to, follow the path of the key, which is separated by dots (`.`). For example, the key [`youtu.be./dQw4w9WgXcQ`](https://youtu.be./dQw4w9WgXcQ) refers to:\n```JSONc\n{\n\t// ...\n\t\"youtu\": {\n\t\t// ...\n\t\t\"be\": {\n\t\t\t// ...\n\t\t\t\"/dQw4w9WgXcQ\": \"I am 'youtu.be./dQw4w9WgXcQ'!\",\n\t\t\t// ...\n\t\t},\n\t\t// ...\n\t},\n\t// ...\n}\n```\n- The keys under `generic` are vocabularies. They can be referred in translation strings by `$t(generic.key)`. Refer to them as much as possible to standardize translations for vocabularies that appear in different places.\n- It is okay to move interpolations and references to other localized strings around to make the translation natural. It is also okay to not use some references used in the original translation. However, it is NOT okay to not use all interpolations.\n\n## Security\n\nWe hope that there will never be any security vulnerabilities, but unfortunately it does happen. Please [report](#reporting-a-vulnerability) them!\n\n### Supported versions\n\n| Version | Supported |\n|-|-|\n| latest | ✅ |\n| outdated | ❌ |\n\n### Reporting a vulnerability\n\nPlease report a vulerability by opening an new issue. We will get back to you as soon as possible.\n",
-                  "displayTextI18nKey": "translation:generic.documentations.readme",
-                  "iconI18nKey": "asset:generic.documentations.readme-icon"
+                "file": "02-Area/Careers/나는 커서 뭘 할까.canvas",
+                "viewState": {
+                  "x": -155,
+                  "y": -460,
+                  "zoom": 0
                 }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "99-Omnivore/2024-02-13/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "99-Omnivore/2024-02-13/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "99-Omnivore/2024-02-13/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md"
+              }
             }
           },
           {
@@ -181,45 +185,48 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "terminal:Open terminal": false,
+      "obsidian-omnivore:Omnivore": false,
+      "templates:Insert template": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-file-cleaner:Clean files": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "obsidian-omnivore:Omnivore": false,
-      "terminal:Open terminal": false
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "1d629f11d393f236",
+  "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
+    "03-Resources/GIt-GitHub/GIt-GitHub.md",
     "02-Area/Life/생산성 프로젝트.md",
-    "03-Resources/Vim/Neovim 사용하기.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
+    "03-Resources/Dev/First Class Function.md",
+    "Omnivore/2024-02-13/⛩🌸 어퍼캐럿 🥕 on X- -팰월드 아쉬운 점은 애들이 진화를 안 해 잔뜩 정든 나의 불꽃ᄉ.md",
+    "Omnivore/2024-02-13/How to jump in Unity (with or without physics).md",
+    "Omnivore/2024-02-13/Neovim으로 생산성 퀀텀점프하기 by 이재열 - PPT.md",
+    "Omnivore/2024-02-13/⛩🌸 어퍼캐럿 🥕 on X- -팰월드 아쉬운 점은 애들이 진화를 안 해 잔뜩 정든 나의 불꽃숭이가 점점 쓰기 버거워지면 결국 전투용 패시브가 발린 초염몽을 잡고 불꽃숭이를 뒷....md",
+    "Omnivore/2024-02-13",
+    "Omnivore",
+    "03-Resources/Dev/Lambda Calculus.md",
+    "03-Resources/Dev/함수의 불변성.md",
+    "03-Resources/Dev/함수의 Side Effect.md",
+    "03-Resources/Dev/참조 투명성.md",
+    "03-Resources/Dev/마크다운 문법.md",
+    "03-Resources/Design Pattern/디자인 패턴에 대하여.md",
+    "03-Resources/Vim/Neovim 사용하기.md",
+    "Template/template.md",
+    "03-Resources/Software Engineering/Software Engineering.md",
     "99-Daily/2024_02_13.md",
     "Linux/Linux.md",
     "99-Omnivore/2024-02-13/Logseq for Task Management - DEV Community.md",
     "99-Omnivore/2024-02-13/https---www.youtube.com-watch-v=c9kxUvCKhwQ.md",
     "03-Resources/Obsidian/옵시디언에서 문서 스크랩하는 법.md",
-    "Omnivore/2024-02-13/⛩🌸 어퍼캐럿 🥕 on X- -팰월드 아쉬운 점은 애들이 진화를 안 해 잔뜩 정든 나의 불꽃숭이가 점점 쓰기 버거워지면 결국 전투용 패시브가 발린 초염몽을 잡고 불꽃숭이를 뒷....md",
     "99-Omnivore/2024-02-13/⛩🌸 어퍼캐럿 🥕 on X- -팰월드 아쉬운 점은 애들이 진화를 안 해 잔뜩 정든 나의 불꽃ᄉ.md",
     "99-Omnivore/2024-02-13/Neovim으로 생산성 퀀텀점프하기 by 이재열 - PPT.md",
     "99-Omnivore/2024-02-13/[Unity] 이단 점프 구현, 점프 높이 일정하게 조절, 물체 통과 해결 - Rigidbody.md",
     "99-Omnivore/2024-02-13/[macOS 한글 호환성 2편] 한글 깨짐 수정법.md",
     "99-Omnivore/2024-02-13/Hollow Knight But It's Only The Hitboxes.md",
-    "99-Omnivore/2024-02-13/CS와 면접 준비하기.md",
-    "99-Omnivore/2024-02-13/[Unity] 유니티 - 트랜지션 없이 애니메이션 작동시키기 -- 매일개발자.md",
-    "99-Omnivore/2024-02-13/유니티 - 코루틴과 Invoke의 차이.md",
-    "99-Omnivore/2024-02-13/Unity 오브젝트를 다른오브젝트 하위로 생성하기.md",
-    "99-Omnivore/2024-02-13/Let's Make the BEST Knockback Function With COMBINED FORCES - Unity Tutorial.md",
-    "99-Omnivore/2024-02-13/컴퓨터구조 - 고려대학교 - KOCW 공개 강의.md",
-    "99-Omnivore/2024-02-13/개발자를 위한 좋은 문서 작성법 - Morgenrøde.md",
-    "99-Omnivore/2024-02-13/주피터 노트북 확장 프로그램 (NBextensions) 설치 및 설정하기 (feat 마크다운 책갈피-목록).md",
-    "99-Omnivore/2024-02-13/왕초보를 위한 Python- 쉽게 풀어 쓴 기초 문법과 실습 - WikiDocs.md",
-    "99-Omnivore/2024-02-13/주피터 노트북 익스텐션을 활용하여 생산성 높이기 - Hello, world! I'm JunPyoPark.md",
-    "99-Omnivore/2024-02-13/Spoqa 기술 블로그 - 파이썬 코딩 컨벤션.md",
-    "99-Omnivore/2024-02-13/Kotlin Docs - Kotlin Documentation.md",
     "Media/Screenshot 2024-02-13 at 2.39.21 AM.png",
     "99-Omnivore/2024-02-13",
     "99-Omnivore",
@@ -230,8 +237,6 @@
     "02-Area/Blog",
     "02-Area/Life",
     "02-Area/Study",
-    "03-Resources/ETC",
-    "03-Resources/Linux",
     "Media/Pasted image 20240211120513.png",
     "Media/Pasted image 20240211120507.png",
     "Media/Pasted image 20240211120502.png",
