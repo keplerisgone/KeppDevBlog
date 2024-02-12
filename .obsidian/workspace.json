@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
+                "file": "01-Project/Robotgame/보스 2페.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
+                "file": "01-Project/Robotgame/보스 2페.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
+                "file": "01-Project/Robotgame/보스 2페.md"
               }
             }
           },
@@ -187,13 +186,13 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "5efae2728b44090e",
+  "active": "ed984c9dc1bc1dcd",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
     "01-Project/Robotgame/보스 2페.md",
     "03-Resources/Unity 타일맵.md",
     "Kanban/치워요.md",
     "01-Project/Robotgame/보스 3페.md",
-    "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
     "01-Project/Robotgame/Untitled.md",
     "Untitled.md",
     "Media/Pasted image 20240211120513.png",
