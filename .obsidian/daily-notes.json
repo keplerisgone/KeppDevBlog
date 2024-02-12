@@ -1,4 +1,6 @@
 {
-  "folder": "Spaces/Home/Daily",
-  "template": "Template/daily-note-template"
+  "folder": "Daily",
+  "template": "Template/daily-note-template",
+  "autorun": true,
+  "format": "yyyy_MM_DD"
 }

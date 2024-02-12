@@ -11,23 +11,28 @@
             "id": "ed984c9dc1bc1dcd",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "01-Project/Robotgame/Senti.md"
+                "file": "Template/daily-note-template.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "5efae2728b44090e",
+            "id": "6acb563d5ac96e18",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "01-Project/Robotgame/Senti.md"
+                "file": "Daily/2024_02_12.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/Robotgame/Senti.md",
+                "file": "Daily/2024_02_12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/Robotgame/Senti.md",
+                "file": "Daily/2024_02_12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/Robotgame/Senti.md"
+                "file": "Daily/2024_02_12.md"
               }
             }
           },
@@ -160,9 +165,20 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "c4d4dfb047b05628",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-outline",
+              "state": {
+                "activeSet": 0,
+                "activeGranularity": 0
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -179,15 +195,33 @@
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-file-cleaner:Clean files": false
+      "obsidian-file-cleaner:Clean files": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ed984c9dc1bc1dcd",
+  "active": "6acb563d5ac96e18",
   "lastOpenFiles": [
-    "01-Project/Robotgame/보스 2페.md",
+    "Spaces",
+    "Daily/2024_02_11.md",
+    "Daily/2024_02_10.md",
+    "Daily/2024_02_12.md",
+    "Template/daily-note-template.md",
+    "Daily/2024_02_04.md",
+    "Daily/2024_02_05.md",
+    "Daily/2024_02_07.md",
+    "Daily/2024_02_08.md",
+    "Daily/Feb 12th, 2024.md",
+    "Daily/2024_02_09.md",
+    "Daily/2024_02_06.md",
+    "Daily/02.md",
+    "Daily/Feb 1st, 2024.md",
+    "Daily/Daily.md",
     "01-Project/Robotgame/Senti.md",
+    "Daily/2024-02-12.md",
+    "Daily",
+    "Vault.md",
+    "01-Project/Robotgame/보스 2페.md",
     "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
     "03-Resources/Unity 타일맵.md",
     "Kanban/치워요.md",
@@ -199,25 +233,7 @@
     "Media/Pasted image 20240211120502.png",
     "03-Resources/유튜브가 렉이 걸릴 때.md",
     "Media/Pasted image 20240210182701.png",
-    "03-Resources/운영체제(OS)란?.md",
-    "03-Resources/기본적인 Git-GitHub 사용.md",
-    "03-Resources/Branch merge 시에 충돌 해결법.md",
-    "03-Resources/선형 데이터 구조.md",
-    "03-Resources/데이터 구조와 알고리즘.md",
-    "03-Resources/Linked List 연결 리스트.md",
-    "03-Resources/Array 배열.md",
-    "Excalidraw/보스 1페이즈.md",
-    "03-Resources/Array & Linked List & ArrayList.md",
-    "03-Resources/디자인 패턴에 대하여.md",
-    "03-Resources/First Class Function.md",
-    "03-Resources/Linux란?.md",
-    "03-Resources/옵시디언 코어 플러그인.md",
-    "03-Resources/옵시디언 사용하기.md",
-    "03-Resources/옵시디언 노트 정리법.md",
-    "03-Resources/옵시디언 Dateview 사용법.md",
-    "03-Resources/메제드.md",
     "Spaces/Home",
-    "Spaces",
     "Kanban",
     "Media/Screenshot 2024-02-04 at 5.57.57 PM.png",
     "03-Resources/Dev/Linux",
@@ -226,7 +242,6 @@
     "03-Resources/Dev/Database",
     "03-Resources/Dev/Operating System",
     "03-Resources/Dev/ETC",
-    "03-Resources/Dev/Design Pattern",
     "Media/Screenshot 2024-01-27 at 2.03.19 PM.png",
     "Media/Screenshot 2024-01-26 at 3.42.01 PM.png",
     "Media/Screenshot 2024-01-22 at 4.21.22 PM.png",
