@@ -8,29 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed984c9dc1bc1dcd",
+            "id": "1d629f11d393f236",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-Omnivore/2024-02-13/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
+                "file": "99-Daily/2024_02_14.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "1d629f11d393f236",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "02-Area/Careers/나는 커서 뭘 할까.canvas",
-                "viewState": {
-                  "x": -155,
-                  "y": -460,
-                  "zoom": 0
-                }
               }
             }
           }
@@ -63,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#later",
+                "query": "senti",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 280.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -108,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99-Omnivore/2024-02-13/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
+                "file": "99-Daily/2024_02_14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99-Omnivore/2024-02-13/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
+                "file": "99-Daily/2024_02_14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99-Omnivore/2024-02-13/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md"
+                "file": "99-Daily/2024_02_14.md"
               }
             }
           },
@@ -172,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -196,8 +181,18 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "ed984c9dc1bc1dcd",
+  "active": "1d629f11d393f236",
   "lastOpenFiles": [
+    "99-Kanban/Senti.md",
+    "01-Project/Robotgame/보스 2페.md",
+    "99-Daily/2024_02_14.md",
+    "99-Daily/2024_02_13.md",
+    "99-Daily/2024_02_08.md",
+    "99-Daily/2024_02_07.md",
+    "99-Daily/2024_02_06.md",
+    "99-Daily/2024_02_04.md",
+    "99-Daily/2024_01_25.md",
+    "99-Omnivore/2024-02-13/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
     "03-Resources/GIt-GitHub/GIt-GitHub.md",
     "02-Area/Life/생산성 프로젝트.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
@@ -217,16 +212,6 @@
     "03-Resources/Vim/Neovim 사용하기.md",
     "Template/template.md",
     "03-Resources/Software Engineering/Software Engineering.md",
-    "99-Daily/2024_02_13.md",
-    "Linux/Linux.md",
-    "99-Omnivore/2024-02-13/Logseq for Task Management - DEV Community.md",
-    "99-Omnivore/2024-02-13/https---www.youtube.com-watch-v=c9kxUvCKhwQ.md",
-    "03-Resources/Obsidian/옵시디언에서 문서 스크랩하는 법.md",
-    "99-Omnivore/2024-02-13/⛩🌸 어퍼캐럿 🥕 on X- -팰월드 아쉬운 점은 애들이 진화를 안 해 잔뜩 정든 나의 불꽃ᄉ.md",
-    "99-Omnivore/2024-02-13/Neovim으로 생산성 퀀텀점프하기 by 이재열 - PPT.md",
-    "99-Omnivore/2024-02-13/[Unity] 이단 점프 구현, 점프 높이 일정하게 조절, 물체 통과 해결 - Rigidbody.md",
-    "99-Omnivore/2024-02-13/[macOS 한글 호환성 2편] 한글 깨짐 수정법.md",
-    "99-Omnivore/2024-02-13/Hollow Knight But It's Only The Hitboxes.md",
     "Media/Screenshot 2024-02-13 at 2.39.21 AM.png",
     "99-Omnivore/2024-02-13",
     "99-Omnivore",

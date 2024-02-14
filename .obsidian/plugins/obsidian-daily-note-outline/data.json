@@ -52,7 +52,7 @@
     "tag": [],
     "listItems": []
   },
-  "wordsToExtract": "card",
+  "wordsToExtract": "later",
   "icon": {
     "heading": "none",
     "link": "link",
@@ -112,7 +112,14 @@
       "dark": "#5E5E5E"
     }
   },
-  "fileFlag": {},
+  "fileFlag": {
+    "99-Daily/2024_02_12.md": {
+      "fold": true
+    },
+    "99-Daily/2024_02_13.md": {
+      "fold": true
+    }
+  },
   "taskIcon": {
     "incomplete": {
       "symbol": "/",
