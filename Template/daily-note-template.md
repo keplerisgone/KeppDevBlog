@@ -9,5 +9,10 @@ reading:
 ## memo
 
 
-## tasks
+## #tasks
+
+```dataview
+task from #Tasks 
+WHERE !completed
+```
 

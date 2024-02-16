@@ -19,9 +19,11 @@
             "id": "feb534d8ddb0b635",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "99-Kanban/Senti.md"
+                "file": "99-Daily/2024_02_16.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -130,7 +132,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "99-Kanban/Senti.md",
+            "file": "99-Daily/2024_02_16.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -147,7 +149,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "99-Kanban/Senti.md",
+            "file": "99-Daily/2024_02_16.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -159,7 +161,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "99-Kanban/Senti.md"
+            "file": "99-Daily/2024_02_16.md"
           }
         }
       },
@@ -198,12 +200,13 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-file-cleaner:Clean files": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-file-cleaner:Clean files": false
     }
   },
   "active": "feb534d8ddb0b635",
   "lastOpenFiles": [
+    "99-Daily/2024_02_15.md",
+    "99-Daily/2024_02_16.md",
     "99-Daily/2024_02_14.md",
     "03-Resources/Dev/Lambda Calculus.md",
     "99-Daily/2024_02_13.md",

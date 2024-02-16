@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-Daily/2024_02_14.md",
+                "file": "03-Resources/Linux/Linux란?.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99-Daily/2024_02_14.md",
+                "file": "03-Resources/Linux/Linux란?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99-Daily/2024_02_14.md",
+                "file": "03-Resources/Linux/Linux란?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99-Daily/2024_02_14.md"
+                "file": "03-Resources/Linux/Linux란?.md"
               }
             }
           },
@@ -183,45 +183,45 @@
   },
   "active": "1d629f11d393f236",
   "lastOpenFiles": [
-    "99-Kanban/Senti.md",
-    "01-Project/Robotgame/보스 2페.md",
-    "99-Daily/2024_02_14.md",
-    "99-Daily/2024_02_13.md",
-    "99-Daily/2024_02_08.md",
-    "99-Daily/2024_02_07.md",
-    "99-Daily/2024_02_06.md",
-    "99-Daily/2024_02_04.md",
-    "99-Daily/2024_01_25.md",
-    "99-Omnivore/2024-02-13/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
-    "03-Resources/GIt-GitHub/GIt-GitHub.md",
-    "02-Area/Life/생산성 프로젝트.md",
+    "99-Kanban/치워요.md",
+    "03-Resources/CPP/C++ 문자열 (string).md",
+    "03-Resources/CPP/C++ Vector 벡터.md",
+    "99-Daily/2024_02_16.md",
+    "03-Resources/Vim/Neovim 사용하기.md",
+    "03-Resources/Terminal/Homebrew 사용하기.md",
+    "03-Resources/Terminal",
+    "Omnivore/2024-02-13/FlowFi takes in first funding to give founders insight into financials - TechCrunch.md",
+    "Omnivore/2024-02-13/DeepMind SELF-DISCOVER 🧠, Reka multi-modal model 🌐, deep fake 3D avatars 🧑‍💻.md",
+    "Omnivore/2024-02-13/Bret Taylor’s new AI company aims to help customers get answers and complete tasks automatically ....md",
+    "99-Daily/2024_02_15.md",
+    "Omnivore/2024-02-16/Installation - LunarVim.md",
+    "Omnivore/2024-02-16",
+    "Omnivore/2024-02-15/OpenAI stops state-affiliated threats 🛑, Andrej Karpathy leaves OpenAI 👋, Google’s text-to-video ....md",
+    "Omnivore/2024-02-15/Ocean Temperatures Keep Shattering Records—and Stunning Scientists - WIRED.md",
+    "Omnivore/2024-02-15/Arnergy, which provides solar power systems to homes and businesses in Nigeria, raises $3M - Tech....md",
+    "Omnivore/2024-02-15/OpenAI Search 🔍, YCombinator’s startup ideas 🚀, Chromium browser micropayments 🪙.md",
+    "Omnivore/2024-02-15/Evernote and Meetup owner Bending Spoons raises $155M in equity financing - TechCrunch.md",
+    "Omnivore/2024-02-15/Alibaba faces reckoning with once-vaunted ‘new retail’ strategy - TechCrunch.md",
+    "Omnivore/2024-02-15/Crypto exits remain low but investors remain unfazed - TechCrunch.md",
+    "Omnivore/2024-02-15/GM is expanding its hands-free driving system to rural highways - TechCrunch.md",
+    "Omnivore/2024-02-15/Bluesky and Mastodon users are having a fight that could shape the next generation of social medi....md",
+    "Omnivore/2024-02-15/Varda Space Industries finally gets approval to bring its drug manufacturing spacecraft back to E....md",
+    "Omnivore/2024-02-15/Largest text-to-speech AI model yet shows ’emergent abilities’ - TechCrunch.md",
+    "Omnivore/2024-02-15/🎯‘와우’한 쿠팡의 블랙리스트.md",
+    "Omnivore/2024-02-15/Leading Lab-Grown Meat Company Upside Foods Just Paused a Major Expansion - WIRED.md",
+    "Omnivore/2024-02-15/8 Best President's Day Deals on Wi-Fi Routers and Mesh Systems - WIRED.md",
+    "Omnivore/2024-02-15/TechCrunch is heading to MWC. We want to hear about your startup. - TechCrunch.md",
+    "Omnivore/2024-02-15",
+    "Omnivore/2024-02-14",
+    "Omnivore/2024-02-12",
+    "Omnivore/2024-01-26",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
-    "03-Resources/Dev/First Class Function.md",
-    "Omnivore/2024-02-13/⛩🌸 어퍼캐럿 🥕 on X- -팰월드 아쉬운 점은 애들이 진화를 안 해 잔뜩 정든 나의 불꽃ᄉ.md",
-    "Omnivore/2024-02-13/How to jump in Unity (with or without physics).md",
-    "Omnivore/2024-02-13/Neovim으로 생산성 퀀텀점프하기 by 이재열 - PPT.md",
-    "Omnivore/2024-02-13/⛩🌸 어퍼캐럿 🥕 on X- -팰월드 아쉬운 점은 애들이 진화를 안 해 잔뜩 정든 나의 불꽃숭이가 점점 쓰기 버거워지면 결국 전투용 패시브가 발린 초염몽을 잡고 불꽃숭이를 뒷....md",
     "Omnivore/2024-02-13",
     "Omnivore",
-    "03-Resources/Dev/Lambda Calculus.md",
-    "03-Resources/Dev/함수의 불변성.md",
-    "03-Resources/Dev/함수의 Side Effect.md",
-    "03-Resources/Dev/참조 투명성.md",
-    "03-Resources/Dev/마크다운 문법.md",
-    "03-Resources/Design Pattern/디자인 패턴에 대하여.md",
-    "03-Resources/Vim/Neovim 사용하기.md",
-    "Template/template.md",
-    "03-Resources/Software Engineering/Software Engineering.md",
     "Media/Screenshot 2024-02-13 at 2.39.21 AM.png",
     "99-Omnivore/2024-02-13",
     "99-Omnivore",
-    "03-Resources/Vim",
     "Media/Screenshot 2024-02-13 at 12.20.19 AM.png",
-    "02-Area/Embedded",
-    "02-Area/Careers",
-    "02-Area/Blog",
-    "02-Area/Life",
-    "02-Area/Study",
     "Media/Pasted image 20240211120513.png",
     "Media/Pasted image 20240211120507.png",
     "Media/Pasted image 20240211120502.png",
