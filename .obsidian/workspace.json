@@ -11,11 +11,9 @@
             "id": "1d629f11d393f236",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "03-Resources/Linux/Linux란?.md",
-                "mode": "source",
-                "source": false
+                "file": "99-Kanban/Senti.md"
               }
             }
           }
@@ -48,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "senti",
+                "query": "First",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 237.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Linux/Linux란?.md",
+                "file": "99-Kanban/Senti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Linux/Linux란?.md",
+                "file": "99-Kanban/Senti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Linux/Linux란?.md"
+                "file": "99-Kanban/Senti.md"
               }
             }
           },
@@ -183,7 +181,22 @@
   },
   "active": "1d629f11d393f236",
   "lastOpenFiles": [
+    "03-Resources/CPP/C++이란?.md",
+    "99-Daily/2024_02_18.md",
+    "99-Daily/2024_02_17.md",
+    "99-Daily/2024_02_14.md",
+    "Media/Screenshot 2024-02-17 at 4.30.10 PM.png",
+    "99-Kanban/Senti.md",
+    "01-Project/Robotgame/보스 2페.md",
+    "03-Resources/Dev/First Class Function.md",
+    "99-Daily/2024-01-22.md",
+    "Template/daily-note-template.md",
+    "99-Daily/2024_02_07.md",
     "99-Kanban/치워요.md",
+    "03-Resources/Dev/Lambda Function.md",
+    "02-Area/Study/Functional Programming.md",
+    "02-Area/Embedded/임베디드 공부를 시작해보자.md",
+    "03-Resources/Linux/Linux란?.md",
     "03-Resources/CPP/C++ 문자열 (string).md",
     "03-Resources/CPP/C++ Vector 벡터.md",
     "99-Daily/2024_02_16.md",
@@ -197,20 +210,6 @@
     "Omnivore/2024-02-16/Installation - LunarVim.md",
     "Omnivore/2024-02-16",
     "Omnivore/2024-02-15/OpenAI stops state-affiliated threats 🛑, Andrej Karpathy leaves OpenAI 👋, Google’s text-to-video ....md",
-    "Omnivore/2024-02-15/Ocean Temperatures Keep Shattering Records—and Stunning Scientists - WIRED.md",
-    "Omnivore/2024-02-15/Arnergy, which provides solar power systems to homes and businesses in Nigeria, raises $3M - Tech....md",
-    "Omnivore/2024-02-15/OpenAI Search 🔍, YCombinator’s startup ideas 🚀, Chromium browser micropayments 🪙.md",
-    "Omnivore/2024-02-15/Evernote and Meetup owner Bending Spoons raises $155M in equity financing - TechCrunch.md",
-    "Omnivore/2024-02-15/Alibaba faces reckoning with once-vaunted ‘new retail’ strategy - TechCrunch.md",
-    "Omnivore/2024-02-15/Crypto exits remain low but investors remain unfazed - TechCrunch.md",
-    "Omnivore/2024-02-15/GM is expanding its hands-free driving system to rural highways - TechCrunch.md",
-    "Omnivore/2024-02-15/Bluesky and Mastodon users are having a fight that could shape the next generation of social medi....md",
-    "Omnivore/2024-02-15/Varda Space Industries finally gets approval to bring its drug manufacturing spacecraft back to E....md",
-    "Omnivore/2024-02-15/Largest text-to-speech AI model yet shows ’emergent abilities’ - TechCrunch.md",
-    "Omnivore/2024-02-15/🎯‘와우’한 쿠팡의 블랙리스트.md",
-    "Omnivore/2024-02-15/Leading Lab-Grown Meat Company Upside Foods Just Paused a Major Expansion - WIRED.md",
-    "Omnivore/2024-02-15/8 Best President's Day Deals on Wi-Fi Routers and Mesh Systems - WIRED.md",
-    "Omnivore/2024-02-15/TechCrunch is heading to MWC. We want to hear about your startup. - TechCrunch.md",
     "Omnivore/2024-02-15",
     "Omnivore/2024-02-14",
     "Omnivore/2024-02-12",
@@ -228,7 +227,6 @@
     "Media/Pasted image 20240210182701.png",
     "Media/Screenshot 2024-02-04 at 5.57.57 PM.png",
     "Media/Screenshot 2024-01-27 at 2.03.19 PM.png",
-    "Media/Screenshot 2024-01-26 at 3.42.01 PM.png",
-    "Media/Screenshot 2024-01-22 at 4.21.22 PM.png"
+    "Media/Screenshot 2024-01-26 at 3.42.01 PM.png"
   ]
 }
