@@ -6,5 +6,7 @@
   "attachmentFolderPath": "Media",
   "promptDelete": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "03-Resources"
+  "newFileFolderPath": "03-Resources",
+  "vimMode": true,
+  "showLineNumber": true
 }
