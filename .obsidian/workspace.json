@@ -11,9 +11,11 @@
             "id": "1d629f11d393f236",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "99-Kanban/Senti.md"
+                "file": "02-Area/Embedded/라즈베리파이를 세팅해보자 (mac).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -75,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 221.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99-Kanban/Senti.md",
+                "file": "02-Area/Embedded/라즈베리파이를 세팅해보자 (mac).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99-Kanban/Senti.md",
+                "file": "02-Area/Embedded/라즈베리파이를 세팅해보자 (mac).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99-Kanban/Senti.md"
+                "file": "02-Area/Embedded/라즈베리파이를 세팅해보자 (mac).md"
               }
             }
           },
@@ -181,35 +183,35 @@
   },
   "active": "1d629f11d393f236",
   "lastOpenFiles": [
+    "99-Kanban/치워요.md",
+    "03-Resources/Vim/Neovim 사용하기.md",
+    "03-Resources/().md",
+    "03-Resources/Installation - LunarVim.md",
+    "03-Resources/CPP/C++ Vector 벡터.md",
+    "03-Resources/CPP/C++ namespace.md",
+    "03-Resources/CPP/C++ 조건문.md",
+    "03-Resources/CPP/C++ pointer, reference.md",
+    "03-Resources/CPP/C++ 반복문 (for, switch, while).md",
     "03-Resources/CPP/C++이란?.md",
+    "03-Resources/CPP/C++ 문자열 (string).md",
+    "02-Area/Embedded/라즈베리파이를 세팅해보자 (mac).md",
+    "02-Area/Embedded/임베디드 공부를 시작해보자.md",
+    "04-Archive/Robotgame/최종 보고서.md",
+    "99-Daily/2024_02_23.md",
+    "99-Daily/2024_02_22.md",
+    "99-Daily/2024_02_20.md",
+    "04-Archive/Senti.md",
+    "04-Archive/Robotgame/보스 2페.md",
+    "99-Daily/2024_02_19.md",
+    "02-Area/Life/생산성 프로젝트.md",
+    "99-Kanban/개강 전에 해요.md",
     "99-Daily/2024_02_18.md",
     "99-Daily/2024_02_17.md",
     "99-Daily/2024_02_14.md",
     "Media/Screenshot 2024-02-17 at 4.30.10 PM.png",
-    "99-Kanban/Senti.md",
-    "01-Project/Robotgame/보스 2페.md",
     "03-Resources/Dev/First Class Function.md",
-    "99-Daily/2024-01-22.md",
-    "Template/daily-note-template.md",
-    "99-Daily/2024_02_07.md",
-    "99-Kanban/치워요.md",
-    "03-Resources/Dev/Lambda Function.md",
-    "02-Area/Study/Functional Programming.md",
-    "02-Area/Embedded/임베디드 공부를 시작해보자.md",
-    "03-Resources/Linux/Linux란?.md",
-    "03-Resources/CPP/C++ 문자열 (string).md",
-    "03-Resources/CPP/C++ Vector 벡터.md",
-    "99-Daily/2024_02_16.md",
-    "03-Resources/Vim/Neovim 사용하기.md",
-    "03-Resources/Terminal/Homebrew 사용하기.md",
     "03-Resources/Terminal",
-    "Omnivore/2024-02-13/FlowFi takes in first funding to give founders insight into financials - TechCrunch.md",
-    "Omnivore/2024-02-13/DeepMind SELF-DISCOVER 🧠, Reka multi-modal model 🌐, deep fake 3D avatars 🧑‍💻.md",
-    "Omnivore/2024-02-13/Bret Taylor’s new AI company aims to help customers get answers and complete tasks automatically ....md",
-    "99-Daily/2024_02_15.md",
-    "Omnivore/2024-02-16/Installation - LunarVim.md",
     "Omnivore/2024-02-16",
-    "Omnivore/2024-02-15/OpenAI stops state-affiliated threats 🛑, Andrej Karpathy leaves OpenAI 👋, Google’s text-to-video ....md",
     "Omnivore/2024-02-15",
     "Omnivore/2024-02-14",
     "Omnivore/2024-02-12",

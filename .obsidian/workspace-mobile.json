@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-Daily/2024_02_18.md",
+                "file": "99-Daily/2024_02_20.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "99-Daily/2024_02_18.md",
+            "file": "99-Daily/2024_02_20.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "99-Daily/2024_02_18.md",
+            "file": "99-Daily/2024_02_20.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -161,7 +161,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "99-Daily/2024_02_18.md"
+            "file": "99-Daily/2024_02_20.md"
           }
         }
       },
@@ -205,8 +205,10 @@
   },
   "active": "feb534d8ddb0b635",
   "lastOpenFiles": [
-    "99-Daily/2024_02_17.md",
+    "99-Daily/2024_02_19.md",
+    "99-Daily/2024_02_20.md",
     "99-Daily/2024_02_18.md",
+    "99-Daily/2024_02_17.md",
     "99-Daily/2024_02_15.md",
     "99-Daily/2024_02_16.md",
     "99-Daily/2024_02_14.md",
@@ -230,8 +232,6 @@
     "Spaces/Home/Daily/2024-01-20.md",
     "Spaces/Home/Daily/2024-01-19.md",
     "01-Project/Robotgame/몬스터 구현.md",
-    "01-Project/Robotgame/Prefab 모음.md",
-    "Daily/2024-01-18.md",
-    "Daily/2024-01-17.md"
+    "01-Project/Robotgame/Prefab 모음.md"
   ]
 }

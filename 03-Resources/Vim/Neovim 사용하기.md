@@ -11,13 +11,22 @@ tags:
 
 # Contents
 
-## Neovim 설치
+## Neovim 설치 & Lunarvim 설치
 
 나는 mac에서 Homebrew를 사용중이므로 `brew install neovim`을 터미널에 입력한다
-세팅을 위해서 *LunarVim*을 사용, 링크는 [[Installation - LunarVim]]를 참고했다
+세팅을 위해서 *LunarVim*을 사용, 링크는 [Installation - LunarVim](https://www.lunarvim.org/docs/installation)를 참고했다.
 
 사실 위에 들어가면 다 알려준다 사용법부터 시작해가지고..
-들어가서 `~/.local/bin/lvim`을 실행시켜주면 neovim기반의 IDE를 사용할 수 있다!
+들어가서 `~/.local/bin/lvim`을 실행시켜주면 neovim 기반의 IDE를 사용할 수 있다!
+
+여기서 명령어 `lvim`이 먹지 않을 경우 터미널 설정 문서에서 경로 변수를 추가해줘야 한다. `~/.zshrc`에 다음과 같은 내용을 추가한다. : `export "~/.local/bin:$PATH"` 그 뒤 `lvim` 명령어를 실행하면 LunarVim을 실행시킬 수 있다.
+
+## LunarVim 설정
+
+설정 해야할 것은 다음과 같다 : 
+1. 테마 설정
+2. 폰트 설정
+3. 플러그인 다운받기
 
 # Reference
 
