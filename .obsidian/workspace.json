@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Area/Blog/티스토리 블로그와 옵시디언 연결하기.md",
+                "file": "03-Resources/CPP/C++이란?.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Area/Blog/티스토리 블로그와 옵시디언 연결하기.md",
+                "file": "03-Resources/CPP/C++이란?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Area/Blog/티스토리 블로그와 옵시디언 연결하기.md",
+                "file": "03-Resources/CPP/C++이란?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Area/Blog/티스토리 블로그와 옵시디언 연결하기.md"
+                "file": "03-Resources/CPP/C++이란?.md"
               }
             }
           },
@@ -183,38 +183,43 @@
   },
   "active": "1d629f11d393f236",
   "lastOpenFiles": [
-    "03-Resources/CPP/C++ pointer, reference.md",
-    "03-Resources/GIt-GitHub/Branch merge 시에 충돌 해결법.md",
-    "03-Resources/Data Structure/Array 배열.md",
-    "03-Resources/Data Structure/Array & Linked List & ArrayList.md",
-    "03-Resources/Algorithm/Algorithm.md",
-    "99-Daily/2024_02_13.md",
-    "99-Daily/2024_02_06.md",
-    "99-Daily/2024_02_04.md",
-    "99-Daily/2024_01_25.md",
-    "02-Area/Study/C++로 문제 풀기.md",
-    "01-Project/ChessTowerDefence/ChessTowerDefence.md",
-    "04-Archive/Robotgame/보스 2페.md",
-    "99-Gaming/마인크래프트 던전스가 리니지와 닮아있는 이유.md",
-    "02-Area/Careers/나는 커서 뭘 할까.canvas",
-    "03-Resources/GIt-GitHub/기본적인 Git-GitHub 사용.md",
-    "02-Area/Life/생산성 프로젝트.md",
-    "02-Area/Study/Tech & Dev.md",
-    "99-Kanban/치워요.md",
-    "99-Kanban/개강 전에 해요.md",
-    "03-Resources/Obsidian/옵시디언 노트 정리법.md",
-    "03-Resources/Vim/Lunarvim 사용하기.md",
+    "03-Resources/CPP/C++ namespace.md",
+    "03-Resources/CPP/C++ 반복문 (for, switch, while).md",
     "03-Resources/CPP/C++ 조건문.md",
-    "99-Daily/2024_02_24.md",
-    "03-Resources/Design Pattern/디자인 패턴에 대하여.md",
-    "03-Resources/Dev/마크다운 문법.md",
+    "03-Resources/CPP/C++ Vector 벡터.md",
+    "03-Resources/CPP/C++ pointer, reference.md",
+    "03-Resources/Data Structure/Linked List 연결 리스트.md",
+    "03-Resources/CPP/C++ 문자열 (string).md",
+    "02-Area/Study/Tech & Dev.md",
+    "02-Area/Embedded/임베디드 커리큘럼을 짜보자.md",
+    "99-Kanban/치워요.md",
+    "03-Resources/Vim/Lunarvim 사용하기.md",
     "02-Area/Embedded/라즈베리파이를 세팅해보자 (mac).md",
     "02-Area/Embedded/임베디드 공부를 시작해보자.md",
-    "Media/Screenshot 2024-02-13 at 12.20.19 AM.png",
-    "Media/Screenshot 2024-02-24 at 7.58.54 PM.png",
-    "Media/Pasted image 20240224195726.png",
-    "Media/Screenshot 2024-02-24 at 7.10.23 PM.png",
-    "Media/Screenshot 2024-02-17 at 4.30.10 PM.png",
+    "03-Resources/Linux/라즈베리파이에 Linux 설치하기.md",
+    "02-Area/Study/Functional Programming.md",
+    "03-Resources/Linux/Linux란?.md",
+    "02-Area/Careers/나는 커서 뭘 할까.canvas",
+    "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
+    "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
+    "Media/Pasted image 20240118005656.png",
+    "99-Daily/2024_02_26.md",
+    "99-Daily/2024_02_25.md",
+    "99-Daily/2024_02_24.md",
+    "99-Daily/2024_02_23.md",
+    "Template/daily-note-template.md",
+    "03-Resources/Obsidian/옵시디언 사용하기.md",
+    "03-Resources/Obsidian/옵시디언 노트 정리법.md",
+    "02-Area/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
+    "Media/Pasted image 20240225001005.png",
+    "03-Resources/Obsidian/옵시디언에 이미지 똑똑하게 붙여넣기 - imgur.md",
+    "Media/Screenshot 2024-02-13 at 12.20.19 AM.png",
+    "Media/Pasted image 20240211120513.png",
+    "Media/Pasted image 20240210182701.png",
+    "Media/Screenshot 2024-02-04 at 5.57.57 PM.png",
+    "Media/Screenshot 2024-01-27 at 2.03.19 PM.png",
+    "Media/Screenshot 2024-01-22 at 4.21.22 PM.png",
+    "03-Resources/GIt-GitHub/Branch merge 시에 충돌 해결법.md",
     "03-Resources/Terminal",
     "Omnivore/2024-02-16",
     "Omnivore/2024-02-15",
@@ -223,12 +228,7 @@
     "Omnivore/2024-01-26",
     "Omnivore/2024-02-13",
     "Omnivore",
-    "Media/Screenshot 2024-02-13 at 2.39.21 AM.png",
     "99-Omnivore/2024-02-13",
-    "99-Omnivore",
-    "Media/Pasted image 20240211120513.png",
-    "Media/Pasted image 20240211120507.png",
-    "Media/Pasted image 20240211120502.png",
-    "Media/Pasted image 20240210182701.png"
+    "99-Omnivore"
   ]
 }
