@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Network/OSI 7 계층.md",
+                "file": "03-Resources/Network/TCP,IP 흐름제어 & 혼잡제어.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Network/OSI 7 계층.md",
+                "file": "03-Resources/Network/TCP,IP 흐름제어 & 혼잡제어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Network/OSI 7 계층.md",
+                "file": "03-Resources/Network/TCP,IP 흐름제어 & 혼잡제어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Network/OSI 7 계층.md"
+                "file": "03-Resources/Network/TCP,IP 흐름제어 & 혼잡제어.md"
               }
             }
           },
@@ -183,8 +183,12 @@
   },
   "active": "1d629f11d393f236",
   "lastOpenFiles": [
-    "03-Resources/Network/OSI 7 계층.md",
     "02-Area/Study/Tech & Dev.md",
+    "03-Resources/Network/TCP,IP 흐름제어 & 혼잡제어.md",
+    "TCP",
+    "03-Resources/Network/TCP 3 & 4 way handshake.md",
+    "03-Resources/Network/OSI 7 계층.md",
+    "99-Daily/2024_02_29.md",
     "03-Resources/CPP/C++이란?.md",
     "03-Resources/CPP/C++ namespace.md",
     "03-Resources/CPP/C++ 반복문 (for, switch, while).md",
@@ -210,9 +214,6 @@
     "99-Daily/2024_02_24.md",
     "99-Daily/2024_02_23.md",
     "Template/daily-note-template.md",
-    "03-Resources/Obsidian/옵시디언 사용하기.md",
-    "03-Resources/Obsidian/옵시디언 노트 정리법.md",
-    "02-Area/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
     "Media/Pasted image 20240225001005.png",
     "Media/Screenshot 2024-02-13 at 12.20.19 AM.png",
     "Media/Pasted image 20240211120513.png",
@@ -228,7 +229,6 @@
     "Omnivore/2024-01-26",
     "Omnivore/2024-02-13",
     "Omnivore",
-    "99-Omnivore/2024-02-13",
-    "99-Omnivore"
+    "99-Omnivore/2024-02-13"
   ]
 }

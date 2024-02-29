@@ -200,8 +200,7 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-file-cleaner:Clean files": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-file-cleaner:Clean files": false
     }
   },
   "active": "feb534d8ddb0b635",
