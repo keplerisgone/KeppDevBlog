@@ -3,5 +3,6 @@
   "cssTheme": "Obsidian Nord",
   "enabledCssSnippets": [
     "img"
-  ]
+  ],
+  "baseFontSize": 16
 }

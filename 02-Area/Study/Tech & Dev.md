@@ -84,9 +84,9 @@ tags:
 
 ## Network
 
-- [ ] OSI 7계층
-- [ ] TCP 3 & 4 way handshake
-- [ ] TCP/IP 흐름제어 & 혼잡제어
+- [x] [[OSI 7 계층]]
+- [x] [[TCP 3 & 4 way handshake]]
+- [ ] [[TCP,IP 흐름제어 & 혼잡제어]]
 - [ ] UDP
 - [ ] 대칭키 & 공개키
 - [ ] HTTP & HTTPS
