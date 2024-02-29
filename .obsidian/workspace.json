@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/CPP/C++이란?.md",
+                "file": "03-Resources/Network/OSI 7 계층.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/CPP/C++이란?.md",
+                "file": "03-Resources/Network/OSI 7 계층.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/CPP/C++이란?.md",
+                "file": "03-Resources/Network/OSI 7 계층.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/CPP/C++이란?.md"
+                "file": "03-Resources/Network/OSI 7 계층.md"
               }
             }
           },
@@ -183,6 +183,9 @@
   },
   "active": "1d629f11d393f236",
   "lastOpenFiles": [
+    "03-Resources/Network/OSI 7 계층.md",
+    "02-Area/Study/Tech & Dev.md",
+    "03-Resources/CPP/C++이란?.md",
     "03-Resources/CPP/C++ namespace.md",
     "03-Resources/CPP/C++ 반복문 (for, switch, while).md",
     "03-Resources/CPP/C++ 조건문.md",
@@ -190,7 +193,6 @@
     "03-Resources/CPP/C++ pointer, reference.md",
     "03-Resources/Data Structure/Linked List 연결 리스트.md",
     "03-Resources/CPP/C++ 문자열 (string).md",
-    "02-Area/Study/Tech & Dev.md",
     "02-Area/Embedded/임베디드 커리큘럼을 짜보자.md",
     "99-Kanban/치워요.md",
     "03-Resources/Vim/Lunarvim 사용하기.md",
@@ -212,14 +214,12 @@
     "03-Resources/Obsidian/옵시디언 노트 정리법.md",
     "02-Area/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
     "Media/Pasted image 20240225001005.png",
-    "03-Resources/Obsidian/옵시디언에 이미지 똑똑하게 붙여넣기 - imgur.md",
     "Media/Screenshot 2024-02-13 at 12.20.19 AM.png",
     "Media/Pasted image 20240211120513.png",
     "Media/Pasted image 20240210182701.png",
     "Media/Screenshot 2024-02-04 at 5.57.57 PM.png",
     "Media/Screenshot 2024-01-27 at 2.03.19 PM.png",
     "Media/Screenshot 2024-01-22 at 4.21.22 PM.png",
-    "03-Resources/GIt-GitHub/Branch merge 시에 충돌 해결법.md",
     "03-Resources/Terminal",
     "Omnivore/2024-02-16",
     "Omnivore/2024-02-15",
