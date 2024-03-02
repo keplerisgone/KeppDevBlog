@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Area/Study/정보보안 커리큘럼.md",
+                "file": "03-Resources/Dev/정규표현식.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Area/Study/정보보안 커리큘럼.md",
+                "file": "03-Resources/Dev/정규표현식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Area/Study/정보보안 커리큘럼.md",
+                "file": "03-Resources/Dev/정규표현식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Area/Study/정보보안 커리큘럼.md"
+                "file": "03-Resources/Dev/정규표현식.md"
               }
             }
           },
@@ -183,9 +183,11 @@
   },
   "active": "1d629f11d393f236",
   "lastOpenFiles": [
+    "02-Area/Study/정보보안 커리큘럼.md",
+    "03-Resources/Dev/정규표현식.md",
+    "03-Resources/Network/nc.md",
     "03-Resources/Operating System/운영체제(OS)란?.md",
     "03-Resources/Untitled.md",
-    "02-Area/Study/정보보안 커리큘럼.md",
     "02-Area/Study/C++로 문제 풀기.md",
     "02-Area/Study/Tech & Dev.md",
     "02-Area/Study/Functional Programming.md",
@@ -208,9 +210,7 @@
     "03-Resources/Network/HTTP & HTTPS.md",
     "03-Resources/Web",
     "99-Daily/2024_03_01.md",
-    "03-Resources/Network/TCP,IP 흐름제어 & 혼잡제어.md",
     "TCP",
-    "03-Resources/Network/TCP 3 & 4 way handshake.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
     "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
