@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
+                "file": "02-Area/Study/정보보안 커리큘럼.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
+                "file": "02-Area/Study/정보보안 커리큘럼.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
+                "file": "02-Area/Study/정보보안 커리큘럼.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Computer Architecture/컴퓨터 과학 기초.md"
+                "file": "02-Area/Study/정보보안 커리큘럼.md"
               }
             }
           },
@@ -183,34 +183,34 @@
   },
   "active": "1d629f11d393f236",
   "lastOpenFiles": [
-    "02-Area/Study/Tech & Dev.md",
-    "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
+    "03-Resources/Operating System/운영체제(OS)란?.md",
+    "03-Resources/Untitled.md",
     "02-Area/Study/정보보안 커리큘럼.md",
+    "02-Area/Study/C++로 문제 풀기.md",
+    "02-Area/Study/Tech & Dev.md",
+    "02-Area/Study/Functional Programming.md",
+    "04-Archive/Senti.md",
+    "04-Archive/logseq을 개조해 보자.md",
+    "03-Resources/Unity/Unity 타일맵.md",
+    "03-Resources/Unity/코루틴과 Update 함수.md",
+    "03-Resources/Unity/\b가비지 콜렉터(GC)와 오브젝트 풀링.md",
+    "03-Resources/Unity/코루틴(Coroutine)과 인보크(Invoke).md",
+    "03-Resources/Terminal/Homebrew 사용하기.md",
+    "03-Resources/Obsidian/옵시디언 노트 정리법.md",
+    "03-Resources/Obsidian/옵시디언 사용하기.md",
+    "03-Resources/Obsidian/옵시디언에 이미지 똑똑하게 붙여넣기 - imgur.md",
+    "03-Resources/Obsidian/옵시디언 코어 플러그인.md",
+    "03-Resources/Obsidian/옵시디언 Dataview 사용법.md",
+    "03-Resources/Obsidian/옵시디언에서 문서 스크랩하는 법.md",
+    "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
     "03-Resources/Web/Web.md",
     "99-Daily/2024_03_02.md",
     "03-Resources/Network/HTTP & HTTPS.md",
     "03-Resources/Web",
-    "03-Resources/Untitled.md",
     "99-Daily/2024_03_01.md",
     "03-Resources/Network/TCP,IP 흐름제어 & 혼잡제어.md",
     "TCP",
     "03-Resources/Network/TCP 3 & 4 way handshake.md",
-    "03-Resources/Network/OSI 7 계층.md",
-    "99-Daily/2024_02_29.md",
-    "03-Resources/CPP/C++이란?.md",
-    "03-Resources/CPP/C++ namespace.md",
-    "03-Resources/CPP/C++ 반복문 (for, switch, while).md",
-    "03-Resources/CPP/C++ 조건문.md",
-    "03-Resources/CPP/C++ Vector 벡터.md",
-    "03-Resources/CPP/C++ pointer, reference.md",
-    "03-Resources/Data Structure/Linked List 연결 리스트.md",
-    "03-Resources/CPP/C++ 문자열 (string).md",
-    "02-Area/Embedded/임베디드 커리큘럼을 짜보자.md",
-    "99-Kanban/치워요.md",
-    "03-Resources/Vim/Lunarvim 사용하기.md",
-    "02-Area/Embedded/라즈베리파이를 세팅해보자 (mac).md",
-    "02-Area/Embedded/임베디드 공부를 시작해보자.md",
-    "03-Resources/Linux/라즈베리파이에 Linux 설치하기.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
     "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
