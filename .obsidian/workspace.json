@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Web/Web.md",
+                "file": "02-Area/Study/Tech & Dev.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Web/Web.md",
+                "file": "02-Area/Study/Tech & Dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Web/Web.md",
+                "file": "02-Area/Study/Tech & Dev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Web/Web.md"
+                "file": "02-Area/Study/Tech & Dev.md"
               }
             }
           },
@@ -183,9 +183,9 @@
   },
   "active": "1d629f11d393f236",
   "lastOpenFiles": [
-    "99-Daily/2024_03_02.md",
-    "03-Resources/Web/Web.md",
     "02-Area/Study/정보보안 커리큘럼.md",
+    "03-Resources/Web/Web.md",
+    "99-Daily/2024_03_02.md",
     "02-Area/Study/Tech & Dev.md",
     "03-Resources/Network/HTTP & HTTPS.md",
     "03-Resources/Web",
