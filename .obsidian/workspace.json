@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Web/Web browser & Developer tool.md",
+                "file": "03-Resources/Web/Cookie & Session.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Web/Web browser & Developer tool.md",
+                "file": "03-Resources/Web/Cookie & Session.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Web/Web browser & Developer tool.md",
+                "file": "03-Resources/Web/Cookie & Session.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Web/Web browser & Developer tool.md"
+                "file": "03-Resources/Web/Cookie & Session.md"
               }
             }
           },
@@ -183,8 +183,11 @@
   },
   "active": "1d629f11d393f236",
   "lastOpenFiles": [
-    "02-Area/Study/Tech & Dev.md",
+    "03-Resources/Network/HTTP & HTTPS.md",
+    "03-Resources/Network/TCP,IP 흐름제어 & 혼잡제어.md",
+    "03-Resources/Web/Cookie & Session.md",
     "03-Resources/Web/Web browser & Developer tool.md",
+    "02-Area/Study/Tech & Dev.md",
     "02-Area/Study/C++로 문제 풀기.md",
     "99-Daily/2024_03_03.md",
     "99-Daily/2024_03_02.md",
@@ -206,9 +209,6 @@
     "03-Resources/Obsidian/옵시디언에 이미지 똑똑하게 붙여넣기 - imgur.md",
     "03-Resources/Obsidian/옵시디언 코어 플러그인.md",
     "03-Resources/Obsidian/옵시디언 Dataview 사용법.md",
-    "03-Resources/Obsidian/옵시디언에서 문서 스크랩하는 법.md",
-    "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
-    "03-Resources/Web/Web.md",
     "03-Resources/Web",
     "TCP",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
