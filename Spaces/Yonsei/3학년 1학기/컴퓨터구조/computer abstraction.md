@@ -42,4 +42,13 @@ Important concepts in computer achitecture
 1.asfd
 2.fu
 3.ashfassddfj
+	잘 짜여진 싱글스레드는 멀티스레드를 이긴다
 4.fdshafg
+5.drt
+6.ghgh
+7.ghjfj
+
+translating 
+
+under the hood: processor components
+
