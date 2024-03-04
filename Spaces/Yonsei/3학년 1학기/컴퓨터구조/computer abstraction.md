@@ -161,3 +161,60 @@ under the hood: processor components
 >%%TAGS%%
 >
 ^t6ko17f5ixq
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-04T11:48:41.940Z","updated":"2024-03-04T11:48:41.940Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":2334,"end":2358},{"type":"TextQuoteSelector","exact":"extremely large servers.","prefix":"percomputers•Supercomputers are ","suffix":"•Supercomputers consist of thous"}]}]}
+>```
+>%%
+>*%%PREFIX%%percomputers•Supercomputers are%%HIGHLIGHT%% ==extremely large servers.== %%POSTFIX%%•Supercomputers consist of thous*
+>%%LINK%%[[#^h2tsfmma4fo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^h2tsfmma4fo
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-04T11:48:50.705Z","text":"10의 15승\n","updated":"2024-03-04T11:48:50.705Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":2632,"end":2634},{"type":"TextQuoteSelector","exact":"PB","prefix":"LOPS/W 51.7 GFLOPS/WMemory -2.4 ","suffix":" DDR4+ 0.4 HBM+ 7.4 PB flash(10."}]}]}
+>```
+>%%
+>*%%PREFIX%%LOPS/W 51.7 GFLOPS/WMemory -2.4%%HIGHLIGHT%% ==PB== %%POSTFIX%%DDR4+ 0.4 HBM+ 7.4 PB flash(10.*
+>%%LINK%%[[#^8kz3apk760k|show annotation]]
+>%%COMMENT%%
+>10의 15승
+>
+>%%TAGS%%
+>
+^8kz3apk760k
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-04T11:53:54.490Z","text":"Bandwidth","updated":"2024-03-04T11:53:54.490Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":2796,"end":2802},{"type":"TextQuoteSelector","exact":"1 TB/s","prefix":" 25 GB/s 100 GB/sStorage 32 PB, ","suffix":" 250 PB, 2.5 TB/s 695 PB, 9.4 TB"}]}]}
+>```
+>%%
+>*%%PREFIX%%25 GB/s 100 GB/sStorage 32 PB,%%HIGHLIGHT%% ==1 TB/s== %%POSTFIX%%250 PB, 2.5 TB/s 695 PB, 9.4 TB*
+>%%LINK%%[[#^063bngvb9wr7|show annotation]]
+>%%COMMENT%%
+>Bandwidth
+>%%TAGS%%
+>
+^063bngvb9wr7
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-04T11:54:56.222Z","updated":"2024-03-04T11:54:56.222Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":2916,"end":2944},{"type":"TextQuoteSelector","exact":"a wide range of applications","prefix":"d systems•Embedded systems span ","suffix":", including automobiles, aviatio"}]}]}
+>```
+>%%
+>*%%PREFIX%%d systems•Embedded systems span%%HIGHLIGHT%% ==a wide range of applications== %%POSTFIX%%, including automobiles, aviatio*
+>%%LINK%%[[#^q6a69ccsnta|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^q6a69ccsnta

@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf-annotator",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
               }
             }
           }
@@ -75,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.50390243530273
+    "width": 227.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -91,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
               }
             }
           },
@@ -181,7 +182,7 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "680ff8468cd0595c",
+  "active": "db29fcc405f79c6f",
   "lastOpenFiles": [
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.md",
     "PDFs/1.2.pdf",
