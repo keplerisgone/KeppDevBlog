@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c90fd0d509281a07",
+        "id": "87276d245c7ca0bd",
         "type": "tabs",
         "children": [
           {
-            "id": "1d629f11d393f236",
+            "id": "d087b8d67171e016",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Web/Cookie & Session.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/computer abstraction.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,6 +33,14 @@
         "type": "tabs",
         "children": [
           {
+            "id": "db29fcc405f79c6f",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          },
+          {
             "id": "01e00628f9a5170e",
             "type": "leaf",
             "state": {
@@ -48,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "-/#\\w+/",
+                "query": "URL",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,18 +66,10 @@
             }
           },
           {
-            "id": "d88502831b226980",
+            "id": "ff8244a661f49fab",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "eab019ba728fade4",
-            "type": "leaf",
-            "state": {
-              "type": "trash-explorer",
               "state": {}
             }
           }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 293.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Web/Cookie & Session.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/computer abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Web/Cookie & Session.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/computer abstraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Web/Cookie & Session.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/computer abstraction.md"
               }
             }
           },
@@ -178,57 +179,59 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-file-cleaner:Clean files": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-importer:Open Importer": false,
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "1d629f11d393f236",
+  "active": "d087b8d67171e016",
   "lastOpenFiles": [
-    "03-Resources/Network/HTTP & HTTPS.md",
-    "03-Resources/Network/TCP,IP 흐름제어 & 혼잡제어.md",
-    "03-Resources/Web/Cookie & Session.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Introduction.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/computer abstraction.md",
+    "03-Resources/Web/Same Origin Policy.md",
     "03-Resources/Web/Web browser & Developer tool.md",
-    "02-Area/Study/Tech & Dev.md",
-    "02-Area/Study/C++로 문제 풀기.md",
-    "99-Daily/2024_03_03.md",
-    "99-Daily/2024_03_02.md",
-    "03-Resources/Dev/정규표현식.md",
-    "02-Area/Study/정보보안 커리큘럼.md",
-    "03-Resources/Network/nc.md",
-    "03-Resources/Operating System/운영체제(OS)란?.md",
-    "03-Resources/Untitled.md",
-    "02-Area/Study/Functional Programming.md",
-    "04-Archive/Senti.md",
-    "04-Archive/logseq을 개조해 보자.md",
-    "03-Resources/Unity/Unity 타일맵.md",
-    "03-Resources/Unity/코루틴과 Update 함수.md",
-    "03-Resources/Unity/\b가비지 콜렉터(GC)와 오브젝트 풀링.md",
-    "03-Resources/Unity/코루틴(Coroutine)과 인보크(Invoke).md",
-    "03-Resources/Terminal/Homebrew 사용하기.md",
-    "03-Resources/Obsidian/옵시디언 노트 정리법.md",
-    "03-Resources/Obsidian/옵시디언 사용하기.md",
-    "03-Resources/Obsidian/옵시디언에 이미지 똑똑하게 붙여넣기 - imgur.md",
-    "03-Resources/Obsidian/옵시디언 코어 플러그인.md",
-    "03-Resources/Obsidian/옵시디언 Dataview 사용법.md",
-    "03-Resources/Web",
-    "TCP",
-    "02-Area/Careers/나는 커서 뭘 할까.canvas",
-    "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
-    "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
-    "Media/Pasted image 20240118005656.png",
-    "Media/Pasted image 20240225001005.png",
-    "Media/Screenshot 2024-02-13 at 12.20.19 AM.png",
-    "Media/Pasted image 20240211120513.png",
-    "Media/Pasted image 20240210182701.png",
-    "Media/Screenshot 2024-02-04 at 5.57.57 PM.png",
-    "Media/Screenshot 2024-01-27 at 2.03.19 PM.png",
-    "Media/Screenshot 2024-01-22 at 4.21.22 PM.png",
-    "03-Resources/Terminal",
-    "Omnivore/2024-02-16",
-    "Omnivore/2024-02-15",
-    "Omnivore/2024-02-14",
-    "Omnivore/2024-02-12",
-    "Omnivore/2024-01-26",
-    "Omnivore/2024-02-13",
-    "Omnivore"
+    "03-Resources/Web/Web.md",
+    "03-Resources/Network/HTTP & HTTPS.md",
+    "03-Resources/Web/Cookie & Session.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론",
+    "03-Resources/문학환경과곁사슬문학의이해.md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해",
+    "Spaces/Yonsei/3학년 1학기/기초아날로그실험",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조",
+    "Spaces/Yonsei/3학년 1학기/Untitled.md",
+    "03-Resources/Algorithm/Algorithm.md",
+    "99-Daily/2024_03_04.md",
+    "Vault.md",
+    "Spaces/Yonsei/2학년 1학기/2학년 1학기.md",
+    "Spaces/Yonsei/2학년 2학기/2학년 2학기.md",
+    "Spaces/Yonsei/3학년 1학기",
+    "Spaces/Yonsei/Untitled.md",
+    "Spaces/3학년 1학기/3학년 1학기.md",
+    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/바이오시스템과환경.md",
+    "Spaces/3학년 1학기",
+    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/파충류 (스크립트x)/파충류 (스크립트x).md",
+    "Spaces/Yonsei/2학년 2학기/전자기학(1)/전자기학(1).md",
+    "Media/2265B450591B11EF33",
+    "Media/224CDC37585E93DD26",
+    "Media/274ECC36585E93B610",
+    "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
+    "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
+    "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",
+    "Media/Screenshot_2023-10-02_at_9.09.41_AM.png",
+    "Media/Screenshot_2023-10-02_at_9.08.33_AM.png",
+    "Media/Screenshot_2023-10-02_at_9.07.38_AM.png",
+    "Media/Screenshot_2023-10-02_at_9.06.23_AM.png",
+    "Media/Screenshot_2023-10-02_at_9.05.10_AM.png",
+    "Media/Screenshot_2023-10-02_at_9.03.31_AM.png",
+    "Media/Screenshot_2023-10-02_at_9.02.14_AM.png",
+    "Spaces/Yonsei/2학년 2학기/공학수학(4)/Bonus. Vector Space/Linear Algebra Lecture 5 - (2) 벡터 공간(Vector Spaces), 부분 공간(Sub Spaces) -- Learn Again! 러너게인/Linear Algebra Lecture 5 - (2) 벡터 공간(Vector Spaces), 부분 공간(Sub Spaces) -- Learn Again! 러너게인.md",
+    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/5주차/5주차.md",
+    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/사피엔스 인지혁명 (스크립트x).md",
+    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/뇌와 각인 유전자/뇌와 각인 유전자.md",
+    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/두발 걷기와 오래 달리기/두발 걷기와 오래 달리기.md",
+    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/12주차.md",
+    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/1주차/1주차.md",
+    "02-Area/Careers/나는 커서 뭘 할까.canvas"
   ]
 }

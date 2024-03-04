@@ -16,5 +16,7 @@
   "terminal",
   "vim-im-select",
   "improved-vimcursor",
-  "obsidian-imgur-plugin"
+  "obsidian-imgur-plugin",
+  "templater-obsidian",
+  "obsidian-importer"
 ]
