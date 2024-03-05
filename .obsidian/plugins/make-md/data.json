@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "/",
+  "activeView": "Spaces/Yonsei",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -118,7 +118,15 @@
     "//03-Resources/03-Resources/Web",
     "//03-Resources/03-Resources/Network",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/컴퓨터구조",
-    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/전자회로(2)"
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/전자회로(2)",
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험",
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험",
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험/Spaces/Yonsei/3학년 1학기/기초아날로그실험/1wnck",
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험/Spaces/Yonsei/3학년 1학기/기초아날로그실험/1wnck",
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해",
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험",
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험/Spaces/Yonsei/3학년 1학기/기초아날로그실험/1주차",
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -133,7 +141,8 @@
     "Excalidraw",
     "Media",
     "Spece",
-    "Spaces"
+    "Spaces",
+    "Spaces/Yonsei/3학년 1학기/기초아날로그실험/1wnck/1주차.md"
   ],
   "hiddenExtensions": [
     ".mdb"
