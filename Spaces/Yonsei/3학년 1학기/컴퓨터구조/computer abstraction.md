@@ -218,3 +218,102 @@ under the hood: processor components
 >%%TAGS%%
 >
 ^q6a69ccsnta
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-05T09:47:58.314Z","text":"디스플레이(핸드폰의 해상도 조절 등), 네트워크 모듈 등등","updated":"2024-03-05T09:47:58.314Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":3711,"end":3739},{"type":"TextQuoteSelector","exact":"a variety of functionalities","prefix":"omputer processor incorporating ","suffix":" into a single chip is called a "}]}]}
+>```
+>%%
+>*%%PREFIX%%omputer processor incorporating%%HIGHLIGHT%% ==a variety of functionalities== %%POSTFIX%%into a single chip is called a*
+>%%LINK%%[[#^mdoxbu3qhz|show annotation]]
+>%%COMMENT%%
+>디스플레이(핸드폰의 해상도 조절 등), 네트워크 모듈 등등
+>%%TAGS%%
+>
+^mdoxbu3qhz
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-05T09:50:01.732Z","updated":"2024-03-05T09:50:01.732Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":4492,"end":4503},{"type":"TextQuoteSelector","exact":"abstraction","prefix":" in Computer Architecture1. Use ","suffix":" to simplify a design.•To develo"}]}]}
+>```
+>%%
+>*%%PREFIX%%in Computer Architecture1. Use%%HIGHLIGHT%% ==abstraction== %%POSTFIX%%to simplify a design.•To develo*
+>%%LINK%%[[#^mip5a572qc8|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^mip5a572qc8
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-05T09:58:38.365Z","text":"무려 싱글코어에서도 사용하는\n하지만 적절한 싱글스레드는 멀티스레드보다 효율이 좋을 수 있다","updated":"2024-03-05T09:58:38.365Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":5059,"end":5070},{"type":"TextQuoteSelector","exact":"parallelism","prefix":"systems are designed to exploit ","suffix":" at various levels.•However, par"}]}]}
+>```
+>%%
+>*%%PREFIX%%systems are designed to exploit%%HIGHLIGHT%% ==parallelism== %%POSTFIX%%at various levels.•However, par*
+>%%LINK%%[[#^9sz3mg9sf9a|show annotation]]
+>%%COMMENT%%
+>무려 싱글코어에서도 사용하는
+>하지만 적절한 싱글스레드는 멀티스레드보다 효율이 좋을 수 있다
+>%%TAGS%%
+>
+^9sz3mg9sf9a
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-05T10:06:51.353Z","text":"the goal of the industries is making perfect wafers","updated":"2024-03-05T10:06:51.353Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":8408,"end":8423},{"type":"TextQuoteSelector","exact":"Patterned wafer","prefix":"er(< 0.1\" thick)Wafer processing","suffix":"TestingPackagingSilicon die(> 10"}]}]}
+>```
+>%%
+>*%%PREFIX%%er(< 0.1" thick)Wafer processing%%HIGHLIGHT%% ==Patterned wafer== %%POSTFIX%%TestingPackagingSilicon die(> 10*
+>%%LINK%%[[#^l0qfnifhjz|show annotation]]
+>%%COMMENT%%
+>the goal of the industries is making perfect wafers
+>%%TAGS%%
+>
+^l0qfnifhjz
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-05T10:10:06.589Z","updated":"2024-03-05T10:10:06.589Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":9591,"end":9602},{"type":"TextQuoteSelector","exact":"Performance","prefix":"e can relate them as follows.26•","suffix":" 1Execution time=Relative Perfor"}]}]}
+>```
+>%%
+>*%%PREFIX%%e can relate them as follows.26•%%HIGHLIGHT%% ==Performance== %%POSTFIX%%1Execution time=Relative Perfor*
+>%%LINK%%[[#^9g41qcibxvf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^9g41qcibxvf
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-05T10:11:18.263Z","updated":"2024-03-05T10:11:18.263Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":10359,"end":10403},{"type":"TextQuoteSelector","exact":"Execution time = clock cycles × clock period","prefix":"e time intervals called clocks.•","suffix":"28= Clock cyclesClock frequency "}]}]}
+>```
+>%%
+>*%%PREFIX%%e time intervals called clocks.•%%HIGHLIGHT%% ==Execution time = clock cycles × clock period== %%POSTFIX%%28= Clock cyclesClock frequency*
+>%%LINK%%[[#^slc3fk9xqe|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^slc3fk9xqe
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-05T10:15:07.677Z","updated":"2024-03-05T10:15:07.677Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":11313,"end":11347},{"type":"TextQuoteSelector","exact":"clock cycles per instruction (CPI)","prefix":"cycles per instruction•The term ","suffix":" is the average number of clock "}]}]}
+>```
+>%%
+>*%%PREFIX%%cycles per instruction•The term%%HIGHLIGHT%% ==clock cycles per instruction (CPI)== %%POSTFIX%%is the average number of clock*
+>%%LINK%%[[#^6cjyevxqyjq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6cjyevxqyjq

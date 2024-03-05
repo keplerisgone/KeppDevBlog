@@ -11,9 +11,11 @@
             "id": "680ff8468cd0595c",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
+                "file": "03-Resources/Web/XSS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -75,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.50390243530273,
-    "collapsed": true
+    "width": 227.50390243530273
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+                "file": "03-Resources/Web/XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+                "file": "03-Resources/Web/XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
+                "file": "03-Resources/Web/XSS.md"
               }
             }
           },
@@ -182,42 +183,44 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "db29fcc405f79c6f",
+  "active": "680ff8468cd0595c",
   "lastOpenFiles": [
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.md",
+    "03-Resources/Web/Same Origin Policy.md",
+    "03-Resources/Web/XSS.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "99-Daily/2024_03_05.md",
+    "99-Daily/2024-01-17.md",
+    "99-Daily/2024-01-18.md",
+    "99-Daily/2024-01-19.md",
+    "99-Daily/2024-01-20.md",
+    "99-Daily/2024-01-21.md",
+    "99-Daily/2024-01-22.md",
+    "99-Daily/2024-01-23.md",
+    "99-Daily/2024-01-24.md",
+    "99-Daily/2024_01_25.md",
+    "99-Daily/2024_02_04.md",
+    "99-Daily/2024_02_05.md",
+    "99-Daily/2024_02_06.md",
+    "99-Daily/2024_02_07.md",
+    "99-Daily/2024_02_08.md",
+    "99-Daily/2024_02_09.md",
+    "99-Daily/2024_02_10.md",
+    "99-Daily/2024_02_11.md",
+    "99-Daily/2024_02_12.md",
+    "99-Daily/2024_02_13.md",
+    "99-Daily/2024_02_14.md",
+    "99-Daily/2024_02_15.md",
+    "99-Daily/2024_02_16.md",
     "PDFs/1.2.pdf",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.pdf",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
-    "Spaces/Yonsei/2학년 1학기/디지털논리회로/디지털논리회로.md",
-    "Spaces/Yonsei/2학년 1학기/디지털논리회로/Introduction.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction2.md",
     "PDFs/컴퓨터구조/1_computer_abstraction.pdf",
     "PDFs/컴퓨터구조",
     "PDFs/untitled folder",
     "PDFs",
     "PDFs/1_computer_abstraction.pdf",
-    "99-Daily/2024_03_04.md",
-    "03-Resources/Untitled.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Introduction.md",
-    "03-Resources/Web/Same Origin Policy.md",
-    "03-Resources/Web/Web browser & Developer tool.md",
-    "03-Resources/Web/Web.md",
-    "03-Resources/Network/HTTP & HTTPS.md",
-    "03-Resources/Web/Cookie & Session.md",
     "Spaces/Yonsei/3학년 1학기/통신이론",
-    "03-Resources/문학환경과곁사슬문학의이해.md",
     "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해",
     "Spaces/Yonsei/3학년 1학기/기초아날로그실험",
-    "Spaces/Yonsei/3학년 1학기/Untitled.md",
-    "03-Resources/Algorithm/Algorithm.md",
-    "Vault.md",
-    "Spaces/Yonsei/2학년 1학기/2학년 1학기.md",
-    "Spaces/Yonsei/2학년 2학기/2학년 2학기.md",
-    "Spaces/Yonsei/Untitled.md",
-    "Spaces/3학년 1학기/3학년 1학기.md",
-    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/바이오시스템과환경.md",
-    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/파충류 (스크립트x)/파충류 (스크립트x).md",
-    "Spaces/Yonsei/2학년 2학기/전자기학(1)/전자기학(1).md",
     "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
     "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
     "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",
@@ -228,8 +231,6 @@
     "Media/Screenshot_2023-10-02_at_9.05.10_AM.png",
     "Media/Screenshot_2023-10-02_at_9.03.31_AM.png",
     "Media/Screenshot_2023-10-02_at_9.02.14_AM.png",
-    "Spaces/Yonsei/2학년 2학기/공학수학(4)/Bonus. Vector Space/Linear Algebra Lecture 5 - (2) 벡터 공간(Vector Spaces), 부분 공간(Sub Spaces) -- Learn Again! 러너게인/Linear Algebra Lecture 5 - (2) 벡터 공간(Vector Spaces), 부분 공간(Sub Spaces) -- Learn Again! 러너게인.md",
-    "Spaces/Yonsei/2학년 2학기/바이오시스템과환경/5주차/5주차.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas"
   ]
 }

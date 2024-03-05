@@ -1,6 +1,10 @@
 # Summary
 
 클라이언트 단에서 믿을만한 서버를 판단하는 정책인 **SOP**(Same Origin Policy)에 대해서 알아보자.
+- **Same Origin Policy (SOP)**: 동일 출처 정책, 현재 페이지의 출처가 아닌 다른 출처로부터 온 데이터를 읽지 못하게 하는 브라우저의 보안 메커니즘
+- **Same Origin**: 현재 페이지와 동일한 출처
+- **Cross Origin**: 현재 페이지와 다른 출처
+- **Cross Origin Resource Sharing (CORS):** 교차 출처 리소스 공유, SOP의 제한을 받지 않고 Cross Origin의 데이터를 처리할 수 있도록 해주는 메커니즘
 # Contents
 ## SOP
 
@@ -16,6 +20,14 @@ SOP에 의해서 오리진이 다른 웹 페이지는 클라이언트가 가져�
 SOP는 웹 보안에서 중요한 요소지만, 제한을 완화해야 하는 경우도 있다. 예를 들어, 다른 호스트를 이용해 다양한 서비스를 제공중인 네이버가 있다. 네이버 블로그는 `blog.naver.com`, 네이버 쇼핑은 `shopping.naver.com`을 이용해 서비스 중이다. 호스트가 다르기 때문에 브라우저는 오리진이 다르다고 인식한다. 
 
 이를 해결하기 위한 방법이 바로 **교차 출처 리소스 공유**(Cross Origin Resource Sharing)이다. 
-이는 CORS와 관련된 정보를 HTTP 헤더에 추가하여 이루어진다.
+이는 CORS와 관련된 정보를 HTTP 헤더에 추가하여 이루어진다. 
+
+| Header                          | 설명                          |
+| ------------------------------- | --------------------------- |
+| Acess-Control-Allow-Origin      | 헤더 값에 해당하는 Origin의 요청만 처리한다 |
+| Acess-Control-Allow-Method      | 헤더 값에 해당하는 메소드의 요청만 처리한다    |
+| Acess-Control-Allow-Credentials | 쿠키 사용 여부를 판단한다              |
+| Acess-Control-Allow-Headers     | 헤더의 사용 여부를 나타낸다             |
+이를 사용하기 이전에는 스크립트는 SOP의 영향을 받지 않는다는 점을 이용해 JS를 이용해 Cross Origin을 불러오는 **JSONP**방식을 사용했다.
 # Reference
 
