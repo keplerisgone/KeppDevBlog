@@ -10,14 +10,11 @@
   "obsidian-file-cleaner",
   "file-explorer-note-count",
   "obsidian-kanban",
-  "obsidian-daily-note-outline",
   "obsidian-trash-explorer",
   "obsidian-omnivore",
   "terminal",
   "vim-im-select",
   "improved-vimcursor",
   "obsidian-imgur-plugin",
-  "templater-obsidian",
-  "obsidian-importer",
-  "obsidian-annotator"
+  "obsidian-importer"
 ]

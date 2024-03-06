@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "8e59059aef82de42",
+        "id": "adb02753a58cbaef",
         "type": "tabs",
         "children": [
           {
-            "id": "680ff8468cd0595c",
+            "id": "5ae947c1525c28b7",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 0.md"
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "543d6df1c98108ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fd80fd39c206c24",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "PDFs/통신이론/Note 1 Introduction.pdf"
               }
             }
           }
@@ -75,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.50390243530273,
-    "collapsed": true
+    "width": 227.50390243530273
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -92,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 0.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 0.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,18 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 0.md"
-              }
-            }
-          },
-          {
-            "id": "c4d4dfb047b05628",
-            "type": "leaf",
-            "state": {
-              "type": "daily-note-outline",
-              "state": {
-                "activeSet": 0,
-                "activeGranularity": 0
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md"
               }
             }
           },
@@ -156,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,31 +183,36 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-file-cleaner:Clean files": false,
-      "templater-obsidian:Templater": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "680ff8468cd0595c",
+  "active": "5ae947c1525c28b7",
   "lastOpenFiles": [
-    "99-Daily/2024_03_06.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 0.md",
-    "PDFs/통신이론/Note 0 Course Information.pdf",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
     "PDFs/통신이론/Note 1 Introduction.pdf",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "PDFs/컴퓨터구조/1_computer_abstraction.pdf",
+    "PDFs/통신이론/Note 0 Course Information.pdf",
+    "PDFs/전자회로(2)/1.2.pdf",
+    "PDFs/기초아날로그실험/Week1.pdf",
     "PDFs/통신이론",
+    "PDFs/전자회로(2)",
+    "PDFs/컴퓨터구조",
+    "PDFs/기초아날로그실험",
+    "PDFs",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/1주차.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Introduction.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
+    "Spaces/Yonsei/3학년 1학기/기초아날로그실험/1주차/1주차.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 0.md",
+    "99-Daily/2024_03_06.md",
     "Spaces/Yonsei/3학년 1학기/기초아날로그실험/1주차/Untitled.md",
     "03-Resources/Web/XSS.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/1주차.md",
-    "PDFs/기초디지털실험/Week1.pdf",
-    "PDFs/기초디지털실험",
-    "PDFs/컴퓨터구조/Week1.pdf",
-    "Spaces/Yonsei/3학년 1학기/기초아날로그실험/1주차/1주차.md",
-    "Spaces/Yonsei/3학년 1학기/기초아날로그실험/1주차",
     "1주차/1wnck.md",
     "1주차/1주차.md",
-    "1주차",
     "03-Resources/Web/Same Origin Policy.md",
     "99-Daily/2024_03_05.md",
     "99-Daily/2024-01-17.md",
@@ -213,13 +224,6 @@
     "99-Daily/2024-01-23.md",
     "99-Daily/2024-01-24.md",
     "99-Daily/2024_01_25.md",
-    "99-Daily/2024_02_04.md",
-    "99-Daily/2024_02_05.md",
-    "99-Daily/2024_02_06.md",
-    "99-Daily/2024_02_07.md",
-    "99-Daily/2024_02_08.md",
-    "PDFs/컴퓨터구조/1.2.pdf",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.pdf",
     "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
     "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
     "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",
