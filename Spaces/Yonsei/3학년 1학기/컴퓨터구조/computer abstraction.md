@@ -317,3 +317,201 @@ under the hood: processor components
 >%%TAGS%%
 >
 ^6cjyevxqyjq
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:04:23.707Z","text":"간단히 말하면 코드 한줄","updated":"2024-03-06T02:04:23.707Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":11174,"end":11205},{"type":"TextQuoteSelector","exact":"he average time per instruction","prefix":"instructions in the program by t","suffix":".•Clock cycles = # of instructio"}]}]}
+>```
+>%%
+>*%%PREFIX%%instructions in the program by t%%HIGHLIGHT%% ==he average time per instruction== %%POSTFIX%%.•Clock cycles = # of instructio*
+>%%LINK%%[[#^1exzg43snewi|show annotation]]
+>%%COMMENT%%
+>간단히 말하면 코드 한줄
+>%%TAGS%%
+>
+^1exzg43snewi
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:10:16.947Z","text":"average CPI","updated":"2024-03-06T02:10:16.947Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":12179,"end":12224},{"type":"TextQuoteSelector","exact":"Which code sequence should the compiler choos","prefix":"e following instruction counts.•","suffix":"e?32Instruction types A B CCPI 1"}]}]}
+>```
+>%%
+>*%%PREFIX%%e following instruction counts.•%%HIGHLIGHT%% ==Which code sequence should the compiler choos== %%POSTFIX%%e?32Instruction types A B CCPI 1*
+>%%LINK%%[[#^wr1ox903d1n|show annotation]]
+>%%COMMENT%%
+>average CPI
+>%%TAGS%%
+>
+^wr1ox903d1n
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:11:38.425Z","text":"상황에 따라서 적은게 나을수도","updated":"2024-03-06T02:11:38.425Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":12464,"end":12479},{"type":"TextQuoteSelector","exact":" 5 instructions","prefix":"Instruction count1 = 2 + 1 + 2 =","suffix":"•Instruction count2 = 4 + 1 + 1 "}]}]}
+>```
+>%%
+>*%%PREFIX%%Instruction count1 = 2 + 1 + 2 =%%HIGHLIGHT%% ==5 instructions== %%POSTFIX%%•Instruction count2 = 4 + 1 + 1*
+>%%LINK%%[[#^1z9q6qotwxv|show annotation]]
+>%%COMMENT%%
+>상황에 따라서 적은게 나을수도
+>%%TAGS%%
+>
+^1z9q6qotwxv
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:14:44.880Z","updated":"2024-03-06T02:14:44.880Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":13488,"end":13508},{"type":"TextQuoteSelector","exact":"Computerarchitecture","prefix":"ck periodAlgorithmsand compilers","suffix":"CircuitdesignMeasurement of Perf"}]}]}
+>```
+>%%
+>*%%PREFIX%%ck periodAlgorithmsand compilers%%HIGHLIGHT%% ==Computerarchitecture== %%POSTFIX%%CircuitdesignMeasurement of Perf*
+>%%LINK%%[[#^llcyf2s4oc|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^llcyf2s4oc
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:18:53.657Z","text":"유일하게 쉬운것\n","updated":"2024-03-06T02:18:53.657Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":13412,"end":13428},{"type":"TextQuoteSelector","exact":"Clock cycle time","prefix":" of clock cycles per instruction","suffix":" (or period) Seconds per clock p"}]}]}
+>```
+>%%
+>*%%PREFIX%%of clock cycles per instruction%%HIGHLIGHT%% ==Clock cycle time== %%POSTFIX%%(or period) Seconds per clock p*
+>%%LINK%%[[#^jsfdng0ugkr|show annotation]]
+>%%COMMENT%%
+>유일하게 쉬운것
+>
+>%%TAGS%%
+>
+^jsfdng0ugkr
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:22:20.677Z","text":"근데 좀 느린\n","updated":"2024-03-06T02:22:20.677Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":14020,"end":14042},{"type":"TextQuoteSelector","exact":"Moore’s Law continues.","prefix":"rs.35Technology Scaling Trends36","suffix":"Single-thread performance is bou"}]}]}
+>```
+>%%
+>*%%PREFIX%%rs.35Technology Scaling Trends36%%HIGHLIGHT%% ==Moore’s Law continues.== %%POSTFIX%%Single-thread performance is bou*
+>%%LINK%%[[#^sz5z0cx0y8|show annotation]]
+>%%COMMENT%%
+>근데 좀 느린
+>
+>%%TAGS%%
+>
+^sz5z0cx0y8
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:26:13.512Z","updated":"2024-03-06T02:26:13.512Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":14588,"end":14625},{"type":"TextQuoteSelector","exact":"multicore throughput in the mid-2000s","prefix":" paradigm switched to enhancing ","suffix":".371101001,00010,000100,0001978 "}]}]}
+>```
+>%%
+>*%%PREFIX%%paradigm switched to enhancing%%HIGHLIGHT%% ==multicore throughput in the mid-2000s== %%POSTFIX%%.371101001,00010,000100,0001978*
+>%%LINK%%[[#^e333q7vlcsn|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^e333q7vlcsn
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:27:21.943Z","updated":"2024-03-06T02:27:21.943Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":14805,"end":14860},{"type":"TextQuoteSelector","exact":"The clock frequency and power consumption of processors","prefix":"12%/year3.5%/yearThe Power Wall•","suffix":" kept increasing until the early"}]}]}
+>```
+>%%
+>*%%PREFIX%%12%/year3.5%/yearThe Power Wall•%%HIGHLIGHT%% ==The clock frequency and power consumption of processors== %%POSTFIX%%kept increasing until the early*
+>%%LINK%%[[#^lft87veetz8|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^lft87veetz8
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:29:25.798Z","updated":"2024-03-06T02:29:25.798Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":14947,"end":14966},{"type":"TextQuoteSelector","exact":"thermal limitations","prefix":"y have flattened out because of ","suffix":".3805010015020025001,0002,0003,0"}]}]}
+>```
+>%%
+>*%%PREFIX%%y have flattened out because of%%HIGHLIGHT%% ==thermal limitations== %%POSTFIX%%.3805010015020025001,0002,0003,0*
+>%%LINK%%[[#^orij7mwl44|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^orij7mwl44
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:30:40.060Z","updated":"2024-03-06T02:30:40.060Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":15430,"end":15437},{"type":"TextQuoteSelector","exact":"However","prefix":"er constant scaling conditions.•","suffix":", in reality, the clock rate inc"}]}]}
+>```
+>%%
+>*%%PREFIX%%er constant scaling conditions.•%%HIGHLIGHT%% ==However== %%POSTFIX%%, in reality, the clock rate inc*
+>%%LINK%%[[#^3mwy01j57br|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3mwy01j57br
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:34:03.178Z","updated":"2024-03-06T02:34:03.178Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":16350,"end":16367},{"type":"TextQuoteSelector","exact":"multicore designs","prefix":"the processors started to adopt ","suffix":" to increase system throughput.4"}]}]}
+>```
+>%%
+>*%%PREFIX%%the processors started to adopt%%HIGHLIGHT%% ==multicore designs== %%POSTFIX%%to increase system throughput.4*
+>%%LINK%%[[#^eq8jewgbw2s|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^eq8jewgbw2s
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:35:41.763Z","updated":"2024-03-06T02:35:41.763Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":16656,"end":16699},{"type":"TextQuoteSelector","exact":"Intel releases first dual-core CPUs in 2005","prefix":" 2015 2020Power density [W/cm2] ","suffix":".Energy and Power•Assume a capac"}]}]}
+>```
+>%%
+>*%%PREFIX%%2015 2020Power density [W/cm2]%%HIGHLIGHT%% ==Intel releases first dual-core CPUs in 2005== %%POSTFIX%%.Energy and Power•Assume a capac*
+>%%LINK%%[[#^lso25m963ij|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^lso25m963ij
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:45:03.343Z","updated":"2024-03-06T02:45:03.343Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":19534,"end":19541},{"type":"TextQuoteSelector","exact":"Speedup","prefix":"nt (f )Amount of improvement (s)","suffix":" =  (1 – f ) + f / s1Theoretical"}]}]}
+>```
+>%%
+>*%%PREFIX%%nt (f )Amount of improvement (s)%%HIGHLIGHT%% ==Speedup== %%POSTFIX%%=  (1 – f ) + f / s1Theoretical*
+>%%LINK%%[[#^xv3268fcga|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^xv3268fcga
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T02:48:08.999Z","updated":"2024-03-06T02:48:08.999Z","document":{"title":"1_computer_abstraction.pdf","link":[{"href":"urn:x-pdf:51af6068cd596a9f4afd1219e5c73b0c"},{"href":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf"}],"documentFingerprint":"51af6068cd596a9f4afd1219e5c73b0c"},"uri":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","target":[{"source":"vault:/PDFs/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/1_computer_abstraction.pdf","selector":[{"type":"TextPositionSelector","start":19395,"end":19409},{"type":"TextQuoteSelector","exact":"Execution time","prefix":" where an improvement is made.46","suffix":" after improvement = Execution t"}]}]}
+>```
+>%%
+>*%%PREFIX%%where an improvement is made.46%%HIGHLIGHT%% ==Execution time== %%POSTFIX%%after improvement = Execution t*
+>%%LINK%%[[#^1quhceuvcwp|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^1quhceuvcwp
