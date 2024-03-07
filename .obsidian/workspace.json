@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "543d6df1c98108ae",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4fd80fd39c206c24",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "PDFs/통신이론/Note 1 Introduction.pdf"
               }
             }
           }
@@ -109,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md"
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md"
               }
             }
           },
@@ -189,23 +173,24 @@
   },
   "active": "5ae947c1525c28b7",
   "lastOpenFiles": [
-    "PDFs/통신이론/Note 1 Introduction.pdf",
+    "PDFs/문학환경과곁사슬문학의이해/곁사슬 1주차.pdf",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/1주차.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.md",
+    "PDFs/문학환경과곁사슬문학의이해/곁사슬 1주차 1.pdf",
+    "PDFs/문학환경과곁사슬문학의이해",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "99-Daily/2024_03_07.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/1.2.md",
+    "PDFs/통신이론/Note 1 Introduction.pdf",
     "PDFs/컴퓨터구조/1_computer_abstraction.pdf",
     "PDFs/통신이론/Note 0 Course Information.pdf",
     "PDFs/전자회로(2)/1.2.pdf",
     "PDFs/기초아날로그실험/Week1.pdf",
     "PDFs/통신이론",
     "PDFs/전자회로(2)",
-    "PDFs/컴퓨터구조",
-    "PDFs/기초아날로그실험",
-    "PDFs",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/1주차.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Introduction.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
     "Spaces/Yonsei/3학년 1학기/기초아날로그실험/1주차/1주차.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 0.md",
     "99-Daily/2024_03_06.md",
@@ -223,7 +208,6 @@
     "99-Daily/2024-01-22.md",
     "99-Daily/2024-01-23.md",
     "99-Daily/2024-01-24.md",
-    "99-Daily/2024_01_25.md",
     "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
     "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
     "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",
