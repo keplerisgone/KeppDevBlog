@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Area/Study/정보보안 커리큘럼.md",
+                "file": "03-Resources/Computer Architecture/Digital Information.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Area/Study/정보보안 커리큘럼.md",
+                "file": "03-Resources/Computer Architecture/Digital Information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Area/Study/정보보안 커리큘럼.md",
+                "file": "03-Resources/Computer Architecture/Digital Information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Area/Study/정보보안 커리큘럼.md"
+                "file": "03-Resources/Computer Architecture/Digital Information.md"
               }
             }
           },
@@ -173,6 +173,16 @@
   },
   "active": "5ae947c1525c28b7",
   "lastOpenFiles": [
+    "02-Area/Study/Tech & Dev.md",
+    "Template/wargame-template.md",
+    "03-Resources/Computer Architecture/Digital Information.md",
+    "03-Resources/Algorithm/Algorithm.md",
+    "02-Area/Wargame/Wargame.md",
+    "02-Area/Wargame",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "PDFs/컴퓨터구조/2_instructions.pdf",
+    "99-Daily/2024_03_08.md",
+    "02-Area/Study/정보보안 커리큘럼.md",
     "03-Resources/Cryptography/Cryptography.md",
     "03-Resources/Cryptography",
     "03-Resources/03-Resources.md",
@@ -190,8 +200,6 @@
     "PDFs/컴퓨터구조/1_computer_abstraction.pdf",
     "PDFs/통신이론/Note 0 Course Information.pdf",
     "PDFs/전자회로(2)/1.2.pdf",
-    "PDFs/기초아날로그실험/Week1.pdf",
-    "PDFs/통신이론",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Introduction.md",
     "Spaces/Yonsei/3학년 1학기/기초아날로그실험/1주차/1주차.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 0.md",
@@ -201,14 +209,6 @@
     "1주차/1wnck.md",
     "1주차/1주차.md",
     "03-Resources/Web/Same Origin Policy.md",
-    "99-Daily/2024_03_05.md",
-    "99-Daily/2024-01-17.md",
-    "99-Daily/2024-01-18.md",
-    "99-Daily/2024-01-19.md",
-    "99-Daily/2024-01-20.md",
-    "99-Daily/2024-01-21.md",
-    "99-Daily/2024-01-22.md",
-    "99-Daily/2024-01-23.md",
     "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
     "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
     "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",
