@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Computer Architecture/Digital Information.md",
+                "file": "99-Daily/2024_03_09.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Computer Architecture/Digital Information.md",
+                "file": "99-Daily/2024_03_09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Computer Architecture/Digital Information.md",
+                "file": "99-Daily/2024_03_09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Computer Architecture/Digital Information.md"
+                "file": "99-Daily/2024_03_09.md"
               }
             }
           },
@@ -167,16 +167,16 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-file-cleaner:Clean files": false,
-      "obsidian-importer:Open Importer": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-importer:Open Importer": false
     }
   },
   "active": "5ae947c1525c28b7",
   "lastOpenFiles": [
+    "99-Daily/2024_03_09.md",
     "02-Area/Study/Tech & Dev.md",
-    "Template/wargame-template.md",
-    "03-Resources/Computer Architecture/Digital Information.md",
     "03-Resources/Algorithm/Algorithm.md",
+    "03-Resources/Computer Architecture/Digital Information.md",
+    "Template/wargame-template.md",
     "02-Area/Wargame/Wargame.md",
     "02-Area/Wargame",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
@@ -208,7 +208,6 @@
     "03-Resources/Web/XSS.md",
     "1주차/1wnck.md",
     "1주차/1주차.md",
-    "03-Resources/Web/Same Origin Policy.md",
     "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
     "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
     "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",

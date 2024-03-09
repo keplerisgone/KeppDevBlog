@@ -115,8 +115,6 @@
     "//01-Project",
     "//01-Project",
     "//03-Resources",
-    "//03-Resources/03-Resources/Web",
-    "//03-Resources/03-Resources/Network",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/컴퓨터구조",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/전자회로(2)",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험",
@@ -148,7 +146,8 @@
     "//02-Area",
     "//02-Area/02-Area/Wargame",
     "//03-Resources/03-Resources/Algorithm",
-    "//03-Resources/03-Resources/Computer Architecture"
+    "//03-Resources/03-Resources/Algorithm",
+    "//03-Resources/03-Resources/Algorithm"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
