@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-Daily/2024_03_09.md",
+                "file": "99-Daily/2024_03_10.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99-Daily/2024_03_09.md",
+                "file": "99-Daily/2024_03_10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99-Daily/2024_03_09.md",
+                "file": "99-Daily/2024_03_10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99-Daily/2024_03_09.md"
+                "file": "99-Daily/2024_03_10.md"
               }
             }
           },
@@ -167,11 +167,13 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-file-cleaner:Clean files": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "active": "5ae947c1525c28b7",
   "lastOpenFiles": [
+    "99-Daily/2024_03_10.md",
     "99-Daily/2024_03_09.md",
     "02-Area/Study/Tech & Dev.md",
     "03-Resources/Algorithm/Algorithm.md",
@@ -207,7 +209,6 @@
     "Spaces/Yonsei/3학년 1학기/기초아날로그실험/1주차/Untitled.md",
     "03-Resources/Web/XSS.md",
     "1주차/1wnck.md",
-    "1주차/1주차.md",
     "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
     "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
     "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",
