@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-Daily/2024_03_10.md",
+                "file": "02-Area/Study/정보보안 커리큘럼.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99-Daily/2024_03_10.md",
+                "file": "02-Area/Study/정보보안 커리큘럼.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99-Daily/2024_03_10.md",
+                "file": "02-Area/Study/정보보안 커리큘럼.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99-Daily/2024_03_10.md"
+                "file": "02-Area/Study/정보보안 커리큘럼.md"
               }
             }
           },
@@ -173,10 +173,10 @@
   },
   "active": "5ae947c1525c28b7",
   "lastOpenFiles": [
+    "03-Resources/Algorithm/Algorithm.md",
     "99-Daily/2024_03_10.md",
     "99-Daily/2024_03_09.md",
     "02-Area/Study/Tech & Dev.md",
-    "03-Resources/Algorithm/Algorithm.md",
     "03-Resources/Computer Architecture/Digital Information.md",
     "Template/wargame-template.md",
     "02-Area/Wargame/Wargame.md",

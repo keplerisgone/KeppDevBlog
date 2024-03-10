@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "Spaces/Yonsei",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -149,7 +149,8 @@
     "//03-Resources/03-Resources/Algorithm",
     "//03-Resources/03-Resources/Algorithm",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험",
-    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험"
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험",
+    "//03-Resources/03-Resources/Algorithm"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
