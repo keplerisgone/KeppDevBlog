@@ -11,11 +11,9 @@
             "id": "4b6907cbbec8d72d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Spaces/Yonsei/2학년 2학기/전자회로(1)/Review of Basic Circuit Theory/Review of Basic Circuit Theory.md",
-                "mode": "source",
-                "source": false
+                "path": "Spaces/Yonsei/2학년 2학기/전자회로(1)"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/2학년 2학기/전자회로(1)/Review of Basic Circuit Theory/Review of Basic Circuit Theory.md",
+                "file": "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/2학년 2학기/전자회로(1)/Review of Basic Circuit Theory/Review of Basic Circuit Theory.md",
+                "file": "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/2학년 2학기/전자회로(1)/Review of Basic Circuit Theory/Review of Basic Circuit Theory.md"
+                "file": "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md"
               }
             }
           },
@@ -171,11 +169,25 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "4b6907cbbec8d72d",
+  "active": "070542c5966a7d41",
   "lastOpenFiles": [
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Introduction & Review of Basic Circuit theory.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Introduction/Introduction.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar transistors.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Physics of Bipolar Transistors/Physics of Bipolar Transistors.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Transistor Models and Characteristics/Bipolar Transistor Models and Characteristics.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Biploar Junction Transistor (BJT)/Biploar Junction Transistor (BJT).md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Transistors/Transistors.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
+    "Bipolar transistors 2.md",
+    "Bipolar transistors 1.md",
+    "Bipolar transistors.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Basic Physics of semiconductors.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Basic Semiconductor Physics and PN Junction Diode/Basic Semiconductor Physics and PN Junction Diode.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Mass Action Law/Mass Action Law.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Properties of Silicon/Properties of Silicon.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Semiconductors/Semiconductors.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Introduction & Review of Basic Circuit theory.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Review of Basic Circuit Theory/Review of Basic Circuit Theory.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Introduction/Introduction.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
     "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/1주차.md",
@@ -189,9 +201,6 @@
     "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
     "Media/Pasted image 20240118005656.png",
     "Excalidraw/Drawing 2024-03-10 14.01.19.excalidraw.md",
-    "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-10 13.58.17.excalidraw.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Untitled.md",
     "Media/1_computer_abstraction.pdf",
     "Media/chapter_1.pdf",
     "Media/1_computer_abstraction 1.pdf",
@@ -199,17 +208,6 @@
     "Media/Untitled 4 2.png",
     "Media/Untitled 3 4.png",
     "Media/Untitled 2 5.png",
-    "Excalidraw/보스 1페이즈.md",
-    "Excalidraw/Exacli-RobotgamePlayer.md",
-    "Media/Drawing 2024-03-10 13.47.20.excalidraw.md",
-    "02-Area/Study/정보보안 커리큘럼.md",
-    "03-Resources/Algorithm/Algorithm.md",
-    "99-Daily/2024_03_10.md",
-    "99-Daily/2024_03_09.md",
-    "02-Area/Study/Tech & Dev.md",
-    "03-Resources/Computer Architecture/Digital Information.md",
-    "Template/wargame-template.md",
-    "02-Area/Wargame/Wargame.md",
     "02-Area/Wargame",
     "PDFs/컴퓨터구조/2_instructions.pdf",
     "03-Resources/Cryptography",

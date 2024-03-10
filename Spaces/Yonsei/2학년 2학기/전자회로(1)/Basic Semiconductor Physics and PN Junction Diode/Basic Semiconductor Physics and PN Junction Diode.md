@@ -41,7 +41,7 @@ Drift Current는 말 그대로 carrier의 drift로 인해 발생하는 전류입
 
 > $J_{p,drift}=q\ p \ v_h =q\ p \ \mu_p \ E$﻿  
 >   
-> $J_{n,drift}=-q\ n \ v_e = q \ n \ \mu_n \ E $﻿
+> $J_{n,drift}=-q\ n \ v_e = q \ n \ \mu_n \ E$﻿
 
 ## Conductivity and Resistivity
 
