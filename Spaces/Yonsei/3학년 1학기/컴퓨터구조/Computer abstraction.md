@@ -3,41 +3,37 @@ annotation-target: PDFs/컴퓨터구조/1_computer_abstraction.pdf
 ---
 # Introduction
 
-![[PDFs/컴퓨터구조/1_computer_abstraction.pdf]]
-#### computer architecture
+![[1_computer_abstraction.pdf]]
+#### computer architecture (p4)
 
 컴퓨터는 어떻게 만들어지나요
 재료 - 소자 - 회로 - (기능을 하는) 논리 회로 - microarchitecture? (메모리 관리, CPU 구조 등등)
 컴퓨터는 복잡한 계산기이다 <- 사실 처음부터 계산기로 시작함
 
-비유가 맞나
-
-traditional classes of computing systems
-
-personal computers
-good performance for single users (personal!!!)
-	server computers? for anyone
-Servers
-	 large system <- many small computers - enable to run parallel, sizable workloads, many jobs (good)
-	 security
-	 reliability <- slow running speed
-Supercomputers
-	extremely large... servers
+#### traditional classes of computing systems (p6)
+##### personal computers (p6)
+- good performance for single users (personal!!!)
+	- server computers? for anyone
+##### Servers (p7)
+- large system <- many small computers - enable to run parallel, sizable workloads, many jobs (good)
+	 - security
+	 - reliability <- slow running speed
+##### Supercomputers (p8)
+- extremely large... servers
 	PB 단위 살면서 처음본당
-	<span style="background:#affad1">flash memory</span>
-Embedded system
-	wide range
-	automobile! - navigation
-
-Post-PC era
-
-PMDs
-	그래서 블루스택 돌리는게 그렇게 부담이었니
-SoC
-	asdf
-
-New computing devices
-
+	- <span style="background:#affad1">flash memory</span>
+##### Embedded system (p9)
+- wide range
+	- automobile! - navigation
+#### Post-PC era (p10)
+##### PMDs (p10)
+- 작은 mobile device - 이제는 컴퓨터보다 빠르다
+- 그래서 블루스택 돌리는게 그렇게 부담이었니
+##### SoC (p11)
+- 여러 기능을 수행하는 모듈을 하나의 칩에 몰아넣은 것
+- 의외로 CPU와 GPU가 절반도 차지하지 않는다
+#### New computing devices (p12)
+- 
 Important concepts in computer achitecture
 
 1.asfd

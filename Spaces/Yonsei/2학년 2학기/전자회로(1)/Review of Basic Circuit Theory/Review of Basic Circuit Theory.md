@@ -58,6 +58,7 @@ RLC circuit
 ![[Screenshot_2023-09-08_at_9.12.33_PM.png]]
 
 하나의 Mesh current에 의한 voltage의 합은 0이다.
+	오해의 소지가 좀 있는데, *하나의 mesh current*라기 보다는 한 바퀴로 보는게 낫다
 
 ## Node-Voltage method
 
