@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "adb02753a58cbaef",
+        "id": "51fa87507b51708d",
         "type": "tabs",
         "children": [
           {
-            "id": "4b6907cbbec8d72d",
+            "id": "196218d191309fbd",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Spaces/Yonsei/2학년 2학기/전자회로(1)"
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md"
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md"
               }
             }
           },
@@ -169,14 +171,20 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "070542c5966a7d41",
+  "active": "196218d191309fbd",
   "lastOpenFiles": [
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (3)/Bipolar Amplifier (3).md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (2)/Bipolar Amplifier (2).md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (1)/Bipolar Amplifier (1).md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar transistors.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Physics of Bipolar Transistors/Physics of Bipolar Transistors.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Transistor Models and Characteristics/Bipolar Transistor Models and Characteristics.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Biploar Junction Transistor (BJT)/Biploar Junction Transistor (BJT).md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Transistors/Transistors.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
     "Bipolar transistors 2.md",
     "Bipolar transistors 1.md",
     "Bipolar transistors.md",
@@ -191,16 +199,10 @@
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
     "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/1주차.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
-    "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
     "Media/2_instructions 1.pdf",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Introduction.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/컴퓨터구조.md",
     "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
     "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
     "Media/Pasted image 20240118005656.png",
-    "Excalidraw/Drawing 2024-03-10 14.01.19.excalidraw.md",
     "Media/1_computer_abstraction.pdf",
     "Media/chapter_1.pdf",
     "Media/1_computer_abstraction 1.pdf",
