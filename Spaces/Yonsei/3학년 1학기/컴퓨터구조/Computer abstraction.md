@@ -98,3 +98,12 @@ under the hood: processor components
 - 어떤 application이 몇 퍼를 차지하고 있는데, 이게 이만큼 빨라지면 전체는 몇퍼가 빨라질까?
 - 중학교 수준의 수학임
 - 1960년도에 태어났으면 님들 뛰어난 공학자가 될 수 있었는데
+- 특정 부분의 속도만 증가시키기 때문에 전체 speedup에는 한계가 존재
+	- speedup을 변수로 하는 방정식을 풀면 됨
+#### Optimization and performance speedup
+- python - 느리다. 프레임워크를 사용하거나 프로토타입 코드를 작성하는데 사용
+- C, C++ - 빠르다. 서버 쪽에서와 같이 속도가 중요하면 무조건 이거 쓴다
+- **Data lever parallelism** : 반복적인 작업을 여러 개의 프로세스로 나누어 처리하는 것, CPU와 GPU에서 처리한다. 반복적인 연산 작업 (벡터 연산, 곱셈 등)을 처리할 때 사용한다.
+- **Instruction-level parallelism** : 여러 개의 instruction을 한 번에 처리
+- **Memory hiearchy optimization** : 메모리의 접근을 용이하게 하기 위한 정렬
+- **Thread-level parallelism** : CPU -> GPU 같은거?

@@ -132,7 +132,6 @@
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/금융공학의이해(1)",
     "//03-Resources",
-    "//03-Resources/03-Resources/Cryptography",
     "//02-Area/02-Area/Study",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/컴퓨터구조",
     "//02-Area",
@@ -142,7 +141,7 @@
     "//03-Resources/03-Resources/Algorithm",
     "//03-Resources/03-Resources/Algorithm",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험",
-    "Spaces/Yonsei/Spaces/Yonsei/2학년 2학기"
+    "//03-Resources/03-Resources/Computer Architecture"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

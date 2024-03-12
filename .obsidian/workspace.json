@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "01097d4a2ff59d23",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "URL",
+                "query": "operand",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
+                "file": "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
+                "file": "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md"
+                "file": "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md"
               }
             }
           },
@@ -171,11 +183,24 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "196218d191309fbd",
+  "active": "01e00628f9a5170e",
   "lastOpenFiles": [
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Media/Note 1 Introduction.pdf",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
+    "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
+    "99-Daily/2024_03_12.md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/1주차.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
+    "Media/1_computer_abstraction.pdf",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/MOSFET (1)/MOSFET (1).md",
+    "Spaces/Yonsei/2학년 2학기/전자회로(1)/MOSFET (2)/MOSFET (2).md",
+    "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
+    "99-Daily/2024_03_11.md",
+    "03-Resources/Computer Architecture/Digital Information.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (3)/Bipolar Amplifier (3).md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (2)/Bipolar Amplifier (2).md",
@@ -187,23 +212,10 @@
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Transistors/Transistors.md",
     "Bipolar transistors 2.md",
     "Bipolar transistors 1.md",
-    "Bipolar transistors.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Basic Physics of semiconductors.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Basic Semiconductor Physics and PN Junction Diode/Basic Semiconductor Physics and PN Junction Diode.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Mass Action Law/Mass Action Law.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Properties of Silicon/Properties of Silicon.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Semiconductors/Semiconductors.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Introduction & Review of Basic Circuit theory.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Review of Basic Circuit Theory/Review of Basic Circuit Theory.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Introduction/Introduction.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/1주차.md",
     "Media/2_instructions 1.pdf",
     "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
     "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
     "Media/Pasted image 20240118005656.png",
-    "Media/1_computer_abstraction.pdf",
     "Media/chapter_1.pdf",
     "Media/1_computer_abstraction 1.pdf",
     "Media/2_instructions.pdf",
