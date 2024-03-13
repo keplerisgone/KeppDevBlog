@@ -1,0 +1,1 @@
+![[Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw]]
