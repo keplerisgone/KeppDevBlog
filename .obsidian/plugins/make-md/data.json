@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "Spaces/Yonsei",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -149,7 +149,8 @@
     "//03-Resources/03-Resources/Terminal",
     "//03-Resources/03-Resources/Web",
     "//99-Daily",
-    "Spaces/Yonsei/Spaces/Yonsei/2학년 2학기"
+    "Spaces/Yonsei/Spaces/Yonsei/2학년 2학기",
+    "//03-Resources/03-Resources/Computer Architecture"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

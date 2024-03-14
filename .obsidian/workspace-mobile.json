@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-Daily/2024_03_09.md",
+                "file": "03-Resources/Computer Architecture/Data Compression.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "fddb38e918023cb4",
@@ -132,7 +132,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "99-Daily/2024_03_09.md",
+            "file": "03-Resources/Computer Architecture/Data Compression.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "99-Daily/2024_03_09.md",
+            "file": "03-Resources/Computer Architecture/Data Compression.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -161,7 +161,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "99-Daily/2024_03_09.md"
+            "file": "03-Resources/Computer Architecture/Data Compression.md"
           }
         }
       },
@@ -206,8 +206,10 @@
   },
   "active": "feb534d8ddb0b635",
   "lastOpenFiles": [
-    "99-Daily/2024_03_07.md",
+    "99-Daily/2024_03_14.md",
+    "03-Resources/Computer Architecture/Data Compression.md",
     "99-Daily/2024_03_09.md",
+    "99-Daily/2024_03_07.md",
     "99-Daily/2024_03_06.md",
     "99-Daily/2024_03_03.md",
     "99-Daily/2024_03_01.md",
@@ -232,8 +234,6 @@
     "Spaces/Home",
     "Spaces",
     "03-Resources/logseq을 개조해 보자.md",
-    "Notation.md",
-    "운영체제(OS)란?.md",
-    "Spaces/Home/03-Resources/Dev/Linux/Linux란?.md"
+    "Notation.md"
   ]
 }

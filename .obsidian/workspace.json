@@ -18,31 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0c8f4f5804407b65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b547ed2b6ff7801",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
               }
             }
           },
@@ -195,11 +172,14 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "01e00628f9a5170e",
+  "active": "196218d191309fbd",
   "lastOpenFiles": [
-    "Media/Note 2 Amplitude Modulation.pdf",
+    "03-Resources/Computer Architecture/Data Compression.md",
+    "03-Resources/Computer Architecture/Untitled.md",
+    "99-Daily/2024_03_14.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
     "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
+    "Media/Note 2 Amplitude Modulation.pdf",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (5) (찐찐찐막)/Bipolar Amplifier (5) (찐찐찐막).md",
@@ -221,8 +201,6 @@
     "99-Daily/2024-01-23.md",
     "99-Daily/2024-01-24.md",
     "99-Daily/2024_01_25.md",
-    "99-Daily/2024_02_04.md",
-    "99-Daily/2024_02_05.md",
     "Media/Note 1 Introduction.pdf",
     "Media/1_computer_abstraction.pdf",
     "Media/2_instructions 1.pdf",
@@ -238,7 +216,6 @@
     "02-Area/Wargame",
     "PDFs/컴퓨터구조/2_instructions.pdf",
     "03-Resources/Cryptography",
-    "PDFs/문학환경과곁사슬문학의이해/곁사슬 1주차.pdf",
     "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
     "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
     "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",
