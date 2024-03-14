@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+                "file": "03-Resources/Web/CSRF.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "e6c41331350d3473",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Media/CSRF 2024-03-14 23.47.24.excalidraw.md"
               }
             }
           }
@@ -73,8 +83,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+                "file": "03-Resources/Web/CSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+                "file": "03-Resources/Web/CSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+                "file": "03-Resources/Web/CSRF.md"
               }
             }
           },
@@ -174,7 +183,11 @@
   },
   "active": "196218d191309fbd",
   "lastOpenFiles": [
+    "Media/CSRF 2024-03-14 23.47.24.excalidraw.md",
+    "03-Resources/Web/CSRF.md",
     "03-Resources/Computer Architecture/Data Compression.md",
+    "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "03-Resources/Computer Architecture/Untitled.md",
     "99-Daily/2024_03_14.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
@@ -185,7 +198,6 @@
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (5) (찐찐찐막)/Bipolar Amplifier (5) (찐찐찐막).md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (4)/Bipolar Amplifier (4).md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Summary of Bipolar Amplifier/Summary of Bipolar Amplifier.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
     "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
     "99-Daily/2024_03_13.md",
@@ -198,9 +210,6 @@
     "99-Daily/2024-01-20.md",
     "99-Daily/2024-01-21.md",
     "99-Daily/2024-01-22.md",
-    "99-Daily/2024-01-23.md",
-    "99-Daily/2024-01-24.md",
-    "99-Daily/2024_01_25.md",
     "Media/Note 1 Introduction.pdf",
     "Media/1_computer_abstraction.pdf",
     "Media/2_instructions 1.pdf",

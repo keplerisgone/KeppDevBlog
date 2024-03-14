@@ -140,7 +140,6 @@
     "//03-Resources/03-Resources/Algorithm",
     "//03-Resources/03-Resources/Algorithm",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/기초아날로그실험",
-    "//03-Resources/03-Resources/Computer Architecture",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/전자회로(2)",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/전자회로(2)",
@@ -148,9 +147,7 @@
     "//03-Resources/03-Resources/Web",
     "//03-Resources/03-Resources/Terminal",
     "//03-Resources/03-Resources/Web",
-    "//99-Daily",
-    "Spaces/Yonsei/Spaces/Yonsei/2학년 2학기",
-    "//03-Resources/03-Resources/Computer Architecture"
+    "Spaces/Yonsei/Spaces/Yonsei/2학년 2학기"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
