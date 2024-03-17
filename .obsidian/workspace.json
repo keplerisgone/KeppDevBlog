@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Web/CSRF.md",
+                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Web/CSRF.md",
+                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Web/CSRF.md",
+                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Web/CSRF.md"
+                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md"
               }
             }
           },
@@ -183,8 +183,11 @@
   },
   "active": "196218d191309fbd",
   "lastOpenFiles": [
-    "Media/CSRF 2024-03-14 23.47.24.excalidraw.md",
+    "99-Daily/2024_03_17.md",
+    "99-Daily/2024_03_16.md",
     "03-Resources/Web/CSRF.md",
+    "99-Daily/2024_03_15.md",
+    "Media/CSRF 2024-03-14 23.47.24.excalidraw.md",
     "03-Resources/Computer Architecture/Data Compression.md",
     "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
@@ -207,9 +210,6 @@
     "99-Daily/2024-01-17.md",
     "99-Daily/2024-01-18.md",
     "99-Daily/2024-01-19.md",
-    "99-Daily/2024-01-20.md",
-    "99-Daily/2024-01-21.md",
-    "99-Daily/2024-01-22.md",
     "Media/Note 1 Introduction.pdf",
     "Media/1_computer_abstraction.pdf",
     "Media/2_instructions 1.pdf",

@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Computer Architecture/Data Compression.md",
+                "file": "99-Daily/2024_03_16.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "03-Resources/Computer Architecture/Data Compression.md",
+            "file": "99-Daily/2024_03_16.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "03-Resources/Computer Architecture/Data Compression.md",
+            "file": "99-Daily/2024_03_16.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -161,7 +161,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "03-Resources/Computer Architecture/Data Compression.md"
+            "file": "99-Daily/2024_03_16.md"
           }
         }
       },
@@ -206,8 +206,11 @@
   },
   "active": "feb534d8ddb0b635",
   "lastOpenFiles": [
-    "99-Daily/2024_03_14.md",
+    "99-Daily/2024_03_17.md",
+    "99-Daily/2024_03_16.md",
+    "99-Daily/2024_03_15.md",
     "03-Resources/Computer Architecture/Data Compression.md",
+    "99-Daily/2024_03_14.md",
     "99-Daily/2024_03_09.md",
     "99-Daily/2024_03_07.md",
     "99-Daily/2024_03_06.md",
@@ -230,10 +233,7 @@
     "01-Project/Robotgame/보스 2페.md",
     "Excalidraw/보스 1페이즈.md",
     "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
-    "01-Project/Robotgame/보스 3페.md",
     "Spaces/Home",
-    "Spaces",
-    "03-Resources/logseq을 개조해 보자.md",
-    "Notation.md"
+    "Spaces"
   ]
 }
