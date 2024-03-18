@@ -13,23 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e6c41331350d3473",
+            "id": "081702282950e01b",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Media/CSRF 2024-03-14 23.47.24.excalidraw.md"
+                "file": "Media/Instruction 2024-03-10 14.08.07.excalidraw.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md",
+                "file": "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md",
+                "file": "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md"
+                "file": "Media/Instruction 2024-03-10 14.08.07.excalidraw.md"
               }
             }
           },
@@ -181,30 +182,30 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "196218d191309fbd",
+  "active": "081702282950e01b",
   "lastOpenFiles": [
-    "99-Daily/2024_03_18.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
+    "Media/CSRF 2024-03-14 23.47.24.excalidraw.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
     "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md",
+    "99-Daily/2024_03_18.md",
     "99-Daily/2024_03_17.md",
     "99-Daily/2024_03_16.md",
     "03-Resources/Web/CSRF.md",
     "99-Daily/2024_03_15.md",
-    "Media/CSRF 2024-03-14 23.47.24.excalidraw.md",
     "03-Resources/Computer Architecture/Data Compression.md",
     "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "03-Resources/Computer Architecture/Untitled.md",
     "99-Daily/2024_03_14.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
     "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
     "Media/Note 2 Amplitude Modulation.pdf",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (5) (찐찐찐막)/Bipolar Amplifier (5) (찐찐찐막).md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (4)/Bipolar Amplifier (4).md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Summary of Bipolar Amplifier/Summary of Bipolar Amplifier.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
-    "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
     "99-Daily/2024_03_13.md",
     "Spaces/Yonsei/3학년 1학기/3학년 1학기.md",
     "99-Daily/2024_03_11.md",
