@@ -1,1 +1,1 @@
-![[Instruction 2024-03-10 14.08.07.excalidraw|700]]
+![[Instruction 2024-03-10 14.08.07.excalidraw|100]]
