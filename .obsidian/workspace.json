@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Project/임베디드 with 라즈베리파이.md",
+                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/임베디드 with 라즈베리파이.md",
+                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/임베디드 with 라즈베리파이.md",
+                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/임베디드 with 라즈베리파이.md"
+                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
               }
             }
           },
@@ -184,17 +184,21 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "db29fcc405f79c6f",
+  "active": "d16859d2e7b369cd",
   "lastOpenFiles": [
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
+    "Media/24-03-20 전회.pdf",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+    "01-Project/임베디드 with 라즈베리파이.md",
     "99-Daily/2024_03_20.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
-    "01-Project/임베디드 with 라즈베리파이.md",
     "02-Area/02-Area.md",
     "Media/2_instructions (dragged).pdf",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
     "Spaces/Yonsei/2학년 2학기/2학년 2학기.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
     "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/3주차.md",
     "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
@@ -210,9 +214,6 @@
     "03-Resources/Web/CSRF.md",
     "99-Daily/2024_03_15.md",
     "03-Resources/Computer Architecture/Data Compression.md",
-    "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
-    "03-Resources/Computer Architecture/Untitled.md",
-    "99-Daily/2024_03_14.md",
     "Media/Note 2 Amplitude Modulation.pdf",
     "Media/Note 1 Introduction.pdf",
     "Media/1_computer_abstraction.pdf",
@@ -227,7 +228,6 @@
     "Media/Untitled 3 4.png",
     "Media/Untitled 2 5.png",
     "04-Archive/Wargame",
-    "PDFs/컴퓨터구조/2_instructions.pdf",
     "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
     "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
     "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",
