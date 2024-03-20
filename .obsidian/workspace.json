@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+                "file": "01-Project/임베디드 with 라즈베리파이.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+                "file": "01-Project/임베디드 with 라즈베리파이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+                "file": "01-Project/임베디드 with 라즈베리파이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+                "file": "01-Project/임베디드 with 라즈베리파이.md"
               }
             }
           },
@@ -184,8 +184,13 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "d16859d2e7b369cd",
+  "active": "db29fcc405f79c6f",
   "lastOpenFiles": [
+    "99-Daily/2024_03_20.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "01-Project/임베디드 with 라즈베리파이.md",
+    "02-Area/02-Area.md",
+    "Media/2_instructions (dragged).pdf",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
     "Spaces/Yonsei/2학년 2학기/2학년 2학기.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md",
@@ -197,7 +202,6 @@
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md",
     "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "Media/CSRF 2024-03-14 23.47.24.excalidraw.md",
     "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md",
     "99-Daily/2024_03_18.md",
@@ -210,9 +214,6 @@
     "03-Resources/Computer Architecture/Untitled.md",
     "99-Daily/2024_03_14.md",
     "Media/Note 2 Amplitude Modulation.pdf",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (5) (찐찐찐막)/Bipolar Amplifier (5) (찐찐찐막).md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (4)/Bipolar Amplifier (4).md",
     "Media/Note 1 Introduction.pdf",
     "Media/1_computer_abstraction.pdf",
     "Media/2_instructions 1.pdf",
@@ -225,9 +226,8 @@
     "Media/Untitled 4 2.png",
     "Media/Untitled 3 4.png",
     "Media/Untitled 2 5.png",
-    "02-Area/Wargame",
+    "04-Archive/Wargame",
     "PDFs/컴퓨터구조/2_instructions.pdf",
-    "03-Resources/Cryptography",
     "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
     "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
     "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",
