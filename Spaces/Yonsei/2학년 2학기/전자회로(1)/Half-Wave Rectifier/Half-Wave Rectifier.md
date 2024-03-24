@@ -47,7 +47,7 @@ Linear approximation을 위해 Taylor Series를 사용합니다. $t$﻿가 매�
 
 뒤의 term이 바로 시간 $t$﻿에 따른 output voltage loss, Ripple입니다. 대충 주기를 기준으로 decay한다고 가정해봅시다.
 
-> $V_R\approx {V_p-V_{D,on} \over R_L}\cdot {T_{in}\over C_1}\approx {V_p-V_{D,on} \over R_L C_1 f_{in}} $﻿
+> $V_R\approx {V_p-V_{D,on} \over R_L}\cdot {T_{in}\over C_1}\approx {V_p-V_{D,on} \over R_L C_1 f_{in}}$﻿
 
 그럼 Ripple을 줄일 수 있는 방법이 좀 명확해졌죠?
 
