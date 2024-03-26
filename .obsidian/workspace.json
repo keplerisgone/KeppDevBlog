@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-Daily/2024_03_26.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99-Daily/2024_03_26.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99-Daily/2024_03_26.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99-Daily/2024_03_26.md"
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md"
               }
             }
           },
@@ -167,7 +167,8 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-file-cleaner:Clean files": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
   "floating": {
@@ -175,20 +176,20 @@
     "type": "floating",
     "children": [
       {
-        "id": "1b9a742286ff3e53",
+        "id": "4117ce46f14f66c5",
         "type": "window",
         "children": [
           {
-            "id": "e8e23fae955908f4",
+            "id": "506439b6d3add3e0",
             "type": "tabs",
             "children": [
               {
-                "id": "f841c15f9c5e6bec",
+                "id": "e8e7db4239f5c675",
                 "type": "leaf",
                 "state": {
                   "type": "excalidraw",
                   "state": {
-                    "file": "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md"
+                    "file": "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md"
                   }
                 }
               }
@@ -196,8 +197,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 370,
-        "y": 251,
+        "x": 163,
+        "y": 315,
         "width": 1024,
         "height": 800,
         "maximize": false,
@@ -207,10 +208,13 @@
   },
   "active": "d16859d2e7b369cd",
   "lastOpenFiles": [
+    "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
-    "99-Daily/2024_03_26.md",
+    "03-Resources/().md",
+    "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
     "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md",
+    "99-Daily/2024_03_26.md",
     "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
@@ -234,8 +238,6 @@
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "02-Area/02-Area.md",
     "Media/2_instructions (dragged).pdf",
-    "Spaces/Yonsei/2학년 2학기/2학년 2학기.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md",
     "Media/Note 2 Amplitude Modulation.pdf",
     "Media/Note 1 Introduction.pdf",
     "Media/1_computer_abstraction.pdf",
@@ -252,7 +254,6 @@
     "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
     "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
     "Media/Screenshot_2023-10-02_at_9.10.19_AM.png",
-    "Media/Screenshot_2023-10-02_at_9.09.41_AM.png",
     "02-Area/Careers/나는 커서 뭘 할까.canvas"
   ]
 }

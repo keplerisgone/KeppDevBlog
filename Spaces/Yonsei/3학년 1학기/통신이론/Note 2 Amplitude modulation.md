@@ -1,5 +1,98 @@
-![[Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw|100]]
+# Amplitude Modulation
 
+![](https://i.imgur.com/wpReNih.png)
+- **analog signal** - continuous한 신호를 보냄
+    그렇다고 digital이 non continuous인 건 아님  (애초에 현실에서 완벽한 non-continuous를 만들 수 있나?)
+    digital은 그냥 level이 존재함 - digital도 analog 신호가 일정 레벨을 가지도록 변형된 것
+- bandwidth를 유지하는 것이 중요하기 때문에 따로 변형을 가하지 x
+- 보내는 정보에 따라 bandwidth가 다름
+	- 말하는 것은 4kHz까지, 음악과 같은 경우는 20kHz
+	- 티비에서 송수신하는 비디오의 경우는 6MHz 정도의 BW를 가짐
+
+![](https://i.imgur.com/zMYEyEd.png)
+- analog signal은 carrier modulation에 의해 전달됨
+- analog를 전해주는 신호 = carrier wave
+- 왜 사인함수인가 : 진동을 보기 좋아서
+	-> rectangular 함수를 써도 됨
+- 뭐든 지 level을 적당히 정해야 효율적임
+    예를 들어 phase는 360도까지만 존재하므로, 이상의 값이 필요없음 -> 자원 낭비다
+- carrier에는 정보가 담기는데...
+	이 정보는 A, P, F 중에 하나에 담김
+	각 종류마다 modulation이 있음
+	이중 Amplitude를 사용하는 modulation이 바로 AM이다
+- 이런 modulation을 진행하는 게 바로 modem 부품
++ demodulation도 진행
+# Introduction to Modulation
+![](https://i.imgur.com/6zkWZXu.png)
+- m(t)
+    메세지를 담은 signal
+    analog
+    baseband = 중심이 0이라는 뜻
+    bandwidth가 W **가장 중요한 것은 BW는 양수 부분만 한정이라는 것이다!!**
+    modulating (당하는)
+- c(t)
+    그냥 코사인 함수
+    carrier
+- u(t)
+    Passband = 밴드의 중심이 $f_c$
+    Modulated (당한)
+    transmitted = 전달되는
+
+![](https://i.imgur.com/V1gUnhZ.png)
+- 왼쪽 위와 같은 message signal $m(t)$를 AM 시켜보자
+- 단순히 carrier signal과 곱해버리면 된다
+- 이를 이용하면 phase 정보로 봤을 때 $f_c$ 부분에서 생긴 것을 알 수 있음
+	- 이 때 원본 message의 BW는 0~W이고, AM 진행 후에는 $f_{c}- W \~ f_{c}+ W$로  두배가 되었음을 알 수 있다
+
+![](https://i.imgur.com/fhsUc6O.png)
+- 여기도 마찬가지...
+
+![](https://i.imgur.com/Zyk3is7.png)
+- sinc 함수를 Modulation하면 다음과 같이 된다
+- 역시나 BW가 두배로 늘어난 모습
+- sinc 함수를 FT했을 때 왜 rect이 안나오고 저런 모양이 나오냐면 Gibbs Phenomenan때문이다
+# Objectives of Modulation
+
+![](https://i.imgur.com/7qGoUpR.png)
+
+- AM을 왜 하는가?
+**1. 채널의 주파수 대역을 맞추기 위해서**
+**2. transmitter를 맞추기 위해서**
+    - 안테나의 크기는 신호의 반파장이어야 하는데,
+    - 주파수를 크게 하면 파장이 줄어든다 -> 안테나 만드는 값 아끼기
+
+![](https://i.imgur.com/wJ01s7J.png)
+**3. Frequency-division**
+- 주파수가 높을 수록 더 많이 frequency-division이 가능
+- 더 많은 사람들이 이용할 수 있게 한다
+
+**4. 노이즈에 강해진다**
+	근데 AM만 이게 해당이 안 됨 - AM은 애초에 BW에 따라 power가 달라지거나 하지 않음
+	PM,FM의 경우는 bandwidth를 5배로 늘리는 경우만 해당
+아무튼 takeoff가 있다~
+## example
+
+![](https://i.imgur.com/KGjQHdI.png)
+# Amplitude Modulation (AM)
+
+![](https://i.imgur.com/AjSFKQj.png)
+- AM의 종류는 다음과 같다.
+- 물론 AM을 시행하는 방법, 즉 스펙트럼이 어떻게 되가냐의 차이지 analog, digital의 차이는 아니다.
+- DSB-SC AM (double sideband - Suppressed-Carrier AM)
+	- 원래 y축에 의해서 쪼개져 있던게 나와서 bandwidth가 두배가 됨
+	- cos이 사라져요.. (물론 주파수 대역에서)
+- DSB-LC AM
+	- carrier(cos)이 살아있어요
+	- 간섭을 억제할 수 있음
+
+SSB AM
+- 신호의 절반만 보내요
+
+VSB AM
+- SSB가 현실적인 건 아니니까
+신호의 60%만 보내요
+
+위 모두 analog, digital 상관없이 스펙트럼에 관한 이야기
 # Demodulation of SSB-AM Signals
 ![](https://i.imgur.com/KUB95Kh.png)
 
