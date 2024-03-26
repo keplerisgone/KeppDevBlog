@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "081702282950e01b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d16859d2e7b369cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
+                "file": "99-Daily/2024_03_26.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
+                "file": "99-Daily/2024_03_26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
+                "file": "99-Daily/2024_03_26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md"
+                "file": "99-Daily/2024_03_26.md"
               }
             }
           },
@@ -180,16 +167,52 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-file-cleaner:Clean files": false,
-      "obsidian-importer:Open Importer": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-importer:Open Importer": false
     }
+  },
+  "floating": {
+    "id": "7f2b4978761120ea",
+    "type": "floating",
+    "children": [
+      {
+        "id": "1b9a742286ff3e53",
+        "type": "window",
+        "children": [
+          {
+            "id": "e8e23fae955908f4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f841c15f9c5e6bec",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 370,
+        "y": 251,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
   },
   "active": "d16859d2e7b369cd",
   "lastOpenFiles": [
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+    "99-Daily/2024_03_26.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
+    "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Limiting Circuits/Limiting Circuits.md",
@@ -213,8 +236,6 @@
     "Media/2_instructions (dragged).pdf",
     "Spaces/Yonsei/2학년 2학기/2학년 2학기.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/3주차.md",
-    "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
     "Media/Note 2 Amplitude Modulation.pdf",
     "Media/Note 1 Introduction.pdf",
     "Media/1_computer_abstraction.pdf",
