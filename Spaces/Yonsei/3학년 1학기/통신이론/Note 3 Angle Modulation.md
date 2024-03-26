@@ -128,28 +128,34 @@
 - a가 증가하면 harmonic 의 수가 증가
 - $f_{m}$ 가 증가하면 PM은 고정, FM은 harmonic 의 수가 감소 ⇒ 모두 harmonic 사이의 간격이 늘어나는 것
 
-[]
-
+![](https://i.imgur.com/EjXiML0.png)
 - PM signal의 주파수가 증가하면
 	- BW가 증가
-	- Harmonic의 수는 그대로
+	- Harmonic의 수는 그대로, 하지만 harmonic 사이의 간격은 증가
 
+![](https://i.imgur.com/1yIIS1x.png)
+- FM의 주파수가 증가하면
+	- BW가 증가 (PM보단 덜함)
+	- harmonic의 개수는 줄지만, 간격이 증가한다 (PM보다 더함)
 # Angle Modulation by an Arbitrary Message Signal
 
-[]
+![](https://i.imgur.com/TwUFh0V.png)
+
 - 위와 같은 특징을 일반화 (sinusoidal -> general)
 - **Carson's Rule** : modulated signal의 BW는 $2(\beta + 1)W$이다.
 	- $\beta$는 Modulation index
 	- $W$는 message signal의 BW이다
 - **Wideband FM** : $\beta$가 5이상이면...
 - Angle modulated signal의 BW는 SSB, DSB에 따라 달라짐
-	- SSB의 경우는 $B_{c} = (\beta + 1)W$일수도 있음
+	- SSB의 경우는 W, 2W잖아
 	- AM은 보통 Amplitude modulation을 의미하는것... angle이 아니다
 ## example
-[]
+ 
+![](https://i.imgur.com/vIT55jg.png)
 
 # Demodulation of FM Signals
-[]
+
+![](https://i.imgur.com/yRRQUpq.png)
 - 수학적으로 개념만 이해해보자
 - FM 신호를 미분하면 AM signal이 나온다
 	- 왜 $j2\pi f$인가? -> FT에서 미분을 하면 $j\omega$가 곱해지기 때문

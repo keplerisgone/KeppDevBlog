@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "img"
   ],
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "theme": "obsidian"
 }

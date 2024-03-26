@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md"
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md"
               }
             }
           },
@@ -171,54 +171,22 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "floating": {
-    "id": "7f2b4978761120ea",
-    "type": "floating",
-    "children": [
-      {
-        "id": "4117ce46f14f66c5",
-        "type": "window",
-        "children": [
-          {
-            "id": "506439b6d3add3e0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e8e7db4239f5c675",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 163,
-        "y": 315,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "d16859d2e7b369cd",
+  "active": "db29fcc405f79c6f",
   "lastOpenFiles": [
-    "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/통신이론.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+    "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
     "03-Resources/().md",
     "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
     "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md",
     "99-Daily/2024_03_26.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Limiting Circuits/Limiting Circuits.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Applications of Diode.md",
     "Spaces/Yonsei/2학년 2학기/전자회로(1)/Half-Wave Rectifier/Half-Wave Rectifier.md",
@@ -232,11 +200,8 @@
     "01-Project/임베디드 with 라즈베리파이.md",
     "01-Project/Untitled.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
     "Media/24-03-20 전회.pdf",
     "99-Daily/2024_03_20.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
-    "02-Area/02-Area.md",
     "Media/2_instructions (dragged).pdf",
     "Media/Note 2 Amplitude Modulation.pdf",
     "Media/Note 1 Introduction.pdf",
