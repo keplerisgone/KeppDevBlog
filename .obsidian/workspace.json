@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
               }
             }
           },
@@ -173,16 +173,17 @@
   },
   "active": "d16859d2e7b369cd",
   "lastOpenFiles": [
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+    "99-Daily/2024_03_27.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/통신이론.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
     "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
     "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
     "03-Resources/().md",
     "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md",
@@ -201,7 +202,6 @@
     "01-Project/Untitled.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
     "Media/24-03-20 전회.pdf",
-    "99-Daily/2024_03_20.md",
     "Media/2_instructions (dragged).pdf",
     "Media/Note 2 Amplitude Modulation.pdf",
     "Media/Note 1 Introduction.pdf",
