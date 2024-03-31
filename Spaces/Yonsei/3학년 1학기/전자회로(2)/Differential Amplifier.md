@@ -92,6 +92,9 @@
 ![](https://i.imgur.com/lNw00al.png)
 - 요런 과정을 거친다
 ## 10.27
+
+![](https://i.imgur.com/B5Qk4tn.png)
+
 ## 10.34
 ## 10.70
 ## 10.71

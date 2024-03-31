@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
+                "file": "02-Area/Embedded/라즈베리파이 전원 스위치 만들기.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
+                "file": "02-Area/Embedded/라즈베리파이 전원 스위치 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
+                "file": "02-Area/Embedded/라즈베리파이 전원 스위치 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Linux/docker를 이용해서 편하게 리눅스 사용하기.md"
+                "file": "02-Area/Embedded/라즈베리파이 전원 스위치 만들기.md"
               }
             }
           },
@@ -172,11 +171,12 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "cab3e0a5c6aa6f1f",
+  "active": "d16859d2e7b369cd",
   "lastOpenFiles": [
+    "02-Area/Embedded/라즈베리파이 전원 스위치 만들기.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
     "03-Resources/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
     "02-Area/Embedded/임베디드 시스템의 개발 환경.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
     "03-Resources/().md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
@@ -200,7 +200,6 @@
     "03-Resources/Linux/라즈베리파이에 Linux 설치하기.md",
     "02-Area/Embedded/라즈베리파이를 세팅해보자 (mac).md",
     "04-Archive/04-Archive.md",
-    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
     "01-Project/노닥노닥 라즈베리",
     "Media/24-03-20 전회.pdf",
     "Media/2_instructions (dragged).pdf",
