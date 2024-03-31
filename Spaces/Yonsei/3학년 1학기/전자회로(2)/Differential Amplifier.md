@@ -48,7 +48,27 @@
 	- KCL, KVL를 이용해 $v_{o1}-v_{o2}, v_{s1}- v_{s2}$값을 구한다.
 - 일반 BJT 회로와 gain이 상당히 유사한 형태다
 ## Common mode gain, $A_{CM}$
--
+### Common mode noise
+![](https://i.imgur.com/3DgfHKC.png)
+- common mode noise는 differential signal을 생성할 때 타는 노이즈를 의미, 두 시그널에 공통으로 들어간다
+- 위상이 같은 noise
+- 전원 자체에서 타거나, 아날로그-디지털 변환 도중 타기도 한다
+- 절대값이 딱히 중요하지 않다
+### Fully differential amplifier
+![](https://i.imgur.com/57YCG6E.png)
+- Common mode에서 noise는 두 input에서 같은 phase를 지니므로, Base를 묶어서 생각해도 상관없다
+- 이 경우 $A_{CM}$은 병렬로 취급해서 저렇게 계산된다
+- **Pseudo Differential Amplifier**는 아래에 $I_{EE}$가 없는 형태인데, 이러면 symmetry가 맞춰지지 않을 수 있어 위험하다
+### New CMRR
+![](https://i.imgur.com/KFVvyua.png)
+- CMRR(Common mode rejection ratio)를 다시 정의하면 다음과 같다
+	- ${A_{DM} \over A_{CM-DM}}$
+- $A_{CM-DM}$은 저렇게 input 단을 연결시켰을 때 $A_{v1}-A_{v2}$로 정의된다.
+- 여태껏 해왔던 것처럼 current loop를 돌리면 되지만, $I_{1}$과 $I_{2}$가 다를 수도 있기 때문에 이걸 맞춰줘야 한다.
+	- 같은 양의 전류가 흐른다고 가정한 뒤, current divider로 맞춰주는 것이라 생각하면 된다
+- 식을 통해 생각해보면, $A_{CM-DM}$을 줄이는 방법은...
+	- $R_{EE}$를 높이거나
+	- symmetry를 정확하게 맞춰주기 ($R_{1},R_{2}$와 ${1\over g_{m1}}, {1\over g_{m2}}$를 $맞춰준다$)
 # etc.
 ![](https://i.imgur.com/N4y9X5o.png)
 - Diff. amplifier 설계에는 **Symmetry**가 매우 중요하다. 이게 같지 않으면 noise가 상쇄되어 사라지지 않는다. 
@@ -71,3 +91,8 @@
 - 저거랑 저거는 왜 등가회로일까?
 ![](https://i.imgur.com/lNw00al.png)
 - 요런 과정을 거친다
+## 10.27
+## 10.34
+## 10.70
+## 10.71
+### Current mirror
