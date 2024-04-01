@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "Spaces/Yonsei",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -149,7 +149,11 @@
     "//03-Resources/03-Resources/ETC",
     "//03-Resources/03-Resources/Obsidian",
     "//03-Resources/03-Resources/ETC",
-    "//03-Resources/03-Resources/C&CPP"
+    "//03-Resources/03-Resources/C&CPP",
+    "//01-Project/01-Project/노닥노닥 라즈베리",
+    "//02-Area/02-Area/Careers",
+    "//02-Area/02-Area/Life",
+    "//02-Area/02-Area/Study"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
