@@ -99,3 +99,7 @@
 ## 10.70
 ## 10.71
 ### Current mirror
+
+# 의문점
+- 위처럼 current loop를 이용하는 방식이 간단하고 early effect나 channel length를 무시하는 회로면 괜찮은데, 조금이라도 복잡한 회로는 적용하기 어렵다
+	- 그냥 **Transconductance**를 사용하기로 했다

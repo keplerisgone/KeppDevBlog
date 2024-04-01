@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "915d209acab1c4f2",
+        "id": "e39f4b0048c60f9a",
         "type": "tabs",
         "children": [
           {
-            "id": "2fe1aebe3892000a",
+            "id": "8b95878409acb874",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+                "file": "03-Resources/Computer Architecture/Digital Information.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+            "file": "03-Resources/Computer Architecture/Digital Information.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+            "file": "03-Resources/Computer Architecture/Digital Information.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,7 +138,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md"
+            "file": "03-Resources/Computer Architecture/Digital Information.md"
           }
         }
       },
@@ -182,15 +182,18 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "2fe1aebe3892000a",
+  "active": "8b95878409acb874",
   "lastOpenFiles": [
-    "99-Daily/2024_03_27.md",
+    "03-Resources/Computer Architecture/Data Compression.md",
+    "03-Resources/Computer Architecture/Digital Information.md",
+    "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
+    "99-Daily/2024_04_01.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+    "99-Daily/2024_03_27.md",
     "99-Daily/2024_03_20.md",
     "99-Daily/2024_03_16.md",
     "99-Daily/2024_03_17.md",
     "99-Daily/2024_03_15.md",
-    "03-Resources/Computer Architecture/Data Compression.md",
     "99-Daily/2024_03_14.md",
     "99-Daily/2024_03_09.md",
     "99-Daily/2024_03_07.md",
@@ -208,9 +211,6 @@
     "99-Daily/2024_02_18.md",
     "99-Daily/2024_02_17.md",
     "99-Daily/2024_02_15.md",
-    "99-Daily/2024_02_14.md",
-    "03-Resources/Dev/Lambda Calculus.md",
-    "99-Daily/2024_02_13.md",
     "Spaces/Home",
     "Spaces"
   ]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Area/Embedded/라즈베리파이 전원 스위치 만들기.md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Area/Embedded/라즈베리파이 전원 스위치 만들기.md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Area/Embedded/라즈베리파이 전원 스위치 만들기.md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Area/Embedded/라즈베리파이 전원 스위치 만들기.md"
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md"
               }
             }
           },
@@ -173,33 +173,33 @@
   },
   "active": "d16859d2e7b369cd",
   "lastOpenFiles": [
-    "02-Area/Embedded/라즈베리파이 전원 스위치 만들기.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
-    "03-Resources/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
-    "02-Area/Embedded/임베디드 시스템의 개발 환경.md",
-    "03-Resources/().md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
-    "99-Daily/2024_03_27.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/통신이론.md",
-    "Media/Note 2 Amplitude modulation 2024-03-13 22.10.18.excalidraw.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
-    "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
-    "Media/Note 1 Introduction 2024-03-12 17.31.11.excalidraw.md",
-    "99-Daily/2024_03_26.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Limiting Circuits/Limiting Circuits.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Applications of Diode.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Half-Wave Rectifier/Half-Wave Rectifier.md",
-    "Spaces/Yonsei/2학년 2학기/전자회로(1)/Full-Wave Rectifier/Full-Wave Rectifier.md",
+    "03-Resources/ETC/Obsidian에서 Bear로.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
+    "99-Daily/2024_04_01.md",
+    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
+    "01-Project/임베디드 with 라즈베리파이.md",
     "01-Project/노닥노닥 라즈베리/Untitled.md",
-    "03-Resources/Linux/라즈베리파이에 Linux 설치하기.md",
-    "02-Area/Embedded/라즈베리파이를 세팅해보자 (mac).md",
-    "04-Archive/04-Archive.md",
+    "04-Archive/Robotgame/Prefab 모음.md",
+    "04-Archive/Robotgame/보스 2페.md",
+    "04-Archive/Robotgame/몬스터 구현.md",
+    "04-Archive/Robotgame/배터리 시스템.md",
+    "04-Archive/Robotgame/보스 1페이즈.md",
+    "04-Archive/Robotgame/진행 상황.md",
+    "04-Archive/Robotgame/플레이어 구현.md",
+    "99-Kanban/치워요.md",
+    "99-Kanban/개강 전에 해요.md",
+    "99-Daily/2024_02_17.md",
+    "99-Daily/2024_02_18.md",
+    "99-Daily/2024_02_19.md",
+    "99-Daily/2024_02_24.md",
+    "99-Daily/2024-01-17.md",
+    "99-Daily/2024-01-18.md",
+    "99-Daily/2024-01-19.md",
+    "99-Daily/2024-01-20.md",
+    "99-Daily/2024-01-21.md",
+    "99-Daily/2024-01-22.md",
+    "99-Daily/2024_02_04.md",
+    "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "01-Project/노닥노닥 라즈베리",
     "Media/24-03-20 전회.pdf",
     "Media/2_instructions (dragged).pdf",
