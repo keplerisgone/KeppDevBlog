@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Git,Github.md",
+                "file": "05-Writing/키보드 자판.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,6 +51,22 @@
             }
           },
           {
+            "id": "ff8244a661f49fab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "4f7b913aa511f37d",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
             "id": "cab3e0a5c6aa6f1f",
             "type": "leaf",
             "state": {
@@ -64,20 +80,12 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "ff8244a661f49fab",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 227.50390243530273
+    "width": 260.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -93,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Git,Github.md",
+                "file": "05-Writing/키보드 자판.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Git,Github.md",
+                "file": "05-Writing/키보드 자판.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Git,Github.md"
+                "file": "05-Writing/키보드 자판.md"
               }
             }
           },
@@ -168,33 +176,34 @@
   },
   "active": "4481d0cb7d8beea5",
   "lastOpenFiles": [
-    "99-Daily/2024_04_05.md",
-    "03-Resources/03-Resources.md",
+    "05-Writing/05-Writing.md",
+    "05-Writing/키보드 자판.md",
     "03-Resources/Git,Github.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
-    "03-Resources/().md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/5주차.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/1주차.md",
-    "03-Resources/C&CPP/C++ namespace.md",
-    "03-Resources/C&CPP/C++ Vector 벡터.md",
-    "02-Area/Study/Tech & Dev.md",
-    "02-Area/Study/Functional Programming.md",
-    "02-Area/Study/C++로 문제 풀기.md",
-    "02-Area/Life/생산성 프로젝트.md",
+    "05-Writing",
+    "03-Resources/03-Resources.md",
+    "99-Daily/2024-01-22.md",
+    "99-Daily/2024_02_05.md",
+    "99-Daily/2024_02_07.md",
+    "99-Daily/2024_02_11.md",
+    "99-Daily/2024_02_14.md",
+    "99-Daily/2024_02_17.md",
+    "99-Daily/2024_03_01.md",
+    "99-Daily/2024_03_07.md",
+    "99-Daily/2024_03_10.md",
+    "99-Daily/2024_03_11.md",
+    "99-Daily/2024_03_13.md",
+    "99-Daily/2024_03_16.md",
+    "99-Daily/2024_03_20.md",
+    "99-Daily/2024-01-17.md",
+    "99-Daily/2024-01-18.md",
+    "99-Daily/2024-01-19.md",
+    "99-Daily/2024-01-20.md",
+    "99-Daily/2024-01-21.md",
+    "99-Daily/2024-01-23.md",
+    "99-Daily/2024_02_04.md",
+    "99-Daily/2024_02_06.md",
+    "99-Daily/2024_02_08.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
-    "03-Resources/Computer Architecture/Digital Information.md",
-    "03-Resources/Computer Architecture/Data Compression.md",
-    "03-Resources/C&CPP/C++이란?.md",
-    "01-Project/임베디드 with 라즈베리파이.md",
-    "02-Area/Study/정보보안 커리큘럼.md",
-    "03-Resources/Algorithm/Algorithm.md",
-    "03-Resources/C&CPP/C++ 조건문.md",
-    "03-Resources/C&CPP/C++ 반복문 (for, switch, while).md",
     "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "01-Project/노닥노닥 라즈베리",
     "Media/24-03-20 전회.pdf",
@@ -208,7 +217,6 @@
     "Media/Pasted image 20240118005656.png",
     "Media/chapter_1.pdf",
     "Media/1_computer_abstraction 1.pdf",
-    "Media/2_instructions.pdf",
     "Media/Untitled 4 2.png",
     "Media/Untitled 3 4.png",
     "Media/Untitled 2 5.png",
