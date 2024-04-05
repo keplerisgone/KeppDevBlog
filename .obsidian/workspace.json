@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-Daily/2024_04_05.md",
+                "file": "01-Project/임베디드 with 라즈베리파이.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PARA",
+                "query": "tag:#Area",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99-Daily/2024_04_05.md",
+                "file": "01-Project/임베디드 with 라즈베리파이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99-Daily/2024_04_05.md",
+                "file": "01-Project/임베디드 with 라즈베리파이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99-Daily/2024_04_05.md"
+                "file": "01-Project/임베디드 with 라즈베리파이.md"
               }
             }
           },
@@ -166,10 +167,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d16859d2e7b369cd",
+  "active": "cab3e0a5c6aa6f1f",
   "lastOpenFiles": [
-    "03-Resources/C&CPP/C++이란?.md",
+    "01-Project/노닥노닥 라즈베리/라즈베리파이 개발환경 설정하기.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
     "99-Daily/2024_04_05.md",
+    "03-Resources/C&CPP/C++이란?.md",
     "03-Resources/C&CPP/C++ namespace.md",
     "03-Resources/C&CPP/C++ Vector 벡터.md",
     "99-Daily/2024_04_03.md",
@@ -181,10 +185,7 @@
     "02-Area/Life/생산성 프로젝트.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "01-Project/임베디드 with 라즈베리파이.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
     "03-Resources/Network/OSI 7 계층.md",
-    "01-Project/노닥노닥 라즈베리/라즈베리파이 개발환경 설정하기.md",
     "04-Archive/Obsidian/옵시디언 노트 정리법.md",
     "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
