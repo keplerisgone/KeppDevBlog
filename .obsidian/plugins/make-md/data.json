@@ -136,9 +136,7 @@
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/전자회로(2)",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/전자회로(2)",
-    "//03-Resources/03-Resources/Cryptography",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/금융공학의이해(1)",
-    "//04-Archive",
     "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기/Spaces/Yonsei/3학년 1학기/전자회로(2)",
     "//01-Project/01-Project/노닥노닥 라즈베리",
     "//04-Archive/04-Archive/Embedded",
@@ -154,7 +152,9 @@
     "//02-Area/02-Area/Careers",
     "//02-Area/02-Area/Life",
     "//02-Area/02-Area/Study",
-    "//02-Area/02-Area/Careers"
+    "//02-Area/02-Area/Careers",
+    "//03-Resources/03-Resources/Cryptography",
+    "//03-Resources/03-Resources/Computer Architecture"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

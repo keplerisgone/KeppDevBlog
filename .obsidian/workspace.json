@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Project/임베디드 with 라즈베리파이.md",
+                "file": "03-Resources/C&CPP/C++ Vector 벡터.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/임베디드 with 라즈베리파이.md",
+                "file": "03-Resources/C&CPP/C++ Vector 벡터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/임베디드 with 라즈베리파이.md",
+                "file": "03-Resources/C&CPP/C++ Vector 벡터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/임베디드 with 라즈베리파이.md"
+                "file": "03-Resources/C&CPP/C++ Vector 벡터.md"
               }
             }
           },
@@ -167,11 +166,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cab3e0a5c6aa6f1f",
+  "active": "d16859d2e7b369cd",
   "lastOpenFiles": [
+    "04-Archive/Vim/Lunarvim 사용하기.md",
+    "04-Archive/Robotgame/보스 2페.md",
+    "04-Archive/Robotgame/Prefab 모음.md",
+    "04-Archive/Robotgame/Senti.md",
+    "04-Archive/Web/Web.md",
+    "04-Archive/Web/Web browser & Developer tool.md",
+    "04-Archive/Web/Same Origin Policy.md",
+    "04-Archive/Web/Cookie & Session.md",
+    "04-Archive/Web/CSRF.md",
+    "04-Archive/logseq을 개조해 보자.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
+    "01-Project/임베디드 with 라즈베리파이.md",
     "01-Project/노닥노닥 라즈베리/라즈베리파이 개발환경 설정하기.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
     "99-Daily/2024_04_05.md",
     "03-Resources/C&CPP/C++이란?.md",
     "03-Resources/C&CPP/C++ namespace.md",
@@ -184,18 +194,7 @@
     "02-Area/Study/C++로 문제 풀기.md",
     "02-Area/Life/생산성 프로젝트.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
-    "01-Project/임베디드 with 라즈베리파이.md",
     "03-Resources/Network/OSI 7 계층.md",
-    "04-Archive/Obsidian/옵시디언 노트 정리법.md",
-    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
-    "03-Resources/ETC/Obsidian에서 Bear로.md",
-    "99-Daily/2024_04_01.md",
-    "04-Archive/Robotgame/Prefab 모음.md",
-    "04-Archive/Robotgame/보스 2페.md",
-    "04-Archive/Robotgame/몬스터 구현.md",
-    "04-Archive/Robotgame/배터리 시스템.md",
     "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "01-Project/노닥노닥 라즈베리",
     "Media/24-03-20 전회.pdf",
