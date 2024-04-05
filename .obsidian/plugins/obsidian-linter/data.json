@@ -89,7 +89,7 @@
     },
     "header-increment": {
       "enabled": false,
-      "start-at-h2": false
+      "start-at-h2": true
     },
     "headings-start-line": {
       "enabled": false

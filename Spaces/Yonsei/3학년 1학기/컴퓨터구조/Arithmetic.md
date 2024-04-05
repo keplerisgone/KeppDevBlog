@@ -63,10 +63,6 @@ Multiplying의 알고리즘은 다음과 같다. 중요한 아이디어는 *Mult
 ![](https://i.imgur.com/zHJ6Sco.png)
 ## Multiplying Signed Numbers
 
-부호가 다르면 
-
-
-
-
+부호가 다르면 계산 결과가 음수, 부호가 같으면 계산 결과가 양수가 됨을 이용한다. 연산은 음수를 two's complement를 이용해 계산한 후, sign bit를 정하는 방식으로 연산한다. 
 
 [^1]: : 연산을 진행할 때 *Multiplier 한 칸 왼쪽으로 옮겨서 계산하기*의 방식과 같다.
