@@ -33,3 +33,4 @@
 Adder의 구성은 **ripple-carry adder**와 **carry-lookhead adder**로 나뉠 수 있다. [TODO] - 뭔지 찾아보기
 ## Multiplying Binary Numbers
 binary number에서 곱셈하는 법을 알아보자. 초등학생이 두자리수 곱셈을 하듯이 계산하면 된다. 여기서 곱함 당하는(...) 숫자를 **Multiplicand**, 곱하고자 하는 수를 **Multiplier**라고 한다. multiplier의 LSB부터 시작하며, LSB가 0일 경우 0을 내리고, 1일 경우 multiplicand를 그대로 내리면 된다. 이렇게 구한 결과는 **product**라고 하며, product는 $(m + n)$bit의 크기를 가진다.
+

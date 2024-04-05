@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/C&CPP/C++ Vector 벡터.md",
+                "file": "99-Daily/2024_04_05.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/C&CPP/C++ Vector 벡터.md",
+                "file": "99-Daily/2024_04_05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/C&CPP/C++ Vector 벡터.md",
+                "file": "99-Daily/2024_04_05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/C&CPP/C++ Vector 벡터.md"
+                "file": "99-Daily/2024_04_05.md"
               }
             }
           },
@@ -168,33 +168,33 @@
   },
   "active": "d16859d2e7b369cd",
   "lastOpenFiles": [
-    "04-Archive/Vim/Lunarvim 사용하기.md",
-    "04-Archive/Robotgame/보스 2페.md",
-    "04-Archive/Robotgame/Prefab 모음.md",
-    "04-Archive/Robotgame/Senti.md",
-    "04-Archive/Web/Web.md",
-    "04-Archive/Web/Web browser & Developer tool.md",
-    "04-Archive/Web/Same Origin Policy.md",
-    "04-Archive/Web/Cookie & Session.md",
-    "04-Archive/Web/CSRF.md",
-    "04-Archive/logseq을 개조해 보자.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
-    "01-Project/임베디드 with 라즈베리파이.md",
-    "01-Project/노닥노닥 라즈베리/라즈베리파이 개발환경 설정하기.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
-    "99-Daily/2024_04_05.md",
-    "03-Resources/C&CPP/C++이란?.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/5주차.md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/4주차.md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/2주차.md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/1주차.md",
     "03-Resources/C&CPP/C++ namespace.md",
     "03-Resources/C&CPP/C++ Vector 벡터.md",
-    "99-Daily/2024_04_03.md",
-    "99-Daily/2024_04_04.md",
-    "02-Area/Study/정보보안 커리큘럼.md",
     "02-Area/Study/Tech & Dev.md",
     "02-Area/Study/Functional Programming.md",
     "02-Area/Study/C++로 문제 풀기.md",
     "02-Area/Life/생산성 프로젝트.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
-    "03-Resources/Network/OSI 7 계층.md",
+    "03-Resources/Computer Architecture/Digital Information.md",
+    "03-Resources/Computer Architecture/Data Compression.md",
+    "03-Resources/C&CPP/C++이란?.md",
+    "01-Project/임베디드 with 라즈베리파이.md",
+    "02-Area/Study/정보보안 커리큘럼.md",
+    "03-Resources/Algorithm/Algorithm.md",
+    "03-Resources/C&CPP/C++ 조건문.md",
+    "03-Resources/C&CPP/C++ 반복문 (for, switch, while).md",
+    "03-Resources/C&CPP/C++ 문자열 (string).md",
+    "03-Resources/C&CPP/C++ pointer, reference.md",
+    "04-Archive/Vim/Lunarvim 사용하기.md",
+    "04-Archive/Robotgame/보스 2페.md",
+    "04-Archive/Robotgame/Prefab 모음.md",
     "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "01-Project/노닥노닥 라즈베리",
     "Media/24-03-20 전회.pdf",

@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "/",
+  "activeView": "Spaces/Yonsei",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -154,7 +154,8 @@
     "//02-Area/02-Area/Study",
     "//02-Area/02-Area/Careers",
     "//03-Resources/03-Resources/Cryptography",
-    "//03-Resources/03-Resources/Computer Architecture"
+    "//03-Resources/03-Resources/Computer Architecture",
+    "//03-Resources/03-Resources/Algorithm"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
