@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-Daily/2024_04_05.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99-Daily/2024_04_05.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99-Daily/2024_04_05.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99-Daily/2024_04_05.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
               }
             }
           },
@@ -168,6 +168,9 @@
   },
   "active": "d16859d2e7b369cd",
   "lastOpenFiles": [
+    "03-Resources/().md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
+    "99-Daily/2024_04_05.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
@@ -192,9 +195,6 @@
     "03-Resources/C&CPP/C++ 반복문 (for, switch, while).md",
     "03-Resources/C&CPP/C++ 문자열 (string).md",
     "03-Resources/C&CPP/C++ pointer, reference.md",
-    "04-Archive/Vim/Lunarvim 사용하기.md",
-    "04-Archive/Robotgame/보스 2페.md",
-    "04-Archive/Robotgame/Prefab 모음.md",
     "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "01-Project/노닥노닥 라즈베리",
     "Media/24-03-20 전회.pdf",

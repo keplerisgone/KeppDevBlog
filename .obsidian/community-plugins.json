@@ -1,5 +1,4 @@
 [
-  "obsidian-custom-frames",
   "obsidian-excalidraw-plugin",
   "make-md",
   "dataview",
@@ -10,5 +9,6 @@
   "improved-vimcursor",
   "obsidian-imgur-plugin",
   "quick-latex",
-  "obsidian-image-toolkit"
+  "obsidian-linter",
+  "obsidian-footnotes"
 ]
