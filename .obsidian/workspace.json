@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Network/OSI 7 계층.md",
+                "file": "99-Daily/2024_04_05.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Resources/Network/OSI 7 계층.md",
+                "file": "99-Daily/2024_04_05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Resources/Network/OSI 7 계층.md",
+                "file": "99-Daily/2024_04_05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Resources/Network/OSI 7 계층.md"
+                "file": "99-Daily/2024_04_05.md"
               }
             }
           },
@@ -160,46 +160,41 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "terminal:Open terminal": false,
-      "obsidian-omnivore:Omnivore": false,
       "templates:Insert template": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-file-cleaner:Clean files": false,
-      "obsidian-importer:Open Importer": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "d16859d2e7b369cd",
   "lastOpenFiles": [
+    "03-Resources/C&CPP/C++이란?.md",
+    "99-Daily/2024_04_05.md",
+    "03-Resources/C&CPP/C++ namespace.md",
+    "03-Resources/C&CPP/C++ Vector 벡터.md",
+    "99-Daily/2024_04_03.md",
+    "99-Daily/2024_04_04.md",
+    "02-Area/Study/정보보안 커리큘럼.md",
     "02-Area/Study/Tech & Dev.md",
     "02-Area/Study/Functional Programming.md",
     "02-Area/Study/C++로 문제 풀기.md",
     "02-Area/Life/생산성 프로젝트.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
+    "01-Project/임베디드 with 라즈베리파이.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
+    "03-Resources/Network/OSI 7 계층.md",
     "01-Project/노닥노닥 라즈베리/라즈베리파이 개발환경 설정하기.md",
     "04-Archive/Obsidian/옵시디언 노트 정리법.md",
     "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
-    "01-Project/임베디드 with 라즈베리파이.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
     "03-Resources/ETC/Obsidian에서 Bear로.md",
     "99-Daily/2024_04_01.md",
     "04-Archive/Robotgame/Prefab 모음.md",
     "04-Archive/Robotgame/보스 2페.md",
     "04-Archive/Robotgame/몬스터 구현.md",
     "04-Archive/Robotgame/배터리 시스템.md",
-    "04-Archive/Robotgame/보스 1페이즈.md",
-    "04-Archive/Robotgame/진행 상황.md",
-    "04-Archive/Robotgame/플레이어 구현.md",
-    "99-Kanban/치워요.md",
-    "99-Kanban/개강 전에 해요.md",
-    "99-Daily/2024_02_17.md",
-    "99-Daily/2024_02_18.md",
-    "99-Daily/2024_02_19.md",
-    "99-Daily/2024_02_24.md",
     "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "01-Project/노닥노닥 라즈베리",
     "Media/24-03-20 전회.pdf",

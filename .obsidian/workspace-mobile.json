@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Resources/Computer Architecture/Digital Information.md",
+                "file": "99-Daily/2024_04_04.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "03-Resources/Computer Architecture/Digital Information.md",
+            "file": "99-Daily/2024_04_04.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "03-Resources/Computer Architecture/Digital Information.md",
+            "file": "99-Daily/2024_04_04.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,7 +138,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "03-Resources/Computer Architecture/Digital Information.md"
+            "file": "99-Daily/2024_04_04.md"
           }
         }
       },
@@ -166,9 +166,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-importer:Open Importer": false,
-      "obsidian-omnivore:Omnivore": false,
-      "terminal:Open terminal": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -177,15 +174,14 @@
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-file-cleaner:Clean files": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "8b95878409acb874",
   "lastOpenFiles": [
-    "03-Resources/Computer Architecture/Data Compression.md",
     "03-Resources/Computer Architecture/Digital Information.md",
+    "99-Daily/2024_04_04.md",
+    "03-Resources/Computer Architecture/Data Compression.md",
     "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
     "99-Daily/2024_04_01.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
@@ -210,7 +206,6 @@
     "99-Daily/2024_02_19.md",
     "99-Daily/2024_02_18.md",
     "99-Daily/2024_02_17.md",
-    "99-Daily/2024_02_15.md",
     "Spaces/Home",
     "Spaces"
   ]
