@@ -12,4 +12,62 @@ FM 같은 경우는 애초에 Nonlinear한 시스템이기 때문에 noise 또�
 
 # Bandpass Signals
 
+Bandpass Signal을 $x(t)= A\cos (2\pi f_{c}t+\theta)$ 라고 하면 신호는 사실 Phasor인 $Ae^{j \theta}$만 들고 다녀도 된다. 오일러 공식에 의해 real 성분만 뽑아낸다면 signal을 금방 복원해낼 수 있기 때문. 결국 signal은 다음과 같은 다양한 방식으로 표현할 수 있다.
 
+![](https://i.imgur.com/yZgBrzM.png)
+핵심은 Phasor 정보를 잘 저장하는 것.
+# Properties of  the Thermal Noise
+
+narrowband noise process를 통해서 noise를 In-phase component와 Quadrature component로 나눌 수 있다. 
+$$
+N(t) = N_{I}(t)\cos (2\pi f_{c}t)- N_{Q}(t)t\sin 
+(2\pi f_{c}t)
+$$
+앞 쪽이 in-phase, 뒤 쪽이 quadrature이다. 특징은 다음과 같다.
+- 둘다 zero mean을 가짐
+- noise가 gaussian이면 둘 다 gaussian
+- noise가 stationary면 둘 다 stationary
+-  둘은 같은 PSD(power spectral density)를 가짐, 이는 다음과 같이 정의 가능
+	- $S_{N_{I}}(f) = S_{N_{Q}}=S_{N}(f-f_{c})+ S_{N}(f+f_{c}), (-B\le f\le B)$
+- Same varience를 가진다.
+# Narrowband Noise
+
+![](https://i.imgur.com/TSjq3LG.png)
+
+PSD와 Autocorrelation function은 FT 관계를 갖는다. 왜 그런지는 모르겠다. 각 component의 PSD는 같은 형태를 가지며, Noise의 PSD는 이 둘을 합친 형태이다. 이 때 power는 다음과 같다.
+
+![](https://i.imgur.com/xAnyLpy.png)
+
+# Signal-to-Noise Ratios
+
+노이즈를 얼마나 잘 걸렀는지 판단하는 변수는 Figure of merit로 불리기도 하는데, 이는 **Post-detection SNR**과 **Reference(Baseband) SNR**의 비율로 나타낸다. detection 이후의 power가 노이즈 detection을 하면서 얼마나 손해를 봤는가?를 보여주는 수라고 할 수 있다.
+사용하는 SNR의 종류는 다음과 같다.
+
+![](https://i.imgur.com/e4YpAXZ.png)
+
+- **Pro-detection SNR** : demodulating 이전의 SNR
+- **Post-detection SNR** : demodulation 이후의 SNR
+- **Reference baseband SNR** : baseband transmission model의 SNR이라고 하면 내가 어찌앎..
+
+**Signal-to-Noise ratio**(SNR)는 신호의 퀄리티를 측정할 수 있는 방법이다. signal의 power와 noise power의 비율을 나타내는 변수이다. 
+$$
+SNR = {E[s^{2}(t)] \over E[n^2(t)]}
+$$
+**Reference tranmission model**은 baseband에서 메세지 신호를 보내는 모델로, 다음과 같은 가정을 가진다. 
+1. message의 power가 modulated signal power와 동일할 것. 즉 순수한 메세지를 보낼 때는 손실이 없다.
+2. message bandwidth에서의 noise power...라고만 하면 제가 어떻게 알아요
+### example
+
+![](https://i.imgur.com/ZUy2h4n.png)
+
+
+# Band-pass Communication System
+
+![](https://i.imgur.com/BI4bkyM.png)
+
+이는 Transmitter와 channel, Receiver 로 이루어져 있다. TX는 carrier frequency에 신호를 담는 역할을 하며, 중간 중간에 신호의 frequency를 IF, RF로 바꾸는 역할을 한다. RX는 Band-pass filter를 통해 신호를 복원하며, 신호를 IF로 변환하는 일도 한다. 
+
+# Effect of Noise on DSB-SC AM
+
+DSB-SC AM에서 noise 계산법을 알아보자. 보내는 신호는 $s(t) = A_{c}m(t)\cos (2\pi f_{c}t+\theta)$라고 가정한다. 모든 노이즈는 AWGN(Additive white Gaussian noise)라고 가정한다. additive가 아니라면 노이즈를 뽑아낼 수 없다. 
+아 계산 귀찮아 나중에 노트로 써서 올릴게용
