@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Processor",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
+      "basename": "Arithmetic",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
+    },
+    {
+      "basename": "05-Writing",
+      "path": "05-Writing/05-Writing.md"
+    },
+    {
       "basename": "Frequency Response",
       "path": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
     },
@@ -17,16 +29,8 @@
       "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md"
     },
     {
-      "basename": "Arithmetic",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
-    },
-    {
       "basename": "키보드 자판",
       "path": "05-Writing/키보드 자판.md"
-    },
-    {
-      "basename": "05-Writing",
-      "path": "05-Writing/05-Writing.md"
     },
     {
       "basename": "Git,Github",
@@ -195,10 +199,6 @@
     {
       "basename": "보스 1페이즈",
       "path": "01-Project/Robotgame/보스 1페이즈.md"
-    },
-    {
-      "basename": "Senti",
-      "path": "01-Project/Robotgame/Senti.md"
     }
   ],
   "omittedPaths": [],

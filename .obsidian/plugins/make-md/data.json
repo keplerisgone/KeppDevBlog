@@ -144,7 +144,9 @@
     "//03-Resources/03-Resources/Cryptography",
     "//03-Resources/03-Resources/Computer Architecture",
     "//03-Resources/03-Resources/Algorithm",
-    "//05-Writing"
+    "//05-Writing",
+    "//04-Archive",
+    "//03-Resources"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
