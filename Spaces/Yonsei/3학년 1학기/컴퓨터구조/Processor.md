@@ -30,3 +30,4 @@ ALU의 연산 이후 행동을 수행한다. 이 또한 instruction의 type 별�
 뭔가 회로가 복잡하지만 자세히는 보지 않고 대략적으로 어떤 부분이 어떤 기능을 하는지만 알아보자. **instruction memory**는 실행하고자 하는 program code를 담아놓는 곳이고, **Register**는 x0~x31의 레지스터가 존재하는 공간이다. **Data memory**는 레지스터에 저장되지 못하는 데이터가 따로 저장되는 메모리이다. 
 실제 프로세서에서는 두 메모리가 아닌 두 개의 **cache**가 존재하는데, 이는 L1, L2, L3 캐시로 다시 나뉜다. 캐시가 뭔지는 좀 뒤에서 다시 배우자.
 ## Logic Design Conventions
+
