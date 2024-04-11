@@ -40,7 +40,7 @@ PSD와 Autocorrelation function은 FT 관계를 갖는다. 왜 그런지는 모�
 
 # Signal-to-Noise Ratios
 
-노이즈를 얼마나 잘 걸렀는지 판단하는 변수는 Figure of merit로 불리기도 하는데, 이는 **Post-detection SNR**과 **Reference(Baseband) SNR**의 비율로 나타낸다. detection 이후의 power가 노이즈 detection을 하면서 얼마나 손해를 봤는가?를 보여주는 수라고 할 수 있다.
+노이즈를 얼마나 잘 걸렀는지 판단하는 변수는 **Figure of merit**로 불리기도 하는데, 이는 **Post-detection SNR**과 **Reference(Baseband) SNR**의 비율로 나타낸다. detection 이후의 power가 노이즈 detection을 하면서 얼마나 손해를 봤는가?를 보여주는 수라고 할 수 있다.
 사용하는 SNR의 종류는 다음과 같다.
 
 ![](https://i.imgur.com/e4YpAXZ.png)
@@ -67,7 +67,73 @@ $$
 
 이는 Transmitter와 channel, Receiver 로 이루어져 있다. TX는 carrier frequency에 신호를 담는 역할을 하며, 중간 중간에 신호의 frequency를 IF, RF로 바꾸는 역할을 한다. RX는 Band-pass filter를 통해 신호를 복원하며, 신호를 IF로 변환하는 일도 한다. 
 
-# Effect of Noise on DSB-SC AM
+## Effect of Noise on DSB-SC AM
 
-DSB-SC AM에서 noise 계산법을 알아보자. 보내는 신호는 $s(t) = A_{c}m(t)\cos (2\pi f_{c}t+\theta)$라고 가정한다. 모든 노이즈는 AWGN(Additive white Gaussian noise)라고 가정한다. additive가 아니라면 노이즈를 뽑아낼 수 없다. 
-아 계산 귀찮아 나중에 노트로 써서 올릴게용
+DSB-SC AM에서 noise 계산법을 알아보자. 보내는 신호는 $s(t) = A_{c}m(t)\cos (2\pi f_{c}t+\theta)$라고 가정한다. 모든 노이즈는 AWGN(Additive white Gaussian noise)라고 가정한다. additive가 아니라면 노이즈를 뽑아낼 수 없다. received signal은 $x(t) = s(t) + n(t)$
+
+Pre - detector의 SNR을 구하면 다음과 같다. 
+![](https://i.imgur.com/DsjAz2q.png)
+
+Post-demodulation 신호의 SNR을 구하면 다음과 같다.
+![](https://i.imgur.com/MU3Vj7q.png)
+
+Baseband SNR을 구하면 다음과 같다. $({S \over N})_{b} = {P_{R}\over N_{0}W}= {A_{c}^{2}P_{m}\over 2N_{o}W}$
+
+따라서 DSB-SC AM의 Figure of merit는 Post-demodulation SNR = Baseband SNR이므로 1의 값을 가진다. 따라서 DSB-SC AM은 딱히 SNR의 improvement도 없고 그렇다.
+
+## Effect of Noise on SSB AM
+
+SSB AM의 modulated signal은 $s(t) = {A_{c}\over c}m(t) \cos(2\pi f_{c}t)\mp {A_{c}\over 2}\hat{m}(t)\sin(2\pi f_{c}t)$ 이므로, **Pre-Detect SNR**을 구할 때는 위의 DSB-SC 와 비교해서 $E[s^{2}(t)]$의 값은 같지만, $E[n^{2}(t)]$는 single band이기 때문에 절반의 값을 가진다. 따라서 SNR은 ${A_{C}^{2}P_{m}\over 4N_{0}W}$이긴 한데 어차피 구하는 방식이 같으니까 Figure of merit가 1이 되겠지? 하고 넘어가는 거다
+
+## Effect of Noise on Conventional AM
+
+이 때는 modulated signal이 $$
+s(t) = A_{C}[1+ k_{a}m(t)]\cos (2\pi f_{c}t)
+$$ 이기 때문에 SNR을 다음과 같이 계산할 수 있다.
+
+우선 Pre-Detection SNR.
+$$
+E[s^{2}(t)] = {A_{C}^{2}\over 2}E[(1 + k_{a}m(t))^{2}]={A_{C}^{2}\over 2}E[1 + 2k_{a}m(t)+k_{a}^{2}m^{2}(t)] \\ 
+$$
+$$
+=> E[s^{2}(t)] = {A_{c}^{2}\over 2}\{1 + k_{a}^{2}P_{m}\}
+$$
+Noise power는 DSB-SC와 파형이 같으므로 그대로 $2N_{0}W$이다. 
+Pre-detector SNR의 값은 ${A_{C}^{2}\{1+ k_{a}^{2}P_{m}\}\over 4N_{0}W}$이다. 이렇게 얻어낸 신호를 envelope detector를 이용해 demodulation한다.
+
+Post-demodulation SNR이다. 이 경우는 envelope detection을 하지않고 정직하게 carrier를 곱해 detection한다고 가정한다.
+$$
+v(t) = [s(t) + n(t)]\cos(2\pi f_{c}t)
+$$
+여기서 LPF를 통과시켜 low frequency만 남기면
+$$
+y_{l}(t) = {1\over 2}A_{C}[1+k_{a}m_{n}(t)] + {1\over 2}n_{I}(t)
+$$
+DC 신호를 없애면.. $$
+y(t) ={1\over 2}A_{C}k_{a}m_{n}(t) + {1\over 2}n_{I}(t)
+$$
+Signal power, $$
+{1\over 4}A_{C}^{2}k_{a}^{2}P_{m_{n}} 
+$$ Noise power는 $$
+{1\over 4}P_{n_{I}}={1\over 2}N_{0}W
+$$ 따라서 post-demodulation SNR은 $$
+{A_{C}^{2}k_{a}^{2}P_{m_{n}}\over 2 N_{0}W}
+$$ 이다.
+
+Baseband SNR은 $$
+({S\over N})_{b}={P_{R}\over N_{0}W} = {A_{C}^{2}\over 2}{[1+k_{a}^{2}P_{m_{n}}]\over N_{0}W}
+$$ 이다.
+
+따라서 전체 Figure of merit는 $$
+{k_{a}^{2}P_{m_{n}}\over [1+k_{a}^{2}P_{m_{n}}]}({S\over N})_{b} = \eta({S\over N})_{b}
+$$ 이고, $\eta$는 modulation efficiency라고 한다. 해당 값은 언제나 1보다 작기 때문에 baseband SNR보다 modulation이후의 SNR이 더 작은 값을 가진다.
+	modulation index $k_{a}$는 0.8-0.9 값을 가진다. 
+	뭐 아무튼 message는 dynamic range를 가진다....
+위와 같은 loss가 발생하는 이유는 Carrier를 통해 옮겨지는 중 원하지 않는 signal이 추가되기 때문??
+
+만약 Envelope detection을 이용한다면??
+$$
+y(t) = \sqrt{[A_{C}[1+k_{a}m_{n}(t)]+n_{I}(t)]^{2}+n_{Q}^{2}(t)}
+$$ 가 되지만, $\sqrt{A^{2}+ B^{2}}$가 $A>>B$일 때 $A$에 가까워지므로, 다음과 같이 정리할 수 있다. $$
+V_{r}(t) \approx A_{C}[1+k_{a}m_{n}(t)]+n_{I}(t), \\\\\\\\\\ y(t) = A_{c}k_{a}m_{n}(t) + n_{I}(t)
+$$
