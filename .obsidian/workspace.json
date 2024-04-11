@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md"
               }
             }
           },
@@ -177,8 +176,9 @@
   },
   "active": "4481d0cb7d8beea5",
   "lastOpenFiles": [
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
     "05-Writing/05-Writing.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
@@ -203,7 +203,6 @@
     "99-Daily/2024_03_20.md",
     "99-Daily/2024-01-17.md",
     "99-Daily/2024-01-18.md",
-    "99-Daily/2024-01-19.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "01-Project/노닥노닥 라즈베리",
