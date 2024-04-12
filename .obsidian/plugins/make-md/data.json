@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "Spaces/Yonsei",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -145,8 +145,7 @@
     "//03-Resources/03-Resources/Computer Architecture",
     "//03-Resources/03-Resources/Algorithm",
     "//05-Writing",
-    "//04-Archive",
-    "//03-Resources"
+    "//03-Resources/03-Resources/C&CPP"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
