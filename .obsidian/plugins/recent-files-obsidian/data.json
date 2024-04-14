@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Processor",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
+      "basename": "Computer abstraction",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
+    },
+    {
+      "basename": "기초회로이론",
+      "path": "Spaces/Yonsei/2학년 1학기/기초회로이론/기초회로이론.md"
+    },
+    {
+      "basename": "개강 전에 해요",
+      "path": "99-Kanban/개강 전에 해요.md"
+    },
+    {
+      "basename": "2024_03_20",
+      "path": "99-Daily/2024_03_20.md"
+    },
+    {
+      "basename": "Wargame",
+      "path": "04-Archive/Wargame/Wargame.md"
+    },
+    {
+      "basename": "04-Archive",
+      "path": "04-Archive/04-Archive.md"
+    },
+    {
+      "basename": "키보드 자판",
+      "path": "05-Writing/키보드 자판.md"
+    },
+    {
       "basename": "Git,Github",
       "path": "03-Resources/Git,Github.md"
     },
@@ -15,10 +47,6 @@
     {
       "basename": "6주차",
       "path": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md"
-    },
-    {
-      "basename": "Processor",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
     },
     {
       "basename": "Arithmetic",
@@ -39,10 +67,6 @@
     {
       "basename": "Note 3 Angle Modulation",
       "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md"
-    },
-    {
-      "basename": "키보드 자판",
-      "path": "05-Writing/키보드 자판.md"
     },
     {
       "basename": "03-Resources",
@@ -95,10 +119,6 @@
     {
       "basename": "2024_03_16",
       "path": "99-Daily/2024_03_16.md"
-    },
-    {
-      "basename": "2024_03_20",
-      "path": "99-Daily/2024_03_20.md"
     },
     {
       "basename": "2024-01-17",
@@ -179,26 +199,6 @@
     {
       "basename": "2024_02_26",
       "path": "99-Daily/2024_02_26.md"
-    },
-    {
-      "basename": "2024_03_03",
-      "path": "99-Daily/2024_03_03.md"
-    },
-    {
-      "basename": "2024_03_05",
-      "path": "99-Daily/2024_03_05.md"
-    },
-    {
-      "basename": "2024_03_09",
-      "path": "99-Daily/2024_03_09.md"
-    },
-    {
-      "basename": "99-Daily",
-      "path": "99-Daily/99-Daily.md"
-    },
-    {
-      "basename": "Prefab 모음",
-      "path": "04-Archive/Prefab 모음.md"
     }
   ],
   "omittedPaths": [],
