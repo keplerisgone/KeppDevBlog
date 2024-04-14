@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "ac23bc5a2f8d49dd",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md"
               }
             }
           }
@@ -101,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
               }
             }
           },
@@ -176,7 +186,10 @@
   },
   "active": "4481d0cb7d8beea5",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
     "Spaces/Yonsei/2학년 1학기/기초회로이론/기초회로이론.md",
     "99-Kanban/개강 전에 해요.md",
     "99-Daily/2024_03_20.md",
@@ -188,7 +201,6 @@
     "03-Resources/2023-04-15-os.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
     "05-Writing/05-Writing.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
@@ -201,8 +213,6 @@
     "99-Daily/2024_02_07.md",
     "99-Daily/2024_02_11.md",
     "99-Daily/2024_02_14.md",
-    "99-Daily/2024_02_17.md",
-    "99-Daily/2024_03_01.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "01-Project/노닥노닥 라즈베리",

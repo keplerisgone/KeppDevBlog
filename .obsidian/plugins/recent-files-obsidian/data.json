@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Processor",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+      "basename": "Instruction",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+    },
+    {
+      "basename": "Drawing 2024-04-14 23.31.11.excalidraw",
+      "path": "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md"
     },
     {
       "basename": "Computer abstraction",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
+    },
+    {
+      "basename": "Processor",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
     },
     {
       "basename": "기초회로이론",
@@ -191,14 +199,6 @@
     {
       "basename": "2024_02_20",
       "path": "99-Daily/2024_02_20.md"
-    },
-    {
-      "basename": "2024_02_24",
-      "path": "99-Daily/2024_02_24.md"
-    },
-    {
-      "basename": "2024_02_26",
-      "path": "99-Daily/2024_02_26.md"
     }
   ],
   "omittedPaths": [],
