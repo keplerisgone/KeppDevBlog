@@ -1,16 +1,16 @@
 # Adding Binary Numbers
 
-![](https://i.imgur.com/aXP5tZQ.png)
+![|450](https://i.imgur.com/aXP5tZQ.png)
 
 유치원생이 덧셈하듯이 계산하면 된다. 1과 1을 더할 때는 1이 carry가 되어 올라간다. 나머지 계산은 알아서 수행하자. 다른 upper bit는 0가 된다.
 
 # Subtracting Binary Numbers
 
-![](https://i.imgur.com/Hip7z6U.png)
+![|450](https://i.imgur.com/Hip7z6U.png)
 
 이것 또한 유치원생이 계산하듯 계산하면 된다. 0에서 1을 빼는 경우만 조심하면 된다.
 
-![](https://i.imgur.com/F2UUPJs.png)
+![|450](https://i.imgur.com/F2UUPJs.png)
 
 그대로 뺄셈을 수행하지 않고 two's / one's complement 적용 후 덧셈을 하는 방식도 있다.
 
@@ -59,7 +59,7 @@ Multiplying의 알고리즘은 다음과 같다. 중요한 아이디어는 *Mult
 
 ## Revised Multiplier Logic
 
-![](https://i.imgur.com/mEbLcLz.png)
+![|425](https://i.imgur.com/mEbLcLz.png)
 
 위의 ALU size를 불필요하게 사용한다는 단점을 해결하기 위해 Product와 Multiplier를 128bit로 한군데 저장하고, 64bit ALU를 사용하는 방법을 고안했다. 128bit register의 lower half에는 multiplier가, 나머지에는 product가 저장된다. 위의 logic과 다른 점은
 1. Multiplicand가 shift되지 않고 그대로 product자리에 add됨.
@@ -85,19 +85,19 @@ Multiplying의 알고리즘은 다음과 같다. 중요한 아이디어는 *Mult
 
 # Dividing Binary Numbers
 
-![](https://i.imgur.com/xhbmjmb.png)
+![|450](https://i.imgur.com/xhbmjmb.png)
 
 division은 multiplication의 역연산으로, 나눔 당하는 수를 **Dividend**, 나누는 수를 **Divisor**, 결과를 **Quotient**라고 한다. 나머지는 **Remainder**. 연산은 dividend의 맨 앞자리부터 Divisor를 계속해서 빼는 방식으로 진행한다.
 
 ## Divider Logic
 
-![400](https://i.imgur.com/PFegyO2.png)
+![400|375](https://i.imgur.com/PFegyO2.png)
 
 Multiplication과 마찬가지로 사람이 연산하는 방식과 같이 logic이 이루어져 있다. 64bits의 Divisor와 Dividend가 128bits ALU에 옮겨져 연산을 진행한다. Quotient와 remainder는 잘 계산되겠지!
 
 ## Divider Algorithm
 
-![](https://i.imgur.com/88T3i8f.png)
+![|450](https://i.imgur.com/88T3i8f.png)
 
 division의 알고리즘은 다음과 같다.
 1. 일단 remainder를 diviend로 세팅한다
@@ -108,11 +108,11 @@ division의 알고리즘은 다음과 같다.
 
 ## Revised Divider Logic
 
-![](https://i.imgur.com/0lHdtNU.png)
+![|375](https://i.imgur.com/0lHdtNU.png)
 
 128bits의 ALU를 사용한다는 단점이 multiplier와 같이 남아있기 때문에 이를 해결해야 한다. 이는 Remainder와 quotient가 같은 register를 사용함으로써 해결한다. 이 register를 계속 left shift하며 연산을 진행한다. 아래는 연산의 예시이다.
 
-![](https://i.imgur.com/rKfbuAl.png)
+![|650](https://i.imgur.com/rKfbuAl.png)
 
 ## Dividing Signed Numbers
 
@@ -132,7 +132,7 @@ multiplication과 마찬가지로 음수를 two's complement로 변환한 뒤, �
 
 ## IEEE 754 Floating=Point Standard
 
-![](https://i.imgur.com/xrzQi7s.png)
+![|600](https://i.imgur.com/xrzQi7s.png)
 
 이는 1980년에 컴퓨터에서 floating point number를 표현하기 위해서 개발된 방법이다. 이는 **sign and magnitude** 방법이라고 불린다. 32bits를 이용해서 수를 표현하는데, 가장 처음 비트는 sign을 나타내고, 이후의 8bits는 exponent, 나머지는 Fraction을 나타낸다. 
 
@@ -153,7 +153,7 @@ $2^{\pm bbb}$를 나타내는 방법을 알아보자. 이를 나타내는 데는
 
 다음과 같은 경우는 특수 경우이다. 
 
-![](https://i.imgur.com/iKUl5UP.png)
+![|500](https://i.imgur.com/iKUl5UP.png)
 
 fraction이 0이 아니고 exponent가 0인 경우는 **denormalized number**로, 이 때는 0.aaa를 나타낸다. 
 
@@ -167,7 +167,7 @@ fraction이 0이 아니고 exponent가 0인 경우는 **denormalized number**로
 
 그래서 이를 해결하기 위해서 double precesion을 사용하기도 하는데, 이는 11bits의 exponent와 52bits의 fraction을 사용한다. RISC-V는 다양한 float 연산에 single-precision와 double-precision 모드를 지원하는데, 명령어 뒤에 `.s`와 `.d`를 붙여 구분한다.
 
-![](https://i.imgur.com/Rzj4kME.png)
+![|550](https://i.imgur.com/Rzj4kME.png)
 
 ### Exceptions and Traps
 
@@ -188,7 +188,7 @@ fraction이 0이 아니고 exponent가 0인 경우는 **denormalized number**로
 5. over/underflow 여부 확인, round를 진행한다. 
 	1. round를 진행하다가 overflow가 발생하면 (2.aaa가 되는 경우) 또 rounding을 해야 한다.
 
-![](https://i.imgur.com/YDxNEDZ.png)
+![|600](https://i.imgur.com/YDxNEDZ.png)
 
 ## Multiplying Floating-Point Numbers
 
@@ -202,8 +202,8 @@ fraction이 0이 아니고 exponent가 0인 경우는 **denormalized number**로
 ## Accuracy of Floating-Point Numbers
 
 사실 위와 같은 특성때문에 Floating-point는 정확할 수가 없다. float를 표현하는 모든 과정이 rounding과 approximation으로 이루어져있기 때문에 실제 수와 많이 차이가 날 수 있다. 이를 위해서 다양한 하드웨어에서 rounding 을 하기 위한 extra bit를 사용하기도 한다. IEEE 754 같은 경우는 **guard bit**와 **round bit**를 사용한다.
-- **guard bit** : 
-- **round bit** : 
+- **guard bit**: 
+- **round bit**:
 
 [^1]:: 연산을 진행할 때 *Multiplier 한 칸 왼쪽으로 옮겨서 계산하기*의 방식과 같다.
 [^2]:: 뺄셈 연산도 사실 complement 과정이 들어간 덧셈 연산이긴 하다.

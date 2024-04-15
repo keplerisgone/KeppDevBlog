@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "Spaces/Yonsei",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -142,12 +142,11 @@
     "//03-Resources/03-Resources/Cryptography",
     "//03-Resources/03-Resources/Computer Architecture",
     "//03-Resources/03-Resources/Algorithm",
-    "//05-Writing",
     "//03-Resources/03-Resources/C&CPP",
     "//99-Kanban",
-    "Spaces/Yonsei/Spaces/Yonsei/2학년 1학기",
     "Spaces/Yonsei/Spaces/Yonsei/2학년 1학기/Spaces/Yonsei/2학년 1학기/기초회로이론",
-    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기"
+    "Spaces/Yonsei/Spaces/Yonsei/3학년 1학기",
+    "//05-Writing"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

@@ -1,11 +1,9 @@
-![[Instruction 2024-03-10 14.08.07.excalidraw|100]]
-
-## Function Call Transition - example
+## Function Call Transition - Example
 
 ![](https://i.imgur.com/AeEOISG.png)
 - 위의 간단한 함수 호출 코드를 assembly로 변환하면 어떻게 될까?
 
-![](https://i.imgur.com/V2q0j05.png)
+![400x300](https://i.imgur.com/V2q0j05.png)
 
 1. Stack pointer 의 값을 -3 bytes 만큼 옮긴다. - stack에서 사용해야 하기 때문
 2. 원래 register 의 값을 저장
@@ -15,7 +13,7 @@
 
 ![](https://i.imgur.com/C97RsJm.png)
 
-# Calling Convention 
+# Calling Convention
 
 ![](https://i.imgur.com/KeKc5iV.png)
 
@@ -49,13 +47,15 @@ recursive function (재귀함수)는 어떻게 컴파일될까?
 	- **Frame pointer** 요런 frame들의 시작 부분을 담고, 스택에 저장된다.
 	- **x8**이 FP의 역할을 함.
 ![](https://i.imgur.com/Q9G6aWW.png)
-## Stack pointer vs Frame Pointer
+
+## Stack Pointer Vs Frame Pointer
 
 ![](https://i.imgur.com/BV38AkA.png)
 - 근데 왜 굳이 둘을 분리해서 사용할까?
 	- **stack pointer**는 그냥 현재 스택의 제일 밑부분을 가리키는 포인터
 	- **frame pointer**는 일종의 북마크 같은 것
 		- sp의 위치는 계속해서 바뀔 수 있으므로, 원하는 값에 접근하기 위해서는 많은 노력이 필요하다...
+
 # Data in Heap Memory Region and Memory Leak
 
 ![](https://i.imgur.com/bqnTmuU.png)
@@ -63,7 +63,8 @@ recursive function (재귀함수)는 어떻게 컴파일될까?
 - 하지만 컴파일러가 이를 자동으로 해제해주지 않으므로, **free**를 이용해서 꼭 해제해주어야 함
 - 안 그러면 메모리 누수가 일어남
 	- 컴퓨터가 메모리 공간이 없다고 인식
-# Arrays vs Pointers
+
+# Arrays Vs Pointers
 
 ![](https://i.imgur.com/9FohH40.png)
 - 배열에 직접 접근하기 vs 배열 포인터 사용하기
@@ -75,13 +76,15 @@ recursive function (재귀함수)는 어떻게 컴파일될까?
 - 이거는 array pointer를 이용하는 방식
 	- x5에 주소를 저장, pointer의 연산은 바이트 단위로 이루어지므로..
 - **얘가 더 빠름**
+
 # Handling Character Data : Load/Store Byte
 
 ![](https://i.imgur.com/dG5D8aY.png)
 - `char`는 1byte로 취급
 - RISC-v에서는 바이트 단위로 데이터 처리 가능 (byte, halfword, word, double word)
 - 물론 char를 다룰 때는 `lbu`(load byte unsigned), `sb`(store byte)를 사용해야 함
-# Handling String Data : a series of Characters
+
+# Handling String Data: a Series of Characters
 
 ![](https://i.imgur.com/0YP9gWw.png)
 - 여러 개의 char로 이루어져 있으므로, 글자 수에 비례
@@ -90,6 +93,7 @@ recursive function (재귀함수)는 어떻게 컴파일될까?
 
 ![](https://i.imgur.com/KoQPFOO.png)
 - 뾰로롱..
+
 # Wide Immediate Operands
 
 ![](https://i.imgur.com/6vSlLJa.png)
@@ -99,21 +103,26 @@ recursive function (재귀함수)는 어떻게 컴파일될까?
 		- addi 로 쓰고, 12비트 shift 후 addi 쓰는 거랑 똑같음
 	- 여기서 MSB가 1일 경우는 잘못된 결과가 나올 수 있다...
 		- lui 계산할 때 1을 더해주면 해결
-# U- type
+
+# U- Type
+
 ![](https://i.imgur.com/xMCe9TY.png)
 - U (upper)
 - 20비트의 immediate + destination을 이용
 - 잘 안 씀
+
 # SB-Type
 
 ![](https://i.imgur.com/yZYAsRx.png)
 - SB-type은 12bit immediate와 rs 두개 이용
 - 주로 instruction 이동에 사용 - immediate는 2byte 단위로 사용
 	- 왜 4byte아님? - 개발자들이 그리 해놓음
+
 # UJ-type
 
 ![](https://i.imgur.com/KX8dfax.png)
 - 여기도 주소 이동할 때 사용, 20bit immediate
+
 # PC-Relative Addressing
 
 ![](https://i.imgur.com/DQlLMu7.png)
@@ -124,9 +133,11 @@ recursive function (재귀함수)는 어떻게 컴파일될까?
 ![](https://i.imgur.com/BIiKLA5.png)
 
 ![](https://i.imgur.com/l2UpNRU.png)
+
 # Branching Far Away
 
 ![](https://i.imgur.com/Y5moGTD.png)
+
 # RISC-V Addressing Modes
 
 ![](https://i.imgur.com/74Ga69D.png)
@@ -134,12 +145,15 @@ recursive function (재귀함수)는 어떻게 컴파일될까?
 ![](https://i.imgur.com/fqYp8Yw.png)
 
 ![](https://i.imgur.com/ZlXEyiD.png)
+
 # Instruction Opcode Encoding
 
 ![](https://i.imgur.com/1zDgCqk.png)
+
 # Summary
 
 ![](https://i.imgur.com/FGLXy5a.png)
+
 # Pseudo-instructions
 
 ![](https://i.imgur.com/REDZVbB.png)

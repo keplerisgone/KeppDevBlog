@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Processor",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
+      "basename": "03-Resources",
+      "path": "03-Resources/03-Resources.md"
+    },
+    {
       "basename": "Instruction",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
     },
     {
       "basename": "Arithmetic",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
+    },
+    {
+      "basename": "Computer abstraction",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
     },
     {
       "basename": "Note 4 Effect of Noise on Analog Communication Systems",
@@ -19,14 +31,6 @@
     {
       "basename": "Drawing 2024-04-14 23.31.11.excalidraw",
       "path": "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md"
-    },
-    {
-      "basename": "Computer abstraction",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
-    },
-    {
-      "basename": "Processor",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
     },
     {
       "basename": "기초회로이론",
@@ -79,10 +83,6 @@
     {
       "basename": "Note 3 Angle Modulation",
       "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md"
-    },
-    {
-      "basename": "03-Resources",
-      "path": "03-Resources/03-Resources.md"
     },
     {
       "basename": "2024-01-22",
