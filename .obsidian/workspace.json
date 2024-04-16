@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/1_computer_abstraction.pdf",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/1_computer_abstraction.pdf",
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/1_computer_abstraction.pdf"
+                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md"
               }
             }
           },
@@ -174,44 +174,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "a451932e6f8d2b86",
-    "type": "floating",
-    "children": [
-      {
-        "id": "73680e305b08535c",
-        "type": "window",
-        "children": [
-          {
-            "id": "11966f4770526390",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c96bba3334e78997",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Media/1_computer_abstraction.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 155,
-        "y": 272,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "c96bba3334e78997",
+  "active": "4481d0cb7d8beea5",
   "lastOpenFiles": [
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
     "Media/1_computer_abstraction.pdf",
     "05-Writing/옵시디언 정리 일지.md",
     "05-Writing/05-Writing.md",
