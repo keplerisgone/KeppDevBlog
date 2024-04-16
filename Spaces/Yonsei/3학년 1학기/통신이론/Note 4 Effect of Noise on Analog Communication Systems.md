@@ -168,4 +168,88 @@ $$
 
 demodulated의 phase 표현 방식, 마지막에 Discreminator에 통과시킨다는 사실에 주목하자. 마지막 Phase term에서 메세지가 적분 형태로 나타나므로, 이를 끄집어내기 위해서 통과시키는 것이다. 
 
-하지만 이를 통과시키면서 *노이즈의 형태도 변한다.* 
+하지만 이를 통과시키면서 *노이즈의 형태도 변한다는 것이 중요하다.*
+
+Carson's rule도 사용한다. Baseband의 bandwidth가 얼마인지 몰라도 된다고...?가 아니라 Bandwidth가 늘어나는 정도에 제곱해 SNR이 향상된다.
+
+```
+
+```
+## Example - Multiplexed Channels
+
+소리가 왼쪽 오른쪽 나뉠 때 노이즈가 들어가면 어떻게 될까?
+우선 왼쪽과 오른쪽 시그널의 frequency를 shift해서 나누어 생각해보자. 이를 baseband signal로 생각한다. 왼쪽과 시발 뭔소리세요???
+# Effect of Noise on angle modulation
+
+**FM**일 경우 노이즈가 주파수의 제곱에 비례하기 때문에 저주파수에서는 괜찮지만 **고주파수로 갈수록 노이즈에 고통받는다**. 이는 노이즈의 스펙트럼이 parabolic으로 나타나는 것에서 볼 수 있다.
+근데 PM은 노이즈가 상수라고?? Flat noise spectrum을 가진단다.
+- [ ] -> PM 수식을 유도하는 것은 숙제라고 합니다 중간고사 전까지 제출!!!
+
+## example
+
+# Threshold Effect in angle modulation
+
+demodulator에 들어가는 신호의 SNR이 매우 좋다(=높다) 고 가정, 또한 노이즈가 linear하게 더해진다고 가정.
+=> nonlinear할 경우에는 계산이 거의 불가능, 신호로부터 잡음을 분리할 수 없어 SNR을 계산할 수 없다.
+결론적으로 이를 계산하기 위해서는 어느 정도의 SNR이 보장되어야 한다. (=**Threshold SNR**)
+BW를 높이는 것이 Power를 높이는 방법이 될 수 있지만, FM의 경우는 주파수의 제곱에 noise power가 비례하므로 적절하게 BW를 선택해야한다. *=> tradeoff*
+[TODO] - 사진
+위 그래프는 어느정도의 SNR이 확보되어야 SNR이 뻥튀기되는지를 나타내는 것이다. 이는 $\beta$에 비례한다. $$({S \over N})_{b,th} = 20
+(\beta+1)$$
+기본적으로 우리는 baseband SNR을 계산할 수 있고, received power인 $P_{R}$도 계산할 수 있으므로, 알아서 잘 $\beta$값을 계산해보자. BW이 주어져도 마찬가지이다. Carson's rule을 사용하면 될 일.
+정리하면, Threshold를 고려해 적당히 큰 $\beta$를 선택하되 사용하는 BW에 맞는지도 고려해야 한다.
+
+![|625](https://i.imgur.com/j2e60pQ.png)
+
+실제로 예시 signal을 가져와 Threshold effect를 살펴본 것이다. 사실 수식을 보면 알겠지만 수식 유도 한 번만 해보면 모든게 이해가 가는 것을 알 수 있다. 한 번 위에서 유도한 공식을 계속해서 우려먹기 때문. 위 수식을 보는 법은 (얻게 되는 db scale gain + baseband SNR) & (Threshold SNR) 이다.
+따라서 $\beta = 5$일 때는 원래 15.7dB의 gain을 추가적으로 얻어야 하지만 20dB일 경우 Threshold인 20.8dB를 넘지 못해 나가리가 되는 것.
+
+그리고 가장 중요한 것은 모든 게 다 **dB scale이라는 것이다!!!** 잊지 말자.
+
+[TODO] = 사진
+짜잔 PM일 때는 output baseband SNR은 어떻게 될까요~
+위 수식은 SNR에 Threshold SNR을 넣어버린 것
+
+## Example
+
+# Preemphasis and Deemphasis Filtering
+
+[TODO] - 7
+이전에 보았듯이 PM에서 noise의 power는 flat한 형태를 지니고, FM에서는 parabolic한 형태를 가진다. 즉 FM는 저주파에서, PM는 고주파에서 좋다. 그러면 저주파수는 FM modulation, 고주파수는 PM modulation을 쓰는게 좋지 않을까? 물론 실제로는 불가능하다. 
+이 아이디어에서 출발한 것이 바로 **Preemphasis, Deemphasis Filtering**이다.
+
+[TODO] - 사진
+FM에서는 고주파 부분에서 noise가 확 뛰기 때문에 이를 조절하는 것이 가장 중요하다. 이를 위해 다음과 같은 방법을 사용한다.
+1. low frequency는 감쇄, high frequency는 증폭시키자. (noise를 flat한 것처럼 속이는 방법)
+2. demodulation을 진행한 후 다시 원래대로 high는 감쇄, low는 증폭시킨다. 
+3. Net effect로 Flat한 response를 얻을 수 있다!
+
+# Comparison of Analog-Modulation Systems
+
+AM은 Linear, FM와 PM은 nonlinear이다. 이 친구들을 세 가지 측면에서 비교할 수 있다.
+1. **Bandwidth 효율**
+2. **Power 효율**
+3. **설계 난이도** : 예를 들어 Conventional AM의 경우 envelope detector는 만들기가 매우 쉽다. 
+
+## Bandwidth Efficiency
+
+**SSB-SC**의 경우는 Bandwidth의 측면에서 가장 우월함을 보인다. 보내는 신호의 bandwidth와 받는 신호의 bandwidth가 동일하며, bandwidth가 중요한 분야(통화 등)에서 자주 사용한다. 하지만 DC 전송 효율이 매우 떨어지므로 이미지 전송 분야에서는 사용하지 않는다.
+
+**VSB**의 경우는 DC 전송이 매우 잘 되지만 Bandwidth는 SSB-SC보다 살짝 높아 효율이 떨어진다. 이미지 전송, TV 방송 분야에서 사용.
+
+**PM, FM**은 Bandwidth에서 효율이 매~우 구리지만 noise immunity가 그만큼 높다.
+
+## Power Efficiency
+
+이는 적은 power로 얼마나 많은 신호를 보낼 수 있냐를 나타내는 것
+
+**angle, 특히 FM**의 경우는 굉장한 Power efficiency를 보인다. point-to-point 통신, 라디오 방송에서 쓰인다. SSB와 섞이면 통화에서도 쓰인다.
+
+**AM** 친구들의 경우는 Angle 친구들보다 효율은 덜하지만 구현이 쉽다..!
+
+## Ease of Implementation
+
+# Summary
+
+
+
