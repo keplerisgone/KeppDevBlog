@@ -5,12 +5,12 @@
   "obsidian-outliner",
   "url-into-selection",
   "obsidian-git",
-  "file-explorer-note-count",
   "improved-vimcursor",
   "obsidian-imgur-plugin",
-  "quick-latex",
   "obsidian-linter",
   "obsidian-footnotes",
   "recent-files-obsidian",
-  "mousewheel-image-zoom"
+  "mousewheel-image-zoom",
+  "homepage",
+  "templater-obsidian"
 ]
