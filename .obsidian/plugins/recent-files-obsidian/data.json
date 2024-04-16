@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "1_computer_abstraction",
+      "path": "Media/1_computer_abstraction.pdf"
+    },
+    {
+      "basename": "Computer abstraction",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
+    },
+    {
+      "basename": "옵시디언 정리 일지",
+      "path": "05-Writing/옵시디언 정리 일지.md"
+    },
+    {
+      "basename": "05-Writing",
+      "path": "05-Writing/05-Writing.md"
+    },
+    {
       "basename": "Processor",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
     },
@@ -15,10 +31,6 @@
     {
       "basename": "Arithmetic",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
-    },
-    {
-      "basename": "Computer abstraction",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
     },
     {
       "basename": "Note 4 Effect of Noise on Analog Communication Systems",
@@ -67,10 +79,6 @@
     {
       "basename": "6주차",
       "path": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md"
-    },
-    {
-      "basename": "05-Writing",
-      "path": "05-Writing/05-Writing.md"
     },
     {
       "basename": "Frequency Response",
@@ -191,14 +199,6 @@
     {
       "basename": "2024_02_16",
       "path": "99-Daily/2024_02_16.md"
-    },
-    {
-      "basename": "2024_02_18",
-      "path": "99-Daily/2024_02_18.md"
-    },
-    {
-      "basename": "2024_02_19",
-      "path": "99-Daily/2024_02_19.md"
     }
   ],
   "omittedPaths": [],

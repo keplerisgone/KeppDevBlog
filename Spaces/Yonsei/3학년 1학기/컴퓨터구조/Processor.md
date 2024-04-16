@@ -6,7 +6,6 @@ RISC-V의 프로세서를 이해하기 위해서, 다음과 같은 7가지의 �
 - *Conditional branch instruction* : `beq`
 간단해보이지만 프로세서의 중요 특징들을 알아보기에는 충분하다. 
 
-
 # Processor Execution procedure
 
 프로세서의 실행은 다음과 같이 이루어진다.

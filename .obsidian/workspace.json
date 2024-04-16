@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Media/1_computer_abstraction.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Media/1_computer_abstraction.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+                "file": "Media/1_computer_abstraction.pdf"
               }
             }
           },
@@ -174,13 +174,51 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4481d0cb7d8beea5",
+  "floating": {
+    "id": "a451932e6f8d2b86",
+    "type": "floating",
+    "children": [
+      {
+        "id": "73680e305b08535c",
+        "type": "window",
+        "children": [
+          {
+            "id": "11966f4770526390",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c96bba3334e78997",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Media/1_computer_abstraction.pdf"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 155,
+        "y": 272,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "c96bba3334e78997",
   "lastOpenFiles": [
-    "03-Resources/03-Resources.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Media/1_computer_abstraction.pdf",
+    "05-Writing/옵시디언 정리 일지.md",
+    "05-Writing/05-Writing.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+    "03-Resources/03-Resources.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
     "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
     "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md",
     "Spaces/Yonsei/2학년 1학기/기초회로이론/기초회로이론.md",
@@ -194,15 +232,12 @@
     "03-Resources/2023-04-15-os.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md",
-    "05-Writing/05-Writing.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
     "05-Writing",
     "99-Daily/2024-01-22.md",
     "99-Daily/2024_02_05.md",
-    "99-Daily/2024_02_07.md",
-    "99-Daily/2024_02_11.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "01-Project/노닥노닥 라즈베리",
@@ -210,7 +245,6 @@
     "Media/2_instructions (dragged).pdf",
     "Media/Note 2 Amplitude Modulation.pdf",
     "Media/Note 1 Introduction.pdf",
-    "Media/1_computer_abstraction.pdf",
     "Media/2_instructions 1.pdf",
     "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
     "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
