@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md"
+                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
               }
             }
           },
@@ -171,15 +171,32 @@
       "templates:Insert template": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "4481d0cb7d8beea5",
   "lastOpenFiles": [
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
-    "Media/1_computer_abstraction.pdf",
+    "Home.md",
     "05-Writing/옵시디언 정리 일지.md",
+    "99-Kanban/개강 전에 해요.md",
+    "99-Kanban/치워요.md",
+    "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
+    "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
+    "Media/Screenshot_2023-12-09_at_2.21.28_PM.png",
+    "Media/Screenshot_2023-12-09_at_1.48.44_PM.png",
+    "Media/Screenshot_2023-10-21_at_12.11.10_AM.png",
+    "Media/Screenshot_2023-10-04_at_10.27.57_PM.png",
+    "Media/Screenshot_2023-12-09_at_2.37.55_PM.png",
+    "Media/Screenshot_2023-11-20_at_10.49.01_PM.png",
+    "Media/Screenshot_2023-11-20_at_10.46.54_PM.png",
+    "Media/Screenshot_2023-09-06_at_7.49.00_PM.png",
+    "Template/template.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
+    "Template/wargame-template.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Media/1_computer_abstraction.pdf",
     "05-Writing/05-Writing.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
     "03-Resources/03-Resources.md",
@@ -188,7 +205,6 @@
     "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
     "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md",
     "Spaces/Yonsei/2학년 1학기/기초회로이론/기초회로이론.md",
-    "99-Kanban/개강 전에 해요.md",
     "99-Daily/2024_03_20.md",
     "04-Archive/Wargame/Wargame.md",
     "04-Archive/04-Archive.md",
@@ -199,29 +215,15 @@
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
     "05-Writing",
-    "99-Daily/2024-01-22.md",
-    "99-Daily/2024_02_05.md",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
-    "Media/Screenshot 2024-03-26 at 8.43.16 PM.png",
     "01-Project/노닥노닥 라즈베리",
     "Media/24-03-20 전회.pdf",
     "Media/2_instructions (dragged).pdf",
     "Media/Note 2 Amplitude Modulation.pdf",
     "Media/Note 1 Introduction.pdf",
     "Media/2_instructions 1.pdf",
-    "Media/Screenshot 2024-01-02 at 6.58.50 PM.png",
-    "Media/Screenshot 2024-01-02 at 2.15.19 PM.png",
-    "Media/Pasted image 20240118005656.png",
     "Media/chapter_1.pdf",
-    "Media/1_computer_abstraction 1.pdf",
-    "Media/Untitled 4 2.png",
-    "Media/Untitled 3 4.png",
-    "Media/Untitled 2 5.png",
-    "Media/Screenshot_2023-10-02_at_9.15.26_AM.png",
-    "Media/Screenshot_2023-10-02_at_9.14.45_AM.png",
-    "Media/Screenshot_2023-10-02_at_9.10.19_AM.png"
+    "Media/1_computer_abstraction 1.pdf"
   ]
 }

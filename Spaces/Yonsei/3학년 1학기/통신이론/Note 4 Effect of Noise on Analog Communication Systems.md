@@ -14,7 +14,7 @@ FM 같은 경우는 애초에 Nonlinear한 시스템이기 때문에 noise 또�
 
 Bandpass Signal을 $x(t)= A\cos (2\pi f_{c}t+\theta)$ 라고 하면 신호는 사실 Phasor인 $Ae^{j \theta}$만 들고 다녀도 된다. 오일러 공식에 의해 real 성분만 뽑아낸다면 signal을 금방 복원해낼 수 있기 때문. 결국 signal은 다음과 같은 다양한 방식으로 표현할 수 있다.
 
-![](https://i.imgur.com/yZgBrzM.png)
+![|575](https://i.imgur.com/yZgBrzM.png)
 핵심은 Phasor 정보를 잘 저장하는 것.
 # Properties of  the Thermal Noise
 
@@ -32,18 +32,18 @@ $$
 - Same varience를 가진다.
 # Narrowband Noise
 
-![](https://i.imgur.com/TSjq3LG.png)
+![|600](https://i.imgur.com/TSjq3LG.png)
 
 PSD와 Autocorrelation function은 FT 관계를 갖는다. 왜 그런지는 모르겠다. 각 component의 PSD는 같은 형태를 가지며, Noise의 PSD는 이 둘을 합친 형태이다. 이 때 power는 다음과 같다.
 
-![](https://i.imgur.com/xAnyLpy.png)
+![|425](https://i.imgur.com/xAnyLpy.png)
 
 # Signal-to-Noise Ratios
 
 노이즈를 얼마나 잘 걸렀는지 판단하는 변수는 **Figure of merit**로 불리기도 하는데, 이는 **Post-detection SNR**과 **Reference(Baseband) SNR**의 비율로 나타낸다. detection 이후의 power가 노이즈 detection을 하면서 얼마나 손해를 봤는가?를 보여주는 수라고 할 수 있다.
 사용하는 SNR의 종류는 다음과 같다.
 
-![](https://i.imgur.com/e4YpAXZ.png)
+![|550](https://i.imgur.com/e4YpAXZ.png)
 
 - **Pro-detection SNR** : demodulating 이전의 SNR
 - **Post-detection SNR** : demodulation 이후의 SNR
@@ -54,7 +54,7 @@ $$
 SNR = {E[s^{2}(t)] \over E[n^2(t)]}
 $$
 **Reference tranmission model**은 baseband에서 메세지 신호를 보내는 모델로, 다음과 같은 가정을 가진다. 
-1. message의 power가 modulated signal power와 동일할 것. 즉 순수한 메세지를 보낼 때는 손실이 없다.
+1. message의 power가 modulated signal power와 동일할 것. 즉 순수한 메세지를 보낼 때는 손실이 없다. 즉 Pre-detection과 baseband가 같다.??
 2. message bandwidth에서의 noise power...라고만 하면 제가 어떻게 알아요
 ### example
 
@@ -63,7 +63,7 @@ $$
 
 # Band-pass Communication System
 
-![](https://i.imgur.com/BI4bkyM.png)
+![|625](https://i.imgur.com/BI4bkyM.png)
 
 이는 Transmitter와 channel, Receiver 로 이루어져 있다. TX는 carrier frequency에 신호를 담는 역할을 하며, 중간 중간에 신호의 frequency를 IF, RF로 바꾸는 역할을 한다. RX는 Band-pass filter를 통해 신호를 복원하며, 신호를 IF로 변환하는 일도 한다. 
 
@@ -72,10 +72,10 @@ $$
 DSB-SC AM에서 noise 계산법을 알아보자. 보내는 신호는 $s(t) = A_{c}m(t)\cos (2\pi f_{c}t+\theta)$라고 가정한다. 모든 노이즈는 AWGN(Additive white Gaussian noise)라고 가정한다. additive가 아니라면 노이즈를 뽑아낼 수 없다. received signal은 $x(t) = s(t) + n(t)$
 
 Pre - detector의 SNR을 구하면 다음과 같다. 
-![](https://i.imgur.com/DsjAz2q.png)
+![|525](https://i.imgur.com/DsjAz2q.png)
 
 Post-demodulation 신호의 SNR을 구하면 다음과 같다.
-![](https://i.imgur.com/MU3Vj7q.png)
+![|600](https://i.imgur.com/MU3Vj7q.png)
 
 Baseband SNR을 구하면 다음과 같다. $({S \over N})_{b} = {P_{R}\over N_{0}W}= {A_{c}^{2}P_{m}\over 2N_{o}W}$
 
@@ -126,7 +126,7 @@ $$ 이다.
 
 따라서 전체 Figure of merit는 $$
 {k_{a}^{2}P_{m_{n}}\over [1+k_{a}^{2}P_{m_{n}}]}({S\over N})_{b} = \eta({S\over N})_{b}
-$$ 이고, $\eta$는 modulation efficiency라고 한다. 해당 값은 언제나 1보다 작기 때문에 baseband SNR보다 modulation이후의 SNR이 더 작은 값을 가진다.
+$$ 이고, $\eta$는 modulation efficiency라고 한다. 해당 값은 언제나 1보다 작기 때문에 baseband SNR보다 modulation이후의 SNR이 더 작은 값을 가진다. 따라서 power 측면에서는 좀 그렇지만 방송 쪽에서 많이 사용했었다.
 	modulation index $k_{a}$는 0.8-0.9 값을 가진다. 
 	뭐 아무튼 message는 dynamic range를 가진다....
 위와 같은 loss가 발생하는 이유는 Carrier를 통해 옮겨지는 중 원하지 않는 signal이 추가되기 때문??
@@ -139,4 +139,33 @@ V_{r}(t) \approx A_{C}[1+k_{a}m_{n}(t)]+n_{I}(t), \\\\\\\\\\ y(t) = A_{c}k_{a}m_
 $$
 근데 만약 아니라면??? noise가 additive가 아니기 때문에 SNR을 분석할 수가 없다.
 
-## examples
+### examples..
+
+![](https://i.imgur.com/72l9oUD.png)
+
+
+![](https://i.imgur.com/vFD9cEU.png)
+
+![](https://i.imgur.com/3Gbp1mo.png)
+
+![](https://i.imgur.com/18euQXA.png)
+# Effect of Noise on Angle Modulation
+
+**Amplitude modulation**에서는 노이즈가 신호에 바로 추가되지만, **Angle modulation**에서는 조금 다르다.
+**Frequency modulation**에서는 노이즈가 크기에 더해지긴 하지만, frequency term에 메세지가 포함되어 있으므로 노이즈가 바로 눈에 보이지는 않는다. 다만 신호의 주파수가 달라지게 되는데, 이는 *zero crossing*에 영향을 주게 된다. 
+[TODO] - 사진
+두 경우에서 모두 노이즈가 발생했지만, Power가 높은 아래 신호에서 노이즈의 영향이 덜한 것을 볼 수 있다. power가 작은 신호일 수록 노이즈에 의한 zero crossing이 더 자주 발생.
+
+# Detection of Angle Modulation
+
+**Angle modulated signal**은 다음과 같이 표현 가능하다.
+수식
+**Pre-Detection SNR**을 구하면 다음과 같다. 이는 Baseband와 동일.
+수식
+**Post-Demodulation SNR**을 구하면 다음과 같다.
+수식
+위상 차이는 $0$가 될 것이고,  중간에 신호의 크기가 크다는 가정이 중요하다. $\tan^{-1}$의 경우는 들어가는 값이 매우 작으면 일차 함수처럼 작용한다고 볼 수 있기 때문. 또한 신호의 크기가 클수록 = power가 강할 수록 노이즈 영향이 적어진다는 것을 표현하는 것이기도 하다. 
+
+demodulated의 phase 표현 방식, 마지막에 Discreminator에 통과시킨다는 사실에 주목하자. 마지막 Phase term에서 메세지가 적분 형태로 나타나므로, 이를 끄집어내기 위해서 통과시키는 것이다. 
+
+하지만 이를 통과시키면서 *노이즈의 형태도 변한다.* 
