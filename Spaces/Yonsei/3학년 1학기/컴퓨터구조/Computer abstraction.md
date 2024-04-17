@@ -7,6 +7,7 @@ annotation-target: PDFs/컴퓨터구조/1_computer_abstraction.pdf
 ![|600](https://i.imgur.com/NAYcQlx.png)
 
 1940년도 electronic computing이 발명된 수, computer는 현대 사회에서 빠질 수 없는 물건이 되고 말았다. 컴퓨터가 우리 일상 여기저기에 침투해 삶을 발전시켰다는 것에 부정할 사람은 없을 것이다. 전세계의 수많은 컴퓨터 회사들은 경제에도 거대한 영향을 끼치고 있다. 근데... 컴퓨터는 어떻게 생긴거지??
+
 # What is Computer Architecture?
 
 ![|575](https://i.imgur.com/ytFCA6z.png)
@@ -36,45 +37,81 @@ annotation-target: PDFs/컴퓨터구조/1_computer_abstraction.pdf
 
 ## Supercomputers (p8)
 
-![](https://i.imgur.com/Chm2clH.png)
+![|600](https://i.imgur.com/Chm2clH.png)
 
 일반적인 서버보다 훨씬 큰 서버들의 모임이다. 수천 개의 프로세서와 페타바이트(PB) 단위의 메모리를 가지고 있다. 좀 더 진화된 버전은 flash memory를 쓴다고는 하는데... 잘 몰루겠다
 
 ## Embedded System (p9)
 
+임베디드 시스템(Embedded system)은 자동차, 비행 시스템 등에서 작동되는 넓은 범위의 무언가를 의미한다. 사실 이것도 컴퓨터의 일종이다. 임베디드 시스템은 특정 하드웨어에서 특정 소프트웨어만을 실행시키도록 설계된 것이 특징이다. 매우 작고 효율적인 구조를 지닌다.
 
-- wide range
-	- automobile! - navigation
+# Post-PC Era (p10)
 
-#### Post-PC Era (p10)
+## PMDs (p10)
 
-##### PMDs (p10)
+![|600](https://i.imgur.com/KIt2cbn.png)
 
-- 작은 mobile device - 이제는 컴퓨터보다 빠르다
-- 그래서 블루스택 돌리는게 그렇게 부담이었니
+PMD(Personal mobile devices)는 우리가 들고다닐 수 있는 휴대용 기기를 뜻한다. 이미 PC의 성능을 뛰어넘은지는 좀 됐다. 배터리를 전력으로 사용하며, 무선 통신을 사용한다는 점이 특징이다. 
 
-##### SoC (p11)
+# SoC (p11)
 
-- 여러 기능을 수행하는 모듈을 하나의 칩에 몰아넣은 것
-- 의외로 CPU와 GPU가 절반도 차지하지 않는다
+![|625](https://i.imgur.com/wyU5Roo.png)
 
-#### New Computing Devices (p12)
+여러 기능을 수행하는 모듈을 하나의 칩에 몰아넣은 것이다.  의외로 CPU와 GPU가 절반도 차지하지 않는다. CPU와 GPU이외에도 audio module, display 등등 다양한 기능의 unit들이 있다.
+neural accelerators, display engines, wireless modems, audio/video DSPs, camera IPU, security modules, sensors (e.g., proximity, gyroscope), GPS, etc.
 
-- 
-Important concepts in computer achitecture
+# New Computing Devices (p12)
 
-1.asfd
-2.fu
-3.ashfassddfj
-	잘 짜여진 싱글스레드는 멀티스레드를 이긴다
-4.fdshafg
-5.drt
-6.ghgh
-7.ghjfj
+아주 다양한 processing unit들이 존재한다.
+- **Central Processing unit (CPU)**
+- **Graphics processing unit (GPU)**
+- **Field-programmable gate arrays (FPGA)**
+- **ASIC, accelerators**
+- **Quantum processor**
 
-translating 
+# Important Concepts in computer Architecture
 
-under the hood: processor components
+1. **Use abstraction to simplify a design** : 시스템을 개발하기 위해서 abstraction을 적극적으로 사용한다. 즉 lower-level의 디테일을 숨긴다는 뜻.
+2. **Make the common cases faster** : 한 번 쓰이는 연산을 80% 빠르게 하는 것보다 자주 쓰이는 연산을 10% 빠르게 하는 것이 훨씬 낫다.
+3. **Performance scaling via parallelism** : parallelism을 이용해 성능 향상을 이룬다. 하지만 과도한 parallelism은 오히려 성능을 낮추는 경우가 있다. 이 때는 차라리 single thread가 낫다.
+4. **Performance scaling via pipelining** : 각 연산 과정을 쪼개고 쪼개서 pipelining 시킨다. 자동차 공장이라고 생각하면 쉽다.
+5. **Performance scaling via prediction** : 컴퓨터 프로그램은 같은 과정을 반복하는 경우가 많다. 그래서 대충 이렇겠군~하고 찍는게 때에 따라서는 효율적일 수 있다. 물론 틀렸을 경우의 risk보다 이득이 커야하겠지만...
+6. **Memory hierarchy** : 무조건 빠르고 큰 메모리가 좋을 것 같지만, 둘 사이에는 tradeoff가 존재한다. 따라서 memory에 계층을 두어 빠르고 작은 - 크고 느린 메모리를 적절하게 사용하도록 한다.
+![|525](https://i.imgur.com/S6uS3kV.png)
+1. **Reliability via redundancy** : 무조건 시스템은 reliable해야 한다. 특히 비행, 운송 관련 분야에서는 더 중요하다. 가장 간단한 방법은 redundancy를 키우는 것. (backup)
+
+# Translating High-Level Language to Machine Code
+
+![|300](https://i.imgur.com/Ehjnnl9.png)
+
+1. **Compiler**는 우리가 쓴 High-level language code를 assembly code로 바꾼다. 
+2. **assembler**는 assembly code를 binary code로 바꾼다. 
+3. **Operating system**(OS)는 binary code를 실행한다.
+
+
+# Under the hood: processor components
+
+![|575](https://i.imgur.com/v6Z5RMa.png)
+
+# Integration Technology for Building Processors
+
+![|600](https://i.imgur.com/Aiid8CX.png)
+
+**Moore**라는 똑똑한 사람이 "칩에 들어가는 트랜지스터의 밀도는 매년마다 두 배로 증가한다" (**Moore's Law**)라고 했지만, 현대에 맞는 법칙은 아니다.
+
+![|575](https://i.imgur.com/xF768hF.png)
+
+**DRAM** 또한 용량의 상승세가 줄어드는 중. DRAM은 각 cell에 bit를 얼마나 쑤셔넣느냐가 중요한데, 이 DRAM cell의 크기를 줄이는데 한계에 봉착했기 때문이다.
+
+## Defects and Wafer Dicing
+
+![](https://i.imgur.com/5CnXAdm.png)
+
+칩을 만드는 공정은 저러하다. 공정 상에서 "완벽한 wafer"를 만드는 것은 불가능에 가까우므로, 각 wafer마다 자잘자잘한 defect가 생기게 된다. 결국 최종 목표는 defect를 줄이는 것이 된다. 
+wafer를 잘라 만든 조각을 **Dies**라고 하며, 이를 이용해 칩을 만든다.
+
+## Die Yield
+
 
 #### Comparing Code Segments (p32)
 

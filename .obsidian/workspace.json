@@ -25,7 +25,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Media/Instruction 2024-03-10 14.08.07.excalidraw.md"
+                "file": "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md"
               }
             }
           }
@@ -212,10 +212,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 374,
-        "y": 280,
-        "width": 1024,
-        "height": 800,
+        "x": 153,
+        "y": 351,
+        "width": 1032,
+        "height": 814,
         "maximize": false,
         "zoom": 0
       }
@@ -226,13 +226,16 @@
     "Media/1_computer_abstraction.pdf",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
-    "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
-    "Media/Drawing 2024-03-10 13.47.20.excalidraw.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
+    "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-10 13.47.20.excalidraw.md",
     "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md",
     "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
     "Excalidraw/보스 1페이즈.md",
     "Excalidraw/Exacli-RobotgamePlayer.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "03-Resources/().md",
     "Home.md",
     "05-Writing/옵시디언 정리 일지.md",
@@ -256,9 +259,6 @@
     "03-Resources/03-Resources.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
     "Spaces/Yonsei/2학년 1학기/기초회로이론/기초회로이론.md",
-    "99-Daily/2024_03_20.md",
-    "04-Archive/Wargame/Wargame.md",
-    "04-Archive/04-Archive.md",
     "05-Writing",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "01-Project/노닥노닥 라즈베리",
