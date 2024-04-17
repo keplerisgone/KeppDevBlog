@@ -154,44 +154,62 @@ $$
 
 ![|475](https://i.imgur.com/O400ZTR.png)
 위와 같은 문제에서, *같은 프로그램을 실행시켰을 때* 비교하는 것이 중요하다. N개의 instruction을 가지는 프로그램을 실행시켰다고 가정할 때, clock rate는 두 배 차이나고 CPI는 0.6배 차이나므로 1.2배의 성능차이가 나는 것은 맞는데, 뭐가 더 빠를까? (답은 A)
-#### Comparing Code Segments (p32)
+# Comparing Code Segments (p32)
 
-- instruction의 횟수, 각 Instruction의 CPI의 조합에 따라 성능이 달라짐
-- Average CPI를 따질 것인가? 총 코드의 길이(instruction)을 따질 것인가?
+![|475](https://i.imgur.com/u0ULwQY.png)
 
-#### Basic Elements of Performance Evaluation
+![|475](https://i.imgur.com/fqW8UZS.png)
 
-- 프로그램의 execution time = Algorithms and compliers + Computer architecture + Circuit design
-	- 각각 프로그램의 instruction 수
-	- CPI
-	- Cycle period
-- 모두를 종합적으로 생각해야함
+위 두가지 type의 instruction set이 있을 때, 어떤 것을 선택해야 잘 골랐다고 소문이 날까?
+- **number of instructions**를 따지는 경우
+	- *Code1*의 경우 $2 + 1 + 2 = 5$
+	- *Code 2*의 경우 $4 + 1 + 1 = 6$
+- **CPI**를 따지는 경우
+	- *Code1*의 경우 $\frac{2\times 1 + 1\times 2 + 2\times 3}{5}=2$
+	- *Code2*의 경우 $\frac{(4\times 1)+(1\times 2)+(1\times 3)}{6}=1.5$
+Average CPI를 따질 것인가? 총 코드의 길이(instruction)을 따질 것인가? 알아서 잘 고르자.
 
-#### Measurement of Performance Elements (p35)
+# Basic Elements of Performance Evaluation
 
-- 어떻게 해당 elements를 측정할 것인가
-	- 다양하게 측정
-	- Clock cycle time = period같은 경우는 하드웨어로 측정이 가능하나, 나머지는 시뮬레이션 필요
+프로그램의 execution time에는 다양한 parameter가 관여한다.
+$$
+\text{Execution time} = \frac{\text{Instructions}}{\text{Program}}\times \frac{\text{Cycles}}{\text{Instruction}}\times\frac{\text{Seconds}}{\text{Cycle}}
+$$
+여기서 첫번째 term은 알고리즘과 컴파일러의 영역, 두번째 term은 컴퓨터 구조의 영역, 마지막 term은 회로 디자인의 영역이다.
 
-#### Technology Scaling Trends (p36)
+![|525](https://i.imgur.com/kJ2LVUq.png)
+
+따라서 위와 같은 모든 영역의 변수를 고려해 performance를 결정해야 한다.
+## Measurement of Performance Elements (p35)
+
+Performance를 측정하는데 필요한 요소들은 어떻게 측정할까?
+- *Clock cycle time* : product specifications를 본다 => 메뉴얼을 읽는다는 뜻
+- *Instruction count* : 소프트웨어의 Hardware counters를 이용한다.
+- *CPI* : hardware simulators나 hardware counters를 이용한다. 이는 프로세서나 하드웨어에 따라 달라지기 때문에 여러 번 측정해야 한다.
+# Technology Scaling Trends (p36)
+
+![|550](https://i.imgur.com/1SaHsMa.png)
 
 - Moore's Law continues (조금 느려졌지만)
 - Single-thread performance is bounded (왜 멈췄을까?)
 - base clock frequency doesn't increase (왜 멈췄을까?)
-- chip power is limited (clock speed와 안좋은 관계 => 어느 순간에 머무를수밖에 없음)
+- chip power is limited (clock speed와 tradeoff => 어느 순간에 머무를수밖에 없음)
 
-#### Single-Thread Performance Scaling (p37)
+## Single-Thread Performance Scaling (p37)
 
-- 싱글코어의 퍼포먼스는 더이상 늘지 않는다 - 한계가 존재
-- 실제로 멈추기 시작한 부분과 멀티코어가 등장한 부분이 일치
+![|550](https://i.imgur.com/IFngJdJ.png)
 
-#### The Power Wall
+single thread의 퍼포먼스는 한계가 존재해 더이상 늘지 않는다. 실제로 멈추기 시작한 부분과 멀티코어가 등장한 부분이 일치한다.
 
-- clock frequency와 power consumption은 둘 중 하나를 포기해야하는 구조
-- thermal limitation (air cooling)의 한계와 일치
+## The Power Wall
 
-#### End of Dennard Scaling
+![|500](https://i.imgur.com/0fCDVLj.png)
 
+clock frequency가 증가하면 성능이 향상되지만, power consumption 또한 증가하게 된다. 따라서 둘은 **thermal limitation**에 의해 묶이게 되었다.
+
+## End of Dennard Scaling
+
+**Dennard Scaling**이란 
 - 트랜지스터의 크기가 작아져 밀도가 두배가 되면 소모 전력도 두배가 될 것 같지만, 크기만큼 소모전력도 줄기 때문에 엄청 이득이라는 말
 - 근데 현실에서는 아니기 시작함 - 균형이 깨짐
 
