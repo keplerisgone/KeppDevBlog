@@ -1,7 +1,6 @@
 ---
 annotation-target: PDFs/컴퓨터구조/1_computer_abstraction.pdf
 ---
-
 # Introduction
 
 ![|600](https://i.imgur.com/NAYcQlx.png)
@@ -112,7 +111,7 @@ wafer를 잘라 만든 조각을 **Dies**라고 하며, 이를 이용해 칩을 
 
 ## Die Yield
 
-
+하나의 wafer에 존재하는 dies의 개수를 비율로 나타낼 수 있다. 역시 뭐든 효율을 나타낼 때는 비율이 최고인 것 같다. 
 #### Comparing Code Segments (p32)
 
 - instruction의 횟수, 각 Instruction의 CPI의 조합에 따라 성능이 달라짐
