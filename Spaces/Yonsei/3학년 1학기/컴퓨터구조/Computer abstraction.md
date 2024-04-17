@@ -1,6 +1,3 @@
----
-annotation-target: PDFs/컴퓨터구조/1_computer_abstraction.pdf
----
 # Introduction
 
 ![|600](https://i.imgur.com/NAYcQlx.png)
@@ -68,16 +65,16 @@ neural accelerators, display engines, wireless modems, audio/video DSPs, camera 
 - **ASIC, accelerators**
 - **Quantum processor**
 
-# Important Concepts in computer Architecture
+# Important Concepts in Computer Architecture
 
-1. **Use abstraction to simplify a design** : 시스템을 개발하기 위해서 abstraction을 적극적으로 사용한다. 즉 lower-level의 디테일을 숨긴다는 뜻.
-2. **Make the common cases faster** : 한 번 쓰이는 연산을 80% 빠르게 하는 것보다 자주 쓰이는 연산을 10% 빠르게 하는 것이 훨씬 낫다.
-3. **Performance scaling via parallelism** : parallelism을 이용해 성능 향상을 이룬다. 하지만 과도한 parallelism은 오히려 성능을 낮추는 경우가 있다. 이 때는 차라리 single thread가 낫다.
-4. **Performance scaling via pipelining** : 각 연산 과정을 쪼개고 쪼개서 pipelining 시킨다. 자동차 공장이라고 생각하면 쉽다.
-5. **Performance scaling via prediction** : 컴퓨터 프로그램은 같은 과정을 반복하는 경우가 많다. 그래서 대충 이렇겠군~하고 찍는게 때에 따라서는 효율적일 수 있다. 물론 틀렸을 경우의 risk보다 이득이 커야하겠지만...
-6. **Memory hierarchy** : 무조건 빠르고 큰 메모리가 좋을 것 같지만, 둘 사이에는 tradeoff가 존재한다. 따라서 memory에 계층을 두어 빠르고 작은 - 크고 느린 메모리를 적절하게 사용하도록 한다.
+1. **Use abstraction to simplify a design**: 시스템을 개발하기 위해서 abstraction을 적극적으로 사용한다. 즉 lower-level의 디테일을 숨긴다는 뜻.
+2. **Make the common cases faster**: 한 번 쓰이는 연산을 80% 빠르게 하는 것보다 자주 쓰이는 연산을 10% 빠르게 하는 것이 훨씬 낫다.
+3. **Performance scaling via parallelism**: parallelism을 이용해 성능 향상을 이룬다. 하지만 과도한 parallelism은 오히려 성능을 낮추는 경우가 있다. 이 때는 차라리 single thread가 낫다.
+4. **Performance scaling via pipelining**: 각 연산 과정을 쪼개고 쪼개서 pipelining 시킨다. 자동차 공장이라고 생각하면 쉽다.
+5. **Performance scaling via prediction**: 컴퓨터 프로그램은 같은 과정을 반복하는 경우가 많다. 그래서 대충 이렇겠군~하고 찍는게 때에 따라서는 효율적일 수 있다. 물론 틀렸을 경우의 risk보다 이득이 커야하겠지만...
+6. **Memory hierarchy**: 무조건 빠르고 큰 메모리가 좋을 것 같지만, 둘 사이에는 tradeoff가 존재한다. 따라서 memory에 계층을 두어 빠르고 작은 - 크고 느린 메모리를 적절하게 사용하도록 한다.
 ![|525](https://i.imgur.com/S6uS3kV.png)
-1. **Reliability via redundancy** : 무조건 시스템은 reliable해야 한다. 특히 비행, 운송 관련 분야에서는 더 중요하다. 가장 간단한 방법은 redundancy를 키우는 것. (backup)
+1. **Reliability via redundancy**: 무조건 시스템은 reliable해야 한다. 특히 비행, 운송 관련 분야에서는 더 중요하다. 가장 간단한 방법은 redundancy를 키우는 것. (backup)
 
 # Translating High-Level Language to Machine Code
 
@@ -87,8 +84,7 @@ neural accelerators, display engines, wireless modems, audio/video DSPs, camera 
 2. **assembler**는 assembly code를 binary code로 바꾼다. 
 3. **Operating system**(OS)는 binary code를 실행한다.
 
-
-# Under the hood: processor components
+# Under the Hood: Processor Components
 
 ![|575](https://i.imgur.com/v6Z5RMa.png)
 
@@ -107,11 +103,57 @@ neural accelerators, display engines, wireless modems, audio/video DSPs, camera 
 ![](https://i.imgur.com/5CnXAdm.png)
 
 칩을 만드는 공정은 저러하다. 공정 상에서 "완벽한 wafer"를 만드는 것은 불가능에 가까우므로, 각 wafer마다 자잘자잘한 defect가 생기게 된다. 결국 최종 목표는 defect를 줄이는 것이 된다. 
-wafer를 잘라 만든 조각을 **Dies**라고 하며, 이를 이용해 칩을 만든다.
+wafer를 잘라 만든 조각을 **Dies**라고 하며, 이를 이용해 칩을 만든다. defect를 줄인다는 말은 defected Dies의 비율을 줄인다는 말과 같다.
 
 ## Die Yield
 
 하나의 wafer에 존재하는 dies의 개수를 비율로 나타낼 수 있다. 역시 뭐든 효율을 나타낼 때는 비율이 최고인 것 같다. 
+
+$$
+\text{Cost per die} = \frac{\text{Cost per wafer}}{\text{Dies per wafer}\times \text{Yield}} \\ 
+
+$$
+
+$$\text{Dies per wafer} \approx \frac{\text{Wafer area}}{\text{Die area}}$$$$
+\text{Yield} = \frac{1}{(1 + (\text{Defects per area}\times\text{Die area}))^{N}}
+
+$$
+첫번째 수식은 die 하나의 비용이 얼마나 되는지를 wafer의 전체 cost와 yield를 고려해 계산한 것이고, 두번째 수식은 wafer 하나에 die가 얼마나 나오는지를 계산한 것이다. 세번째는 Yield를 계산하는 식인데, N은 공정 step 수를 의미한다.
+
+# Performance Difinition
+
+컴퓨터의 효율, performance는 *execution time이 짧은 정도*로 정의된다. execution time이 짧을 수록 server는 같은 시간에 더 많은 작업을 처리할 수 있다.
+$$
+
+\text{Performance} = \frac{1}{\text{Execution time}}
+
+$$
+그렇다면 두 컴퓨터의 performance는 어떻게 비교할 수 있을까? performance는 execution time의 역수로 정의되므로 이를 이용한다. **컴퓨터 X는 컴퓨터 Y보다 n배 빠르다**에서 n은 다음과 같이 계산할 수 있다.
+$$
+
+n = \frac{\text{Performance}_{X}}{\text{Performance}_{Y}}= \frac{\text{Execution time}_{Y}}{\text{Execution time}_{X}}
+
+$$
+## Performance Evaluation in Clock Cycles
+
+![|600](https://i.imgur.com/me4Ss7k.png)
+
+Clock Cycle을 이용해 performance를 정의할 수도 있다. 이는 processor마다 다른데, clock period (1/Clock Frequency = rate)가 다르기 때문이다. Execution time을 Clock Cycle을 이용해 나타낼 수 있다.
+$$
+
+\text{Execution time} = \text{clock cycles}\times \text{clock period} = \frac{\text{Clock cycles}}{\text{Clock frequency(or clock rate)}}
+
+$$
+예를 들어, 2GHz clock rate를 가진 컴퓨터가 어떤 프로그램을 실행할 때 10초가 걸린다 하자. 다른 컴퓨터는 해당 프로그램을 실행하는데 6초가 걸리지만 1.2배의 clock cycle을 갖는다고 한다. 그러면 다른 컴퓨터의 clock rate는 4GHz가 된다!
+## Performance Evaluation in CPI
+
+어떤 program의 코드는 여러 개의 instruction이 모여 만들어진다. 사용하는 clock cycles를 나타내는 또 다른 방법은 instruction을 이용해 나타낼 수 있다. 이 때 사용하는 것이 바로 **CPI**(**clock cycles per instruction**) 인데, 이는 모든 instruction이 가지는 평균 clock cycle로 구해진다.
+$$
+\text{Clock cycles}=\text{number of instructions}\times \text{average clock cycles per instructions}
+$$
+
+![|475](https://i.imgur.com/O400ZTR.png)
+위와 같은 문제에서, *같은 프로그램을 실행시켰을 때* 비교하는 것이 중요하다. N개의 instruction을 가지는 프로그램을 실행시켰다고 가정할 때, clock rate는 두 배 차이나고 CPI는 0.6배 차이나므로 1.2배의 성능차이가 나는 것은 맞는데, 뭐가 더 빠를까? (답은 A)
 #### Comparing Code Segments (p32)
 
 - instruction의 횟수, 각 Instruction의 CPI의 조합에 따라 성능이 달라짐

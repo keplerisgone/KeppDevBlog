@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
-      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "Computer abstraction",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
     },
     {
-      "basename": "1_computer_abstraction",
-      "path": "Media/1_computer_abstraction.pdf"
+      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
+      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
+    },
+    {
+      "basename": "Note 5 Analog to Digital Conversion",
+      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
+    },
+    {
+      "basename": "Note 7",
+      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 7.md"
+    },
+    {
+      "basename": "Instruction 2024-03-10 14.08.07.excalidraw",
+      "path": "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md"
+    },
+    {
+      "basename": "Arithmetic",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
     },
     {
       "basename": "Instruction",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+    },
+    {
+      "basename": "1_computer_abstraction",
+      "path": "Media/1_computer_abstraction.pdf"
     },
     {
       "basename": "Note 3 Angle Modulation",
@@ -31,10 +43,6 @@
     {
       "basename": "Note 1 Introduction",
       "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md"
-    },
-    {
-      "basename": "Instruction 2024-03-10 14.08.07.excalidraw",
-      "path": "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md"
     },
     {
       "basename": "Drawing 2024-03-10 13.47.20.excalidraw",
@@ -191,14 +199,6 @@
     {
       "basename": "Screenshot_2023-12-17_at_3.40.42_PM",
       "path": "Media/Screenshot_2023-12-17_at_3.40.42_PM.png"
-    },
-    {
-      "basename": "template",
-      "path": "Template/template.md"
-    },
-    {
-      "basename": "7주차",
-      "path": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md"
     }
   ],
   "omittedPaths": [],
