@@ -4,14 +4,12 @@ annotation-target: PDFs/컴퓨터구조/1_computer_abstraction.pdf
 
 # Introduction
 
-![[1_computer_abstraction.pdf]]
-
 ![|600](https://i.imgur.com/NAYcQlx.png)
 
 1940년도 electronic computing이 발명된 수, computer는 현대 사회에서 빠질 수 없는 물건이 되고 말았다. 컴퓨터가 우리 일상 여기저기에 침투해 삶을 발전시켰다는 것에 부정할 사람은 없을 것이다. 전세계의 수많은 컴퓨터 회사들은 경제에도 거대한 영향을 끼치고 있다. 근데... 컴퓨터는 어떻게 생긴거지??
 # What is Computer Architecture?
 
-![](https://i.imgur.com/ytFCA6z.png)
+![|575](https://i.imgur.com/ytFCA6z.png)
 
 컴퓨터 구조는 무엇을 말하는 것일까? 컴퓨터의 어디부터 어디까지를 '컴퓨터 구조'라고 부를 수 있을까? 
 위 그림을 보면 알 수 있듯이 컴퓨터 구조라는 단어는 컴퓨터의 내부적인 소프트웨어부터 우리 눈에 보이는 몸체(하드웨어)까지 칭하는 포괄적인 단어이다. 해당 과목에서 다루는 내용은 가운데의 *컴파일러, OS(운영체제), 명령어 처리 구조, 마이크로아키텍쳐, 논리회로*이다. 
@@ -24,26 +22,26 @@ annotation-target: PDFs/컴퓨터구조/1_computer_abstraction.pdf
 - *프로그램의 performance를 결정하는 요인은 뭐지?*
 - *performance를 증가시킬 수 있는 방법은?*
 
-#### Traditional Classes of Computing Systems (p6)
+# Traditional Classes of Computing Systems (p6)
 
-##### Personal Computers (p6)
+## Personal Computers (p6)
 
-- good performance for single users (personal!!!)
-	- server computers? for anyone
+*good performance, low cost*에 초점을 맞춘 기기로, single user가 사용하기 좋다. 
 
-##### Servers (p7)
+## Servers (p7)
 
-- large system <- many small computers - enable to run parallel, sizable workloads, many jobs (good)
-	 - security
-	 - reliability <- slow running speed
+서버는 여러 대의 슈퍼컴퓨터가 연결된 거대한 시스템으로, *sizable workloads*나 *many jobs*를 수행하기에 알맞다.
+일반적인 PC와 하는 일은 같지만 그 규모가 아예 다르다. 더 큰 용량, power, I/O를 가진다.
+서버는 반드시 **reliability**를 갖도록 설계하는데, 이는 crash가 발생했을 경우 손해가 일반 PC보다 막심하기 때문이다.
 
-##### Supercomputers (p8)
+## Supercomputers (p8)
 
-- extremely large... servers
-	PB 단위 살면서 처음본당
-	- <span style="background:#affad1">flash memory</span>
+![](https://i.imgur.com/Chm2clH.png)
 
-##### Embedded System (p9)
+일반적인 서버보다 훨씬 큰 서버들의 모임이다. 수천 개의 프로세서와 페타바이트(PB) 단위의 메모리를 가지고 있다. 좀 더 진화된 버전은 flash memory를 쓴다고는 하는데... 잘 몰루겠다
+
+## Embedded System (p9)
+
 
 - wide range
 	- automobile! - navigation

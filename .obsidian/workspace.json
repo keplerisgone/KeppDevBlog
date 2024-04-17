@@ -8,14 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4481d0cb7d8beea5",
+            "id": "698ec1d94662d9d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "4481d0cb7d8beea5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Media/Instruction 2024-03-10 14.08.07.excalidraw.md"
               }
             }
           }
@@ -101,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
               }
             }
           },
@@ -176,8 +186,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4481d0cb7d8beea5",
+  "floating": {
+    "id": "a451932e6f8d2b86",
+    "type": "floating",
+    "children": [
+      {
+        "id": "205d89370bffcc51",
+        "type": "window",
+        "children": [
+          {
+            "id": "0de827507262a861",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "91e3b2472594a44a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Media/1_computer_abstraction.pdf"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 374,
+        "y": 280,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "698ec1d94662d9d6",
   "lastOpenFiles": [
+    "Media/1_computer_abstraction.pdf",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
+    "Media/Drawing 2024-03-10 13.47.20.excalidraw.md",
+    "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md",
+    "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
+    "Excalidraw/보스 1페이즈.md",
+    "Excalidraw/Exacli-RobotgamePlayer.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
+    "03-Resources/().md",
     "Home.md",
     "05-Writing/옵시디언 정리 일지.md",
     "99-Kanban/개강 전에 해요.md",
@@ -195,26 +251,14 @@
     "Template/template.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
     "Template/wargame-template.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
-    "Media/1_computer_abstraction.pdf",
     "05-Writing/05-Writing.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
     "03-Resources/03-Resources.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
-    "Media/Instruction 2024-03-10 14.08.07.excalidraw.md",
-    "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md",
     "Spaces/Yonsei/2학년 1학기/기초회로이론/기초회로이론.md",
     "99-Daily/2024_03_20.md",
     "04-Archive/Wargame/Wargame.md",
     "04-Archive/04-Archive.md",
-    "05-Writing/키보드 자판.md",
-    "03-Resources/Git,Github.md",
-    "03-Resources/C&CPP/2023-04-23-CPPBasic.md",
-    "03-Resources/2023-04-15-os.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
     "05-Writing",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "01-Project/노닥노닥 라즈베리",

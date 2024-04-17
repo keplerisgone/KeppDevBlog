@@ -153,33 +153,71 @@ $$
 
 **Amplitude modulation**에서는 노이즈가 신호에 바로 추가되지만, **Angle modulation**에서는 조금 다르다.
 **Frequency modulation**에서는 노이즈가 크기에 더해지긴 하지만, frequency term에 메세지가 포함되어 있으므로 노이즈가 바로 눈에 보이지는 않는다. 다만 신호의 주파수가 달라지게 되는데, 이는 *zero crossing*에 영향을 주게 된다. 
-[TODO] - 사진
+
+![|325](https://i.imgur.com/9NqtmLW.png)
+
 두 경우에서 모두 노이즈가 발생했지만, Power가 높은 아래 신호에서 노이즈의 영향이 덜한 것을 볼 수 있다. power가 작은 신호일 수록 노이즈에 의한 zero crossing이 더 자주 발생.
 
 # Detection of Angle Modulation
 
 **Angle modulated signal**은 다음과 같이 표현 가능하다.
-수식
+$$
+u(t) = A_{c}\cos{(2\pi f_{c}t + \phi(t))}
+\begin{cases}
+A_{C}(2\pi f_{c}t + 2\pi k_{f}\int^{t}_{-\infty}m(\tau)d\tau) & FM \\
+A_{c}\cos(2\pi f_{c}t + k_{p}m(t)) & PM \\
+\end{cases}
+$$
 **Pre-Detection SNR**을 구하면 다음과 같다. 이는 Baseband와 동일.
-수식
+$$
+x(t)=u(t) + n(t) = u(t) + n_{c}(t)\cos(2\pi f_{c}t) -n_{s}(t)\sin(2\pi f_{c}t)
+$$
+$$
+\begin{matrix}
+E[u^{2}(t)] = E[(A_{c}\cos(2\pi f_{c}t + \phi(t)))^{2}] = \frac{A_{c}^{2}}{{2}} \\ 
+E[n^{2}(t)] = \frac{N_{0}}{2}2B_{T}=\frac{N_{0}}{2}2(2W) = N_{0}B_{T}= 2N_{0}W \\ 
+SNR_{pre} = \frac{A_{c}^{2}}{2N_{0}B_{T}}=\frac{A_{c}^{2}}{4B_{0}W}
+\end{matrix}
+$$
 **Post-Demodulation SNR**을 구하면 다음과 같다.
-수식
+$$
+\begin{matrix}
+n(t) = n_{I}(t)\cos(2\pi f_{c}t)- n_{Q}(t)\sin(2\pi f_{c}t) \\ 
+= r(t)\cos[2\pi f_{c}t]
+\end{matrix}
+$$
+$$
+\begin{matrix}
+r(t) = [n_{I}^{2}(t) + n_{Q}^{2}(t)]^{\frac{1}{2}} \\ 
+\phi_{n}(t) = \tan^{-1}\frac{n_{Q}(t)}{n_{I}(t)} \\ 
+{Phase diff.}, \psi_{n}= \phi_{n(t)}- \phi(t) \\ 
+\theta(t) = \phi(t) + \tan^{-1}\{\frac{r(t)\sin(\psi_{n}(t)}{A_{c}+r(t)\cos(\psi_{n}(t))}\} \\ 
+\theta(t) = \phi(t) + \frac{r(t)\sin(\psi_{n}(t)}{A_{c}} = \phi(t) + n_{Q}(t)/A_{c}
+\end{matrix}
+$$
+
 위상 차이는 $0$가 될 것이고,  중간에 신호의 크기가 크다는 가정이 중요하다. $\tan^{-1}$의 경우는 들어가는 값이 매우 작으면 일차 함수처럼 작용한다고 볼 수 있기 때문. 또한 신호의 크기가 클수록 = power가 강할 수록 노이즈 영향이 적어진다는 것을 표현하는 것이기도 하다. 
 
-demodulated의 phase 표현 방식, 마지막에 Discreminator에 통과시킨다는 사실에 주목하자. 마지막 Phase term에서 메세지가 적분 형태로 나타나므로, 이를 끄집어내기 위해서 통과시키는 것이다. 
+![](https://i.imgur.com/TPQMH3I.png)
+
+demodulated의 phase 표현 방식, 마지막에 Discreminator에 통과시킨다는 사실에 주목하자. 마지막 Phase term에서 메세지가 적분 형태로 나타나므로, 이를 끄집어내기 위해서 통과시키는 것이다. 굳이 통과시키는 이유는 당연히 메세지 signal을 얻기 위해서...
 
 하지만 이를 통과시키면서 *노이즈의 형태도 변한다는 것이 중요하다.*
 
+
+![](https://i.imgur.com/TLcJ1z2.png)
+
 Carson's rule도 사용한다. Baseband의 bandwidth가 얼마인지 몰라도 된다고...?가 아니라 Bandwidth가 늘어나는 정도에 제곱해 SNR이 향상된다.
 
-```
-
-```
 ## Example - Multiplexed Channels
+
+![|600](https://i.imgur.com/EB0B4XP.png)
 
 소리가 왼쪽 오른쪽 나뉠 때 노이즈가 들어가면 어떻게 될까?
 우선 왼쪽과 오른쪽 시그널의 frequency를 shift해서 나누어 생각해보자. 이를 baseband signal로 생각한다. 왼쪽과 시발 뭔소리세요???
 # Effect of Noise on angle modulation
+
+![|575](https://i.imgur.com/RajEBIM.png)
 
 **FM**일 경우 노이즈가 주파수의 제곱에 비례하기 때문에 저주파수에서는 괜찮지만 **고주파수로 갈수록 노이즈에 고통받는다**. 이는 노이즈의 스펙트럼이 parabolic으로 나타나는 것에서 볼 수 있다.
 근데 PM은 노이즈가 상수라고?? Flat noise spectrum을 가진단다.
@@ -187,38 +225,52 @@ Carson's rule도 사용한다. Baseband의 bandwidth가 얼마인지 몰라도 �
 
 ## example
 
+![](https://i.imgur.com/9fT91WL.png)
+
 # Threshold Effect in angle modulation
 
 demodulator에 들어가는 신호의 SNR이 매우 좋다(=높다) 고 가정, 또한 노이즈가 linear하게 더해진다고 가정.
 => nonlinear할 경우에는 계산이 거의 불가능, 신호로부터 잡음을 분리할 수 없어 SNR을 계산할 수 없다.
 결론적으로 이를 계산하기 위해서는 어느 정도의 SNR이 보장되어야 한다. (=**Threshold SNR**)
 BW를 높이는 것이 Power를 높이는 방법이 될 수 있지만, FM의 경우는 주파수의 제곱에 noise power가 비례하므로 적절하게 BW를 선택해야한다. *=> tradeoff*
-[TODO] - 사진
+
+![|325](https://i.imgur.com/O9M1bBv.png)
+
 위 그래프는 어느정도의 SNR이 확보되어야 SNR이 뻥튀기되는지를 나타내는 것이다. 이는 $\beta$에 비례한다. $$({S \over N})_{b,th} = 20
 (\beta+1)$$
 기본적으로 우리는 baseband SNR을 계산할 수 있고, received power인 $P_{R}$도 계산할 수 있으므로, 알아서 잘 $\beta$값을 계산해보자. BW이 주어져도 마찬가지이다. Carson's rule을 사용하면 될 일.
 정리하면, Threshold를 고려해 적당히 큰 $\beta$를 선택하되 사용하는 BW에 맞는지도 고려해야 한다.
 
-![|625](https://i.imgur.com/j2e60pQ.png)
+![|600](https://i.imgur.com/j2e60pQ.png)
 
 실제로 예시 signal을 가져와 Threshold effect를 살펴본 것이다. 사실 수식을 보면 알겠지만 수식 유도 한 번만 해보면 모든게 이해가 가는 것을 알 수 있다. 한 번 위에서 유도한 공식을 계속해서 우려먹기 때문. 위 수식을 보는 법은 (얻게 되는 db scale gain + baseband SNR) & (Threshold SNR) 이다.
 따라서 $\beta = 5$일 때는 원래 15.7dB의 gain을 추가적으로 얻어야 하지만 20dB일 경우 Threshold인 20.8dB를 넘지 못해 나가리가 되는 것.
 
 그리고 가장 중요한 것은 모든 게 다 **dB scale이라는 것이다!!!** 잊지 말자.
 
-[TODO] = 사진
+
+![|600](https://i.imgur.com/ZsYfURl.png)
+
 짜잔 PM일 때는 output baseband SNR은 어떻게 될까요~
 위 수식은 SNR에 Threshold SNR을 넣어버린 것
 
 ## Example
 
+![](https://i.imgur.com/NZ5BzxH.png)
+
+![](https://i.imgur.com/x3Wdui2.png)
+
 # Preemphasis and Deemphasis Filtering
 
-[TODO] - 7
+
+![|625](https://i.imgur.com/bkXs8oD.png)
+
 이전에 보았듯이 PM에서 noise의 power는 flat한 형태를 지니고, FM에서는 parabolic한 형태를 가진다. 즉 FM는 저주파에서, PM는 고주파에서 좋다. 그러면 저주파수는 FM modulation, 고주파수는 PM modulation을 쓰는게 좋지 않을까? 물론 실제로는 불가능하다. 
 이 아이디어에서 출발한 것이 바로 **Preemphasis, Deemphasis Filtering**이다.
 
-[TODO] - 사진
+
+![|350](https://i.imgur.com/M3Xrazs.png)
+
 FM에서는 고주파 부분에서 noise가 확 뛰기 때문에 이를 조절하는 것이 가장 중요하다. 이를 위해 다음과 같은 방법을 사용한다.
 1. low frequency는 감쇄, high frequency는 증폭시키자. (noise를 flat한 것처럼 속이는 방법)
 2. demodulation을 진행한 후 다시 원래대로 high는 감쇄, low는 증폭시킨다. 
@@ -249,7 +301,8 @@ AM은 Linear, FM와 PM은 nonlinear이다. 이 친구들을 세 가지 측면에
 
 ## Ease of Implementation
 
+![](https://i.imgur.com/YTiRcKI.png)
+
 # Summary
 
-
-
+![](https://i.imgur.com/TN4LWHl.png)

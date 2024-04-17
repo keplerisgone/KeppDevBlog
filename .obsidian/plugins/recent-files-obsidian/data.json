@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Home",
-      "path": "Home.md"
+      "basename": "Computer abstraction",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
+    },
+    {
+      "basename": "1_computer_abstraction",
+      "path": "Media/1_computer_abstraction.pdf"
+    },
+    {
+      "basename": "Instruction",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+    },
+    {
+      "basename": "Instruction 2024-03-10 14.08.07.excalidraw",
+      "path": "Media/Instruction 2024-03-10 14.08.07.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2024-03-10 13.47.20.excalidraw",
+      "path": "Media/Drawing 2024-03-10 13.47.20.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2024-04-14 23.31.11.excalidraw",
+      "path": "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2024-02-11 14.23.34.excalidraw",
+      "path": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
+    },
+    {
+      "basename": "보스 1페이즈",
+      "path": "Excalidraw/보스 1페이즈.md"
+    },
+    {
+      "basename": "Exacli-RobotgamePlayer",
+      "path": "Excalidraw/Exacli-RobotgamePlayer.md"
     },
     {
       "basename": "Note 4 Effect of Noise on Analog Communication Systems",
@@ -153,14 +185,6 @@
       "path": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md"
     },
     {
-      "basename": "Computer abstraction",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
-    },
-    {
-      "basename": "1_computer_abstraction",
-      "path": "Media/1_computer_abstraction.pdf"
-    },
-    {
       "basename": "05-Writing",
       "path": "05-Writing/05-Writing.md"
     },
@@ -173,28 +197,8 @@
       "path": "03-Resources/03-Resources.md"
     },
     {
-      "basename": "Instruction",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
-    },
-    {
       "basename": "Arithmetic",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
-    },
-    {
-      "basename": "Instruction 2024-03-10 14.08.07.excalidraw",
-      "path": "Media/Instruction 2024-03-10 14.08.07.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2024-04-14 23.31.11.excalidraw",
-      "path": "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md"
-    },
-    {
-      "basename": "기초회로이론",
-      "path": "Spaces/Yonsei/2학년 1학기/기초회로이론/기초회로이론.md"
-    },
-    {
-      "basename": "2024_03_20",
-      "path": "99-Daily/2024_03_20.md"
     }
   ],
   "omittedPaths": [],
