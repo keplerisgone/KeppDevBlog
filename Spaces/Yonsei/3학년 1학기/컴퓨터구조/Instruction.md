@@ -273,9 +273,10 @@ bge x21, x22, L1
 
 이제 각 조건문을 위 branch operation을 이용해 구현해보자. 참고로 반복문도 조건문의 일종이다.
 
-### If- else
+### If- Else
 
 ![|525](https://i.imgur.com/B3SD5do.png)
+
 ### Loop
 
 ![|525](https://i.imgur.com/bJgOr18.png)
@@ -299,10 +300,11 @@ bge x21, x22, L1
 - `x10-x17` 레지스터는 함수의 인자를 담는 곳이다.
 - `x1`은 함수의 리턴 값을 담는다.
 
-```
+```cpp
 jal x1, FUNC
 jalr x0, 0(x1)
 ```
+
 `jal`(jump and link)는 다음 실행할 instruction의 return address를 저장하고, 해당하는 라벨로 점프한다. 20bit를 넘는 친구는 한 번에 못간다. 
 `jalr`(jump and link register)는 다음 실행좌표를 레지스터에 담긴 값으로 지정한다. 위는 return address에 담긴 곳으로 점프하라는 뜻. x0에 저장하는 것은 무시된다.
 
@@ -315,8 +317,8 @@ jalr x0, 0(x1)
 
 **Program counter, PC**는 *현재 프로그램이 어디를 실행중인지*를 나타내는 포인터이다. 모든 instruction은 메모리에 저장되기 때문에 사용 가능한 아이디어이다. 
 보통 instruction이 실행되면 (PC + 4)로 다음을 가리키며, 이는 하나의 instruction이 4byte를 차지하기 때문에 그렇다. 또한 `jal`이 실행되면 `x1`에는 (PC + 4)가 저장된다. 이것이 바로 다음 실행 위치이기 때문이다.
-## Function Call Transition - Example
 
+## Function Call Transition - Example
 
 ![](https://i.imgur.com/Hu5zUgN.png)
 
@@ -334,7 +336,6 @@ jalr x0, 0(x1)
 ![|600](https://i.imgur.com/C97RsJm.png)
 
 # Calling Convention
-
 
 ![|625](https://i.imgur.com/RdfnHCJ.png)
 
@@ -402,9 +403,9 @@ recursive function (재귀함수)는 어떻게 컴파일될까?
 	- x5에 주소를 저장, pointer의 연산은 바이트 단위로 이루어지므로..
 - **얘가 더 빠름**
 
-# Handling Character Data : Load/Store Byte
+# Handling Character Data: Load/Store Byte
 
-```
+```cpp
 lbu x12, 0(x10)
 sb x12, 0(x10)
 ```
@@ -450,6 +451,7 @@ sb x12, 0(x10)
 
 - SB-type은 12bit immediate와 rs 두개 이용
 특정 condition을 만족하면 해당 branch로 이동한다. branch는 메모리 주소로 나타나며, immediate로 표현된다. 
+
 > [!question]
 4byte 명령.... 머시기 먼소리야
 
@@ -459,6 +461,7 @@ sb x12, 0(x10)
 
 - 여기도 주소 이동할 때 사용, 20bit immediate사용, `jal`
 20bit를 사용하기 때문에 주소는 $\pm2^{20}$까지의 주소를 표시할 수 있다. 따라서 한번에 접근 가능한 범위는 2MB이므로, 프로그램의 용량은 이를 넘어서는 안된다.
+
 > [!question]
 > 이게 먼소리냐
 
@@ -486,14 +489,19 @@ sb x12, 0(x10)
 
 # RISC-V Addressing Modes
 
-![](https://i.imgur.com/74Ga69D.png)
+RISC-V는 다음과 같은 Addressing mode를 지원한다. 
 
-![](https://i.imgur.com/fqYp8Yw.png)
+![](https://i.imgur.com/OS2u3dG.png)
 
-![](https://i.imgur.com/ZlXEyiD.png)
+1. **Immediate addressing**: instruction의 imm 부분에 있는 데이터 불러오기
+
+![](https://i.imgur.com/2tler23.png)
+
+1. **rs** (source register)에 저장된 데이터 불러오기
+1. Base Addressing: 레지스터에 저장된 memory address에 저장된 데이터 불러오기
+4. PC-relative addressing: PC를 기준으로 해 데이터에 접근, PC에 immediate offset을 더해 불러온다. (*halfword*만 불러옴)
 
 # Instruction Opcode Encoding
-
 
 ![|550](https://i.imgur.com/KPldVWM.png)
 
