@@ -404,64 +404,85 @@ recursive function (재귀함수)는 어떻게 컴파일될까?
 
 # Handling Character Data : Load/Store Byte
 
-![](https://i.imgur.com/dG5D8aY.png)
+```
+lbu x12, 0(x10)
+sb x12, 0(x10)
+```
+
 - `char`는 1byte로 취급
 - RISC-v에서는 바이트 단위로 데이터 처리 가능 (byte, halfword, word, double word)
 - 물론 char를 다룰 때는 `lbu`(load byte unsigned), `sb`(store byte)를 사용해야 함
+	- 레지스터는 64-bit의 데이터를 저장하기 때문에, 레지스터의 가장 작은 byte부터 읽고 쓴다.
 
 # Handling String Data: a Series of Characters
 
-![](https://i.imgur.com/0YP9gWw.png)
 - 여러 개의 char로 이루어져 있으므로, 글자 수에 비례
-- 마지막에 **\0**이 추가되어 있음 -> 즉 용량은 (글자 수 * 8) + 1
+- 마지막에 **\0**이 추가되어 있음 -> 즉 용량은 (글자 수 + 1)bytes
 - string의 복사는 어떻게 일어날까...?
 
-![](https://i.imgur.com/KoQPFOO.png)
+![](https://i.imgur.com/JdYD5CA.png)
+
+![](https://i.imgur.com/Dvlnc9e.png)
+
 - 뾰로롱..
 
 # Wide Immediate Operands
 
-![](https://i.imgur.com/6vSlLJa.png)
-- 원래 immediate는 instruction type에 따라 달라지지만, 아무튼 부족할 수도 있음
-- `lui`(load upper immediate)를 사용하면 20bit를 불러오기 때문에 더 큰 수를 사용 가능
+![](https://i.imgur.com/fONxxOQ.png)
+
+- 원래 immediate는 instruction type에 따라 달라지지만, 크기가 부족할 수도 있음
+- `lui`(load upper immediate)를 사용하면 20bit 레지스터의 상위 [31:12] bit를 불러오기 때문에 더 큰 수를 사용 가능
 	- `lui`는 상위 20비트를 불러오고, `addi`는 하위 12비트를 설정할 수 있기 때문에 총 32비트 설정 가능
 		- addi 로 쓰고, 12비트 shift 후 addi 쓰는 거랑 똑같음
 	- 여기서 MSB가 1일 경우는 잘못된 결과가 나올 수 있다...
-		- lui 계산할 때 1을 더해주면 해결
+		- lui 계산할 때 1을 더해주면 해결 (수학적으로 그렇다)
 
 # U- Type
 
-![](https://i.imgur.com/xMCe9TY.png)
-- U (upper)
-- 20비트의 immediate + destination을 이용
+![](https://i.imgur.com/phcQfqX.png)
+
+- U(upper)-type은 20bit의 immediate를 사용하는 연산 타입이다. 레지스터의 32:12 bit에 해당 immediate를 저장하며, 나머지 왼쪽 비트에는 sign bit를 저장한다. lowest 12bit에는 0을 저장한다. `addi`와 조합해 32bit 수를 표현하는데 쓰인다.
 - 잘 안 씀
 
 # SB-Type
 
-![](https://i.imgur.com/yZYAsRx.png)
+![](https://i.imgur.com/jaFgsaj.png)
+
 - SB-type은 12bit immediate와 rs 두개 이용
-- 주로 instruction 이동에 사용 - immediate는 2byte 단위로 사용
-	- 왜 4byte아님? - 개발자들이 그리 해놓음
+특정 condition을 만족하면 해당 branch로 이동한다. branch는 메모리 주소로 나타나며, immediate로 표현된다. 
+> [!question]
+4byte 명령.... 머시기 먼소리야
 
 # UJ-type
 
-![](https://i.imgur.com/KX8dfax.png)
-- 여기도 주소 이동할 때 사용, 20bit immediate
+![](https://i.imgur.com/bEAOS2u.png)
+
+- 여기도 주소 이동할 때 사용, 20bit immediate사용, `jal`
+20bit를 사용하기 때문에 주소는 $\pm2^{20}$까지의 주소를 표시할 수 있다. 따라서 한번에 접근 가능한 범위는 2MB이므로, 프로그램의 용량은 이를 넘어서는 안된다.
+> [!question]
+> 이게 먼소리냐
 
 # PC-Relative Addressing
 
-![](https://i.imgur.com/DQlLMu7.png)
+![](https://i.imgur.com/FwK9nbI.png)
+
 - direct address를 사용하는 경우는 불편함이 많음
 	- 주소 값이 너무 클 수도 있음
 - 그래서 PC의 현재 위치에 따라 이동하는 방식을 이용
 
-![](https://i.imgur.com/BIiKLA5.png)
+아래는 array에 모두 1을 더하는 함수를 구현한 것이다.
 
-![](https://i.imgur.com/l2UpNRU.png)
+![|575](https://i.imgur.com/QrVuDZP.png)
+
+![|575](https://i.imgur.com/L8oF9jB.png)
 
 # Branching Far Away
 
-![](https://i.imgur.com/Y5moGTD.png)
+만약 뛰어넘고자 하는 주소가 너무 먼경우 `lui`와 `jalr`를 적절히 조합하여 사용할 수 있다.
+우선 `lui`를 이용해 현재 레지스터의 20-bit를 설정한 뒤, `jalr`을 이용해 lower 12-bit를 설정하 점프한다.
+
+> [!question]
+> upper 32bit는 PC에서 복사된다고??
 
 # RISC-V Addressing Modes
 
@@ -473,13 +494,15 @@ recursive function (재귀함수)는 어떻게 컴파일될까?
 
 # Instruction Opcode Encoding
 
-![](https://i.imgur.com/1zDgCqk.png)
+
+![|550](https://i.imgur.com/KPldVWM.png)
 
 # Summary
 
-![](https://i.imgur.com/FGLXy5a.png)
+![|475](https://i.imgur.com/s5Jw5wp.png)
 
 # Pseudo-instructions
 
-![](https://i.imgur.com/REDZVbB.png)
+![|525](https://i.imgur.com/3auTnVR.png)
+
 - 사람이 쓰기 편하라고 만들어 놓은 거

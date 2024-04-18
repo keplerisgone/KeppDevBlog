@@ -5,6 +5,10 @@
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
     },
     {
+      "basename": "Computer abstraction",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
+    },
+    {
       "basename": "흠냐링",
       "path": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Processor",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
-    },
-    {
-      "basename": "Computer abstraction",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
     },
     {
       "basename": "Note 4 Effect of Noise on Analog Communication Systems",
