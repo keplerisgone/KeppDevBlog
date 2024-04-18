@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Frequency Response",
+      "path": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
+    },
+    {
+      "basename": "Differential Amplifier",
+      "path": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
+    },
+    {
       "basename": "Instruction",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Screenshot_2023-11-06_at_12.27.33_PM",
       "path": "Media/Screenshot_2023-11-06_at_12.27.33_PM.png"
-    },
-    {
-      "basename": "Screenshot_2023-09-13_at_4.32.02_PM",
-      "path": "Media/Screenshot_2023-09-13_at_4.32.02_PM.png"
-    },
-    {
-      "basename": "Screenshot_2023-09-13_at_4.27.04_PM",
-      "path": "Media/Screenshot_2023-09-13_at_4.27.04_PM.png"
     }
   ],
   "omittedPaths": [],

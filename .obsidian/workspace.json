@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
               }
             }
           },
@@ -179,8 +178,9 @@
   },
   "active": "698ec1d94662d9d6",
   "lastOpenFiles": [
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
     "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md",
     "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
@@ -215,7 +215,6 @@
     "Media/Screenshot_2023-09-06_at_7.49.00_PM.png",
     "Template/template.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
-    "Template/wargame-template.md",
     "05-Writing",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "01-Project/노닥노닥 라즈베리",
