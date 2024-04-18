@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Area",
+                "query": "SB-type",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -180,8 +180,9 @@
   },
   "active": "698ec1d94662d9d6",
   "lastOpenFiles": [
-    "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md",
+    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
@@ -216,7 +217,6 @@
     "Template/template.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
     "Template/wargame-template.md",
-    "05-Writing/05-Writing.md",
     "05-Writing",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "01-Project/노닥노닥 라즈베리",

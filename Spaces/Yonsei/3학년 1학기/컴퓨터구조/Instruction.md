@@ -317,79 +317,87 @@ jalr x0, 0(x1)
 보통 instruction이 실행되면 (PC + 4)로 다음을 가리키며, 이는 하나의 instruction이 4byte를 차지하기 때문에 그렇다. 또한 `jal`이 실행되면 `x1`에는 (PC + 4)가 저장된다. 이것이 바로 다음 실행 위치이기 때문이다.
 ## Function Call Transition - Example
 
-![](https://i.imgur.com/AeEOISG.png)
+
+![](https://i.imgur.com/Hu5zUgN.png)
+
 - 위의 간단한 함수 호출 코드를 assembly로 변환하면 어떻게 될까?
 
-![400x300](https://i.imgur.com/V2q0j05.png)
+
+![|575](https://i.imgur.com/gzzW1lT.png)
 
 1. Stack pointer 의 값을 -3 bytes 만큼 옮긴다. - stack에서 사용해야 하기 때문
-2. 원래 register 의 값을 저장
-3. 계산 진행 & return value 저장
+2. `sd`로 원래 register 의 값을 저장
+3. 계산 진행 & `x10`에 return value 저장
 4. 원래 register 값 복원 (stack 이용)
 5. x1 에 담긴 return address 로 jump
 
-![](https://i.imgur.com/C97RsJm.png)
+![|600](https://i.imgur.com/C97RsJm.png)
 
 # Calling Convention
 
-![](https://i.imgur.com/KeKc5iV.png)
+
+![|625](https://i.imgur.com/RdfnHCJ.png)
 
 * register 에 따라 정해져 있다
 * temporary register: 자유롭게 이용가능
 * x2(sp)가 내려가는데 공간이 부족할 경우 → x8 (fp) 를 이용, 처음 주소를 저장
 * 함수의 caller, callee 가 쓰는 temporary register 가 다름
+	* `x5-x7, x10-x17, x28-x31`은 caller function이 관리한다.
+	* `x8-x9, x18-x27`은 callee function이 관리한다.
 * <font color="#c00000">이거를 굳이 왜 나눌까?</font>
 	* 레지스터의 상태를 관리하는 책임을 명확하게 하기 위함! 호출하는 레지스터의 종류에 따라 백업의 책임이 다르다
 	* 만약 역할이 나누어져 있지 않다면 레지스터의 복원이 꼬여 값을 잃어버리거나 원래 값을 덮어쓸 수 있다
 
 # Nested Function Calls
 
-![](https://i.imgur.com/rURcqKJ.png)
+![|575](https://i.imgur.com/j2xBoDt.png)
 
 recursive function (재귀함수)는 어떻게 컴파일될까?
 -> 이는 x1(ra), x10(return value)를 스택에 계속 쌓아가며 이루어진다. 아래의 사진 및 코드를 참고하자. 가장 핵심이 되는 부분은 재귀를 if-else문으로 다시 구현한 점, x1과 x10의 값이 계속 업데이트 된다는 점이다.
 
 ![](https://i.imgur.com/bZunXzt.png)
 
-
-![](https://i.imgur.com/dtY2T9y.png)
+![|625](https://i.imgur.com/JjI1KGQ.png)
 
 # Function Frame and Frame Pointer
 
-![](https://i.imgur.com/GRJU77J.png)
+![|575](https://i.imgur.com/1E1Ey5n.png)
+
 - 함수를 이용하다 보면 커다란 변수들을 담는 경우가 많아질 것.
 - 정확히는 중첩된 함수를 사용할 때 + 함수마다 지역 변수를 사용할 때 sp를 어디로 되돌려야 하는지 모름 -> **fp**가 북마크 역할
 - 해당 변수들은 **스택**에 저장된다.
 	- 변수의 종류마다 함께 쌓이게 되는데, 이들을 function frame이라고 한다.
 	- **Frame pointer** 요런 frame들의 시작 부분을 담고, 스택에 저장된다.
 	- **x8**이 FP의 역할을 함.
-![](https://i.imgur.com/Q9G6aWW.png)
+![|525](https://i.imgur.com/Q9G6aWW.png)
 
 ## Stack Pointer Vs Frame Pointer
 
-![](https://i.imgur.com/BV38AkA.png)
+![|575](https://i.imgur.com/y4YTGBf.png)
+
 - 근데 왜 굳이 둘을 분리해서 사용할까?
-	- **stack pointer**는 그냥 현재 스택의 제일 밑부분을 가리키는 포인터
+	- **stack pointer**는 그냥 현재 스택의 제일 밑부분을 가리키는 포인터로, 함수를 실행하면서 위치가 계속 달라질 수 있다.
 	- **frame pointer**는 일종의 북마크 같은 것
-		- sp의 위치는 계속해서 바뀔 수 있으므로, 원하는 값에 접근하기 위해서는 많은 노력이 필요하다...
+- If the stack pointer varies, it isn't easy to locate function frame elements using immediate offsets since the offset values must also vary. 가 뭘까용
 
 # Data in Heap Memory Region and Memory Leak
 
-![](https://i.imgur.com/bqnTmuU.png)
-- **heap**은 동적 메모리이고, C 같은 경우는 malloc() 함수로 동적 할당 가능
-- 하지만 컴파일러가 이를 자동으로 해제해주지 않으므로, **free**를 이용해서 꼭 해제해주어야 함
+- **heap**은 동적 메모리이고, C 같은 경우는 `malloc()` 함수로 동적 할당 가능
+- 하지만 컴파일러가 이를 자동으로 해제해주지 않으므로, `free()` 를 이용해서 꼭 해제해주어야 함
 - 안 그러면 메모리 누수가 일어남
 	- 컴퓨터가 메모리 공간이 없다고 인식
 
 # Arrays Vs Pointers
 
-![](https://i.imgur.com/9FohH40.png)
+![|500](https://i.imgur.com/Pvzpl85.png)
+
 - 배열에 직접 접근하기 vs 배열 포인터 사용하기
 - 위는 **array index** 사용하기
 	- x10에 \*array가 담겨 있고, x11에 n이 담겨있다
 	- 직접 array를 저장한 다음에 옮겨주는 방식
 
-![](https://i.imgur.com/d8waiTg.png)
+![|500](https://i.imgur.com/5JRGKf5.png)
+
 - 이거는 array pointer를 이용하는 방식
 	- x5에 주소를 저장, pointer의 연산은 바이트 단위로 이루어지므로..
 - **얘가 더 빠름**

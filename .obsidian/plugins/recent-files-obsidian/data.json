@@ -5,6 +5,10 @@
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
     },
     {
+      "basename": "흠냐링",
+      "path": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md"
+    },
+    {
       "basename": "Instruction 2024-03-10 14.08.07.excalidraw",
       "path": "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Screenshot_2023-09-13_at_4.27.04_PM",
       "path": "Media/Screenshot_2023-09-13_at_4.27.04_PM.png"
-    },
-    {
-      "basename": "Screenshot_2023-12-17_at_3.42.06_PM",
-      "path": "Media/Screenshot_2023-12-17_at_3.42.06_PM.png"
     }
   ],
   "omittedPaths": [],
