@@ -26,7 +26,7 @@ ALU의 연산 이후 행동을 수행한다. 이 또한 instruction의 type 별�
 - branch의 경우는 PC의 위치를 바꾼다. branch가 따로 정해지지 않았을 경우, 다음 PC를 부른다. (PC + 4)
 # Basic Implementation of RISC-V Processor
 
-![](https://i.imgur.com/Ud1L7p2.png)
+![|525](https://i.imgur.com/Ud1L7p2.png)
 
 뭔가 회로가 복잡하지만 자세히는 보지 않고 대략적으로 어떤 부분이 어떤 기능을 하는지만 알아보자. **instruction memory**는 실행하고자 하는 program code를 담아놓는 곳이고, **Register**는 x0~x31의 레지스터가 존재하는 공간이다. **Data memory**는 레지스터에 저장되지 못하는 데이터가 따로 저장되는 메모리이다. 
 실제 프로세서에서는 두 메모리가 아닌 두 개의 **cache**가 존재하는데, 이는 L1, L2, L3 캐시로 다시 나뉜다. 캐시가 뭔지는 좀 뒤에서 다시 배우자.
@@ -53,7 +53,7 @@ edge-triggered clocking 방법을 사용할 경우는 하나의 clock cycle에 �
 bus는 평범하게 64비트 데이터를 옮기는 **data bus**, control signal을 옮기는 **control bus** 등등의 종류가 존재한다. 
 ## Instruction Fetch
 
-![400](https://i.imgur.com/T1civJC.png)
+![400|325](https://i.imgur.com/T1civJC.png)
 
 processor fetch의 첫 번째 단계는 **Instruction Fetch**이다. 이는 총 세 가지로 나뉜다.
 - *instruction memory* : program code를 담는 곳이다. 이는 read-only acess mode.
@@ -66,11 +66,11 @@ RISC-v에 존재하는 32개의 레지스터는 **register file**라는 데이�
 레지스터 파일은 multi-ported이기 때문에, 하나의 사이클에 multiple register가 접근할 수 있다. 
 ### Multi-Ported Register File
 
-![](https://i.imgur.com/TnsWBOw.png)
+![|600](https://i.imgur.com/TnsWBOw.png)
 (저따구로 생겨서 한 번에 두 개의 source operand를 뽑아낼 수 있다~)
 ## ALU Execution
 
-![](https://i.imgur.com/JoHtyNF.png)
+![|575](https://i.imgur.com/JoHtyNF.png)
 
 R-type instruction에서는 두 개의 source operands를 register file에서 읽어오며, ALU가 요고들로 계산을 한다. 
 I, S-type instruction에서는 12-bit immediate value는 sign-extended 64bits로 변하며, ALU로 전달된다. 
@@ -85,12 +85,12 @@ ALU는 메모리에 어떻게 접근할까? 메모리 주소를 어떻게 계산
 
 각 instruction type에 따른 opcode, funct3, funct7 등등은 다음과 같다.
 
-![](https://i.imgur.com/3zSWZKG.png)
+![|525](https://i.imgur.com/3zSWZKG.png)
 ## ALU Control Signals
 
 위에서 받은 opcode는 ALU control signal로 번역되어 ALU에 들어간다. 아주 많은 instruction들은 네 가지의 종류(add, sub, and, or)로 바뀌어 들어간다.
 
-![](https://i.imgur.com/UvGTXOu.png)
+![|600](https://i.imgur.com/UvGTXOu.png)
 
 2bit ALUop는 ALU가 어떤 operation을 수행할지 결정하는 역할을 한다. 
 - 00 : add for load and store
@@ -100,5 +100,5 @@ ALU는 메모리에 어떻게 접근할까? 메모리 주소를 어떻게 계산
 
 프로세서가 실행되기 위해서는 6개의 비트가 필요하다. 이 친구들은 무슨 동작을 하는 지 결정하는 역할을 한다. 제대로 실행되기 위해서는 각각의 control bit 6개와 ALUop 2bit가 필요!
 
-![](https://i.imgur.com/OwTjkAO.png)
+![|600](https://i.imgur.com/OwTjkAO.png)
 

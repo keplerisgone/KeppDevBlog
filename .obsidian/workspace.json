@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "4481d0cb7d8beea5",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md"
               }
             }
           }
@@ -91,7 +81,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -112,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
               }
             }
           },
@@ -189,13 +180,15 @@
   },
   "active": "698ec1d94662d9d6",
   "lastOpenFiles": [
+    "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "03-Resources/Untitled.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 7.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
-    "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "Media/1_computer_abstraction.pdf",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
@@ -224,8 +217,6 @@
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
     "Template/wargame-template.md",
     "05-Writing/05-Writing.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
-    "03-Resources/03-Resources.md",
     "05-Writing",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "01-Project/노닥노닥 라즈베리",

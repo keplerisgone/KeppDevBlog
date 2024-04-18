@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Instruction",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+    },
+    {
+      "basename": "Instruction 2024-03-10 14.08.07.excalidraw",
+      "path": "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md"
+    },
+    {
+      "basename": "Arithmetic",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
+    },
+    {
+      "basename": "Processor",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
       "basename": "Computer abstraction",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
     },
@@ -15,18 +31,6 @@
     {
       "basename": "Note 7",
       "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 7.md"
-    },
-    {
-      "basename": "Instruction 2024-03-10 14.08.07.excalidraw",
-      "path": "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md"
-    },
-    {
-      "basename": "Arithmetic",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
-    },
-    {
-      "basename": "Instruction",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
     },
     {
       "basename": "1_computer_abstraction",
@@ -195,10 +199,6 @@
     {
       "basename": "Screenshot_2023-12-17_at_3.42.06_PM",
       "path": "Media/Screenshot_2023-12-17_at_3.42.06_PM.png"
-    },
-    {
-      "basename": "Screenshot_2023-12-17_at_3.40.42_PM",
-      "path": "Media/Screenshot_2023-12-17_at_3.40.42_PM.png"
     }
   ],
   "omittedPaths": [],

@@ -149,7 +149,9 @@ $$
 
 어떤 program의 코드는 여러 개의 instruction이 모여 만들어진다. 사용하는 clock cycles를 나타내는 또 다른 방법은 instruction을 이용해 나타낼 수 있다. 이 때 사용하는 것이 바로 **CPI**(**clock cycles per instruction**) 인데, 이는 모든 instruction이 가지는 평균 clock cycle로 구해진다.
 $$
+
 \text{Clock cycles}=\text{number of instructions}\times \text{average clock cycles per instructions}
+
 $$
 
 ![|475](https://i.imgur.com/O400ZTR.png)
@@ -173,7 +175,9 @@ Average CPI를 따질 것인가? 총 코드의 길이(instruction)을 따질 것
 
 프로그램의 execution time에는 다양한 parameter가 관여한다.
 $$
+
 \text{Execution time} = \frac{\text{Instructions}}{\text{Program}}\times \frac{\text{Cycles}}{\text{Instruction}}\times\frac{\text{Seconds}}{\text{Cycle}}
+
 $$
 여기서 첫번째 term은 알고리즘과 컴파일러의 영역, 두번째 term은 컴퓨터 구조의 영역, 마지막 term은 회로 디자인의 영역이다.
 
@@ -195,61 +199,79 @@ Performance를 측정하는데 필요한 요소들은 어떻게 측정할까?
 - base clock frequency doesn't increase (왜 멈췄을까?)
 - chip power is limited (clock speed와 tradeoff => 어느 순간에 머무를수밖에 없음)
 
-## Single-Thread Performance Scaling (p37)
+## Single-Thread Performance Scaling & Multicore Processors
 
 ![|550](https://i.imgur.com/IFngJdJ.png)
 
 single thread의 퍼포먼스는 한계가 존재해 더이상 늘지 않는다. 실제로 멈추기 시작한 부분과 멀티코어가 등장한 부분이 일치한다.
 
+![|600](https://i.imgur.com/xEbYNUS.png)
+
 ## The Power Wall
 
-![|500](https://i.imgur.com/0fCDVLj.png)
+![|575](https://i.imgur.com/0fCDVLj.png)
 
 clock frequency가 증가하면 성능이 향상되지만, power consumption 또한 증가하게 된다. 따라서 둘은 **thermal limitation**에 의해 묶이게 되었다.
 
 ## End of Dennard Scaling
 
-**Dennard Scaling**이란 
-- 트랜지스터의 크기가 작아져 밀도가 두배가 되면 소모 전력도 두배가 될 것 같지만, 크기만큼 소모전력도 줄기 때문에 엄청 이득이라는 말
-- 근데 현실에서는 아니기 시작함 - 균형이 깨짐
+**Dennard Scaling**이란 *트랜지스터의 크기가 작아져 밀도가 두 배가 되면 소모 전력도 두 배가 될 것 같지만, 크기만큼 소모 전력도 줄어들어 사실 엄청 이득이다* 라는 Dennard 씨의 정리이다. 
 
-#### Consequences of Increasing Power Density
+![|550](https://i.imgur.com/vw2G9x3.png)
 
-- 이제는 속도 증가보다는 power density를 줄이는데 노력 - 속도에 신경쓰면 따땃해지기 때문
+실제로 위를 보면 다른거는 트랜지스터의 크기가 작아질수록 일정 factor에 의해 줄어들거나 증가하는데, **power density**의 경우는 가만히 있는 것을 볼 수 있다.
 
-#### Multicore Processors
+# Consequences of Increasing Power Density
 
-- 놀랍게도 문제에 직면한 때 = 멀티코어가 상용화되었을 때
+![|550](https://i.imgur.com/DGhEMX0.png)
 
-#### Energy and Power
+하지만 Power density에만 집중하다 보면 우리가 사용하는 칩은 핵 융합로보다 따끈해질 것이다. 따라서 요즘은 다른 것보다 power effeciency를 잡는데 노력하는 편이다.
 
-![](https://i.imgur.com/CFZ4ZtT.png)
+# Energy and Power
 
-- Power는 다음에 비례함
+![|550](https://i.imgur.com/tjhVKBd.png)
 
-#### Performance, Power, Energy, Voltage, Frequency
+우선 CMOS에 Capacitor가 달려있다고 가정하자. 그렇다면 위와 같은 회로에서 에너지는 이렇게 계산할 수 있다. 
+$$
 
-- 각 관계를 보여줌
+E = \int^{\infty}_{0}i_{L}V_{o}dt = \int^{\infty}_{0}C_{L}\frac{dV_{0}}{dt}dt=C_{L}\int^{V_{dd}}_{0}V_{o}dV_{o}=\frac{1}{2}C_{L}V_{dd}^{2}
 
-#### Arithmetic Mean Vs Geometric Mean
+$$
+따라서 power는 $\alpha$ (Switching probability), Capacitance, supply voltage의 제곱, clock frequency에 비례한다.
 
-- 일반적인 평균은 중간값보다 못하다
-- Geometric mean은 모두 곱한뒤에 제곱근을 씌우는것
+Power를 비교할 때도 새 거를 분자에 올린다.
 
-#### Amdahl's Law
+Power는 단위 시간당 Energy의 소모량을 나타내므로, Energy = 총 수행한 일의 양, Power = 단위 시간 당 한 일의 양으로 나타낼 수 있다. 그 외에도 Performance, power, energy, voltage, frequency의 상관관계를 그래프로 나타내면 다음과 같다.
 
-![](https://i.imgur.com/kRXHjnU.png)
+![|600](https://i.imgur.com/bjgIhv7.png)
 
-- 어떤 application이 몇 퍼를 차지하고 있는데, 이게 이만큼 빨라지면 전체는 몇퍼가 빨라질까?
-- 중학교 수준의 수학임
-- 1960년도에 태어났으면 님들 뛰어난 공학자가 될 수 있었는데
-- 특정 부분의 속도만 증가시키기 때문에 전체 speedup에는 한계가 존재
-	- speedup을 변수로 하는 방정식을 풀면 됨
+# Arithmetic Mean Vs Geometric Mean
 
-#### Optimization and Performance Speedup
+이거는 **Arithmetic Mean**,
+$$
+A = \frac{1}{n}\sum\limits_{i=1}^{n}a_{i} = \frac{a_{1}+a_{2}+...+a_{n}}{n}
+$$
+이거는 **Geometric Mean**이다.
+$$
+(\prod_{i=1}^{n}a_{i})^{\frac{1}{n}}=\sqrt[n]{a_{1}a_{2}...a_{n}}
+$$
+다양한 프로세서에서 performance를 비교하기 위해서는 Geometric mean이 많이 사용된다. 값이 많이 튀는 경우에서 이를 잘 잡아주기 때문. 산술 평균은 특정 튀는 값의 영향을 너무 많이 받는다.
 
-- python - 느리다. 프레임워크를 사용하거나 프로토타입 코드를 작성하는데 사용
-- C, C++ - 빠르다. 서버 쪽에서와 같이 속도가 중요하면 무조건 이거 쓴다
+# Amdahl's Law
+
+![|600](https://i.imgur.com/kRXHjnU.png)
+$$
+\text{speedup} = \frac{1}{(1-f)+\frac{f}{s}}
+$$
+어떤 application이 몇 퍼를 차지하고 있는데, 이게 이만큼 빨라지면 전체는 몇퍼가 빨라질까? 중학교 수준의 수학이므로 한 번 계산해보자. 물론 특정 부분의 speed만 증가시키기 때문에 전체 speedup에는 한계가 존재한다. 이 한계는 해당 부분이 차지하는 비율이 클수록 높아진다.
+
+![|625](https://i.imgur.com/QS8Boc0.png)
+
+
+# Optimization and Performance Speedup
+
+- **python** - 느리다. 프레임워크를 사용하거나 프로토타입 코드를 작성하는데 사용
+- **C, C++** - 빠르다. 서버 쪽에서와 같이 속도가 중요하면 무조건 이거 쓴다
 - **Data lever parallelism**: 반복적인 작업을 여러 개의 프로세스로 나누어 처리하는 것, CPU와 GPU에서 처리한다. 반복적인 연산 작업 (벡터 연산, 곱셈 등)을 처리할 때 사용한다.
 - **Instruction-level parallelism**: 여러 개의 instruction을 한 번에 처리
 - **Memory hiearchy optimization**: 메모리의 접근을 용이하게 하기 위한 정렬
