@@ -65,7 +65,7 @@ Pole과 zero는 각각 분모와 분자가 0이 되게하는 친구이다.
 ![|550](https://i.imgur.com/X1XWmN7.png)
 
 위 수식을 통해서 Miller theorem을 사용했을 경우 $C_1$이 gain만큼 증가해 pole ($\frac{1}{RC}$)이 감소하게 되어 bandwidth가 줄어드는 것을 알 수 있다. 대충 Miller theorem이 나쁜 이유.
-또한 Miller approximation은 zero를 없애고
+또한 Miller approximation은 zero를 없애고 input capacitance를 높인다.
 
 ![|600](https://i.imgur.com/ulwzGUv.png)
 
