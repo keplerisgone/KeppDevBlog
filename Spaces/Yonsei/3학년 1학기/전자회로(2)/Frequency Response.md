@@ -14,6 +14,7 @@
 
 Frequency response를 분석할 때 gain은 일반적인 KCL이나 KVL로 구할 수 있다. 이 때 voltage gain이 -3dB를 가지는 곳을 **cutoff frequency**라고 하는데, 이 때 이후로 20dB/dec를 가지면 **zero**, -20dB/dec를 가지면 **pole**이라고 한다. 간단하게 분모에서 나타나면 pole, 분자에서 나타나면 zero가 된다.
 근데 교수님은 또 저 때 $R = \frac{1}{sC}$가 될 때가 pole이라고 설명하셨네
+Pole과 zero는 각각 분모와 분자가 0이 되게하는 친구이다.
 
 ![|302](https://i.imgur.com/Umgq7Ej.png)
 

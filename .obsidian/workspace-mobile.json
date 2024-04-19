@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6a2672c642e958ec",
+        "id": "608468483432e4aa",
         "type": "tabs",
         "children": [
           {
-            "id": "e128e2e1ff7c0b0c",
+            "id": "da044a86b3687ac1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
+                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
+            "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
+            "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,7 +138,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
+            "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
           }
         }
       },
@@ -179,7 +179,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e128e2e1ff7c0b0c",
+  "active": "da044a86b3687ac1",
   "lastOpenFiles": [
     "Home.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
