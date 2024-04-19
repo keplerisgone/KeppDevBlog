@@ -104,6 +104,9 @@ KCL로 만들어진 무자비한 수식을 간단하게 표현하는 방식이�
 ![|450](https://i.imgur.com/LL9PRC5.png)
 
 별 다를 거 없다.
+
+![](https://i.imgur.com/viLg6Vs.png)
+
 ## Source follower
 
 ![|275](https://i.imgur.com/QSbAN6q.png)
@@ -119,7 +122,7 @@ output impedance도?
 
 ![](https://i.imgur.com/xgCsTuI.png)
 
-저주파에서는 죽고 고주파수에서는 사는게 완전 inductor이다. 따라서 이 회로를 **active inductor**라고도 한다. 참고로 위에서 output impedance를 구하는 방법은 일반적인 MOSFET과 같이 *끌어내리는* 방법을 쓴다. 이해했지?
+저주파에서는 죽고 고주파수에서는 사는게 완전 inductor이다. 따라서 이 회로를 **active inductor**라고도 한다. 참고로 위에서 output impedance를 구하는 방법은 일반적인 MOSFET과 같이 *끌어내리는* 방법을 쓴다. 이해했지? *그리고 꼭 small signal model로 해서 구해봐라*
 
 ## Cascode Frequency response
 
