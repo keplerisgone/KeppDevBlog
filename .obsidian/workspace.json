@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -179,6 +178,9 @@
   },
   "active": "698ec1d94662d9d6",
   "lastOpenFiles": [
+    "Home.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
@@ -200,7 +202,6 @@
     "Excalidraw/보스 1페이즈.md",
     "Excalidraw/Exacli-RobotgamePlayer.md",
     "03-Resources/().md",
-    "Home.md",
     "05-Writing/옵시디언 정리 일지.md",
     "99-Kanban/개강 전에 해요.md",
     "99-Kanban/치워요.md",
@@ -214,8 +215,6 @@
     "Media/Screenshot_2023-11-20_at_10.49.01_PM.png",
     "Media/Screenshot_2023-11-20_at_10.46.54_PM.png",
     "Media/Screenshot_2023-09-06_at_7.49.00_PM.png",
-    "Template/template.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
     "05-Writing",
     "02-Area/Careers/나는 커서 뭘 할까.canvas",
     "01-Project/노닥노닥 라즈베리",

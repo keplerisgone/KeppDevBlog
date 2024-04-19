@@ -5,6 +5,14 @@
       "path": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
     },
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "7주차",
+      "path": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md"
+    },
+    {
       "basename": "Differential Amplifier",
       "path": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20240210182701",
       "path": "Media/Pasted image 20240210182701.png"
-    },
-    {
-      "basename": "Pasted image 20240211120513",
-      "path": "Media/Pasted image 20240211120513.png"
-    },
-    {
-      "basename": "Screenshot_2023-11-06_at_12.27.33_PM",
-      "path": "Media/Screenshot_2023-11-06_at_12.27.33_PM.png"
     }
   ],
   "omittedPaths": [],
