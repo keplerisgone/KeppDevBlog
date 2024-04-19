@@ -46,6 +46,9 @@ Frequency response를 분석할 때 gain은 일반적인 KCL이나 KVL로 구할
 
 가장 유명한 Floating capacitor는 MOSFET에 달려있는 **gate-source capacitance**($C_{gs}$)이다. 이는 회로의 Bandwidth를 낮추는데, 이를 **Miller effect**라고 한다.
 
+> [!note]
+> floating cap은 bandwidth를 어떻게 낮출까?
+
 # Miller Theorem
 
 ![|425](https://i.imgur.com/THy8jXj.png)
