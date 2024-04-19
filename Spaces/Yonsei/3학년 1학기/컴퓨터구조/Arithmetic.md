@@ -130,7 +130,7 @@ multiplication과 마찬가지로 음수를 two's complement로 변환한 뒤, �
 
 컴퓨터는 decimal이 아닌 Binary를 사용한다. 따라서 위의 scientific notaion을 binary로 개량한 방식을 사용한다. 따라서 (1과 가까운 적당한 수 x $2^{n}$)로 float를 표현한다. 이는 다시 $\pm 1.aaa\times 2^{\pm bbb}$로 나타낼 수 있는데, a는 **fraction**, b는 **exponent라고** 한다. 
 
-## IEEE 754 Floating=Point Standard
+## IEEE 754 Floating-Point Standard
 
 ![|600](https://i.imgur.com/xrzQi7s.png)
 

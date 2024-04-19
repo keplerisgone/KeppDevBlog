@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 260.5,
+    "collapsed": true
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
               }
             }
           },
@@ -178,8 +179,8 @@
   },
   "active": "698ec1d94662d9d6",
   "lastOpenFiles": [
-    "Home.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+    "Home.md",
     "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
     "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
