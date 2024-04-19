@@ -37,7 +37,7 @@ Frequency response를 분석할 때 gain은 일반적인 KCL이나 KVL로 구할
 
 ![|600](https://i.imgur.com/8ivBTwt.png)
 
-하지만 위와 같은 회로에서 Capacitor가 ground에 연결되어 있지 않다면 곤란해진다. 이를 붕 떠있는 capacitor라 해서 **floating capacitor**라고 한다. 이는 Ground Capacitor로 approximation해서 회로를 분석할 수 있다. 사용할 수 있는 방법은 다음과 같다.
+하지만 위와 같은 회로에서 Capacitor가 ground에 연결되어 있지 않다면 곤란해진다. 이를 붕 떠있는 capacitor라 해서 **floating capacitor**라고 한다. 이는 Ground Capacitor로 approximation해서 회로를 분석할 수 있다. 사용할 수 있는 방법은 다음과 같다. 물론 회로가 transformation을 겪지 않는다는 것을 전제로 한다.
 - **KCL & KVL을 푼다**: 가장 원초적인 방법이다. 이는 **dominant pole approximation**을 이용해 다시 한 번 간단히 할 수 있다. 
 - **Miller Approximation**: Miller capacitance를 없애는 방법으로, MOSFET에 구성된 capacitor를 grounded capacitor로 바꾼다. 오차가 제일 크다.
 - **MATLAB**으로 푼다: 원초적인 방법. 하지만 배우는 게 없다.
@@ -64,11 +64,15 @@ Frequency response를 분석할 때 gain은 일반적인 KCL이나 KVL로 구할
 ![|550](https://i.imgur.com/X1XWmN7.png)
 
 위 수식을 통해서 Miller theorem을 사용했을 경우 $C_1$이 gain만큼 증가해 pole ($\frac{1}{RC}$)이 감소하게 되어 bandwidth가 줄어드는 것을 알 수 있다. 대충 Miller theorem이 나쁜 이유.
+또한 Miller approximation은 zero를 없애고
 
 ![|600](https://i.imgur.com/ulwzGUv.png)
 
 왜 그래야하는 걸까... DC blocking capacitor는 MOSFET의 saturation을 막기 위해서라는데...
 작은 capacitor는 고주파 영역으로 갈수록 존재감을 드러낸다. 저주파에서는 impedance가 무한대라 open로 봐도 되잖아. 하지만 고주파수 영역에서는 회로를 short시킨다. 아래 그래프로 확인.
+
+> [!note]
+> 위와 같은 Coupling capacitor $C_{i}$는 왜 쓰는 걸까? coupling capacitor는 DC component을 없애는 역할을 한다. 그럼 딱히 계산할 필요도 없고 편하지 않나~
 
 ![|450](https://i.imgur.com/JRzfXbc.png)
 
