@@ -104,4 +104,6 @@
 - 위처럼 current loop를 이용하는 방식이 간단하고 early effect나 channel length를 무시하는 회로면 괜찮은데, 조금이라도 복잡한 회로는 적용하기 어렵다
 	- 그냥 **Transconductance**를 사용하기로 했다
 
- 
+# 공부하기
+
+**Tail current** : Diff. amplifier에서 끝에 달려있는 (tail) 전류원을 의미한다. Diff amplifier의 gain이 최대가 되기 위해서는 tail current가 양쪽에 절반씩 나누어져 들어가야 한다. MOSFET의 작동 범위도 생각할 것!
