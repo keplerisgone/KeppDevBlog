@@ -110,14 +110,10 @@ wafer를 잘라 만든 조각을 **Dies**라고 하며, 이를 이용해 칩을 
 하나의 wafer에 존재하는 dies의 개수를 비율로 나타낼 수 있다. 역시 뭐든 효율을 나타낼 때는 비율이 최고인 것 같다. 
 
 $$
-\text{Cost per die} = \frac{\text{Cost per wafer}}{\text{Dies per wafer}\times \text{Yield}} \\ 
-
-$$
+\text{Cost per die} = \frac{\text{Cost per wafer}}{\text{Dies per wafer}\times \text{Yield}} \\ $$
 
 $$\text{Dies per wafer} \approx \frac{\text{Wafer area}}{\text{Die area}}$$$$
-\text{Yield} = \frac{1}{(1 + (\text{Defects per area}\times\text{Die area}))^{N}}
-
-$$
+\text{Yield} = \frac{1}{(1 + (\text{Defects per area}\times\text{Die area}))^{N}}$$
 첫번째 수식은 die 하나의 비용이 얼마나 되는지를 wafer의 전체 cost와 yield를 고려해 계산한 것이고, 두번째 수식은 wafer 하나에 die가 얼마나 나오는지를 계산한 것이다. 세번째는 Yield를 계산하는 식인데, N은 공정 step 수를 의미한다.
 
 # Performance Difinition
@@ -249,11 +245,15 @@ Power는 단위 시간당 Energy의 소모량을 나타내므로, Energy = 총 �
 
 이거는 **Arithmetic Mean**,
 $$
+
 A = \frac{1}{n}\sum\limits_{i=1}^{n}a_{i} = \frac{a_{1}+a_{2}+...+a_{n}}{n}
+
 $$
 이거는 **Geometric Mean**이다.
 $$
+
 (\prod_{i=1}^{n}a_{i})^{\frac{1}{n}}=\sqrt[n]{a_{1}a_{2}...a_{n}}
+
 $$
 다양한 프로세서에서 performance를 비교하기 위해서는 Geometric mean이 많이 사용된다. 값이 많이 튀는 경우에서 이를 잘 잡아주기 때문. 산술 평균은 특정 튀는 값의 영향을 너무 많이 받는다.
 
@@ -261,7 +261,9 @@ $$
 
 ![|600](https://i.imgur.com/kRXHjnU.png)
 $$
+
 \text{speedup} = \frac{1}{(1-f)+\frac{f}{s}}
+
 $$
 어떤 application이 몇 퍼를 차지하고 있는데, 이게 이만큼 빨라지면 전체는 몇퍼가 빨라질까? 중학교 수준의 수학이므로 한 번 계산해보자. 물론 특정 부분의 speed만 증가시키기 때문에 전체 speedup에는 한계가 존재한다. 이 한계는 해당 부분이 차지하는 비율이 클수록 높아진다.
 

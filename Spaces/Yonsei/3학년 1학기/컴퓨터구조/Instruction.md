@@ -15,21 +15,21 @@
 
 # Instruction Sets of Modern Computers
 
-![|600](https://i.imgur.com/EvdlieI.png)
+![|500](https://i.imgur.com/EvdlieI.png)
 
 세상에는 다양한 Computer instruction set이 존재하지만, 모두 비스무리~ 하다. 물론 다들 Von neumann 아키텍처를 사용하지만 세부적인 작동방식은 모두 다르다.
 
 # CISC Vs RISC
 
-![|600](https://i.imgur.com/5tjavdC.png)
+![|550](https://i.imgur.com/5tjavdC.png)
 
 사용하는 instruction set의 종류에 따라 CISC와 RISC로 나뉠 수 있다.
 
-![|600](https://i.imgur.com/4vdYHvF.png)
+![|550](https://i.imgur.com/4vdYHvF.png)
 
 **CISC**(Complex instruction set computers)는 assembly instruction을 사용할 때 *적은 수의 line을 사용하기*가 중점이 되는 instruction set이다. power consumption이 적으며, 사람이 알아먹기는 어렵지만 특정 기능을 수행하기는 쉽다. *x86, intel, AMD*에서 사용한다.
 
-![|600](https://i.imgur.com/Ytm2fg0.png)
+![|525](https://i.imgur.com/Ytm2fg0.png)
 
 **RISC**(Reduced instruction set computer)는 *instruction 하나의 기능을 최대한 단순하게 하기*를 중점으로 하는 instruction set이다. 빠르고 간단한 여러 개의 operation이 존재하는 것이 특징이며, *ARM, RISC-v*에서 사용한다. 
 
@@ -105,18 +105,18 @@ char는 1byte, int/float는 4byte, long/double은 8byte.
 - `lh, sh`
 - `lb, sb` 
 
-![|575](https://i.imgur.com/nyH1Kbj.png)
+![|500](https://i.imgur.com/nyH1Kbj.png)
 
 위는 doubleword만큼 건너야 하니까 $8*8$ 만큼 offset에서 뛰어넘고 명령어도 `ld`를 쓴다
 
-![|600](https://i.imgur.com/nEGNbFO.png)
+![|500](https://i.imgur.com/nEGNbFO.png)
 
 store의 경우도 마찬가지인데, 데이터의 크기마다 사용하는 명령어가 다르고, 뛰어넘는 바이트 수도 다르다.
 또한 RISC-V는 *alignment restriction*이 없기 때문에, 굳이 word나 doubleword의 주소값이 4, 8의 배수가 될 필요는 없다.
 
 # Big Endian and Little Endian
 
-![|425](https://i.imgur.com/9vujRVU.png)
+![|450](https://i.imgur.com/9vujRVU.png)
 
 위 사진은 0x1234567을 저장하는 모습.
 **Big endian**과 **little endian**은 multi-byte data를 저장하는 두 가지의 방법이다. 물론 이거 두 개만ㄹ고도 더 있다.
@@ -132,14 +132,14 @@ store의 경우도 마찬가지인데, 데이터의 크기마다 사용하는 �
 
 # Constant (or Immediate) Operands
 
-![|425](https://i.imgur.com/xtM66UI.png)
+![|400](https://i.imgur.com/xtM66UI.png)
 
 프로그램은 상수(**Constant or Immediate, 여기서는 Immediate를 더 자주 사용**)를 사용할 수 있는데, 이는 일반적으로 레지스터나 메모리에 접근하는 것보다 훨씬 빠르고 에너지도 적게 소모한다. 0은 특별히 자주 쓰이는 친구이기 때문에 `x0` 레지스터에 저장해 놓았다. 여기에 store하는 것은 모두 무시된다. 
 Immediate를 쓰는 instruction도 따로 정의되어 있다. 주로 (arithmetic instruction + i)로 표현되는 편.
 
 # Extension from 32-bit to 64-bit Machines
 
-![|575](https://i.imgur.com/6oWtI4R.png)
+![|500](https://i.imgur.com/6oWtI4R.png)
 
 별 중요하진 않고 메모리 넓어지면 좋은 거지~
 그리고 운영체제 마다 사용하는 데이터 타입의 사이즈가 다르므로 `int64, int32`를 사용해 혼선이 없도록 하자. (아래쪽 표)
@@ -157,7 +157,7 @@ $$
 
 n bit의 이진수는 $2^{n}-1$ 범위의 integer를 표시할 수 있다. 이보다 범위를 넘어가면 **overflow**가 발생한다. floating-point number의 경우는 fraction이 표현할 수 있는 범위보다 내려가면 **underflow**가 발생한다. 
 
-![|550](https://i.imgur.com/F1R8BZ4.png)
+![|450](https://i.imgur.com/F1R8BZ4.png)
 
 또 하나 재밌는 점은 사람들이 MB, GB 등의 단위를 셀 때는 10진수로 세는 반면 컴퓨터는 이진수로 인식한다는 것이다. 어쨌든 4GB의 메모리를 감당하기 위해서는 12bits가 필요할 것이다.
 
@@ -181,7 +181,7 @@ n bit의 이진수는 $2^{n}-1$ 범위의 integer를 표시할 수 있다. 이�
 RISC-V에서는 signed number를 어떻게 저장하고 불러올까?
 만약 우리가 integer를 레지스터에 저장한다고 가정하자. integer는 4byte를 차지하므로 레지스터의 절반만 차지할 것이다. 그렇다면 남은 절반을 어떻게 채울것인가? sign은 MSB를 이용해 판단하는데, 판단 기준이 사라져버리는 것 아닌가?
 
-![|425](https://i.imgur.com/5rXUGDL.png)
+![|400](https://i.imgur.com/5rXUGDL.png)
 
 이를 **sign extension**으로 해결한다. unsigned의 경우 남는 bit를 모두 0으로 채우고, sign의 경우 남는 bit를 모두 sign bit로 채운다. 이를 구분하기 위해서 명령어를 다르게 사용한다. (`lwu, ldu, lhu, lbu`)
 
@@ -211,21 +211,21 @@ segment는 오른쪽부터 읽는다.
 
 ## R-Type
 
-![|575](https://i.imgur.com/zXFjD2j.png)
+![|500](https://i.imgur.com/zXFjD2j.png)
 
 **R-type**은 일반적인 arithmetic operation이라고 생각하면 된다. 레지스터에 존재하는 값을 이용해 연산을 진행, 다른 레지스터에 결과를 저장한다. 한 개의 `rd`와 두 개의 `rs`, operation type을 나타내는 `opcode, funct3, funct7`으로 구성된다. funct의 이름 뒤 숫자는 차지하는 비트 수를 나타낸다.
 - `add`, `sub`, `mul`...
 
 ## I-Type
 
-![|525](https://i.imgur.com/G7xvDDm.png)
+![|475](https://i.imgur.com/G7xvDDm.png)
 
 **I-Type**은 일반적인 연산과 같지만, **Immediate**를 사용한다. 즉 하나의 `rs`, 하나의 `rd`와 immediate를 사용하는 것! 위 R-type에서 쓸모없어진 rs2와 funct7를 immediate로 만들어 사용한다. 12bit가 됏어요!
 - `addi`, `subi`, `ld`
 
 ## S-type
 
-![](https://i.imgur.com/5Qcd3FD.png)
+![|525](https://i.imgur.com/5Qcd3FD.png)
 
 **S-type**은 하나의 immediate, 두개의 `rs`를 사용하는 타입이다. 이쪽은 I-type에서 쓸모없어진 `rd`를 immediate에 붙였다. 하긴 위치를 바꾸는 것보다 저게 더 효율적일 거 같긴 하다. 미적으로는 불쾌하지만 효율을 잡은 공대생들을 위하여~
 - `sd`
@@ -235,11 +235,11 @@ segment는 오른쪽부터 읽는다.
 
 아래는 종합 컴파일 예시.
 
-![](https://i.imgur.com/yDk2tV0.png)
+![|550](https://i.imgur.com/yDk2tV0.png)
 
 ## Logical Operations
 
-![](https://i.imgur.com/5stHjW5.png)
+![|550](https://i.imgur.com/5stHjW5.png)
 
 이 친구들은 비트 연산자(**bit operator**)라고도 불린다. 모든 binary digit에 대해 연산을 수행한다. 자리 기준은 메모리에 저장된 기준이겠지 (64bit)
 - **AND** `&`: 우리가 아는 and 연산자.
@@ -248,7 +248,7 @@ segment는 오른쪽부터 읽는다.
 - **XOR** `^`: 우리가 아는 xor 연산자. 
 	- not을 구현할 때 사용할 수 있다.
 
-![](https://i.imgur.com/jQmyOCK.png)
+![|550](https://i.imgur.com/jQmyOCK.png)
 
 요 친구들은 시프트 연산자(**Shift operator**)라고도 불린다. 비트를 왼쪽 오른쪽으로 옮겨준다. 왼쪽 시프트는 무조건 0으로 채워버리지만, 오른쪽 시프트는 원래 MSB에 따라 다르게 채우는 것과 그냥 0으로 미는 것으로 나뉜다.
 - `sll, srl`: logical operation, 0으로 민다
@@ -269,13 +269,13 @@ bge x21, x22, L1
 ```
 
 `beq`의 경우는 두 값이 같을 때 해당 branch로, `bne`의 경우는 두 값이 다를 때 branch로 점프한다. 
-`blt`는 *less than*, `bge`는 *greater than or equal*의 뜻을 가진다. 두 가지 종류밖에 없는 이유는 그냥 순서를 바꾸면 되니까 그렇다(실제 컴파일러도 그렇게 구현함). 둘은 unsigned 버전도 있는데(`bltu, bgeu`), 절대값을 취하는 게 아니라 sign bit를 무시하는 효과를 갖는다.
+`blt`는 *less than*($\lt$), `bge`는 *greater than or equal*($\ge$)의 뜻을 가진다. 두 가지 종류밖에 없는 이유는 그냥 순서를 바꾸면 되니까 그렇다(실제 컴파일러도 그렇게 구현함). 둘은 unsigned 버전도 있는데(`bltu, bgeu`), 절대값을 취하는 게 아니라 sign bit를 무시하는 효과를 갖는다.
 
 이제 각 조건문을 위 branch operation을 이용해 구현해보자. 참고로 반복문도 조건문의 일종이다.
 
 ### If- Else
 
-![|525](https://i.imgur.com/B3SD5do.png)
+![|500](https://i.imgur.com/B3SD5do.png)
 
 ### Loop
 
@@ -320,12 +320,12 @@ jalr x0, 0(x1)
 
 ## Function Call Transition - Example
 
-![](https://i.imgur.com/Hu5zUgN.png)
+![|475](https://i.imgur.com/Hu5zUgN.png)
 
 - 위의 간단한 함수 호출 코드를 assembly로 변환하면 어떻게 될까?
 
 
-![|575](https://i.imgur.com/gzzW1lT.png)
+![|500](https://i.imgur.com/gzzW1lT.png)
 
 1. Stack pointer 의 값을 -3 bytes 만큼 옮긴다. - stack에서 사용해야 하기 때문
 2. `sd`로 원래 register 의 값을 저장
@@ -333,7 +333,7 @@ jalr x0, 0(x1)
 4. 원래 register 값 복원 (stack 이용)
 5. x1 에 담긴 return address 로 jump
 
-![|600](https://i.imgur.com/C97RsJm.png)
+![|575](https://i.imgur.com/C97RsJm.png)
 
 # Calling Convention
 
@@ -351,14 +351,14 @@ jalr x0, 0(x1)
 
 # Nested Function Calls
 
-![|575](https://i.imgur.com/j2xBoDt.png)
+![|500](https://i.imgur.com/j2xBoDt.png)
 
 recursive function (재귀함수)는 어떻게 컴파일될까?
 -> 이는 x1(ra), x10(return value)를 스택에 계속 쌓아가며 이루어진다. 아래의 사진 및 코드를 참고하자. 가장 핵심이 되는 부분은 재귀를 if-else문으로 다시 구현한 점, x1과 x10의 값이 계속 업데이트 된다는 점이다.
 
-![](https://i.imgur.com/bZunXzt.png)
+![|525](https://i.imgur.com/bZunXzt.png)
 
-![|625](https://i.imgur.com/JjI1KGQ.png)
+![|550](https://i.imgur.com/JjI1KGQ.png)
 
 # Function Frame and Frame Pointer
 
@@ -421,15 +421,15 @@ sb x12, 0(x10)
 - 마지막에 **\0**이 추가되어 있음 -> 즉 용량은 (글자 수 + 1)bytes
 - string의 복사는 어떻게 일어날까...?
 
-![](https://i.imgur.com/JdYD5CA.png)
+![|525](https://i.imgur.com/JdYD5CA.png)
 
-![](https://i.imgur.com/Dvlnc9e.png)
+![|525](https://i.imgur.com/Dvlnc9e.png)
 
 - 뾰로롱..
 
 # Wide Immediate Operands
 
-![](https://i.imgur.com/fONxxOQ.png)
+![|525](https://i.imgur.com/fONxxOQ.png)
 
 - 원래 immediate는 instruction type에 따라 달라지지만, 크기가 부족할 수도 있음
 - `lui`(load upper immediate)를 사용하면 20bit 레지스터의 상위 [31:12] bit를 불러오기 때문에 더 큰 수를 사용 가능
@@ -440,14 +440,14 @@ sb x12, 0(x10)
 
 # U- Type
 
-![](https://i.imgur.com/phcQfqX.png)
+![|550](https://i.imgur.com/phcQfqX.png)
 
 - U(upper)-type은 20bit의 immediate를 사용하는 연산 타입이다. 레지스터의 32:12 bit에 해당 immediate를 저장하며, 나머지 왼쪽 비트에는 sign bit를 저장한다. lowest 12bit에는 0을 저장한다. `addi`와 조합해 32bit 수를 표현하는데 쓰인다.
 - 잘 안 씀
 
 # SB-Type
 
-![](https://i.imgur.com/jaFgsaj.png)
+![|525](https://i.imgur.com/jaFgsaj.png)
 
 - SB-type은 12bit immediate와 rs 두개 이용
 특정 condition을 만족하면 해당 branch로 이동한다. branch는 메모리 주소로 나타나며, immediate로 표현된다. 
@@ -457,7 +457,7 @@ sb x12, 0(x10)
 
 # UJ-type
 
-![](https://i.imgur.com/bEAOS2u.png)
+![|550](https://i.imgur.com/bEAOS2u.png)
 
 - 여기도 주소 이동할 때 사용, 20bit immediate사용, `jal`
 20bit를 사용하기 때문에 주소는 $\pm2^{20}$까지의 주소를 표시할 수 있다. 따라서 한번에 접근 가능한 범위는 2MB이므로, 프로그램의 용량은 이를 넘어서는 안된다.
@@ -467,7 +467,7 @@ sb x12, 0(x10)
 
 # PC-Relative Addressing
 
-![](https://i.imgur.com/FwK9nbI.png)
+![|525](https://i.imgur.com/FwK9nbI.png)
 
 - direct address를 사용하는 경우는 불편함이 많음
 	- 주소 값이 너무 클 수도 있음
@@ -475,9 +475,9 @@ sb x12, 0(x10)
 
 아래는 array에 모두 1을 더하는 함수를 구현한 것이다.
 
-![|575](https://i.imgur.com/QrVuDZP.png)
+![|525](https://i.imgur.com/QrVuDZP.png)
 
-![|575](https://i.imgur.com/L8oF9jB.png)
+![|525](https://i.imgur.com/L8oF9jB.png)
 
 # Branching Far Away
 
@@ -491,11 +491,11 @@ sb x12, 0(x10)
 
 RISC-V는 다음과 같은 Addressing mode를 지원한다. 
 
-![](https://i.imgur.com/OS2u3dG.png)
+![|525](https://i.imgur.com/OS2u3dG.png)
 
 1. **Immediate addressing**: instruction의 imm 부분에 있는 데이터 불러오기
 
-![](https://i.imgur.com/2tler23.png)
+![|525](https://i.imgur.com/2tler23.png)
 
 1. **rs** (source register)에 저장된 데이터 불러오기
 1. Base Addressing: 레지스터에 저장된 memory address에 저장된 데이터 불러오기
@@ -503,14 +503,14 @@ RISC-V는 다음과 같은 Addressing mode를 지원한다.
 
 # Instruction Opcode Encoding
 
-![|550](https://i.imgur.com/KPldVWM.png)
+![|500](https://i.imgur.com/KPldVWM.png)
 
 # Summary
 
-![|475](https://i.imgur.com/s5Jw5wp.png)
+![|450](https://i.imgur.com/s5Jw5wp.png)
 
 # Pseudo-instructions
 
-![|525](https://i.imgur.com/3auTnVR.png)
+![|500](https://i.imgur.com/3auTnVR.png)
 
 - 사람이 쓰기 편하라고 만들어 놓은 거

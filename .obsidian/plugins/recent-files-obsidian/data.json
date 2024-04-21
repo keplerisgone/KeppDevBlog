@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Instruction",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+    },
+    {
+      "basename": "Computer abstraction",
+      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
+    },
+    {
       "basename": "Frequency Response",
       "path": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
-      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
-      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
     },
     {
       "basename": "Differential Amplifier",
       "path": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
     },
     {
-      "basename": "Instruction",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+      "basename": "Home",
+      "path": "Home.md"
     },
     {
       "basename": "Arithmetic",
@@ -27,10 +27,6 @@
     {
       "basename": "7주차",
       "path": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md"
-    },
-    {
-      "basename": "Computer abstraction",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
     },
     {
       "basename": "흠냐링",
@@ -43,6 +39,10 @@
     {
       "basename": "Processor",
       "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
+      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
+      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
     },
     {
       "basename": "Note 5 Analog to Digital Conversion",

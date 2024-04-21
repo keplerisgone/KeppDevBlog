@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "93a3c4a195a03232",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
+                "file": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
               }
             }
           },
@@ -177,15 +190,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ce1184da4c644470",
+  "active": "93a3c4a195a03232",
   "lastOpenFiles": [
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
-    "Home.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "Home.md",
+    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
+    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
     "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md",
     "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
