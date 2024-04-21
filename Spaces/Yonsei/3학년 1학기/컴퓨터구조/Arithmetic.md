@@ -30,7 +30,7 @@
 
 위의 경우는 연산 결과가 무조건 범위 안에 있을 수밖에 없으므로, overflow가 발생하지 않는다. overflow가 발생하는 경우를 표로 정리하면 다음과 같다.
 
-![](https://i.imgur.com/E3VO3VL.png)
+![|600](https://i.imgur.com/E3VO3VL.png)
 
 ## Adder Logic
 
@@ -68,7 +68,7 @@ Multiplying의 알고리즘은 다음과 같다. 중요한 아이디어는 *Mult
  등등이 있다. 
 굳이 Multiplicand를 shift하지 않는 이유는 위 register를 shift함으로써 product 자리까지 shift되기 때문에 결과가 똑같이 나오기 때문이다. 아래는 계산 예시이다.
 
-![](https://i.imgur.com/zHJ6Sco.png)
+![|600](https://i.imgur.com/zHJ6Sco.png)
 
 ## Multiplying Signed Numbers
 
@@ -112,7 +112,7 @@ division의 알고리즘은 다음과 같다.
 
 128bits의 ALU를 사용한다는 단점이 multiplier와 같이 남아있기 때문에 이를 해결해야 한다. 이는 Remainder와 quotient가 같은 register를 사용함으로써 해결한다. 이 register를 계속 left shift하며 연산을 진행한다. 아래는 연산의 예시이다.
 
-![|650](https://i.imgur.com/rKfbuAl.png)
+![|600](https://i.imgur.com/rKfbuAl.png)
 
 ## Dividing Signed Numbers
 
@@ -188,7 +188,7 @@ fraction이 0이 아니고 exponent가 0인 경우는 **denormalized number**로
 5. over/underflow 여부 확인, round를 진행한다. 
 	1. round를 진행하다가 overflow가 발생하면 (2.aaa가 되는 경우) 또 rounding을 해야 한다.
 
-![|600](https://i.imgur.com/YDxNEDZ.png)
+![|575](https://i.imgur.com/YDxNEDZ.png)
 
 ## Multiplying Floating-Point Numbers
 
