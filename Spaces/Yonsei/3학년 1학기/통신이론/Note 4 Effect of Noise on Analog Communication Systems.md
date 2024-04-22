@@ -306,3 +306,11 @@ AM은 Linear, FM와 PM은 nonlinear이다. 이 친구들을 세 가지 측면에
 # Summary
 
 ![](https://i.imgur.com/TN4LWHl.png)
+
+# Gaussian
+
+**Gaussian**은 신호 체계에서 중요한 역할을 한다. 어디로 튈 지 모르는 노이즈에서 다른 사전 정보를 이용해 예측을 가능케 하는 것이 바로 **Gaussian process**이다. 
+
+우리가 사용하는 노이즈는 **white noise**인데, 사실 white process는 무한한 주파수 영역대를 갖지만, 실제 thermal noise는 그렇지 않다. 하지만 적절한 범위에서$\frac{kT}{2}$인 **PSD**(Power spectrum densuty)를 가지므로 이를 $\frac{N_{0}}{2}$로 정의하기로 하자.
+
+![|450](https://i.imgur.com/Sjh3w3W.png)
