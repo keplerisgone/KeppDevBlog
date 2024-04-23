@@ -45,7 +45,7 @@ PSD와 Autocorrelation function은 FT 관계를 갖는다. 왜 그런지는 모�
 
 ![|550](https://i.imgur.com/e4YpAXZ.png)
 
-- **Pro-detection SNR** : demodulating 이전의 SNR
+- **Pre-detection SNR** : demodulating 이전의 SNR
 - **Post-detection SNR** : demodulation 이후의 SNR
 - **Reference baseband SNR** : baseband transmission model의 SNR이라고 하면 내가 어찌앎..
 
