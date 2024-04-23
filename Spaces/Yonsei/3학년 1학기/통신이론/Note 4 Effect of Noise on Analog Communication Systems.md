@@ -236,7 +236,7 @@ BW를 높이는 것이 Power를 높이는 방법이 될 수 있지만, FM의 경
 
 ![|325](https://i.imgur.com/O9M1bBv.png)
 
-위 그래프는 어느정도의 SNR이 확보되어야 SNR이 뻥튀기되는지를 나타내는 것이다. 이는 $\beta$에 비례한다. $$({S \over N})_{b,th} = 20
+위 그래프는 어느정도의 baseband SNR이 확보되어야 SNR이 뻥튀기되는지를 나타내는 것이다. 이는 $\beta$에 비례한다. $$({S \over N})_{b,th} = 20
 (\beta+1)$$
 기본적으로 우리는 baseband SNR을 계산할 수 있고, received power인 $P_{R}$도 계산할 수 있으므로, 알아서 잘 $\beta$값을 계산해보자. BW이 주어져도 마찬가지이다. Carson's rule을 사용하면 될 일.
 정리하면, Threshold를 고려해 적당히 큰 $\beta$를 선택하되 사용하는 BW에 맞는지도 고려해야 한다.
@@ -245,6 +245,8 @@ BW를 높이는 것이 Power를 높이는 방법이 될 수 있지만, FM의 경
 
 실제로 예시 signal을 가져와 Threshold effect를 살펴본 것이다. 사실 수식을 보면 알겠지만 수식 유도 한 번만 해보면 모든게 이해가 가는 것을 알 수 있다. 한 번 위에서 유도한 공식을 계속해서 우려먹기 때문. 위 수식을 보는 법은 (얻게 되는 db scale gain + baseband SNR) & (Threshold SNR) 이다.
 따라서 $\beta = 5$일 때는 원래 15.7dB의 gain을 추가적으로 얻어야 하지만 20dB일 경우 Threshold인 20.8dB를 넘지 못해 나가리가 되는 것.
+
+정리하자면 
 
 그리고 가장 중요한 것은 모든 게 다 **dB scale이라는 것이다!!!** 잊지 말자.
 
