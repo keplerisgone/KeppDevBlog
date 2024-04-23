@@ -56,6 +56,7 @@ $$
 **Reference tranmission model**은 baseband에서 메세지 신호를 보내는 모델로, 다음과 같은 가정을 가진다. 
 1. message의 power가 modulated signal power와 동일할 것. 즉 순수한 메세지를 보낼 때는 손실이 없다. 즉 Pre-detection과 baseband가 같다.??
 2. message bandwidth에서의 noise power...라고만 하면 제가 어떻게 알아요
+	아하 그래서 분모가 $N_{0}W$가 되는구나
 ### example
 
 ![](https://i.imgur.com/ZUy2h4n.png)
