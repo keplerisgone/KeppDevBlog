@@ -225,7 +225,7 @@ Carson's rule도 사용한다. Baseband의 bandwidth가 얼마인지 몰라도 �
 
 ## example
 
-![](https://i.imgur.com/9fT91WL.png)
+![|500](https://i.imgur.com/9fT91WL.png)
 
 # Threshold Effect in angle modulation
 
