@@ -246,7 +246,7 @@ BW를 높이는 것이 Power를 높이는 방법이 될 수 있지만, FM의 경
 실제로 예시 signal을 가져와 Threshold effect를 살펴본 것이다. 사실 수식을 보면 알겠지만 수식 유도 한 번만 해보면 모든게 이해가 가는 것을 알 수 있다. 한 번 위에서 유도한 공식을 계속해서 우려먹기 때문. 위 수식을 보는 법은 (얻게 되는 db scale gain + baseband SNR) & (Threshold SNR) 이다.
 따라서 $\beta = 5$일 때는 원래 15.7dB의 gain을 추가적으로 얻어야 하지만 20dB일 경우 Threshold인 20.8dB를 넘지 못해 나가리가 되는 것.
 
-정리하자면 
+정리하자면 둘다 $\beta$의 limitation을 정하는 것과 같다.
 
 그리고 가장 중요한 것은 모든 게 다 **dB scale이라는 것이다!!!** 잊지 말자.
 
