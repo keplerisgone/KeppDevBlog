@@ -26,7 +26,7 @@ $$
 앞 쪽이 in-phase, 뒤 쪽이 quadrature이다. 특징은 다음과 같다.
 - 둘다 zero mean을 가짐
 - noise가 gaussian이면 둘 다 gaussian
-- noise가 stationary면 둘 다 stationary
+- noise가 stationary면 둘 다 stationary - 평균과 분산이 시간에 상관없다. 매우매우 이상적인 가우시안이라는 뜻
 -  둘은 같은 PSD(power spectral density)를 가짐, 이는 다음과 같이 정의 가능
 	- $S_{N_{I}}(f) = S_{N_{Q}}=S_{N}(f-f_{c})+ S_{N}(f+f_{c}), (-B\le f\le B)$
 - Same varience를 가진다.
@@ -130,7 +130,7 @@ $$ 이다.
 $$ 이고, $\eta$는 modulation efficiency라고 한다. 해당 값은 언제나 1보다 작기 때문에 baseband SNR보다 modulation이후의 SNR이 더 작은 값을 가진다. 따라서 power 측면에서는 좀 그렇지만 방송 쪽에서 많이 사용했었다.
 	modulation index $k_{a}$는 0.8-0.9 값을 가진다. 
 	뭐 아무튼 message는 dynamic range를 가진다....
-위와 같은 loss가 발생하는 이유는 Carrier를 통해 옮겨지는 중 원하지 않는 signal이 추가되기 때문??
+위와 같은 loss가 발생하는 이유는 Carrier를 통해 옮겨지는 중 원하지 않는 signal이 추가되기 때문?? - carrier 쪽에서 power를 좀 가져가기 때문
 
 만약 Envelope detection을 이용한다면??
 $$
