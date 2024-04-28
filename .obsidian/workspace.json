@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dc938b5933fa41ff",
+        "id": "c3c85f048412c9bb",
         "type": "tabs",
         "children": [
           {
-            "id": "c19c7c2f88d0abc9",
+            "id": "7a35de1ee044165b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/C & CPP/CPP/CPP.md",
-                "mode": "preview",
+                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/9주차.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -43,14 +43,6 @@
             }
           },
           {
-            "id": "ff8244a661f49fab",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
             "id": "4f7b913aa511f37d",
             "type": "leaf",
             "state": {
@@ -71,6 +63,14 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "199e558a93019585",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/C & CPP/CPP/CPP.md",
+                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/9주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/C & CPP/CPP/CPP.md",
+                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/9주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/C & CPP/CPP/CPP.md"
+                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/9주차.md"
               }
             }
           },
@@ -168,8 +168,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c19c7c2f88d0abc9",
+  "active": "7a35de1ee044165b",
   "lastOpenFiles": [
+    "Home.md",
+    "Yonsei/3학년 1학기/금융공학의이해(1)/9주차.md",
     "02-MOC/C & CPP/C & CPP.md",
     "02-MOC/Blog/Blog.md",
     "02-MOC/02-MOC.md",
@@ -196,9 +198,7 @@
     "02-MOC/Obsidian/Obsidian Basic",
     "02-MOC/Obsidian/Obsidian 1.md",
     "02-MOC/Git & GitHub/Git & GitHub.md",
-    "02-MOC/Git & GitHub/Branch merge 시에 충돌 해결법.md",
     "02-MOC/Git & GitHub",
-    "02-MOC/Git & GitHub/기본적인 Git-GitHub 사용.md",
     "02-MOC/Tech & Dev/Dev",
     "02-MOC/C & CPP/CPP",
     "02-MOC/C & CPP/C",
