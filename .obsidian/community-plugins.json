@@ -1,6 +1,5 @@
 [
   "obsidian-excalidraw-plugin",
-  "make-md",
   "dataview",
   "obsidian-outliner",
   "url-into-selection",
@@ -13,5 +12,7 @@
   "mousewheel-image-zoom",
   "homepage",
   "templater-obsidian",
-  "quick-latex"
+  "quick-latex",
+  "waypoint",
+  "folder-note-plugin"
 ]

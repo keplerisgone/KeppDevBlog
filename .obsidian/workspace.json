@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "568de798ed229387",
+        "id": "96c9d73f99d557b7",
         "type": "tabs",
         "children": [
           {
-            "id": "47e9cff6cc4b52a1",
+            "id": "be06a42b07e5a3b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/Embedded System.md",
+                "file": "02-MOC/Embedded system/Embedded system.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,14 +32,6 @@
         "id": "50bc99f9eccae7a9",
         "type": "tabs",
         "children": [
-          {
-            "id": "db29fcc405f79c6f",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
-          },
           {
             "id": "01e00628f9a5170e",
             "type": "leaf",
@@ -80,6 +72,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "69d539aa6f9eef4d",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
         ]
       }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/Embedded System.md",
+                "file": "02-MOC/Embedded system/Embedded system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/Embedded System.md",
+                "file": "02-MOC/Embedded system/Embedded system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/Embedded System.md"
+                "file": "02-MOC/Embedded system/Embedded system.md"
               }
             }
           },
@@ -176,35 +176,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "47e9cff6cc4b52a1",
+  "active": "be06a42b07e5a3b8",
   "lastOpenFiles": [
-    "04-Archive/C++로 문제 풀기.md",
+    "02-MOC/Embedded system/Raspberry Pi/Raspberry Pi.md",
+    "02-MOC/Embedded system/Raspberry Pi/Untitled.md",
+    "02-MOC/Embedded system/Embedded system.md",
     "02-MOC/Embedded System.md",
+    "02-MOC/Embedded system/Raspberry Pi",
     "03-Resources/03-Resources.md",
+    "02-MOC/C&CPP.md",
+    "02-MOC/Embedded system",
+    "02-MOC/Untitled.md",
+    "02-MOC/Tech & Dev.md",
+    "02-MOC/Obsidian.md",
+    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
+    "02-MOC/생산성 프로젝트.md",
+    "01-Project/임베디드 with 라즈베리파이.md",
+    "Template/MOC Template.md",
+    "Template/template.md",
+    "Template/daily-note-template.md",
+    "05-Writing/옵시디언 정리 일지.md",
+    "03-Resources/C&CPP/C++ 문자열 (string).md",
+    "03-Resources/C&CPP/C++ 반복문 (for, switch, while).md",
+    "03-Resources/2023-04-15-os.md",
+    "02-MOC/나는 커서 뭘 할까.canvas",
+    "02-MOC/Life/Life.md",
+    "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
+    "04-Archive/C++로 문제 풀기.md",
     "04-Archive/Functional Programming.md",
     "02-MOC/Study/Study.md",
-    "02-MOC/Study/Tech & Dev.md",
     "02-MOC/Careers/Careers.md",
     "02-MOC/02-Area.md",
-    "Home.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 7.md",
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
-    "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
-    "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
-    "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md",
-    "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md",
-    "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
-    "03-Resources/Untitled.md",
     "Media/1_computer_abstraction.pdf",
-    "Excalidraw/Drawing 2024-03-10 13.47.20.excalidraw.md",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
     "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
     "Media/Screenshot_2023-12-09_at_2.21.28_PM.png",
@@ -216,14 +219,11 @@
     "Media/Screenshot_2023-11-20_at_10.46.54_PM.png",
     "Media/Screenshot_2023-09-06_at_7.49.00_PM.png",
     "05-Writing",
-    "02-MOC/나는 커서 뭘 할까.canvas",
     "01-Project/노닥노닥 라즈베리",
     "Media/24-03-20 전회.pdf",
     "Media/2_instructions (dragged).pdf",
     "Media/Note 2 Amplitude Modulation.pdf",
     "Media/Note 1 Introduction.pdf",
-    "Media/2_instructions 1.pdf",
-    "Media/chapter_1.pdf",
-    "Media/1_computer_abstraction 1.pdf"
+    "Media/2_instructions 1.pdf"
   ]
 }
