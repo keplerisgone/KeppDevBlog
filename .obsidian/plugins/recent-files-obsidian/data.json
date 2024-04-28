@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Embedded System",
+      "path": "02-MOC/Embedded System.md"
+    },
+    {
+      "basename": "C++로 문제 풀기",
+      "path": "04-Archive/C++로 문제 풀기.md"
+    },
+    {
+      "basename": "03-Resources",
+      "path": "03-Resources/03-Resources.md"
+    },
+    {
+      "basename": "Functional Programming",
+      "path": "04-Archive/Functional Programming.md"
+    },
+    {
+      "basename": "Tech & Dev",
+      "path": "02-MOC/Study/Tech & Dev.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "Untitled 3 15",
       "path": "Media/Untitled 3 15.png"
-    },
-    {
-      "basename": "Screenshot 2024-01-03 at 12.12.21 AM",
-      "path": "Media/Screenshot 2024-01-03 at 12.12.21 AM.png"
-    },
-    {
-      "basename": "Screenshot 2024-01-22 at 4.21.22 PM",
-      "path": "Media/Screenshot 2024-01-22 at 4.21.22 PM.png"
-    },
-    {
-      "basename": "Screenshot 2024-01-27 at 2.03.19 PM",
-      "path": "Media/Screenshot 2024-01-27 at 2.03.19 PM.png"
-    },
-    {
-      "basename": "Screenshot 2024-02-04 at 5.57.57 PM",
-      "path": "Media/Screenshot 2024-02-04 at 5.57.57 PM.png"
     }
   ],
   "omittedPaths": [],

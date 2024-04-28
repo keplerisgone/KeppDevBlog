@@ -11,9 +11,11 @@
             "id": "47e9cff6cc4b52a1",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "02-MOC/Embedded"
+                "file": "02-MOC/Embedded System.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02-MOC/Embedded System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02-MOC/Embedded System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "02-MOC/Embedded System.md"
+              }
             }
           },
           {
@@ -172,6 +178,12 @@
   },
   "active": "47e9cff6cc4b52a1",
   "lastOpenFiles": [
+    "04-Archive/C++로 문제 풀기.md",
+    "02-MOC/Embedded System.md",
+    "03-Resources/03-Resources.md",
+    "04-Archive/Functional Programming.md",
+    "02-MOC/Study/Study.md",
+    "02-MOC/Study/Tech & Dev.md",
     "02-MOC/Careers/Careers.md",
     "02-MOC/02-Area.md",
     "Home.md",
@@ -193,12 +205,6 @@
     "03-Resources/Untitled.md",
     "Media/1_computer_abstraction.pdf",
     "Excalidraw/Drawing 2024-03-10 13.47.20.excalidraw.md",
-    "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md",
-    "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md",
-    "Excalidraw/보스 1페이즈.md",
-    "Excalidraw/Exacli-RobotgamePlayer.md",
-    "03-Resources/().md",
-    "05-Writing/옵시디언 정리 일지.md",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
     "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
     "Media/Screenshot_2023-12-09_at_2.21.28_PM.png",

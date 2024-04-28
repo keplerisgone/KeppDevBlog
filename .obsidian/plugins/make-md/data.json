@@ -147,7 +147,9 @@
     "//02-Area",
     "//02-MOC",
     "//02-MOC/02-MOC/Careers",
-    "//02-MOC/02-MOC/Embedded"
+    "//02-MOC/02-MOC/Embedded",
+    "//04-Archive",
+    "//03-Resources"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
