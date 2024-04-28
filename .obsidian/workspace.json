@@ -11,11 +11,9 @@
             "id": "47e9cff6cc4b52a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
+                "path": "02-MOC/Embedded"
               }
             }
           }
@@ -101,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -178,8 +172,10 @@
   },
   "active": "47e9cff6cc4b52a1",
   "lastOpenFiles": [
-    "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+    "02-MOC/Careers/Careers.md",
+    "02-MOC/02-Area.md",
     "Home.md",
+    "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md",
@@ -203,8 +199,6 @@
     "Excalidraw/Exacli-RobotgamePlayer.md",
     "03-Resources/().md",
     "05-Writing/옵시디언 정리 일지.md",
-    "99-Kanban/개강 전에 해요.md",
-    "99-Kanban/치워요.md",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
     "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
     "Media/Screenshot_2023-12-09_at_2.21.28_PM.png",
@@ -216,7 +210,7 @@
     "Media/Screenshot_2023-11-20_at_10.46.54_PM.png",
     "Media/Screenshot_2023-09-06_at_7.49.00_PM.png",
     "05-Writing",
-    "02-Area/Careers/나는 커서 뭘 할까.canvas",
+    "02-MOC/나는 커서 뭘 할까.canvas",
     "01-Project/노닥노닥 라즈베리",
     "Media/24-03-20 전회.pdf",
     "Media/2_instructions (dragged).pdf",
