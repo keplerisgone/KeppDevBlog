@@ -1,40 +1,188 @@
 {
   "recentFiles": [
     {
+      "basename": "CPP",
+      "path": "02-MOC/C & CPP/CPP/CPP.md"
+    },
+    {
+      "basename": "C & CPP",
+      "path": "02-MOC/C & CPP/C & CPP.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "02-MOC/Blog/Blog.md"
+    },
+    {
+      "basename": "02-MOC",
+      "path": "02-MOC/02-MOC.md"
+    },
+    {
+      "basename": "Yonsei",
+      "path": "Yonsei/Yonsei.md"
+    },
+    {
+      "basename": "99-Daily",
+      "path": "99-Daily/99-Daily.md"
+    },
+    {
       "basename": "Embedded system",
       "path": "02-MOC/Embedded system/Embedded system.md"
     },
     {
-      "basename": "Raspberry Pi",
-      "path": "02-MOC/Embedded system/Raspberry Pi/Raspberry Pi.md"
+      "basename": "라즈베리파이 개발환경 설정하기",
+      "path": "02-MOC/Embedded system/Raspberry Pi/라즈베리파이 개발환경 설정하기.md"
     },
     {
-      "basename": "Embedded System",
-      "path": "02-MOC/Embedded System.md"
+      "basename": "노닥노닥 라즈베리",
+      "path": "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md"
     },
     {
-      "basename": "03-Resources",
-      "path": "03-Resources/03-Resources.md"
+      "basename": "키보드 자판",
+      "path": "03-Writing/키보드 자판.md"
     },
     {
-      "basename": "C&CPP",
-      "path": "02-MOC/C&CPP.md"
+      "basename": "옵시디언 정리 일지",
+      "path": "03-Writing/옵시디언 정리 일지.md"
     },
     {
-      "basename": "Tech & Dev",
-      "path": "02-MOC/Tech & Dev.md"
+      "basename": "Terminal",
+      "path": "02-MOC/Productivity Project/Terminal/Terminal.md"
+    },
+    {
+      "basename": "Productivity Project",
+      "path": "02-MOC/Productivity Project/Productivity Project.md"
+    },
+    {
+      "basename": "운영체제(OS)란?",
+      "path": "02-MOC/Operating System/운영체제(OS)란?.md"
+    },
+    {
+      "basename": "Obsidian Basic",
+      "path": "02-MOC/Obsidian/Obsidian Basic/Obsidian Basic.md"
+    },
+    {
+      "basename": "Obsidian Plugin",
+      "path": "02-MOC/Obsidian/Obsidian Plugin/Obsidian Plugin.md"
+    },
+    {
+      "basename": "옵시디언에 이미지 똑똑하게 붙여넣기 - imgur",
+      "path": "02-MOC/Obsidian/Obsidian Plugin/옵시디언에 이미지 똑똑하게 붙여넣기 - imgur.md"
+    },
+    {
+      "basename": "옵시디언 사용하기",
+      "path": "02-MOC/Obsidian/Obsidian Basic/옵시디언 사용하기.md"
     },
     {
       "basename": "Obsidian",
-      "path": "02-MOC/Obsidian.md"
+      "path": "02-MOC/Obsidian/Obsidian.md"
+    },
+    {
+      "basename": "Git & GitHub",
+      "path": "02-MOC/Git & GitHub/Git & GitHub.md"
+    },
+    {
+      "basename": "Branch merge 시에 충돌 해결법",
+      "path": "02-MOC/Git & GitHub/Branch merge 시에 충돌 해결법.md"
+    },
+    {
+      "basename": "기본적인 Git-GitHub 사용",
+      "path": "02-MOC/Git & GitHub/기본적인 Git-GitHub 사용.md"
+    },
+    {
+      "basename": "유튜브가 렉이 걸릴 때",
+      "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
+    },
+    {
+      "basename": "Lambda Calculus",
+      "path": "02-MOC/Tech & Dev/Dev/Lambda Calculus.md"
+    },
+    {
+      "basename": "Dev",
+      "path": "02-MOC/Tech & Dev/Dev/Dev.md"
     },
     {
       "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
       "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
     },
     {
+      "basename": "Computer Science",
+      "path": "02-MOC/Computer Science/Computer Science.md"
+    },
+    {
+      "basename": "Tech & Dev",
+      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
+    },
+    {
+      "basename": "C++ pointer, reference",
+      "path": "02-MOC/C & CPP/CPP/C++ pointer, reference.md"
+    },
+    {
+      "basename": "2023-04-23-CPPBasic",
+      "path": "02-MOC/C & CPP/CPP/2023-04-23-CPPBasic.md"
+    },
+    {
+      "basename": "C",
+      "path": "02-MOC/C & CPP/C/C.md"
+    },
+    {
       "basename": "생산성 프로젝트",
       "path": "02-MOC/생산성 프로젝트.md"
+    },
+    {
+      "basename": "Operating System",
+      "path": "02-MOC/Operating System/Operating System.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "02-MOC/Linux/Linux.md"
+    },
+    {
+      "basename": "Raspberry Pi",
+      "path": "02-MOC/Embedded system/Raspberry Pi/Raspberry Pi.md"
+    },
+    {
+      "basename": "Software Engineering",
+      "path": "02-MOC/Tech & Dev/Software Engineering/Software Engineering.md"
+    },
+    {
+      "basename": "Network",
+      "path": "02-MOC/Tech & Dev/Network/Network.md"
+    },
+    {
+      "basename": "Design Pattern",
+      "path": "02-MOC/Tech & Dev/Design Pattern/Design Pattern.md"
+    },
+    {
+      "basename": "Database",
+      "path": "02-MOC/Tech & Dev/Database/Database.md"
+    },
+    {
+      "basename": "Data Structure",
+      "path": "02-MOC/Tech & Dev/Data Structure/Data Structure.md"
+    },
+    {
+      "basename": "Algorithm",
+      "path": "02-MOC/Tech & Dev/Algorithm/Algorithm.md"
+    },
+    {
+      "basename": "Embedded",
+      "path": "02-MOC/Embedded system/Embedded/Embedded.md"
+    },
+    {
+      "basename": "Computer Architecture",
+      "path": "02-MOC/Computer Science/Computer Architecture/Computer Architecture.md"
+    },
+    {
+      "basename": "컴퓨터 과학 기초",
+      "path": "02-MOC/Computer Science/Computer Architecture/컴퓨터 과학 기초.md"
+    },
+    {
+      "basename": "임베디드 공부를 시작해보자",
+      "path": "02-MOC/Embedded system/Embedded/임베디드 공부를 시작해보자.md"
+    },
+    {
+      "basename": "라즈베리파이를 세팅해보자 (mac)",
+      "path": "02-MOC/Embedded system/Raspberry Pi/라즈베리파이를 세팅해보자 (mac).md"
     },
     {
       "basename": "임베디드 with 라즈베리파이",
@@ -51,150 +199,6 @@
     {
       "basename": "daily-note-template",
       "path": "Template/daily-note-template.md"
-    },
-    {
-      "basename": "옵시디언 정리 일지",
-      "path": "05-Writing/옵시디언 정리 일지.md"
-    },
-    {
-      "basename": "C++ 문자열 (string)",
-      "path": "03-Resources/C&CPP/C++ 문자열 (string).md"
-    },
-    {
-      "basename": "C++ 반복문 (for, switch, while)",
-      "path": "03-Resources/C&CPP/C++ 반복문 (for, switch, while).md"
-    },
-    {
-      "basename": "2023-04-15-os",
-      "path": "03-Resources/2023-04-15-os.md"
-    },
-    {
-      "basename": "나는 커서 뭘 할까",
-      "path": "02-MOC/나는 커서 뭘 할까.canvas"
-    },
-    {
-      "basename": "컴퓨터 과학 기초",
-      "path": "03-Resources/Computer Architecture/컴퓨터 과학 기초.md"
-    },
-    {
-      "basename": "C++로 문제 풀기",
-      "path": "04-Archive/C++로 문제 풀기.md"
-    },
-    {
-      "basename": "Functional Programming",
-      "path": "04-Archive/Functional Programming.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
-      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
-      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
-    },
-    {
-      "basename": "Note 2 Amplitude modulation",
-      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md"
-    },
-    {
-      "basename": "Note 3 Angle Modulation",
-      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md"
-    },
-    {
-      "basename": "Note 1 Introduction",
-      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 1 Introduction.md"
-    },
-    {
-      "basename": "Note 7",
-      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 7.md"
-    },
-    {
-      "basename": "Note 5 Analog to Digital Conversion",
-      "path": "Spaces/Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
-    },
-    {
-      "basename": "Frequency Response",
-      "path": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
-    },
-    {
-      "basename": "Differential Amplifier",
-      "path": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
-    },
-    {
-      "basename": "Arithmetic",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
-    },
-    {
-      "basename": "Instruction",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
-    },
-    {
-      "basename": "Computer abstraction",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
-    },
-    {
-      "basename": "7주차",
-      "path": "Spaces/Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md"
-    },
-    {
-      "basename": "흠냐링",
-      "path": "Spaces/Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md"
-    },
-    {
-      "basename": "Instruction 2024-03-10 14.08.07.excalidraw",
-      "path": "Excalidraw/Instruction 2024-03-10 14.08.07.excalidraw.md"
-    },
-    {
-      "basename": "Processor",
-      "path": "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
-    },
-    {
-      "basename": "1_computer_abstraction",
-      "path": "Media/1_computer_abstraction.pdf"
-    },
-    {
-      "basename": "Drawing 2024-03-10 13.47.20.excalidraw",
-      "path": "Excalidraw/Drawing 2024-03-10 13.47.20.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2024-04-14 23.31.11.excalidraw",
-      "path": "Excalidraw/Drawing 2024-04-14 23.31.11.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2024-02-11 14.23.34.excalidraw",
-      "path": "Excalidraw/Drawing 2024-02-11 14.23.34.excalidraw.md"
-    },
-    {
-      "basename": "보스 1페이즈",
-      "path": "Excalidraw/보스 1페이즈.md"
-    },
-    {
-      "basename": "Exacli-RobotgamePlayer",
-      "path": "Excalidraw/Exacli-RobotgamePlayer.md"
-    },
-    {
-      "basename": "Screenshot_2023-12-17_at_3.33.24_PM",
-      "path": "Media/Screenshot_2023-12-17_at_3.33.24_PM.png"
-    },
-    {
-      "basename": "Screenshot_2023-11-08_at_7.58.02_PM",
-      "path": "Media/Screenshot_2023-11-08_at_7.58.02_PM.png"
-    },
-    {
-      "basename": "Screenshot_2023-12-09_at_2.21.28_PM",
-      "path": "Media/Screenshot_2023-12-09_at_2.21.28_PM.png"
-    },
-    {
-      "basename": "Screenshot_2023-12-09_at_1.48.44_PM",
-      "path": "Media/Screenshot_2023-12-09_at_1.48.44_PM.png"
-    },
-    {
-      "basename": "Screenshot_2023-10-21_at_12.11.10_AM",
-      "path": "Media/Screenshot_2023-10-21_at_12.11.10_AM.png"
-    },
-    {
-      "basename": "Screenshot_2023-10-04_at_10.27.57_PM",
-      "path": "Media/Screenshot_2023-10-04_at_10.27.57_PM.png"
     }
   ],
   "omittedPaths": [],

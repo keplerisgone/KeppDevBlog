@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "96c9d73f99d557b7",
+        "id": "dc938b5933fa41ff",
         "type": "tabs",
         "children": [
           {
-            "id": "be06a42b07e5a3b8",
+            "id": "c19c7c2f88d0abc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/Embedded system/Embedded system.md",
-                "mode": "source",
+                "file": "02-MOC/C & CPP/CPP/CPP.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -72,14 +72,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "69d539aa6f9eef4d",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
           }
         ]
       }
@@ -101,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/Embedded system/Embedded system.md",
+                "file": "02-MOC/C & CPP/CPP/CPP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/Embedded system/Embedded system.md",
+                "file": "02-MOC/C & CPP/CPP/CPP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/Embedded system/Embedded system.md"
+                "file": "02-MOC/C & CPP/CPP/CPP.md"
               }
             }
           },
@@ -176,38 +168,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "be06a42b07e5a3b8",
+  "active": "c19c7c2f88d0abc9",
   "lastOpenFiles": [
-    "02-MOC/Embedded system/Raspberry Pi/Raspberry Pi.md",
-    "02-MOC/Embedded system/Raspberry Pi/Untitled.md",
+    "02-MOC/C & CPP/C & CPP.md",
+    "02-MOC/Blog/Blog.md",
+    "02-MOC/02-MOC.md",
+    "Yonsei/Yonsei.md",
+    "99-Daily/99-Daily.md",
     "02-MOC/Embedded system/Embedded system.md",
-    "02-MOC/Embedded System.md",
-    "02-MOC/Embedded system/Raspberry Pi",
-    "03-Resources/03-Resources.md",
-    "02-MOC/C&CPP.md",
-    "02-MOC/Embedded system",
-    "02-MOC/Untitled.md",
-    "02-MOC/Tech & Dev.md",
-    "02-MOC/Obsidian.md",
-    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
-    "02-MOC/생산성 프로젝트.md",
-    "01-Project/임베디드 with 라즈베리파이.md",
-    "Template/MOC Template.md",
-    "Template/template.md",
-    "Template/daily-note-template.md",
-    "05-Writing/옵시디언 정리 일지.md",
-    "03-Resources/C&CPP/C++ 문자열 (string).md",
-    "03-Resources/C&CPP/C++ 반복문 (for, switch, while).md",
+    "Vault.md",
+    "02-MOC/Embedded system/Raspberry Pi/라즈베리파이 개발환경 설정하기.md",
+    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
+    "03-Writing/키보드 자판.md",
+    "05-Writing/05-Writing.md",
+    "03-Writing/옵시디언 정리 일지.md",
+    "04-Archive/04-Archive.md",
     "03-Resources/2023-04-15-os.md",
+    "02-MOC/Productivity Project/Terminal/Terminal.md",
+    "02-MOC/Productivity Project/Productivity Project.md",
+    "02-MOC/Operating System/운영체제(OS)란?.md",
+    "02-MOC/Obsidian/Obsidian Basic/Obsidian Basic.md",
+    "02-MOC/Obsidian/Obsidian Plugin/Obsidian Plugin.md",
+    "02-MOC/Obsidian/Obsidian Plugin/옵시디언에 이미지 똑똑하게 붙여넣기 - imgur.md",
+    "02-MOC/Obsidian/Obsidian Basic/옵시디언 사용하기.md",
+    "02-MOC/Obsidian/Obsidian Plugin",
+    "02-MOC/Obsidian/Obsidian.md",
+    "02-MOC/Obsidian/Obsidian Basic",
+    "02-MOC/Obsidian/Obsidian 1.md",
+    "02-MOC/Git & GitHub/Git & GitHub.md",
+    "02-MOC/Git & GitHub/Branch merge 시에 충돌 해결법.md",
+    "02-MOC/Git & GitHub",
+    "02-MOC/Git & GitHub/기본적인 Git-GitHub 사용.md",
+    "02-MOC/Tech & Dev/Dev",
+    "02-MOC/C & CPP/CPP",
+    "02-MOC/C & CPP/C",
+    "02-MOC/C & CPP",
+    "02-MOC/Productivity Project",
+    "02-MOC/Operating System",
+    "02-MOC/Obsidian",
     "02-MOC/나는 커서 뭘 할까.canvas",
-    "02-MOC/Life/Life.md",
-    "03-Resources/Computer Architecture/컴퓨터 과학 기초.md",
-    "04-Archive/C++로 문제 풀기.md",
-    "04-Archive/Functional Programming.md",
-    "02-MOC/Study/Study.md",
-    "02-MOC/Careers/Careers.md",
-    "02-MOC/02-Area.md",
-    "Media/1_computer_abstraction.pdf",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
     "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
     "Media/Screenshot_2023-12-09_at_2.21.28_PM.png",
@@ -217,13 +216,6 @@
     "Media/Screenshot_2023-12-09_at_2.37.55_PM.png",
     "Media/Screenshot_2023-11-20_at_10.49.01_PM.png",
     "Media/Screenshot_2023-11-20_at_10.46.54_PM.png",
-    "Media/Screenshot_2023-09-06_at_7.49.00_PM.png",
-    "05-Writing",
-    "01-Project/노닥노닥 라즈베리",
-    "Media/24-03-20 전회.pdf",
-    "Media/2_instructions (dragged).pdf",
-    "Media/Note 2 Amplitude Modulation.pdf",
-    "Media/Note 1 Introduction.pdf",
-    "Media/2_instructions 1.pdf"
+    "Media/Screenshot_2023-09-06_at_7.49.00_PM.png"
   ]
 }
