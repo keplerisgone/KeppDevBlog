@@ -216,3 +216,7 @@ traditional pipeline model에는 총 다섯 가지의 stage가 존재하므로, 
 
 ![|600](https://i.imgur.com/pG7Lsuw.png)
 
+shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 것이다.
+- **left-shading** : stage에서 wrting을 진행
+- **right-shading** : stage에서 reading을 진행
+점선으로 이루어진 부분은 절대 접근하지 않는다는 뜻이다.
