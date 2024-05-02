@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "줄거리 정리",
-      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/줄거리 정리.md"
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "논문 정리, 참고용",
+      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/논문 정리, 참고용.md"
     },
     {
       "basename": "발표 주제 정리",
       "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표 주제 정리.md"
     },
     {
-      "basename": "생각해볼만한 주제들",
-      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md"
+      "basename": "흠냐링",
+      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md"
     },
     {
-      "basename": "논문 정리, 참고용",
-      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/논문 정리, 참고용.md"
+      "basename": "줄거리 정리",
+      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/줄거리 정리.md"
+    },
+    {
+      "basename": "생각해볼만한 주제들",
+      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md"
     },
     {
       "basename": "발표자료",
@@ -23,10 +31,6 @@
     {
       "basename": "02-MOC",
       "path": "02-MOC/02-MOC.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Processor",
@@ -195,10 +199,6 @@
     {
       "basename": "Embedded",
       "path": "02-MOC/Embedded system/Embedded/Embedded.md"
-    },
-    {
-      "basename": "Computer Architecture",
-      "path": "02-MOC/Computer Science/Computer Architecture/Computer Architecture.md"
     }
   ],
   "omittedPaths": [],
