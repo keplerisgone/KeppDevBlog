@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a734a4d6c91646eb",
+        "id": "c3ad8926913647e0",
         "type": "tabs",
         "children": [
           {
-            "id": "03a99a9ef5b9b845",
+            "id": "706341e9e36f2502",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 260.5,
+    "collapsed": true
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -168,7 +169,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "03a99a9ef5b9b845",
+  "active": "706341e9e36f2502",
   "lastOpenFiles": [
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/논문 정리, 참고용.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표 주제 정리.md",
