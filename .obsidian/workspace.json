@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c3ad8926913647e0",
+        "id": "fd3ae521a3b4fc39",
         "type": "tabs",
         "children": [
           {
-            "id": "706341e9e36f2502",
+            "id": "ea88fba65e2c2c90",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -169,8 +168,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "706341e9e36f2502",
+  "active": "ea88fba65e2c2c90",
   "lastOpenFiles": [
+    "02-MOC/Blog/세벌식/세벌식은 왜 짱인가.md",
+    "02-MOC/Blog/세벌식/세벌식.md",
+    "02-MOC/Blog/Blog.md",
+    "Home.md",
+    "02-MOC/Blog/세벌식",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/논문 정리, 참고용.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표 주제 정리.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md",
@@ -178,11 +182,9 @@
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표자료.md",
     "02-MOC/02-MOC.md",
-    "Home.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료",
     "Yonsei/3학년 1학기/금융공학의이해(1)/9주차.md",
     "02-MOC/C & CPP/C & CPP.md",
-    "02-MOC/Blog/Blog.md",
     "Yonsei/Yonsei.md",
     "99-Daily/99-Daily.md",
     "02-MOC/Embedded system/Embedded system.md",
@@ -196,8 +198,6 @@
     "03-Resources/2023-04-15-os.md",
     "02-MOC/Productivity Project/Terminal/Terminal.md",
     "02-MOC/Productivity Project/Productivity Project.md",
-    "02-MOC/Operating System/운영체제(OS)란?.md",
-    "02-MOC/Obsidian/Obsidian Basic/Obsidian Basic.md",
     "02-MOC/Obsidian/Obsidian Plugin",
     "02-MOC/Obsidian/Obsidian Basic",
     "02-MOC/Git & GitHub",
@@ -206,7 +206,6 @@
     "02-MOC/C & CPP/C",
     "02-MOC/C & CPP",
     "02-MOC/Productivity Project",
-    "02-MOC/Operating System",
     "02-MOC/나는 커서 뭘 할까.canvas",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
     "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",

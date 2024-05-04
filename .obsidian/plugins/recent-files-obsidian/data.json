@@ -5,6 +5,18 @@
       "path": "Home.md"
     },
     {
+      "basename": "세벌식",
+      "path": "02-MOC/Blog/세벌식/세벌식.md"
+    },
+    {
+      "basename": "세벌식은 왜 짱인가",
+      "path": "02-MOC/Blog/세벌식/세벌식은 왜 짱인가.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "02-MOC/Blog/Blog.md"
+    },
+    {
       "basename": "논문 정리, 참고용",
       "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/논문 정리, 참고용.md"
     },
@@ -47,10 +59,6 @@
     {
       "basename": "C & CPP",
       "path": "02-MOC/C & CPP/C & CPP.md"
-    },
-    {
-      "basename": "Blog",
-      "path": "02-MOC/Blog/Blog.md"
     },
     {
       "basename": "99-Daily",
@@ -191,14 +199,6 @@
     {
       "basename": "Data Structure",
       "path": "02-MOC/Tech & Dev/Data Structure/Data Structure.md"
-    },
-    {
-      "basename": "Algorithm",
-      "path": "02-MOC/Tech & Dev/Algorithm/Algorithm.md"
-    },
-    {
-      "basename": "Embedded",
-      "path": "02-MOC/Embedded system/Embedded/Embedded.md"
     }
   ],
   "omittedPaths": [],
