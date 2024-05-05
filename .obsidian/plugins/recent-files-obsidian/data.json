@@ -5,6 +5,10 @@
       "path": "Home.md"
     },
     {
+      "basename": "Arithmetic",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
+    },
+    {
       "basename": "세벌식",
       "path": "02-MOC/Blog/세벌식/세벌식.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Database",
       "path": "02-MOC/Tech & Dev/Database/Database.md"
-    },
-    {
-      "basename": "Data Structure",
-      "path": "02-MOC/Tech & Dev/Data Structure/Data Structure.md"
     }
   ],
   "omittedPaths": [],

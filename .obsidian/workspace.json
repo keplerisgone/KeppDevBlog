@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fd3ae521a3b4fc39",
+        "id": "c206be60fe31e231",
         "type": "tabs",
         "children": [
           {
-            "id": "ea88fba65e2c2c90",
+            "id": "26cd70f79b65df09",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -168,12 +168,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ea88fba65e2c2c90",
+  "active": "26cd70f79b65df09",
   "lastOpenFiles": [
+    "Home.md",
+    "Yonsei/3학년 1학기/컴퓨터구조/컴퓨터구조.md",
     "02-MOC/Blog/세벌식/세벌식은 왜 짱인가.md",
     "02-MOC/Blog/세벌식/세벌식.md",
     "02-MOC/Blog/Blog.md",
-    "Home.md",
     "02-MOC/Blog/세벌식",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/논문 정리, 참고용.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표 주제 정리.md",
@@ -197,7 +198,6 @@
     "04-Archive/04-Archive.md",
     "03-Resources/2023-04-15-os.md",
     "02-MOC/Productivity Project/Terminal/Terminal.md",
-    "02-MOC/Productivity Project/Productivity Project.md",
     "02-MOC/Obsidian/Obsidian Plugin",
     "02-MOC/Obsidian/Obsidian Basic",
     "02-MOC/Git & GitHub",
