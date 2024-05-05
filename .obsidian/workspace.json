@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c206be60fe31e231",
+        "id": "4a8752eca8af05d9",
         "type": "tabs",
         "children": [
           {
-            "id": "26cd70f79b65df09",
+            "id": "e5a08da1677721bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
+                "file": "00-Personal/나는 커서 뭘 할까.canvas",
+                "viewState": {
+                  "x": -322.6969887076537,
+                  "y": 74.06649937264743,
+                  "zoom": -0.8209957046468255
+                }
               }
             }
           }
@@ -93,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "00-Personal/나는 커서 뭘 할까.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "00-Personal/나는 커서 뭘 할까.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "00-Personal/나는 커서 뭘 할까.canvas"
               }
             }
           },
@@ -168,13 +171,29 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "26cd70f79b65df09",
+  "active": "e5a08da1677721bb",
   "lastOpenFiles": [
+    "02-MOC/Tech & Dev/Tech & Dev.md",
+    "02-MOC/Productivity Project/Terminal/Terminal.md",
+    "02-MOC/Productivity Project/Productivity Project.md",
+    "02-MOC/Blog/Blog.md",
+    "02-MOC/생산성 프로젝트.md",
+    "03-Writing/키보드 자판.md",
+    "03-Writing/세컨드 브레인 - 옵시디언.md",
+    "02-MOC/Computer Science/Computer Science.md",
+    "02-MOC/Linux/Linux.md",
+    "02-MOC/Git & GitHub/Git & GitHub.md",
+    "02-MOC/Embedded system/Embedded system.md",
+    "02-MOC/C & CPP/C & CPP.md",
+    "02-MOC/02-MOC.md",
+    "00-Personal",
+    "Template/template.md",
+    "Template/MOC Template.md",
+    "99-Archive/99-Daily/99-Daily.md",
     "Home.md",
     "Yonsei/3학년 1학기/컴퓨터구조/컴퓨터구조.md",
     "02-MOC/Blog/세벌식/세벌식은 왜 짱인가.md",
     "02-MOC/Blog/세벌식/세벌식.md",
-    "02-MOC/Blog/Blog.md",
     "02-MOC/Blog/세벌식",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/논문 정리, 참고용.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표 주제 정리.md",
@@ -182,22 +201,7 @@
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/줄거리 정리.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표자료.md",
-    "02-MOC/02-MOC.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/9주차.md",
-    "02-MOC/C & CPP/C & CPP.md",
-    "Yonsei/Yonsei.md",
-    "99-Daily/99-Daily.md",
-    "02-MOC/Embedded system/Embedded system.md",
-    "Vault.md",
-    "02-MOC/Embedded system/Raspberry Pi/라즈베리파이 개발환경 설정하기.md",
-    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
-    "03-Writing/키보드 자판.md",
-    "05-Writing/05-Writing.md",
-    "03-Writing/옵시디언 정리 일지.md",
-    "04-Archive/04-Archive.md",
-    "03-Resources/2023-04-15-os.md",
-    "02-MOC/Productivity Project/Terminal/Terminal.md",
     "02-MOC/Obsidian/Obsidian Plugin",
     "02-MOC/Obsidian/Obsidian Basic",
     "02-MOC/Git & GitHub",
@@ -205,8 +209,7 @@
     "02-MOC/C & CPP/CPP",
     "02-MOC/C & CPP/C",
     "02-MOC/C & CPP",
-    "02-MOC/Productivity Project",
-    "02-MOC/나는 커서 뭘 할까.canvas",
+    "00-Personal/나는 커서 뭘 할까.canvas",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
     "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
     "Media/Screenshot_2023-12-09_at_2.21.28_PM.png",

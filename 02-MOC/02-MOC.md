@@ -74,7 +74,6 @@
 		- [[TCP 3 & 4 way handshake]]
 		- [[TCP,IP 흐름제어 & 혼잡제어]]
 	- **[[Software Engineering]]**
-- [[생산성 프로젝트]]
 
 %% End Waypoint %%
 
