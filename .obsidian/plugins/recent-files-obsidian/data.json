@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "나는 커서 뭘 할까",
       "path": "00-Personal/나는 커서 뭘 할까.canvas"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "99-Daily",
       "path": "99-Archive/99-Daily/99-Daily.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Arithmetic",

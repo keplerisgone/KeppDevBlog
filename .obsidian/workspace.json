@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4a8752eca8af05d9",
+        "id": "d9ca8bf87d2337fa",
         "type": "tabs",
         "children": [
           {
-            "id": "e5a08da1677721bb",
+            "id": "54cd77263eeffb6e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00-Personal/나는 커서 뭘 할까.canvas",
-                "viewState": {
-                  "x": -322.6969887076537,
-                  "y": 74.06649937264743,
-                  "zoom": -0.8209957046468255
-                }
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Personal/나는 커서 뭘 할까.canvas",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Personal/나는 커서 뭘 할까.canvas",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Personal/나는 커서 뭘 할까.canvas"
+                "file": "Home.md"
               }
             }
           },
@@ -171,7 +168,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e5a08da1677721bb",
+  "active": "54cd77263eeffb6e",
   "lastOpenFiles": [
     "02-MOC/Tech & Dev/Tech & Dev.md",
     "02-MOC/Productivity Project/Terminal/Terminal.md",
