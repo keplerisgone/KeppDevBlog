@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fdc295543d086cef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -168,8 +181,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "54cd77263eeffb6e",
+  "active": "fdc295543d086cef",
   "lastOpenFiles": [
+    "Home.md",
+    "Untitled.md",
     "02-MOC/Tech & Dev/Tech & Dev.md",
     "02-MOC/Productivity Project/Terminal/Terminal.md",
     "02-MOC/Productivity Project/Productivity Project.md",
@@ -187,7 +202,6 @@
     "Template/template.md",
     "Template/MOC Template.md",
     "99-Archive/99-Daily/99-Daily.md",
-    "Home.md",
     "Yonsei/3학년 1학기/컴퓨터구조/컴퓨터구조.md",
     "02-MOC/Blog/세벌식/세벌식은 왜 짱인가.md",
     "02-MOC/Blog/세벌식/세벌식.md",
@@ -197,7 +211,6 @@
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/줄거리 정리.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표자료.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료",
     "02-MOC/Obsidian/Obsidian Plugin",
     "02-MOC/Obsidian/Obsidian Basic",

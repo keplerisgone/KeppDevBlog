@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Software Engineering",
       "path": "02-MOC/Tech & Dev/Software Engineering/Software Engineering.md"
-    },
-    {
-      "basename": "Network",
-      "path": "02-MOC/Tech & Dev/Network/Network.md"
     }
   ],
   "omittedPaths": [],
