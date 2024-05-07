@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d9ca8bf87d2337fa",
+        "id": "de464d0e9e3b2019",
         "type": "tabs",
         "children": [
           {
-            "id": "54cd77263eeffb6e",
+            "id": "425413825c5ee2a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fdc295543d086cef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Home.md"
               }
             }
           },
@@ -181,7 +168,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fdc295543d086cef",
+  "active": "425413825c5ee2a0",
   "lastOpenFiles": [
     "Home.md",
     "Untitled.md",
