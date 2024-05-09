@@ -5,6 +5,10 @@
       "path": "Home.md"
     },
     {
+      "basename": "02-MOC",
+      "path": "02-MOC/02-MOC.md"
+    },
+    {
       "basename": "Untitled",
       "path": "Untitled.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "C & CPP",
       "path": "02-MOC/C & CPP/C & CPP.md"
-    },
-    {
-      "basename": "02-MOC",
-      "path": "02-MOC/02-MOC.md"
     },
     {
       "basename": "template",
