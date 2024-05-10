@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "00-Personal/Goals.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "00-Personal/Goals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "00-Personal/Goals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "00-Personal/Goals.md"
               }
             }
           },
@@ -170,42 +170,42 @@
   },
   "active": "934bdec97850a35c",
   "lastOpenFiles": [
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/줄거리 정리.md",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표자료.md",
-    "Home.md",
-    "Untitled.md",
     "02-MOC/Tech & Dev/Tech & Dev.md",
-    "02-MOC/Productivity Project/Terminal/Terminal.md",
     "02-MOC/Productivity Project/Productivity Project.md",
-    "02-MOC/Blog/Blog.md",
-    "02-MOC/생산성 프로젝트.md",
-    "03-Writing/키보드 자판.md",
-    "03-Writing/세컨드 브레인 - 옵시디언.md",
-    "02-MOC/Computer Science/Computer Science.md",
+    "02-MOC/Operating System/Operating System.md",
+    "02-MOC/Obsidian/Obsidian.md",
     "02-MOC/Linux/Linux.md",
     "02-MOC/Git & GitHub/Git & GitHub.md",
     "02-MOC/Embedded system/Embedded system.md",
+    "02-MOC/Computer Science/Computer Science.md",
     "02-MOC/C & CPP/C & CPP.md",
-    "02-MOC/02-MOC.md",
-    "00-Personal",
-    "Template/template.md",
-    "Template/MOC Template.md",
-    "99-Archive/99-Daily/99-Daily.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/컴퓨터구조.md",
-    "02-MOC/Blog/세벌식/세벌식은 왜 짱인가.md",
+    "02-MOC/Blog/Blog.md",
     "02-MOC/Blog/세벌식/세벌식.md",
+    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
+    "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
+    "02-MOC/02-MOC.md",
+    "03-Writing/옵시디언 정리 일지.md",
+    "03-Writing/키보드 자판.md",
+    "Template/template.md",
+    "Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md",
+    "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
+    "Yonsei/3학년 1학기/3학년 1학기.md",
+    "Untitled.md",
+    "00-Personal/Life.md",
+    "00-Personal/Goals.md",
+    "00-Personal/00-Personal.md",
+    "00-Personal/Life/Life.md",
+    "00-Personal/Life",
+    "00-Personal/Goals/Goals.md",
+    "00-Personal/Goals",
+    "00-Personal",
     "02-MOC/Blog/세벌식",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/논문 정리, 참고용.md",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표 주제 정리.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료",
     "02-MOC/Obsidian/Obsidian Plugin",
     "02-MOC/Obsidian/Obsidian Basic",
     "02-MOC/Git & GitHub",
     "02-MOC/Tech & Dev/Dev",
     "02-MOC/C & CPP/CPP",
-    "02-MOC/C & CPP/C",
-    "02-MOC/C & CPP",
     "00-Personal/나는 커서 뭘 할까.canvas",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
     "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
