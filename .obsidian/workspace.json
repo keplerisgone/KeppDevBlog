@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 260.5,
+    "collapsed": true
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md"
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md"
               }
             }
           },
@@ -170,6 +171,7 @@
   },
   "active": "934bdec97850a35c",
   "lastOpenFiles": [
+    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
     "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
     "00-Personal/Goals.md",
     "02-MOC/Tech & Dev/Tech & Dev.md",
@@ -196,7 +198,6 @@
     "00-Personal/00-Personal.md",
     "00-Personal/Life/Life.md",
     "00-Personal/Life",
-    "00-Personal/Goals/Goals.md",
     "00-Personal/Goals",
     "00-Personal",
     "02-MOC/Blog/세벌식",
