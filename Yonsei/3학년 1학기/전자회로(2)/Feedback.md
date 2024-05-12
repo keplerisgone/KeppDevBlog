@@ -49,6 +49,10 @@ Feedback 회로는 신호를 **sensing**하는 부분과 이를 다시 입력 �
 sensing의 경우는 **Multimeter**를 생각하면 쉽다. voltage의 경우 *parallel*로, current의 경우 *series*로 측정하기 때문!
 return의 경우는 **source**를 생각하면 쉽다. voltage의 경우 *series*로 연결하고, current의 경우 *parallel*로 연결하기 때문!
 
+> [!note] 
+> voltage를 parallel로 연결한 경우 더 낮은 쪽에 맞춰질 때까지 발열 + 방전,
+> current를 series로 연결한 경우 회로 작동이 X
+
 ## Impedance of Feedback Circuit
 
 ![|325](https://i.imgur.com/U0GuEK9.png)
@@ -56,6 +60,22 @@ return의 경우는 **source**를 생각하면 쉽다. voltage의 경우 *series
 - **voltage**는 input impedance가 낮고, output impedance가 높아야 한다. output에서 신호를 더 sensing해야 하기 때문이다.
 - **current**는 input impedance가 크고, output impedance가 높아야 한다. 전류가 output 단으로 많이 흘러 들어가야 하기 때문이다.
 -> 물론 input/output 기준은 모두 loop 기준이다!
+
+- **V/V** : input은 작고, output은 커야 한다. -> normal CE stage
+- **V/I** : input과 output이 모두 커야 한다. -> common source amplifier
+- **I/V** : input과 output이 모두 작아야 한다. -> source follower + source follower
+- **I/I** : input은 크고, output은 작아야 한다. -> common gate
+## Feedback Network
+
+![](https://i.imgur.com/9mMFwQP.png)
+
+넵. I/I는 알아서 생각해
+
+## Polarity if Feedback
+
+Feedback 회로에서 return되는 신호의 polarity에 따라서 기능이 달라진다.
+- **Positive** : 회로의 신호가 점점 작아져요
+- **Negative** : 회로의 신호가 점점 커져요 (Oscillation)
 
 # Example
 
