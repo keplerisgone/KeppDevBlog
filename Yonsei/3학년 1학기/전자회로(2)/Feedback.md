@@ -55,7 +55,7 @@ return의 경우는 **source**를 생각하면 쉽다. voltage의 경우 *series
 
 ## Impedance of Feedback Circuit
 
-![|325](https://i.imgur.com/U0GuEK9.png)
+![|350](https://i.imgur.com/U0GuEK9.png)
 
 - **voltage**는 input impedance가 낮고, output impedance가 높아야 한다. output에서 신호를 더 sensing해야 하기 때문이다.
 - **current**는 input impedance가 크고, output impedance가 높아야 한다. 전류가 output 단으로 많이 흘러 들어가야 하기 때문이다.
@@ -73,21 +73,48 @@ f는 feedback 회로에서의 impedance, o는 open-loop impedance. open-loop imp
 
 ## Feedback Network
 
-![](https://i.imgur.com/9mMFwQP.png)
+![|450](https://i.imgur.com/9mMFwQP.png)
 
 넵. I/I는 알아서 생각해
 
 ## Polarity if Feedback
 
-![](https://i.imgur.com/KzdpIZo.png)
-
-(그림이 잘못된 것 같다)
+![|625](https://i.imgur.com/KzdpIZo.png)
+(그림이 이상한 것 같다)
 
 Feedback 회로에서 return되는 신호의 polarity에 따라서 기능이 달라진다.
-- **Positive** : return된 신호가 입력 신호를 강화
-- **Negative** : return된 신호가 입력 신호를 방해
+- **Positive** : return된 신호가 입력 신호를 강화 -> 계속 커져요..?
+- **Negative** : return된 신호가 입력 신호를 방해 
+
+> [!note]
+> - 둘의 차이를 출력!!!
+> - 
 
 ## Effect of Nonideal I/O Impedance
+
+회로를 분석하기 위해서는 Loop gain $k$와 open gain A를 알아야 한다.
+1. impedance를 고려하여 회로를 자른다.
+	1. Large의 경우 open, small의 경우 GND에 연결
+2. sense/return에 따라 비율을 계산
+3. Gain $\frac{A}{1+Ak}$를 계산
+
+## Stability in Feedback
+
+Bode plot을 이용해 Phase 정보도 살펴볼 수 있다.
+
+![|625](https://i.imgur.com/g7DdR8D.png)
+
+왜 phase 정보로 stability를 알아낼 수 있는걸까??
+-> negative feedback이 phase shift로 인해 positive feedback이 되어 oscillation이 일어날 수 있기 때문!
+그래서 phase가 180도 이상이 되는 주파수를 알아내 조심해야 함.
+
+- 정확히 **zero/pole**에서는 $\pm 45 \degree$를 가진다.
+- **one-tenth zero/pole**에서는 phase의 변화가 시작
+- **ten times zero/pole**에서는 $\pm 90\degree$를 가진다.
+
+![|600](https://i.imgur.com/NTan7QM.png)
+
+요런 느낌
 # Example
 
 ## 12.1
@@ -97,3 +124,19 @@ Feedback 회로에서 return되는 신호의 polarity에 따라서 기능이 달
 ## 12.7
 
 ![](https://i.imgur.com/1IipWo0.png)
+
+## 12.26
+
+## 12.27
+
+## 12.28
+
+## 12.29
+
+## 12.30
+
+## 12.31
+
+## 12.32
+
+## 12.33
