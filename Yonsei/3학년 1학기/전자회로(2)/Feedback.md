@@ -37,7 +37,7 @@ Feedback 회로는 신호를 **sensing**하는 부분과 이를 다시 입력 �
 이 때 voltage/current 중 무엇을 sensing/return하느냐에 따라 회로의 구성이나 특징이 달라진다. 
 - **V/V** : voltage amplifier
 - **I/V** : transconductance amplifier
-- **V/I** : resistance amplifier
+- **V/I** : resistance amplifier (transimpedance)
 - **I/I** : current amplifier
 
 ### 원리?
@@ -61,8 +61,8 @@ return의 경우는 **source**를 생각하면 쉽다. voltage의 경우 *series
 - **current**는 input impedance가 크고, output impedance가 높아야 한다. 전류가 output 단으로 많이 흘러 들어가야 하기 때문이다.
 -> 물론 input/output 기준은 모두 loop 기준이다!
 
-- **V/V** : input은 작고, output은 커야 한다. -> normal CE stage
-- **V/I** : input과 output이 모두 커야 한다. -> common source amplifier
+- **V/V** : input은 작고, output은 커야 한다. -> CE + source follower
+- **V/I** : input과 output이 모두 커야 한다. -> CE stage
 - **I/V** : input과 output이 모두 작아야 한다. -> source follower + source follower
 - **I/I** : input은 크고, output은 작아야 한다. -> common gate
 
@@ -97,6 +97,9 @@ Feedback 회로에서 return되는 신호의 polarity에 따라서 기능이 달
 	1. Large의 경우 open, small의 경우 GND에 연결
 2. sense/return에 따라 비율을 계산
 3. Gain $\frac{A}{1+Ak}$를 계산
+
+> [!note]
+> current return의 경우는 회로로 들어가는 방향으로 계산
 
 ## Stability in Feedback
 
