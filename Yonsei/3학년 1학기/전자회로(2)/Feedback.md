@@ -87,7 +87,7 @@ Feedback 회로에서 return되는 신호의 polarity에 따라서 기능이 달
 - **Positive** : return된 신호가 입력 신호를 강화
 - **Negative** : return된 신호가 입력 신호를 방해
 
-## 
+## Effect of Nonideal I/O Impedance
 # Example
 
 ## 12.1
