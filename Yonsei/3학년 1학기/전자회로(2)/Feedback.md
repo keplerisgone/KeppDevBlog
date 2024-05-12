@@ -65,6 +65,12 @@ return의 경우는 **source**를 생각하면 쉽다. voltage의 경우 *series
 - **V/I** : input과 output이 모두 커야 한다. -> common source amplifier
 - **I/V** : input과 output이 모두 작아야 한다. -> source follower + source follower
 - **I/I** : input은 크고, output은 작아야 한다. -> common gate
+
+이 때 
+- **impedance가 커짐** : $Z_{f} = Z_{o}(1+Ak)$
+- **impedance가 작아짐** : $Z_{f} = \frac{Z_{o}}{1+Ak}$
+f는 feedback 회로에서의 impedance, o는 open-loop impedance. open-loop impedance와 gain은 모두 feedback loop가 없었을 때를 기준으로 한다.
+
 ## Feedback Network
 
 ![](https://i.imgur.com/9mMFwQP.png)
@@ -73,10 +79,15 @@ return의 경우는 **source**를 생각하면 쉽다. voltage의 경우 *series
 
 ## Polarity if Feedback
 
-Feedback 회로에서 return되는 신호의 polarity에 따라서 기능이 달라진다.
-- **Positive** : 회로의 신호가 점점 작아져요
-- **Negative** : 회로의 신호가 점점 커져요 (Oscillation)
+![](https://i.imgur.com/KzdpIZo.png)
 
+(그림이 잘못된 것 같다)
+
+Feedback 회로에서 return되는 신호의 polarity에 따라서 기능이 달라진다.
+- **Positive** : return된 신호가 입력 신호를 강화
+- **Negative** : return된 신호가 입력 신호를 방해
+
+## 
 # Example
 
 ## 12.1
