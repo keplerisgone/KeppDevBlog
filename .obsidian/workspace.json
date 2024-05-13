@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
+                "file": "03-MOC/Obsidian/Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
+                "file": "03-MOC/Obsidian/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
+                "file": "03-MOC/Obsidian/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md"
+                "file": "03-MOC/Obsidian/Obsidian.md"
               }
             }
           },
@@ -171,13 +171,20 @@
   },
   "active": "d01b9bf92aea5106",
   "lastOpenFiles": [
-    "Omnivore/[게임리뷰] 게임성이란- (게임 평가 기준에 대한 고찰).md",
+    "03-MOC/Obsidian/Obsidian Basic/Obsidian Basic.md",
+    "03-MOC/Obsidian/Obsidian.md",
+    "03-MOC/Obsidian/Obsidian Basic/옵시디언에서 문서 스크랩하는 법.md",
+    "03-MOC/03-MOC.md",
+    "Home.md",
+    "Omnivore/Writing ARM Assembly (Part 1) - Azeria Labs.md",
     "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
+    "Omnivore",
+    "Omnivore/Spoqa 기술 블로그 - 파이썬 코딩 컨벤션.md",
+    "Omnivore/[게임리뷰] 게임성이란- (게임 평가 기준에 대한 고찰).md",
     "Media/Untitled 3 6.png",
     "Omnivore/큰손들은 사이버 보안 기업 5곳에 주목했다 - 포커스 - 인사이트 - 기사본문 - 테크월드ᄂ.md",
     "Omnivore/⛩🌸 어퍼캐럿 🥕 on X- -팰월드 아쉬운 점은 애들이 진화를 안 해 잔뜩 정든 나의 불꽃ᄉ.md",
     "Omnivore/Master C Programming with Data Structures.md",
-    "Omnivore/Writing ARM Assembly (Part 1) - Azeria Labs.md",
     "Omnivore/큰손들은 사이버 보안 기업 5곳에 주목했다 - 포커스 - 인사이트 - 기사본문 - 테크월드뉴스 - 이혜진 기자.md",
     "Omnivore/Chess Course for Beginners - Arc Search.md",
     "Omnivore/PHP 문자열 비교.md",
@@ -192,12 +199,6 @@
     "Omnivore/[RaspberryPi] 모니터없이 라즈베리OS 설치 및 SSH, VNC 설정하기.md",
     "Omnivore/라즈베리파이 - IP 확인하기 — 학습 기록.md",
     "Omnivore/[Obsidian] Vim Insert 한국어 호환 세팅하기. (Mac OS).md",
-    "Omnivore/주접, 말풍선, 노래관련 이모티콘 - 텍스트대치 공유 - 네이버 블로그.md",
-    "Omnivore/고도 뿌시기 강좌 목차 - 인디 게임 개발 마이너 갤러리.md",
-    "Omnivore/모니터 없이 Raspberry Pi 4 OS 설치 - Frank's Blog.md",
-    "Omnivore/맥에서 라즈베리파이 환경 잡기.md",
-    "Omnivore/아기 게임개발자 개붕이 포트폴리오 정리 질문 - DogDrip.Net 개드립.md",
-    "Omnivore/윈도우 홈 에디션에서 원격 데스크톱 사용하는 방법.md",
     "Omnivore/2024-03-14",
     "Omnivore/2024-03-12",
     "Omnivore/2024-03-11",
@@ -207,7 +208,6 @@
     "Omnivore/2024-03-02",
     "Omnivore/2024-03-01",
     "Omnivore/2024-02-24",
-    "Omnivore/2024-02-23",
     "Media/Screenshot_2023-09-29_at_8.20.19_PM.png",
     "Media/Screenshot_2023-08-24_at_3.34.48_PM.png",
     "Media/Untitled 13.png",

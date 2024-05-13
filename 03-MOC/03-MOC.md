@@ -1,4 +1,4 @@
-# 02-MOC Overview
+# 03-MOC Overview
 
 %% Begin Waypoint %%
 - **[[Blog]]**
@@ -77,9 +77,6 @@
 
 %% End Waypoint %%
 
-
-
 ```ccard
 type: folder_brief_live
 ```
-

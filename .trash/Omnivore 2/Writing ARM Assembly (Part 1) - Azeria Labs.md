@@ -3,12 +3,10 @@ id: 7c9e50c8-e00d-4be2-98b7-4139b24c88e4
 ---
 
 # Writing ARM Assembly (Part 1) | Azeria Labs
-#Omnivore
 
 [Read on Omnivore](https://omnivore.app/me/https-azeria-labs-com-writing-arm-assembly-part-1-18e31dd8dbb)
 [Read Original](https://azeria-labs.com/writing-arm-assembly-part-1/)
 
-## Highlights
 
 > <mark class="omni omni-yellow">you will need an ARM based lab environment.</mark> [⤴️](https://omnivore.app/me/https-azeria-labs-com-writing-arm-assembly-part-1-18e31dd8dbb#92c560d7-fa66-4652-b02a-20a9759c38c8)  ^92c560d7
 
