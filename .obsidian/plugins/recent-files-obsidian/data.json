@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그",
+      "path": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md"
+    },
+    {
+      "basename": "[게임리뷰] 게임성이란- (게임 평가 기준에 대한 고찰)",
+      "path": "Omnivore/[게임리뷰] 게임성이란- (게임 평가 기준에 대한 고찰).md"
+    },
+    {
       "basename": "Untitled 3 6",
       "path": "Media/Untitled 3 6.png"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "CPP",
       "path": "03-MOC/C & CPP/CPP/CPP.md"
-    },
-    {
-      "basename": "라즈베리파이 개발환경 설정하기",
-      "path": "03-MOC/Embedded system/Raspberry Pi/라즈베리파이 개발환경 설정하기.md"
-    },
-    {
-      "basename": "노닥노닥 라즈베리",
-      "path": "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md"
     }
   ],
   "omittedPaths": [],

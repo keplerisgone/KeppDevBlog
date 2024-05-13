@@ -11,9 +11,11 @@
             "id": "d01b9bf92aea5106",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Media/Untitled 3 6.png"
+                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Untitled 3 6.png",
+                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Untitled 3 6.png",
+                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Untitled 3 6.png"
+                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md"
               }
             }
           },
@@ -163,57 +165,58 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-omnivore:Omnivore": false
     }
   },
   "active": "d01b9bf92aea5106",
   "lastOpenFiles": [
-    "Media/03_CPP_Flow 2.pdf",
-    "Media/01_Linux_basic 2.pdf",
-    "Media/24-03-20 전회.pdf",
+    "Omnivore/[게임리뷰] 게임성이란- (게임 평가 기준에 대한 고찰).md",
+    "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
+    "Media/Untitled 3 6.png",
+    "Omnivore/큰손들은 사이버 보안 기업 5곳에 주목했다 - 포커스 - 인사이트 - 기사본문 - 테크월드ᄂ.md",
+    "Omnivore/⛩🌸 어퍼캐럿 🥕 on X- -팰월드 아쉬운 점은 애들이 진화를 안 해 잔뜩 정든 나의 불꽃ᄉ.md",
+    "Omnivore/Master C Programming with Data Structures.md",
+    "Omnivore/Writing ARM Assembly (Part 1) - Azeria Labs.md",
+    "Omnivore/큰손들은 사이버 보안 기업 5곳에 주목했다 - 포커스 - 인사이트 - 기사본문 - 테크월드뉴스 - 이혜진 기자.md",
+    "Omnivore/Chess Course for Beginners - Arc Search.md",
+    "Omnivore/PHP 문자열 비교.md",
+    "Omnivore/정보보안 신입으로 취업 준비하기 - 너나 잘하세요.md",
+    "Omnivore/LoL Esports.md",
+    "Omnivore/ICT 기반 차세대 선박의 사이버 위협 증가... ‘사이버 복원력’ 중요성 부각.md",
+    "Omnivore/M1 Apple UTM 이용해서 Window 11 설치하기.md",
+    "Omnivore/정보보안 공부 로드맵.md",
+    "Omnivore/🛣 [개정판] 어떻게 컴퓨터 보안을 공부할 것인가- (웹 보안, 리버싱을 공부하는 법).md",
+    "Omnivore/Imgur Authentication Fails to Redirect to Obsidian · gavvvr-obsidian-imgur-plugin · Discussion #48.md",
+    "Omnivore/'쉽고 재미있게 맛보는' 초보자용 라즈베리 파이 프로젝트 17선 - ITWorld Korea.md",
+    "Omnivore/[RaspberryPi] 모니터없이 라즈베리OS 설치 및 SSH, VNC 설정하기.md",
+    "Omnivore/라즈베리파이 - IP 확인하기 — 학습 기록.md",
+    "Omnivore/[Obsidian] Vim Insert 한국어 호환 세팅하기. (Mac OS).md",
+    "Omnivore/주접, 말풍선, 노래관련 이모티콘 - 텍스트대치 공유 - 네이버 블로그.md",
+    "Omnivore/고도 뿌시기 강좌 목차 - 인디 게임 개발 마이너 갤러리.md",
+    "Omnivore/모니터 없이 Raspberry Pi 4 OS 설치 - Frank's Blog.md",
+    "Omnivore/맥에서 라즈베리파이 환경 잡기.md",
+    "Omnivore/아기 게임개발자 개붕이 포트폴리오 정리 질문 - DogDrip.Net 개드립.md",
+    "Omnivore/윈도우 홈 에디션에서 원격 데스크톱 사용하는 방법.md",
+    "Omnivore/2024-03-14",
+    "Omnivore/2024-03-12",
+    "Omnivore/2024-03-11",
+    "Omnivore/2024-03-06",
+    "Omnivore/2024-03-04",
+    "Omnivore/2024-03-03",
+    "Omnivore/2024-03-02",
+    "Omnivore/2024-03-01",
+    "Omnivore/2024-02-24",
+    "Omnivore/2024-02-23",
     "Media/Screenshot_2023-09-29_at_8.20.19_PM.png",
     "Media/Screenshot_2023-08-24_at_3.34.48_PM.png",
     "Media/Untitled 13.png",
-    "Template/template.md",
-    "03-MOC/Computer Science/Computer Science.md",
-    "04-Writing/세컨드 브레인 - 옵시디언.md",
-    "00-Personal/00-Personal.md",
-    "03-MOC/02-MOC.md",
-    "02-Area",
-    "03-MOC/Linux/Linux.md",
-    "Home.md",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
-    "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
-    "00-Personal/Goals.md",
-    "03-MOC/Tech & Dev/Tech & Dev.md",
-    "03-MOC/Productivity Project/Productivity Project.md",
-    "03-MOC/Operating System/Operating System.md",
-    "03-MOC/Obsidian/Obsidian.md",
-    "03-MOC/Git & GitHub/Git & GitHub.md",
-    "03-MOC/Embedded system/Embedded system.md",
-    "03-MOC/C & CPP/C & CPP.md",
-    "03-MOC/Blog/Blog.md",
-    "03-MOC/Blog/세벌식/세벌식.md",
-    "03-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
-    "03-MOC/Blog/유튜브가 렉이 걸릴 때.md",
-    "04-Writing/옵시디언 정리 일지.md",
-    "04-Writing/키보드 자판.md",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md",
-    "Yonsei/3학년 1학기/3학년 1학기.md",
-    "00-Personal/Life",
-    "00-Personal/Goals",
-    "00-Personal",
-    "03-MOC/Blog/세벌식",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료",
-    "03-MOC/Obsidian/Obsidian Plugin",
-    "03-MOC/Obsidian/Obsidian Basic",
     "00-Personal/나는 커서 뭘 할까.canvas",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
     "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
     "Media/Screenshot_2023-12-09_at_2.21.28_PM.png",
     "Media/Screenshot_2023-12-09_at_1.48.44_PM.png",
     "Media/Screenshot_2023-10-21_at_12.11.10_AM.png",
-    "Media/Screenshot_2023-10-04_at_10.27.57_PM.png",
-    "Media/Screenshot_2023-12-09_at_2.37.55_PM.png"
+    "Media/Screenshot_2023-10-04_at_10.27.57_PM.png"
   ]
 }
