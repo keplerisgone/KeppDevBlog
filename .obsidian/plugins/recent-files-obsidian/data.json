@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Feedback",
       "path": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "전자회로(1) review",
       "path": "Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "줄거리 정리",

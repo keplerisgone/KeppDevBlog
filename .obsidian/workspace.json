@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c0a156edb4f2ade0",
+        "id": "3f2544a799bddf41",
         "type": "tabs",
         "children": [
           {
-            "id": "934bdec97850a35c",
+            "id": "d01b9bf92aea5106",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md"
+                "file": "Home.md"
               }
             }
           },
@@ -169,7 +168,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "934bdec97850a35c",
+  "active": "d01b9bf92aea5106",
   "lastOpenFiles": [
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
     "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
