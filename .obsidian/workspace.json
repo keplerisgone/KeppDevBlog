@@ -11,11 +11,9 @@
             "id": "d01b9bf92aea5106",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Untitled 3 6.png"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Media/Untitled 3 6.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Media/Untitled 3 6.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Media/Untitled 3 6.png"
               }
             }
           },
@@ -170,42 +168,45 @@
   },
   "active": "d01b9bf92aea5106",
   "lastOpenFiles": [
+    "Media/03_CPP_Flow 2.pdf",
+    "Media/01_Linux_basic 2.pdf",
+    "Media/24-03-20 전회.pdf",
+    "Media/Screenshot_2023-09-29_at_8.20.19_PM.png",
+    "Media/Screenshot_2023-08-24_at_3.34.48_PM.png",
+    "Media/Untitled 13.png",
+    "Template/template.md",
+    "03-MOC/Computer Science/Computer Science.md",
+    "04-Writing/세컨드 브레인 - 옵시디언.md",
+    "00-Personal/00-Personal.md",
+    "03-MOC/02-MOC.md",
+    "02-Area",
+    "03-MOC/Linux/Linux.md",
+    "Home.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
     "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
     "00-Personal/Goals.md",
-    "02-MOC/Tech & Dev/Tech & Dev.md",
-    "02-MOC/Productivity Project/Productivity Project.md",
-    "02-MOC/Operating System/Operating System.md",
-    "02-MOC/Obsidian/Obsidian.md",
-    "02-MOC/Linux/Linux.md",
-    "02-MOC/Git & GitHub/Git & GitHub.md",
-    "02-MOC/Embedded system/Embedded system.md",
-    "02-MOC/Computer Science/Computer Science.md",
-    "02-MOC/C & CPP/C & CPP.md",
-    "02-MOC/Blog/Blog.md",
-    "02-MOC/Blog/세벌식/세벌식.md",
-    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
-    "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
-    "02-MOC/02-MOC.md",
-    "03-Writing/옵시디언 정리 일지.md",
-    "03-Writing/키보드 자판.md",
-    "Template/template.md",
+    "03-MOC/Tech & Dev/Tech & Dev.md",
+    "03-MOC/Productivity Project/Productivity Project.md",
+    "03-MOC/Operating System/Operating System.md",
+    "03-MOC/Obsidian/Obsidian.md",
+    "03-MOC/Git & GitHub/Git & GitHub.md",
+    "03-MOC/Embedded system/Embedded system.md",
+    "03-MOC/C & CPP/C & CPP.md",
+    "03-MOC/Blog/Blog.md",
+    "03-MOC/Blog/세벌식/세벌식.md",
+    "03-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
+    "03-MOC/Blog/유튜브가 렉이 걸릴 때.md",
+    "04-Writing/옵시디언 정리 일지.md",
+    "04-Writing/키보드 자판.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md",
     "Yonsei/3학년 1학기/3학년 1학기.md",
-    "Untitled.md",
-    "00-Personal/Life.md",
-    "00-Personal/00-Personal.md",
-    "00-Personal/Life/Life.md",
     "00-Personal/Life",
     "00-Personal/Goals",
     "00-Personal",
-    "02-MOC/Blog/세벌식",
+    "03-MOC/Blog/세벌식",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료",
-    "02-MOC/Obsidian/Obsidian Plugin",
-    "02-MOC/Obsidian/Obsidian Basic",
-    "02-MOC/Git & GitHub",
-    "02-MOC/Tech & Dev/Dev",
-    "02-MOC/C & CPP/CPP",
+    "03-MOC/Obsidian/Obsidian Plugin",
+    "03-MOC/Obsidian/Obsidian Basic",
     "00-Personal/나는 커서 뭘 할까.canvas",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
     "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
@@ -213,9 +214,6 @@
     "Media/Screenshot_2023-12-09_at_1.48.44_PM.png",
     "Media/Screenshot_2023-10-21_at_12.11.10_AM.png",
     "Media/Screenshot_2023-10-04_at_10.27.57_PM.png",
-    "Media/Screenshot_2023-12-09_at_2.37.55_PM.png",
-    "Media/Screenshot_2023-11-20_at_10.49.01_PM.png",
-    "Media/Screenshot_2023-11-20_at_10.46.54_PM.png",
-    "Media/Screenshot_2023-09-06_at_7.49.00_PM.png"
+    "Media/Screenshot_2023-12-09_at_2.37.55_PM.png"
   ]
 }

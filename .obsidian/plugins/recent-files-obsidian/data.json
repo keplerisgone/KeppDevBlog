@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled 3 6",
+      "path": "Media/Untitled 3 6.png"
+    },
+    {
+      "basename": "03_CPP_Flow 2",
+      "path": "Media/03_CPP_Flow 2.pdf"
+    },
+    {
+      "basename": "01_Linux_basic 2",
+      "path": "Media/01_Linux_basic 2.pdf"
+    },
+    {
+      "basename": "24-03-20 전회",
+      "path": "Media/24-03-20 전회.pdf"
+    },
+    {
+      "basename": "Screenshot_2023-09-29_at_8.20.19_PM",
+      "path": "Media/Screenshot_2023-09-29_at_8.20.19_PM.png"
+    },
+    {
+      "basename": "Screenshot_2023-08-24_at_3.34.48_PM",
+      "path": "Media/Screenshot_2023-08-24_at_3.34.48_PM.png"
+    },
+    {
+      "basename": "Untitled 13",
+      "path": "Media/Untitled 13.png"
+    },
+    {
+      "basename": "template",
+      "path": "Template/template.md"
+    },
+    {
+      "basename": "Computer Science",
+      "path": "03-MOC/Computer Science/Computer Science.md"
+    },
+    {
+      "basename": "세컨드 브레인 - 옵시디언",
+      "path": "04-Writing/세컨드 브레인 - 옵시디언.md"
+    },
+    {
+      "basename": "00-Personal",
+      "path": "00-Personal/00-Personal.md"
+    },
+    {
+      "basename": "02-MOC",
+      "path": "03-MOC/02-MOC.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "03-MOC/Linux/Linux.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -18,71 +70,55 @@
     },
     {
       "basename": "Tech & Dev",
-      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
+      "path": "03-MOC/Tech & Dev/Tech & Dev.md"
     },
     {
       "basename": "Productivity Project",
-      "path": "02-MOC/Productivity Project/Productivity Project.md"
+      "path": "03-MOC/Productivity Project/Productivity Project.md"
     },
     {
       "basename": "Operating System",
-      "path": "02-MOC/Operating System/Operating System.md"
+      "path": "03-MOC/Operating System/Operating System.md"
     },
     {
       "basename": "Obsidian",
-      "path": "02-MOC/Obsidian/Obsidian.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "02-MOC/Linux/Linux.md"
+      "path": "03-MOC/Obsidian/Obsidian.md"
     },
     {
       "basename": "Git & GitHub",
-      "path": "02-MOC/Git & GitHub/Git & GitHub.md"
+      "path": "03-MOC/Git & GitHub/Git & GitHub.md"
     },
     {
       "basename": "Embedded system",
-      "path": "02-MOC/Embedded system/Embedded system.md"
-    },
-    {
-      "basename": "Computer Science",
-      "path": "02-MOC/Computer Science/Computer Science.md"
+      "path": "03-MOC/Embedded system/Embedded system.md"
     },
     {
       "basename": "C & CPP",
-      "path": "02-MOC/C & CPP/C & CPP.md"
+      "path": "03-MOC/C & CPP/C & CPP.md"
     },
     {
       "basename": "Blog",
-      "path": "02-MOC/Blog/Blog.md"
+      "path": "03-MOC/Blog/Blog.md"
     },
     {
       "basename": "세벌식",
-      "path": "02-MOC/Blog/세벌식/세벌식.md"
+      "path": "03-MOC/Blog/세벌식/세벌식.md"
     },
     {
       "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
-      "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
+      "path": "03-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
     },
     {
       "basename": "유튜브가 렉이 걸릴 때",
-      "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
-    },
-    {
-      "basename": "02-MOC",
-      "path": "02-MOC/02-MOC.md"
+      "path": "03-MOC/Blog/유튜브가 렉이 걸릴 때.md"
     },
     {
       "basename": "옵시디언 정리 일지",
-      "path": "03-Writing/옵시디언 정리 일지.md"
+      "path": "04-Writing/옵시디언 정리 일지.md"
     },
     {
       "basename": "키보드 자판",
-      "path": "03-Writing/키보드 자판.md"
-    },
-    {
-      "basename": "template",
-      "path": "Template/template.md"
+      "path": "04-Writing/키보드 자판.md"
     },
     {
       "basename": "금융공학의이해(1)",
@@ -91,10 +127,6 @@
     {
       "basename": "Life",
       "path": "00-Personal/Life.md"
-    },
-    {
-      "basename": "00-Personal",
-      "path": "00-Personal/00-Personal.md"
     },
     {
       "basename": "Frequency Response",
@@ -122,11 +154,7 @@
     },
     {
       "basename": "Terminal",
-      "path": "02-MOC/Productivity Project/Terminal/Terminal.md"
-    },
-    {
-      "basename": "세컨드 브레인 - 옵시디언",
-      "path": "03-Writing/세컨드 브레인 - 옵시디언.md"
+      "path": "03-MOC/Productivity Project/Terminal/Terminal.md"
     },
     {
       "basename": "99-Daily",
@@ -138,7 +166,7 @@
     },
     {
       "basename": "세벌식은 왜 짱인가",
-      "path": "02-MOC/Blog/세벌식/세벌식은 왜 짱인가.md"
+      "path": "03-MOC/Blog/세벌식/세벌식은 왜 짱인가.md"
     },
     {
       "basename": "논문 정리, 참고용",
@@ -162,43 +190,15 @@
     },
     {
       "basename": "CPP",
-      "path": "02-MOC/C & CPP/CPP/CPP.md"
+      "path": "03-MOC/C & CPP/CPP/CPP.md"
     },
     {
       "basename": "라즈베리파이 개발환경 설정하기",
-      "path": "02-MOC/Embedded system/Raspberry Pi/라즈베리파이 개발환경 설정하기.md"
+      "path": "03-MOC/Embedded system/Raspberry Pi/라즈베리파이 개발환경 설정하기.md"
     },
     {
       "basename": "노닥노닥 라즈베리",
       "path": "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md"
-    },
-    {
-      "basename": "운영체제(OS)란?",
-      "path": "02-MOC/Operating System/운영체제(OS)란?.md"
-    },
-    {
-      "basename": "Obsidian Basic",
-      "path": "02-MOC/Obsidian/Obsidian Basic/Obsidian Basic.md"
-    },
-    {
-      "basename": "Obsidian Plugin",
-      "path": "02-MOC/Obsidian/Obsidian Plugin/Obsidian Plugin.md"
-    },
-    {
-      "basename": "옵시디언에 이미지 똑똑하게 붙여넣기 - imgur",
-      "path": "02-MOC/Obsidian/Obsidian Plugin/옵시디언에 이미지 똑똑하게 붙여넣기 - imgur.md"
-    },
-    {
-      "basename": "옵시디언 사용하기",
-      "path": "02-MOC/Obsidian/Obsidian Basic/옵시디언 사용하기.md"
-    },
-    {
-      "basename": "Branch merge 시에 충돌 해결법",
-      "path": "02-MOC/Git & GitHub/Branch merge 시에 충돌 해결법.md"
-    },
-    {
-      "basename": "기본적인 Git-GitHub 사용",
-      "path": "02-MOC/Git & GitHub/기본적인 Git-GitHub 사용.md"
     }
   ],
   "omittedPaths": [],
