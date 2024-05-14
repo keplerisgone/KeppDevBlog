@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3f2544a799bddf41",
+        "id": "d2e1e9855fae3e9d",
         "type": "tabs",
         "children": [
           {
-            "id": "d01b9bf92aea5106",
+            "id": "c5b2f784f08144c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-MOC/Obsidian/Obsidian.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-MOC/Obsidian/Obsidian.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-MOC/Obsidian/Obsidian.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-MOC/Obsidian/Obsidian.md"
+                "file": "Home.md"
               }
             }
           },
@@ -169,8 +169,9 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "d01b9bf92aea5106",
+  "active": "c5b2f784f08144c4",
   "lastOpenFiles": [
+    "01-Project/PCB 제작",
     "03-MOC/Obsidian/Obsidian Basic/Obsidian Basic.md",
     "03-MOC/Obsidian/Obsidian.md",
     "03-MOC/Obsidian/Obsidian Basic/옵시디언에서 문서 스크랩하는 법.md",
@@ -198,7 +199,6 @@
     "Omnivore/'쉽고 재미있게 맛보는' 초보자용 라즈베리 파이 프로젝트 17선 - ITWorld Korea.md",
     "Omnivore/[RaspberryPi] 모니터없이 라즈베리OS 설치 및 SSH, VNC 설정하기.md",
     "Omnivore/라즈베리파이 - IP 확인하기 — 학습 기록.md",
-    "Omnivore/[Obsidian] Vim Insert 한국어 호환 세팅하기. (Mac OS).md",
     "Omnivore/2024-03-14",
     "Omnivore/2024-03-12",
     "Omnivore/2024-03-11",

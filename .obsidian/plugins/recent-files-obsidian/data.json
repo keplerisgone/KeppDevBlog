@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Obsidian",
       "path": "03-MOC/Obsidian/Obsidian.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "03-MOC",
       "path": "03-MOC/03-MOC.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Untitled 3 6",
