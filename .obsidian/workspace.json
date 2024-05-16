@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md"
               }
             }
           },
@@ -155,6 +155,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -164,41 +165,41 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
       "obsidian-omnivore:Omnivore": false
     }
   },
   "active": "6ae15410ada4650b",
   "lastOpenFiles": [
-    "01-Project/PCB 제작",
-    "03-MOC/Obsidian/Obsidian Basic/Obsidian Basic.md",
-    "03-MOC/Obsidian/Obsidian.md",
-    "03-MOC/Obsidian/Obsidian Basic/옵시디언에서 문서 스크랩하는 법.md",
-    "03-MOC/03-MOC.md",
-    "Home.md",
-    "Omnivore/Writing ARM Assembly (Part 1) - Azeria Labs.md",
+    "99-Archive/PHP 문자열 비교.md",
+    "02-MOC/02-MOC.md",
     "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
+    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
+    "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
+    "03-Writing/세벌식은 왜 짱인가.md",
+    "02-MOC/Blog/세벌식/세벌식.md",
+    "02-MOC/Blog/Blog.md",
+    "Template/template.md",
+    "00-Personal/00-Personal.md",
+    "00-Personal/Goals.md",
+    "02-MOC/Tech & Dev/Tech & Dev.md",
+    "02-MOC/Computer Science/Computer Science.md",
+    "02-MOC/Productivity Project/Productivity Project.md",
+    "02-MOC/Embedded system/Embedded system.md",
+    "02-MOC/Git & GitHub/Git & GitHub.md",
+    "02-MOC/Linux/Linux.md",
+    "02-MOC/Obsidian/Obsidian.md",
+    "02-MOC/Operating System/Operating System.md",
+    "02-MOC/C & CPP/C & CPP.md",
+    "01-Project/LED 회로/Control an 8x8 matrix of LEDs. - Arduino Documentation.md",
+    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
+    "Home.md",
     "Omnivore",
-    "Omnivore/Spoqa 기술 블로그 - 파이썬 코딩 컨벤션.md",
-    "Omnivore/[게임리뷰] 게임성이란- (게임 평가 기준에 대한 고찰).md",
+    "01-Project/LED 회로",
+    "02-MOC/Obsidian/Obsidian Basic/Obsidian Basic.md",
+    "02-MOC/Obsidian/Obsidian Basic/옵시디언에서 문서 스크랩하는 법.md",
+    "Omnivore/Writing ARM Assembly (Part 1) - Azeria Labs.md",
     "Media/Untitled 3 6.png",
-    "Omnivore/큰손들은 사이버 보안 기업 5곳에 주목했다 - 포커스 - 인사이트 - 기사본문 - 테크월드ᄂ.md",
-    "Omnivore/⛩🌸 어퍼캐럿 🥕 on X- -팰월드 아쉬운 점은 애들이 진화를 안 해 잔뜩 정든 나의 불꽃ᄉ.md",
-    "Omnivore/Master C Programming with Data Structures.md",
-    "Omnivore/큰손들은 사이버 보안 기업 5곳에 주목했다 - 포커스 - 인사이트 - 기사본문 - 테크월드뉴스 - 이혜진 기자.md",
-    "Omnivore/Chess Course for Beginners - Arc Search.md",
-    "Omnivore/PHP 문자열 비교.md",
-    "Omnivore/정보보안 신입으로 취업 준비하기 - 너나 잘하세요.md",
-    "Omnivore/LoL Esports.md",
-    "Omnivore/ICT 기반 차세대 선박의 사이버 위협 증가... ‘사이버 복원력’ 중요성 부각.md",
-    "Omnivore/M1 Apple UTM 이용해서 Window 11 설치하기.md",
-    "Omnivore/정보보안 공부 로드맵.md",
-    "Omnivore/🛣 [개정판] 어떻게 컴퓨터 보안을 공부할 것인가- (웹 보안, 리버싱을 공부하는 법).md",
-    "Omnivore/Imgur Authentication Fails to Redirect to Obsidian · gavvvr-obsidian-imgur-plugin · Discussion #48.md",
-    "Omnivore/'쉽고 재미있게 맛보는' 초보자용 라즈베리 파이 프로젝트 17선 - ITWorld Korea.md",
-    "Omnivore/[RaspberryPi] 모니터없이 라즈베리OS 설치 및 SSH, VNC 설정하기.md",
-    "Omnivore/라즈베리파이 - IP 확인하기 — 학습 기록.md",
     "Omnivore/2024-03-14",
     "Omnivore/2024-03-12",
     "Omnivore/2024-03-11",
@@ -207,7 +208,6 @@
     "Omnivore/2024-03-03",
     "Omnivore/2024-03-02",
     "Omnivore/2024-03-01",
-    "Omnivore/2024-02-24",
     "Media/Screenshot_2023-09-29_at_8.20.19_PM.png",
     "Media/Screenshot_2023-08-24_at_3.34.48_PM.png",
     "Media/Untitled 13.png",
