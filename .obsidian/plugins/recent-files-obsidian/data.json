@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그",
-      "path": "Omnivore/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md"
+      "basename": "Note 5 Analog to Digital Conversion",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
     },
     {
-      "basename": "PHP 문자열 비교",
-      "path": "99-Archive/PHP 문자열 비교.md"
+      "basename": "통신이론",
+      "path": "Yonsei/3학년 1학기/통신이론/통신이론.md"
     },
     {
       "basename": "02-MOC",
       "path": "02-MOC/02-MOC.md"
+    },
+    {
+      "basename": "Embedded system",
+      "path": "02-MOC/Embedded system/Embedded system.md"
+    },
+    {
+      "basename": "Embedded",
+      "path": "02-MOC/Embedded system/Embedded/Embedded.md"
+    },
+    {
+      "basename": "아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그",
+      "path": "02-MOC/Embedded system/Embedded/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md"
+    },
+    {
+      "basename": "PHP 문자열 비교",
+      "path": "99-Archive/PHP 문자열 비교.md"
     },
     {
       "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
@@ -55,10 +71,6 @@
     {
       "basename": "Productivity Project",
       "path": "02-MOC/Productivity Project/Productivity Project.md"
-    },
-    {
-      "basename": "Embedded system",
-      "path": "02-MOC/Embedded system/Embedded system.md"
     },
     {
       "basename": "Git & GitHub",
@@ -187,18 +199,6 @@
     {
       "basename": "99-Daily",
       "path": "99-Archive/99-Daily/99-Daily.md"
-    },
-    {
-      "basename": "Arithmetic",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
-    },
-    {
-      "basename": "논문 정리, 참고용",
-      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/논문 정리, 참고용.md"
-    },
-    {
-      "basename": "발표 주제 정리",
-      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표 주제 정리.md"
     }
   ],
   "omittedPaths": [],
