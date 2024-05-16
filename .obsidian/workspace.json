@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d2e1e9855fae3e9d",
+        "id": "8d159254fcdc3989",
         "type": "tabs",
         "children": [
           {
-            "id": "c5b2f784f08144c4",
+            "id": "6ae15410ada4650b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,7 +169,7 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "c5b2f784f08144c4",
+  "active": "6ae15410ada4650b",
   "lastOpenFiles": [
     "01-Project/PCB 제작",
     "03-MOC/Obsidian/Obsidian Basic/Obsidian Basic.md",
