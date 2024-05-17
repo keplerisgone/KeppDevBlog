@@ -24,5 +24,18 @@ Analog signal을 특정 시간 간격으로 나누어 discrete-time이지만 con
 
 ![|325](https://i.imgur.com/BL1xcYq.png)
 
+### Samping Theorem
+
+
+
 ## Quantization
+
+Sampling 이후의 signal 값을 특정 값으로 round하는 과정이다. Discrete-time, discrete-amplitude signal이 된다. 
+
+![|320](https://i.imgur.com/ei1qhee.png)
+
+## Encoding
+
+만들어낸 signal을 이용해 Digital data를 뽑아낸다. 
+
 
