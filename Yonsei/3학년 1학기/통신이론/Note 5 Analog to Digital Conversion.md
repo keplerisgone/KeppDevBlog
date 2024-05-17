@@ -72,4 +72,44 @@ $$D = E[d(x, \hat{x})] = E(x-Q(x))^2$$
 
 만들어낸 signal을 이용해 Digital data를 뽑아낸다. 
 
+사용하는 bit의 개수는 $v = \log_2{N}$이다. 여기서 N은 총 level의 개수. 
+sampling rate가 $f_s$일 때 **Bit rate**는 $R = vf_s$이다.
+Encoding 방식은 다양하게 나눌 수 있다.
+- **Natural binary coding** : 우리가 익숙하게 사용하는 방법이다. 
+- **Gray Coding** : 수가 1 증가할 때 하나의 bit만 바뀌도록 하는 방법. 아래 표를 참고하자.
 
+![|368](https://i.imgur.com/BqCx8HT.png)
+
+# Waveform coding
+
+이제 modulation을 진행한 signal을 어떻게 바꿀 것인가? 일반적으로 Digital에서 little distortion은 허용된다. 
+
+## Pulse Code Modulation
+
+![](https://i.imgur.com/afVbVLS.png)
+
+가장 간단한 waveform coding 방식으로, Sampler + Quantizer + Encoder의 section으로 나뉜다.
+다음과 같은 가정을 사용한다.
+- **Bandlimited waveform with a maximum frequency of W** : 따라서 sampling theorem에 따라 sampling rate는 2W보다 커야 한다.
+- **Finite amplitude signal** : finite가 아니면 quantization을 진행할 수 없다.
+- **Quantization with a large number of quantization levels N** : 2의 제곱수이므로 큰 값을 가진다.
+
+## Uniform PCM
+
+- Quantizer로 Uniform quantizer를 사용한다. quantization 간격이 동일. ($R_{2}-R_{1} =R_{3}-R_{2}$)
+- input samples의 범위는 $[-x_{max},+x_{max}]$, Number if quantization levels는 N
+- 각 quantization region은 $\Delta = \frac{2x_{max}}{N}$이다. 
+	- 때문에 error의 범위도 $(\frac{-\Delta}{2}, + \frac{\Delta}{2})$이다.
+
+## Nonuniform PCM
+
+![](https://i.imgur.com/hrSVUmq.png)
+
+- quantization region의 크기가 단계마다 다르다. 
+- 사람의 목소리같은 경우는 대부분이 낮은 주파수 영역이기에 높은 주파수 영역에서 세세하게 level을 나눌 필요가 없다.
+	- 따라서 lower amplitude에서 많은 quantization regions을 가지고, larger amplitudes에서는 quantization region이 상대적으로 적다.
+
+### Companding technique
+
+nouniform quantization을 하는 방법
+1. compressing 사용 : 작은 값은 증폭, 큰 값은 줄인다. 
