@@ -57,6 +57,9 @@ Sampling 이후의 signal 값을 특정 값으로 round하는 과정이다. Disc
 
 ### Scalar Quantization
 
+sampling된 신호의 amplitude를 finite number of levels로 바꾸는 과정이다. 각 sampling을 가장 가까운 value로 rounding 한다. 
+이 때 finite number if levels를 **Quantization region** $R_k$ 라고하며, 각각의 값을 **Quantization level**이라고 한다. 변환된 값은 **Quantization version** $\hat{x}_k$라고 한다. 이를 binary로 바꾸는 과정을 **Encoding step**이라고 한다. 
+
 
 
 ## Encoding
