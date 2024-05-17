@@ -68,7 +68,6 @@ $$D = E[d(x, \hat{x})] = E(x-Q(x))^2$$
 
 ![|600](https://i.imgur.com/ONg0xNy.png)
 
-
 ## Encoding
 
 만들어낸 signal을 이용해 Digital data를 뽑아낸다. 
