@@ -60,6 +60,13 @@ Sampling 이후의 signal 값을 특정 값으로 round하는 과정이다. Disc
 sampling된 신호의 amplitude를 finite number of levels로 바꾸는 과정이다. 각 sampling을 가장 가까운 value로 rounding 한다. 
 이 때 finite number if levels를 **Quantization region** $R_k$ 라고하며, 각각의 값을 **Quantization level**이라고 한다. 변환된 값은 **Quantization version** $\hat{x}_k$라고 한다. 이를 binary로 바꾸는 과정을 **Encoding step**이라고 한다. 
 
+당연히 Quantization을 진행하면 원래 값과 quantization된 값이 차이가 나게 되는데, 이 차이를 **squared error distortion** $(x-\hat{x})^2$로 나타낼 수 있다. 
+$$(x - Q(x))^{2}= \tilde{x}^2$$
+이를 Energy(Power) 측면에서 보면 **Average distortion**이 된다.
+$$D = E[d(x, \hat{x})] = E(x-Q(x))^2$$
+요것과 원래 signal symbol energy의 비는 **SQNR**(Signal to quantization noise ratio)이라고 하며, 이는 디지털 변환의 성능 지표가 된다.
+
+![|600](https://i.imgur.com/ONg0xNy.png)
 
 
 ## Encoding
