@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
+                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md"
               }
             }
           },
@@ -172,8 +171,10 @@
   },
   "active": "6ae15410ada4650b",
   "lastOpenFiles": [
-    "Yonsei/3학년 1학기/통신이론/통신이론.md",
     "02-MOC/02-MOC.md",
+    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
+    "Yonsei/3학년 1학기/통신이론/통신이론.md",
+    "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
     "02-MOC/Embedded system/Embedded system.md",
     "02-MOC/Embedded system/Embedded/Embedded.md",
     "02-MOC/Embedded system/Embedded/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
@@ -196,10 +197,8 @@
     "02-MOC/C & CPP/C & CPP.md",
     "01-Project/LED 회로/Control an 8x8 matrix of LEDs. - Arduino Documentation.md",
     "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
-    "Home.md",
     "Omnivore",
     "01-Project/LED 회로",
-    "02-MOC/Obsidian/Obsidian Basic/Obsidian Basic.md",
     "Media/Untitled 3 6.png",
     "Omnivore/2024-03-14",
     "Omnivore/2024-03-12",
