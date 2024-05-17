@@ -121,4 +121,6 @@ BW는 sinusoidal과 마찬가지로 1.5MHz지만 First Sidelobe는 31dB다! 결�
 # Pulse Shaping for Zero ISI
 
 Time-limited <-> Bandlimited가 상호 교환이 가능한건가요?? 이를 가능하게 하는 것이 바로 **Nyquist pulse**이다.
-Transmitted signal은 다음과 같이 
+Transmitted signal은 다음과 같이 나타낼 수 있다.
+$$y(iT_{b}) = \sum_\limits{k=-\infty}^{\infty}a_{k}p[(i-k)T_{b}]$$
+이 때 ISI는 $k\ne i$인 부분 전체에 해당하므로, 
