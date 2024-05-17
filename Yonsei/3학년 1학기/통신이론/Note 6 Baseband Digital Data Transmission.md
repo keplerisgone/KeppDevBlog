@@ -87,3 +87,37 @@ pulse spectrum($P(f)$)와 receive-filter는 다음과 같은 조건을 만족시
 
 ## Pulse Shaping
 
+그럼 어떤 pulse를 써야 위 조건을 만족할 수 있는지 찾아보자.
+사진은 이렇게 보면 된다.
+- 왼쪽은 보내고자 하는 signal, 오른쪽은 받는 signal.
+- 오른쪽 signal의 양쪽으로 펼쳐진 부분은 unlimited가 된 부분 (ISI) 
+- First sielobe는 두번째 봉우리와의 거리
+
+### Rectangular Pulse
+
+
+![](https://i.imgur.com/flScwP5.png)
+
+BW는 1MHz, First Sidelobe는 13.6dB로 매우 일반적이다.
+
+### Triangular Pulse
+
+![](https://i.imgur.com/zxEylGC.png)
+
+Bandwidth는 2MHz로 두 배가 되지만 First sidelobe도 두 배가 된다. 간섭이 줄어드는 편.
+
+### Sinusoidal Pulse
+
+![](https://i.imgur.com/TZjeA5U.png)
+
+BW는 1.5MHz, First Sidelobe는 22dB이다. 효율이 좋다.
+
+### Truncated Gaussian Pulse
+
+![](https://i.imgur.com/3I7fUCe.png)
+
+BW는 sinusoidal과 마찬가지로 1.5MHz지만 First Sidelobe는 31dB다! 결론은 Gaussian Pulse를 사용하는 것이 좋다.
+
+# Pulse Shaping for Zero ISI
+
+Time-limited <-> Bandlimited가 상호 교환이 가능한건가요?? 이를 가능하게 하는 것이 바로 **Nyquist pulse**이다.
