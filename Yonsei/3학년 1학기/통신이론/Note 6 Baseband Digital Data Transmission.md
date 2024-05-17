@@ -123,4 +123,32 @@ BW는 sinusoidal과 마찬가지로 1.5MHz지만 First Sidelobe는 31dB다! 결�
 Time-limited <-> Bandlimited가 상호 교환이 가능한건가요?? 이를 가능하게 하는 것이 바로 **Nyquist pulse**이다.
 Transmitted signal은 다음과 같이 나타낼 수 있다.
 $$y(iT_{b}) = \sum_\limits{k=-\infty}^{\infty}a_{k}p[(i-k)T_{b}]$$
-이 때 ISI는 $k\ne i$인 부분 전체에 해당하므로, 
+이 때 ISI는 $k\ne i$인 부분 전체에 해당하므로, 이외의 부분이 zero crossing를 가지면 된다. 
+
+![|343](https://i.imgur.com/6MeiY7a.png)
+
+위 예시는 sinc function!
+$p(t) = sinc(\frac{t}{T_{B}})=sinc(R_{b}t)$
+
+## Nyquist Criterion
+
+위처럼 ISI를 zero로 만드는 pulse를 수식으로 알아보자. 이를 **Nyquist Pulse-shaping criterion**이라고 한다. 위 내용을 정리하면 다음과 같은 조건을 만족하는 pulse여야 한다.
+$$p(nT) = \begin{cases}
+1, & n=0 \\
+0, &n\ne 0
+\end{cases}$$
+이는 다음과 동치이다.
+$$\sum_\limits{m=-\infty}^{\infty}P(f+ \frac{m}{T})=T$$
+이를 증명하면 다음과 같다.
+
+![](https://i.imgur.com/bo584q6.png)
+
+이를 만족하는 pulse를 생각해보자.
+
+![|575](https://i.imgur.com/aMs2rKw.png)
+
+- $\frac{1}{T}> 2W$일 경우에는 이를 만족하는 pulse가 없다.
+- $\frac{1}{T}=2W$일 경우는 LPF만이 조건을 만족한다. -> sinc 함수 사용
+- $\frac{1}{T}<2W$일 경우는 이를 만족하는 pulse가 굉장히 많다.
+
+## Nyquist Channel
