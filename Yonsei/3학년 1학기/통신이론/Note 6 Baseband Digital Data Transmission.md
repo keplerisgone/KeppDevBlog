@@ -34,3 +34,6 @@ Digital data를 전송하는데 다음과 같은 물리적 한계가 있다.
 
 ![|575](https://i.imgur.com/TY8t2jJ.png)
 
+# Channel Effects
+
+**Ideal channel**은 
