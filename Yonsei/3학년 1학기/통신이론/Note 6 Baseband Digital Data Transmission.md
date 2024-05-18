@@ -55,6 +55,7 @@ Bandlimited에 의해 신호가 어떻게 변하는지를 나타낸 그래프로
 
 ![|575](https://i.imgur.com/dUttdli.png)
 
+
 # Baseband Binary Data Transmission
 
 Input binary data $b_k$를 받으면 이를 **line encoder**를 통해 level encoding을 진행한다.
