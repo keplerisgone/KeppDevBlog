@@ -154,3 +154,41 @@ $$\sum_\limits{m=-\infty}^{\infty}P(f+ \frac{m}{T})=T$$
 ## Nyquist Channel
 
 그렇다면 위 시그널을 어떤 channel로 옮겨야 좋을까?
+우선 다음과 같은 Nyquist pulse를 생각해보자.
+$$
+p_{i}=p(iT_{b}) =
+\begin{cases}
+\sqrt{E}, &\text{for}\ i=0 \\
+0, & \text{for all}\ i\ne 0
+\end{cases}
+$$
+$$
+p(t) = \sum_\limits{i=-\infty}^{\infty}p(\frac{i}{2B_{0}})\text{sinc}(2B_{0}t-i)
+$$
+
+![](https://i.imgur.com/9mjzVcM.png)
+
+이러한 신호에서 이 친구는 $\frac{1}{2B_{0}}$에서 zero crossing을 가지고, LPF의 bandwidth가 $B_0$이므로, 위 조건을 만족하기 위해서는 channel의 BW가 $B_0$를 넘어야하지 않을까?
+
+## Nyquist Minimum Bandwidth
+
+**Nyquist Bandwidth** : 최소한의 필요한 BW
+$$
+W_{0}= \frac{R_{S}}{2}\text{Hz} = \frac{1}{2T_{S}}
+$$
+짜잔~
+
+![|575](https://i.imgur.com/BaEr9vM.png)
+
+# Raised-Cosine Pulse
+
+하지만 현실에서는 Ideal LPF, 즉 sinc 함수를 사용할 수는 없으므로, 대신해서 **Raised-Cosine pulse**를 사용하기로 한다.
+
+![|600](https://i.imgur.com/eVMb0kS.png)
+
+Raised-Cosine pulse의 찌그러진 정도는 **Roll-off factor**에 따라 달라진다. 
+
+![](https://i.imgur.com/79nTbfl.png)
+
+여기서 Nyquist bandwidth늘 $\frac{R_{S}}{2}$이므로, 이를 대입한 $\text{BW}=B_{T}W(1+\alpha)= \frac{1}{2}(1+\alpha)R_{S}$을 **atual modulation bandwidth**라고 한다. 원래 sinc 함수의 bandwidth보다 살짝 늘어난 것이 포인트이다.
+
