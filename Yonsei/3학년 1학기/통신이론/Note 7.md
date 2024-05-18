@@ -115,6 +115,10 @@ output은 input의 에너지와 noise의 psd와는 연관이 있지만, input의
 # Optimum Detection of Binary PAM in Noise
 
 어쨌든 보낸 신호를 그대로 찾을 수 있다. 넴...
+Matched filter를 통과한 Output은 다음과 같다. 이 때 matched filter는 
+$$
+s(t) = A\sum_\limits{k=0}^{\infty}b_{k}h(t-kT)
+$$
 
 
 # Binary Signal Transmission
