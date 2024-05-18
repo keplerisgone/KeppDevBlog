@@ -152,3 +152,5 @@ $$\sum_\limits{m=-\infty}^{\infty}P(f+ \frac{m}{T})=T$$
 - $\frac{1}{T}<2W$일 경우는 이를 만족하는 pulse가 굉장히 많다.
 
 ## Nyquist Channel
+
+그렇다면 위 시그널을 어떤 channel로 옮겨야 좋을까?
