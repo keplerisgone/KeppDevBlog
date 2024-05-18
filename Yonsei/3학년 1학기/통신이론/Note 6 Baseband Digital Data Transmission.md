@@ -192,9 +192,22 @@ Raised-Cosine pulse의 찌그러진 정도는 **Roll-off factor**에 따라 달�
 
 ![](https://i.imgur.com/79nTbfl.png)
 
-여기서 Nyquist bandwidth늘 $\frac{R_{S}}{2}$이므로, 이를 대입한 $\text{BW}=B_{T}W(1+\alpha)= \frac{1}{2}(1+\alpha)R_{S}$을 **atual modulation bandwidth**라고 한다. 원래 sinc 함수의 bandwidth보다 살짝 늘어난 것이 포인트이다.
+여기서 Nyquist bandwidth는 $\frac{R_{S}}{2}$이므로, 이를 대입한 $\text{BW}=B_{T}W(1+\alpha)= \frac{1}{2}(1+\alpha)R_{S}$을 **atual modulation bandwidth**라고 한다. 원래 sinc 함수의 bandwidth보다 살짝 늘어난 것이 포인트이다.
 
 ## Root Raised-Cosine Pulse
+
+편의를 위해 Digital data Transmission의 부분을 다음과 같이 정의하자.
+$$
+G(f)H(f) = P^{\frac{1}{2}}(f), \ Q(f) = P^{\frac{1}{2}}(f) \to G(f)H(f)Q(F)=P(f)
+$$
+Square root를 사용하면 신호의 Zero crossing이 좀 무너진다.
+
+![|575](https://i.imgur.com/caMQ2AI.png)
+ 
+![|575](https://i.imgur.com/SvFjjUZ.png)
+
+ 그럼 얘를 굳이 쓰는 이유가 무엇인가요
+
 # Baseband Transmission of M-ary Data
 
 2개 말고 3개 이상의 amplitude symbol이 있다고 가정하자. ($M > 2$)
