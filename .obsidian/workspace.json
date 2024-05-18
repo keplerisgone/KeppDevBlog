@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 7.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md"
+                "file": "Yonsei/3학년 1학기/통신이론/Note 7.md"
               }
             }
           },
@@ -171,8 +171,9 @@
   },
   "active": "6ae15410ada4650b",
   "lastOpenFiles": [
-    "02-MOC/02-MOC.md",
     "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
+    "Yonsei/3학년 1학기/통신이론/Note 7.md",
+    "02-MOC/02-MOC.md",
     "Yonsei/3학년 1학기/통신이론/통신이론.md",
     "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
     "02-MOC/Embedded system/Embedded system.md",
@@ -196,7 +197,6 @@
     "02-MOC/Operating System/Operating System.md",
     "02-MOC/C & CPP/C & CPP.md",
     "01-Project/LED 회로/Control an 8x8 matrix of LEDs. - Arduino Documentation.md",
-    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
     "Omnivore",
     "01-Project/LED 회로",
     "Media/Untitled 3 6.png",

@@ -13,15 +13,38 @@ Digital modulation은 **Shift Keying**으로 나뉘어진다.
 
 # Digital Transmission in an AWGN Channel
 
-**BER**(Bit error rate)는 디지털에서 SNR보다 자주 사용하는 성능 지표이다.
+## Bit Error Rate (BER)
+
+$$
+BER = \lim_\limits{N \to \infty}(\frac{n}{N})
+$$
+
+디지털 신호에서 매우 중요한 성능 지표이다. 전체 보낸 비트 수 중 에러가 난 비트의 개수의 비율을 의미한다. 
+물론 그럼에도 SNR가 중요한 지표가 되기는 한다(보낸 신호의 측면에서). 그치만 nonlinear 하게 나타나기 때문에 잘 사용하지 않는다. 물론 SNR과 BER가 일정한 상관관계를 가지는 것도 아니다. (exponential이라고는 한다)
+각 분야에서 허용되는 BER은 다음과 같다. (해당 값을 넘으면 사람들이 짜증을 낸다)
+- **Vocoded speech**: $10^{-2}$ ~ $10^{-3}$ 
+- **무선 데이터 통신**: $10^{-5}$ ~ $10^{-6}$
+- **비디오 통신**: $10^{-7}$~$10^{-12}$
+- **금융**: $10^{-11}$ 보다 작아야함
+
+> [!note]
+> 물론 통신 기술은 그걸 구현하는 소프트웨어가 있을 때 짱짱이 된다. 
+> 모든 기술에 감사하십시오 휴먼
+
+**SNR**은 bit energy와 noise spectral density의 비율로 정의된다.
+
+$$
+\text{SNR}^\text{digital}_\text{ref}= \frac{\text{Modulated energy per bit}}{\text{Noise spectral density}}= \frac{E_{b}}{N_{0}}
+$$
+
+time unlimited <-> band limited가 되기 때문에 우리는 무조건 time unlimited 신호를 보내야한다.. 라고 생각할 수 있지만, 이를 조정하는 방법이 있다. 이는 나중에 알아보도록 하자.](<**BER**(Bit error rate)는 디지털에서 SNR보다 자주 사용하는 성능 지표이다.
 가장 널리 사용되는 정의는 **Average bit error rate**이다. 전체 길이 N에서 error가 난 bit의 수 n의 비율로 정해진다.
 
 $$\text{BER} = \lim_\limits{N\to \infty} (\frac{n}{N})$$
 
 **Packet error rate**(PER)는 각 분야에서 인정되는 최소의 BER이다. 굳이 이것보다 좋을 필요는 없다.
 
-![](https://i.imgur.com/WnkqFZn.png)
-
+![](https://i.imgur.com/WnkqFZn.png)>)
 # Baseband Digital Data Transmission
 
 Digital data를 전송하는데 다음과 같은 물리적 한계가 있다.
@@ -52,6 +75,14 @@ Digital data를 전송하는데 다음과 같은 물리적 한계가 있다.
 # Eye Pattern
 
 Bandlimited에 의해 신호가 어떻게 변하는지를 나타낸 그래프로, 해당 채널의 성능을 나타낸다.
+정확히는 각 신호의 부분이 symbol을 얼마나 잘 나타내는지를 보여주는 것이다.
+
+![](https://i.imgur.com/qMY49zV.png)
+
+다음은 Eye Pattern이 담고 있는 정보이다.
+
+![](https://i.imgur.com/gGPe0g9.png)
+
 
 ![|575](https://i.imgur.com/dUttdli.png)
 
