@@ -85,6 +85,8 @@ pulse spectrum($P(f)$)와 receive-filter는 다음과 같은 조건을 만족시
 1. ISI이 zero가 될 것
 2. Transmission bandwidth이 보존된다.
 
+![](https://i.imgur.com/Ee68YsC.png)
+
 ## Pulse Shaping
 
 그럼 어떤 pulse를 써야 위 조건을 만족할 수 있는지 찾아보자.
@@ -192,3 +194,10 @@ Raised-Cosine pulse의 찌그러진 정도는 **Roll-off factor**에 따라 달�
 
 여기서 Nyquist bandwidth늘 $\frac{R_{S}}{2}$이므로, 이를 대입한 $\text{BW}=B_{T}W(1+\alpha)= \frac{1}{2}(1+\alpha)R_{S}$을 **atual modulation bandwidth**라고 한다. 원래 sinc 함수의 bandwidth보다 살짝 늘어난 것이 포인트이다.
 
+## Root Raised-Cosine Pulse
+# Baseband Transmission of M-ary Data
+
+2개 말고 3개 이상의 amplitude symbol이 있다고 가정하자. ($M > 2$)
+- $T_{S}$ : symbol duration
+- $\frac{1}{T_{S}} = R_{S}$ : symbol rate = bauds
+Quaternary PAM의 경우는 $M=4$이며, 하나의 symbol이 2개의 bit를 포함한다. 이 때 1 bauds = 2bit per second이다. (symbol과 bit의 차이를 확실히 알 것!)
