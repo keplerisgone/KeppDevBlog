@@ -107,12 +107,15 @@ $$
 output은 input의 에너지와 noise의 psd와는 연관이 있지만, input의 모양과는 연관이 없다. 하지만 모양이 match되어야 max SNR을 얻을 수 있다!! -> **matched filter**라고 부르는 이유
 모양만 상관있고, 크기는 상관없다. ($g(T-t) = cs(t)$, 상수배) Correlation receiver를 사용한다는 이야기는 matched filter를 쓰는 것과 동일한 말이다. 매우 중요!
 
+![](https://i.imgur.com/0oJC5Di.png)
+
 > [!note]
 > 물론 convolution 기준이므로, 우리가 생으로 볼 때는 모양이 좌우로 뒤집힌 것처럼 보인다.
 
 # Optimum Detection of Binary PAM in Noise
 
 어쨌든 보낸 신호를 그대로 찾을 수 있다. 넴...
+
 
 # Binary Signal Transmission
 
