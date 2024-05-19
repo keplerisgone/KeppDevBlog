@@ -213,4 +213,6 @@ Demodulation은 위와 같은 방식으로 $\cos$을 곱한다.
 $$
 f_{X}(x) = \frac{1}{\sqrt{2\pi}\sigma_{X}}\text{exp}\{- \frac{(x-\mu_{X})^{2}}{2\sigma_{X}^{2}}\}
 $$
-위에서 주구장창 본 **Gaussian random variables**는 위와 같은 식으로 나타낼 수 있다.
+위에서 주구장창 본 **Gaussian random variables**는 위와 같은 식으로 나타낼 수 있다. 이는 다음과 같은 특징을 지닌다.
+
+1. **Mean**과 **Variance**로 
