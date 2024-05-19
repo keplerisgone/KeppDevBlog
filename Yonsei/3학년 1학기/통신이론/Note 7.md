@@ -169,4 +169,13 @@ Demodulation은 위와 같은 방식으로 $\cos$을 곱한다.
 
 # Likelihood Detection
 
-우리가 가정하는 noise는 AWGN noise이기 때문에 
+우리가 가정하는 noise는 AWGN noise이기 때문에 signal이 최종적으로 Gaussian의 형태를 자나게 된다.
+
+![](https://i.imgur.com/alkUraJ.png)
+
+이 때 신호의 detection은 가장 가능성이 높은 경우로 이루어진다.
+
+## Maximum Likelihood
+
+![](https://i.imgur.com/ErOMaEH.png)
+
