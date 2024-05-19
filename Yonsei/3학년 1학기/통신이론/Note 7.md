@@ -115,15 +115,27 @@ output은 input의 에너지와 noise의 psd와는 연관이 있지만, input의
 # Optimum Detection of Binary PAM in Noise
 
 어쨌든 보낸 신호를 그대로 찾을 수 있다. 넴...
-Matched filter를 통과한 Output은 다음과 같다. 이 때 matched filter는 
+Matched filter를 통과한 Output은 다음과 같다. 이 때 matched filter는 $g(T-t)=cs^{*}(t)$이다.
 $$
 s(t) = A\sum_\limits{k=0}^{\infty}b_{k}h(t-kT)
 $$
-
+이는 $Ab_{k}T$로 간단히 할 수 있는데, 따라서 최종 output은 $Y = E + n=Ab_{k}T + n$이 된다.
 
 # Binary Signal Transmission
 
-Modulation process는 
+Modulation process는 보통 carrier wave의 amplitude, phase, frequency를 1과 0사이의 값으로 변환시켜 symbol을 전달하는 방식이다. 따라서 무엇을 변환시키는지에 따라 band-pass process를 다음과 같이 세 가지로 나눌 수 있다.
+- **Binary Amplitude shift-keying**(BASK)
+- **Binary phase shift-keying**(BPSK)
+- **Binary frequency-shift keying**(BFSK)
+
+우리는 이 단원에서 **Receiver**를 중점으로 알아볼 것이기 때문에 나머지는 간단하게 알아보자.
+- **Source Encoder** : Efficient하게 신호 압축 및 전달
+- **Channel Encoder** : error correction/재전송 요청
+- **Modulator** : 이전에 다 배운거
+- **Pulse Shaping** : [[Note 6 Baseband Digital Data Transmission]]에서 배운거
+- **Channel** : 이것도 이전에 배운거
+
+
 
 > [!note]
 > bit와 symbol의 차이는 무엇일까요?
