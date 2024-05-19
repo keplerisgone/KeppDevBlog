@@ -179,3 +179,38 @@ Demodulation은 위와 같은 방식으로 $\cos$을 곱한다.
 
 ![](https://i.imgur.com/ErOMaEH.png)
 
+위의 $P(d=i|r)$ (**A posterior probability**)은 어떤 결과 r이 관측되었을 때, 데이터 d가 i를 가질 확률을 의미한다.
+- $p(r|d=i)$ : 데이터 d가 특정 값 i일 때 결과가 r일 확률
+- $p(d=i)$ : 데이터 d가 특정 값 i를 가질 확률
+- $p(r)$ : 결과 r이 관찰될 확률
+
+![](https://i.imgur.com/SpPMBAH.png)
+
+따라서, 결과 r이 관측되었을 때 확률에 따라 symbol을 결정한다. 이를 **Ratio test**라고 한다. 
+
+![|600](https://i.imgur.com/ZLMsRbf.png)
+
+위는 실제 test 과정이다. 이를 $\log$를 씌워 LLR을 진행해 linear로 대수비교를 하는 것이 일반적이다. 아래는 Gaussian 함수를 이용해 test를 적용한 예시이다.
+
+![|575](https://i.imgur.com/6V3rSig.png)
+
+![](https://i.imgur.com/KRqPYy2.png)
+
+위와 같이 결과는 가장 높은 확률을 기준으로 결과를 선택한다. 따라서 error가 나타날 확률은 Gaussian 분포의 바깥 부분이다.
+
+# SER & BER
+
+우선 BPSK의 BEP (Bit Error Probability)는 다음과 같이 계산할 수 있다.
+
+![|575](https://i.imgur.com/pJBsdKf.png)
+위는 각각의 확률을 구한 것
+
+![|575](https://i.imgur.com/d5bwIgO.png)
+따라서 BER은 **Q function**으로 나타낼 수 있다!
+
+# Gaussian Random Variables
+
+$$
+f_{X}(x) = \frac{1}{\sqrt{2\pi}\sigma_{X}}\text{exp}\{- \frac{(x-\mu_{X})^{2}}{2\sigma_{X}^{2}}\}
+$$
+위에서 주구장창 본 **Gaussian random variables**는 위와 같은 식으로 나타낼 수 있다.
