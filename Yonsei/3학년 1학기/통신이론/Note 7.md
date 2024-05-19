@@ -151,21 +151,19 @@ Phase에 따라서 0과 1을 구분해보자. 이는 정의에 따라 달라지�
 
 ![|600](https://i.imgur.com/sCt6Xmn.png)
 
-Demodulation
+Demodulation은 위와 같은 방식으로 $\cos$을 곱한다.
+
+![](https://i.imgur.com/gomCueD.png)
+
+이 때 위의 cos, sin은 각각 하나의 축으로 생각할 수 있다.
 
 > [!note]
 > bit와 symbol의 차이는 무엇일까요?
 > bit는 말 그대로 0과 1을 의미하고, symbol은 bit가 표현하는 signal을 의미합니다. 예를 들어, 01을 이루는 0과 1은 bit, 01이 표현하는 1은 symbol입니다.
 
-## Binary Phase- Shift Keying
-
-와 이게 뭔소리람 16p~
-
-# QPSK Signal Transmission
-
 # Symbol and Bit Error Probabilities
 
-bit가 error날 경우와 symbol이 error나는 경우는 다르게 생각해야 한다. 예를 들어 2 $\to$ 1 error는 하나의 symbol error가 2 bit error가 되지만($10 \to 01$), 1 $\to$ 0 error는 하나의 symbol error가 1bit error가 된다. ($01 \to 00$)
+**Symbol error rate**(SER)는 symbol이 오류가 생기는 경우, **Bit error rate**(BER)은 bit가 오류가 생기는 경우를 말한다. bit가 error날 경우와 symbol이 error나는 경우는 다르게 생각해야 한다. 예를 들어 2 $\to$ 1 error는 하나의 symbol error가 2 bit error가 되지만($10 \to 01$), 1 $\to$ 0 error는 하나의 symbol error가 1bit error가 된다. ($01 \to 00$) 따라서 무조건 BER이 SER이 같지는 않다.
 
 modulation 과정. 주루루룩
 
