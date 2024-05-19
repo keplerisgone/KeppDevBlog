@@ -135,7 +135,23 @@ Modulation process는 보통 carrier wave의 amplitude, phase, frequency를 1과
 - **Pulse Shaping** : [[Note 6 Baseband Digital Data Transmission]]에서 배운거
 - **Channel** : 이것도 이전에 배운거
 
+**Receiver**는 **matched filter**와 **Detector**로 이루어져 있다. Binary signal transmission에서 signal은 0 아니면 1로 보내지는데, 그 형태는 방식에 따라 다음과 같이 나뉜다.
 
+![|600](https://i.imgur.com/p7TLaB0.png)
+
+## BPSK
+
+Phase에 따라서 0과 1을 구분해보자. 이는 정의에 따라 달라지는데, 우선 $0 \to \pi$, $1 \to 0$로 정의하도록 하자. 이러면 다음과 같이 modulation - demodulation이 된다.
+
+![|600](https://i.imgur.com/9D6zKHT.png)
+
+## QPSK Signal Transmission
+
+이번에는 quadrature phase-shift keying이다. 각도의 정의는 (x, y)로 하도록 한다. 각도 정보 하나에(symbol) 두 개의 bit 정보를 담고 있다.
+
+![|600](https://i.imgur.com/sCt6Xmn.png)
+
+Demodulation
 
 > [!note]
 > bit와 symbol의 차이는 무엇일까요?
