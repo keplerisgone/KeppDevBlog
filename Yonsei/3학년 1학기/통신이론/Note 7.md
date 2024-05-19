@@ -165,6 +165,8 @@ Demodulation은 위와 같은 방식으로 $\cos$을 곱한다.
 
 **Symbol error rate**(SER)는 symbol이 오류가 생기는 경우, **Bit error rate**(BER)은 bit가 오류가 생기는 경우를 말한다. bit가 error날 경우와 symbol이 error나는 경우는 다르게 생각해야 한다. 예를 들어 2 $\to$ 1 error는 하나의 symbol error가 2 bit error가 되지만($10 \to 01$), 1 $\to$ 0 error는 하나의 symbol error가 1bit error가 된다. ($01 \to 00$) 따라서 무조건 BER이 SER과 같지는 않다.
 
-modulation 과정. 주루루룩
+![|600](https://i.imgur.com/LyJ171P.png)
 
-근데 이거 시험범위 아니잖아. 21p 까지 하긴햇어요~
+# Likelihood Detection
+
+우리가 가정하는 noise는 AWGN noise이기 때문에 
