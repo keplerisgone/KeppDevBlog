@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Note 7",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 7.md"
+      "basename": "Note 5 Analog to Digital Conversion",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
+    },
+    {
+      "basename": "Note 7 Digital Transmission in an AWGN Channel",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
     },
     {
       "basename": "Home",
@@ -19,10 +23,6 @@
     {
       "basename": "통신이론",
       "path": "Yonsei/3학년 1학기/통신이론/통신이론.md"
-    },
-    {
-      "basename": "Note 5 Analog to Digital Conversion",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
     },
     {
       "basename": "Embedded system",
