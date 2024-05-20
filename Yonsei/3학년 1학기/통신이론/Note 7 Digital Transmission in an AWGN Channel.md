@@ -77,7 +77,7 @@ $$
 $$
 Y = \int^{T}_{0}g(T-t)r(t)dt \Rightarrow Y=\int^{T}_{0}g(T-t)s(t)dt + \int^{T}_{0}g(T-t)n(t)dt
 $$
-Y는 전체 received signal에 필터를 씌운 것. Noise term에만 집중해보자. ($g(t)$친구는 단위 필터로 power를 추가하거나 소모하지 않아 1이라고 가정) *filter를 통과시키는 건 convolution인 걸 잊지 않았겠지*
+Y는 전체 received signal에 필터를 씌운 것. (이 필터는 impulse response로, sampling filter라고도 한다.) Noise term에만 집중해보자. ($g(t)$친구는 단위 필터로 power를 추가하거나 소모하지 않아 1이라고 가정) *filter를 통과시키는 건 convolution인 걸 잊지 않았겠지*
 $$
 E[n] = \int^{T}_{0}g(T-t)E[n(t)]dt = 0
 $$
