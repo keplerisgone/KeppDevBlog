@@ -161,6 +161,8 @@ Phase에 따라서 0과 1을 구분해보자. 이는 정의에 따라 달라지�
 
 Demodulation은 위와 같은 방식으로 $\cos$을 곱한다.
 
+![](https://i.imgur.com/oRCIqth.png)
+
 ![](https://i.imgur.com/gomCueD.png)
 
 이 때 위의 cos, sin은 각각 하나의 축으로 생각할 수 있다.
