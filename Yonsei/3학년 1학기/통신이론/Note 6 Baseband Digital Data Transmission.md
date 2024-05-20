@@ -235,7 +235,7 @@ Raised-Cosine pulse의 찌그러진 정도는 **Roll-off factor**에 따라 달�
 
 ![](https://i.imgur.com/79nTbfl.png)
 
-여기서 Nyquist bandwidth는 $\frac{R_{S}}{2}$이므로, 이를 대입한 $\text{BW}=B_{T}W(1+\alpha)= \frac{1}{2}(1+\alpha)R_{S}$을 **atual modulation bandwidth**라고 한다. 원래 sinc 함수의 bandwidth보다 살짝 늘어난 것이 포인트이다.
+여기서 Nyquist bandwidth는 $\frac{R_{S}}{2}$이므로, 이를 대입한 $\text{BW}=B_{T}=W(1+\alpha)= \frac{1}{2}(1+\alpha)R_{S}$을 **atual modulation bandwidth**라고 한다. 원래 sinc 함수의 bandwidth보다 살짝 늘어난 것이 포인트이다.
 
 ## Root Raised-Cosine Pulse
 
