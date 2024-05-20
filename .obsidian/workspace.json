@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Yonsei/2학년 2학기/신호및시스템/Properties of DT F.S/Properties of DT F.S.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6052d308b92b483a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,7 +51,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -169,15 +182,23 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "c785e5ac06273de5",
+  "active": "6052d308b92b483a",
   "lastOpenFiles": [
+    "Yonsei/2학년 2학기/신호및시스템/Properties of DT F.S/Properties of DT F.S.md",
+    "Yonsei/2학년 2학기/신호및시스템/Fourier Series Representation of Periodic Signals.md",
+    "Yonsei/2학년 2학기/신호및시스템/F.S. Representation of DT Periodic Signals/F.S. Representation of DT Periodic Signals.md",
+    "Yonsei/2학년 2학기/신호및시스템/FS and LTI Systems/FS and LTI Systems.md",
+    "Yonsei/2학년 2학기/신호및시스템/The Response of LTI systems to complex exponentials/The Response of LTI systems to complex exponentials.md",
+    "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+    "Yonsei/2학년 2학기/신호및시스템/Magnitude-Phase Representation of the Frequency Response of LTI systems/Magnitude-Phase Representation of the Frequency Response of LTI systems.md",
+    "Yonsei/2학년 2학기/신호및시스템/신호및시스템.md",
+    "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Home.md",
-    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "02-MOC/02-MOC.md",
     "Yonsei/3학년 1학기/통신이론/통신이론.md",
-    "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
     "02-MOC/Embedded system/Embedded system.md",
     "02-MOC/Embedded system/Embedded/Embedded.md",
     "02-MOC/Embedded system/Embedded/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
@@ -190,13 +211,6 @@
     "Template/template.md",
     "00-Personal/00-Personal.md",
     "00-Personal/Goals.md",
-    "02-MOC/Tech & Dev/Tech & Dev.md",
-    "02-MOC/Computer Science/Computer Science.md",
-    "02-MOC/Productivity Project/Productivity Project.md",
-    "02-MOC/Git & GitHub/Git & GitHub.md",
-    "02-MOC/Linux/Linux.md",
-    "02-MOC/Obsidian/Obsidian.md",
-    "02-MOC/Operating System/Operating System.md",
     "Omnivore",
     "01-Project/LED 회로",
     "Media/Untitled 3 6.png",
