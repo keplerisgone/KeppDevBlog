@@ -43,6 +43,10 @@ time unlimited <-> band limited가 되기 때문에 우리는 무조건 time unl
 $$\text{BER} = \lim_\limits{N\to \infty} (\frac{n}{N})$$
 
 **Packet error rate**(PER)는 각 분야에서 인정되는 최소의 BER이다. 굳이 이것보다 좋을 필요는 없다.
+...가 아니라 BER에 따라 하나의 패킷이 오류가 날 확률이다.
+$$
+\text{PER} = 1-(1-\text{BER})^n
+$$
 
 ![](https://i.imgur.com/WnkqFZn.png)>)
 # Baseband Digital Data Transmission
@@ -91,6 +95,13 @@ Bandlimited에 의해 신호가 어떻게 변하는지를 나타낸 그래프로
 
 Input binary data $b_k$를 받으면 이를 **line encoder**를 통해 level encoding을 진행한다.
 -> $a_k$
+$$
+a_{k}=
+\begin{cases}
++1 &\text{if the input }b_{k}\ \text{is symbol }1 \\
+-1 &\text{if the input }b_{k}\ \text{is symbol }0
+\end{cases}
+$$
 받은 signal은 $s(t) = a_k * g(t) =  \sum_\limits{k=-\infty}^{\infty}a_{k}g(t-kT_{b})$로 나타낼 수 있다. $T_b$는 **Bit duration**이다. 
 
 ![](https://i.imgur.com/pOZEiRd.png)
