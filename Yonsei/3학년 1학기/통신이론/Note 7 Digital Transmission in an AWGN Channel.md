@@ -119,6 +119,14 @@ Matched filter를 통과한 Output은 다음과 같다. 이 때 matched filter�
 $$
 s(t) = A\sum_\limits{k=0}^{\infty}b_{k}h(t-kT)
 $$
+$$
+\begin{align*}
+g(T-t) &= h(t)\\
+g_{k}(T-t) &= h(t-kT) & nth \ symbol\\
+E &= \int_{(k-1)T}^{kT}h(t-kT)A\sum_\limits{k=0}^{\infty}b_{k}h(t-kT)dt\\
+&=Ab_{k}T
+\end{align*}
+$$
 이는 $Ab_{k}T$로 간단히 할 수 있는데, 따라서 최종 output은 $Y = E + n=Ab_{k}T + n$이 된다.
 
 # Binary Signal Transmission
@@ -213,7 +221,7 @@ Demodulation은 위와 같은 방식으로 $\cos$을 곱한다.
 $$
 f_{X}(x) = \frac{1}{\sqrt{2\pi}\sigma_{X}}\text{exp}\{- \frac{(x-\mu_{X})^{2}}{2\sigma_{X}^{2}}\}
 $$
-위에서 주구장창 본 **Gaussian random variables**는 위와 같은 식으로 나타낼 수 있다. 이는 다음과 같은 특징을 지닌다.
+위에서 주구장창 본 **Gaussian random variables**는 위와 같은 식으로 나타낼 수 있다. 이는 다음과 같은 특징을 지닌다. $\mu_{X}$는 평균, $\sigma_X$는 분산.
 
 1. **Mean**과 **Variance**로 특징을 설명 가능
 2. 정규분포 형태를 가진다.
@@ -226,6 +234,8 @@ $$
 normalized gaussian distribution function을 정리한 것이다.
 
 ![](https://i.imgur.com/GWbG4nr.png)
+
+![](https://i.imgur.com/3WMElWF.png)
 
 따라서 PBE를 Q-function으로 나타낼 수 있다! 각종 분산과 SNR 정리를 이용하면 Q-function임을 증명할 수 있다.
 Q-function은 다른 말로 **Complementary error function**이라고도 한다. error function과는 다음과 같은 관계를 가진다.
