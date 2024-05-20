@@ -215,4 +215,134 @@ f_{X}(x) = \frac{1}{\sqrt{2\pi}\sigma_{X}}\text{exp}\{- \frac{(x-\mu_{X})^{2}}{2
 $$
 위에서 주구장창 본 **Gaussian random variables**는 위와 같은 식으로 나타낼 수 있다. 이는 다음과 같은 특징을 지닌다.
 
-1. **Mean**과 **Variance**로 
+1. **Mean**과 **Variance**로 특징을 설명 가능
+2. 정규분포 형태를 가진다.
+3. **중심극한정리** : 여러 개의 gaussian random variable을 더하면 하나의 gaussian random variable로 수렴한다.
+4. 임의의 상수가 곱해지거나 더해져도 여전히 gaussian random variable이 된다.
+5. **uncorrelated** 가 뭐지
+
+# Q-function
+
+normalized gaussian distribution function을 정리한 것이다.
+
+![](https://i.imgur.com/GWbG4nr.png)
+
+따라서 PBE를 Q-function으로 나타낼 수 있다! 각종 분산과 SNR 정리를 이용하면 Q-function임을 증명할 수 있다.
+Q-function은 다른 말로 **Complementary error function**이라고도 한다. error function과는 다음과 같은 관계를 가진다.
+$$
+Q(x) = \frac{1}{2}\text{erfc}(\frac{x}{\sqrt{2}})
+$$
+
+> [!note]
+> $E_d$로 나타낼 때와 $E_b$로 나타낼 때 값이 다르다.
+
+# Antipodal Signals for Binary Signal Transmission
+
+![](https://i.imgur.com/h8CaxQm.png)
+
+이제 Binary signal transmission에서 Q-function을 이용해 error를 찾는 과정까지 합해보자.
+**Antipodal**의 의미는 Binary signal에서 두 개의 symbol을 나타낼 때 파형의 전체적인 모습과 상관없이 symbol을 나타내는 두 signal의 파형이 반대이기만 하면 된다는 뜻이다.
+
+# Decision Theory
+
+
+![](https://i.imgur.com/O13104x.png)
+
+앞서 배웠던 내용을 종합하면 다음과 같다. *signal source*는 Digital signal을 일정 level로 mapping시킨 신호로, channel까지 통과했다고 생각하면 된다.
+noise로는 *AWGN*가 추가되며, 이는 *gaussian process*로 잡아낸다. 사용하는 filter는 *Matched filter*.
+다음은 *Decision rule*에 의해 symbol을 결정한다. 이는 *Maximum likelihood*를 기준으로 결정된다. error가 발생할 확률은 *Q-function*으로 계산할 수 있다.
+
+# ML : Vector View
+
+![](https://i.imgur.com/OuMuQny.png)
+
+Likelihood ratio test를 잘 뜯어보면, 이는 결국 *가장 가까운 symbol로 결정됨을 알 수 있다*.
+굳이 확률이 아닌 거리로 결정해도 된다는 뜻! 이는 **Maximum correlation**, 또는 **Minimum distance**로 불린다.
+
+# Optimizing Error Performance
+
+![](https://i.imgur.com/jBB0xwX.png)
+
+아무래도 상식적으로 생각해보면 각 symbol이 멀리 떨어져 있을수록 error의 확률이 낮다. 이를 **Time cross-correlation coeff.**, $\rho$ 로 나타낼 수 있다. 이는 두 symbol이 벡터 공간에서 이루는 각으로 표현된다.
+
+따라서 Q-function을 다음과 같이 다르게 표현할 수 있다. Energy difference를 사용함에 유의!
+
+![](https://i.imgur.com/S82qBbP.png)
+
+$\rho$ 의 값에 따른 error의 변화는 다음과 같다.
+
+![](https://i.imgur.com/LVEDIAF.png)
+
+$\rho$ = 1일 때는 error가 0이긴 하지만 현실적으로는 불가능하다. symbol이 하나밖에 없어서 사용할 일이 없다. 의외로 $\rho$ = 0일 때 error 확률이 낮다. orthogonal한 신호를 만드는 것이 목적?
+
+# On-Off Signals for Binary Signal Transmission
+
+![](https://i.imgur.com/UGkBOZp.png)
+
+이는 binary에서 0과 1을 s(t)의 유무로 결정하는 방식이다. 없으면 0, 있으면 1이다. 0인 경우에는 noise만 존재하게 된다.
+따라서 0을 받으면 n만 받게 되고, 1을 받으면 E + n을 받게 된다.
+noise는 AWGN이므로, PDF는 다음과 같이 나타난다.
+
+![](https://i.imgur.com/rrJQAg8.png)
+error는 다음과 같이 계산할 수 있다.
+
+![](https://i.imgur.com/uAnyk4v.png)
+이게 만나는 부분이 $\frac{E}{2}$니깐... 절반을 기준으로 할 수 있는거구나
+
+![](https://i.imgur.com/qgeJC2B.png)
+
+Monte Carlo simulation을 통해 performance를 계산한 결과는 위와 같이 된다고 한다.
+
+# Signal Constellation Diagrams for Binary Signals
+
+Binary signal의 경우 다음과 같이 다양한 방법으로 나타낼 수 있다.
+
+![|254](https://i.imgur.com/N77C8rz.png)
+
+- **Antipodal** : one-dimensional로 나타내고, 위상이 반대인 energy가 하나의 축에 나타난다. 각 signal은 E 에너지를 갖는다.
+- **On-off** : 0 아니면 E이다.
+- **Binary orthogonal** : 수직인 두 신호이다. Two-dimensional이다.
+
+![](https://i.imgur.com/uqlXaII.png)
+ 어째 error 확률이 다 다르다.
+# Binary Transmission
+
+![](https://i.imgur.com/YHmSfwC.png)
+
+당연히 분산에 따라서 달라지겠지요... (사진은 orthogonal 기준)
+
+# Multiamplitude Signal Transmission
+
+![](https://i.imgur.com/DTh83Lx.png)
+
+이번에는 Binary가 아닌 여러 개의 level이 존재하는 Transmission을 알아보자. 그중에서도 amplitude modulation을 사용한 경우이다.
+이 때 중요한 것은 각 신호 사이의 거리이다. 거리가 같아야 error 확률이 같아진다.
+
+![](https://i.imgur.com/ShUAybi.png)
+
+이후 **Power normalization**을 진행한다. power의 평균이 1이 되도록 만들면 된다.
+
+![](https://i.imgur.com/NTR7bW6.png)
+
+Receive는 Minimum distance 원리를 적용해 symbol을 찾아내면 된다.
+
+![](https://i.imgur.com/VOE3TdH.png)
+
+Error의 경우는 왜 저렇게 구하는지 모르겠다...
+notation이 휘릭휘릭 바뀌면 어쩌자는거
+
+![](https://i.imgur.com/nQcZQmr.png)
+
+요거는 SER 구하는 예시이다 어차피 위를 이해못하면 이것도 이해 못한다
+
+## Signal Waveforms with Multiple Amplitude Levels
+
+![](https://i.imgur.com/GahpPwI.png)
+
+level이 여러 개 있을 때 signal은 어떻게 분석할까?
+
+# Multidimensional Signals
+
+![](https://i.imgur.com/f2wN0qh.png)
+
+왜 써요 이거

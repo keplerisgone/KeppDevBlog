@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 260.5,
+    "collapsed": true
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -171,6 +172,7 @@
   },
   "active": "6ae15410ada4650b",
   "lastOpenFiles": [
+    "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Home.md",
     "Yonsei/3학년 1학기/통신이론/Note 7.md",
     "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
@@ -196,7 +198,6 @@
     "02-MOC/Linux/Linux.md",
     "02-MOC/Obsidian/Obsidian.md",
     "02-MOC/Operating System/Operating System.md",
-    "02-MOC/C & CPP/C & CPP.md",
     "Omnivore",
     "01-Project/LED 회로",
     "Media/Untitled 3 6.png",
