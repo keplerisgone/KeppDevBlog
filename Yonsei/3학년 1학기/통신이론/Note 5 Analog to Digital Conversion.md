@@ -49,6 +49,10 @@ aliasing이 일어나게 하지 않는 최소한의 sampling rate를 **Nyquist s
 
 ![](https://i.imgur.com/7mSq4Wi.png)
 
+![](https://i.imgur.com/WJQgpky.png)
+
+![](https://i.imgur.com/O220PeO.png)
+
 ## Quantization
 
 Sampling 이후의 signal 값을 특정 값으로 round하는 과정이다. Discrete-time, discrete-amplitude signal이 된다. 
