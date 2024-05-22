@@ -90,7 +90,7 @@ Var(n) = E[n^{2}]=E[\int^{T}_{0}g(T-t)n(t)dt\int^{T}_{0}g(T-t)n(\tau)d \tau] \\
 \end{align*}
 $$
 
-따라서 평균과 분산은 각각 0, $\frac{N_{0}T}{2}$를 가지므로 이는 Gaussian noise가 된다!
+따라서 평균과 분산^2은 각각 0, $\frac{N_{0}T}{2}$를 가지므로 이는 Gaussian noise가 된다!
 
 > [!note]
 > Gaussian noise는 음... 뭐지
