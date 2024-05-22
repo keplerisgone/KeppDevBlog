@@ -1,4 +1,4 @@
-
+																															
 이전에 배운 것
 - Carrier modulation: carrier의 성분을 이용해 message를 전송
 	- **Amplitude**

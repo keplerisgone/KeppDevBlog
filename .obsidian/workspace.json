@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
+                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
               }
             }
           },
@@ -195,12 +194,12 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "f7487efc0466ea6c",
+  "active": "6052d308b92b483a",
   "lastOpenFiles": [
-    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
-    "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
-    "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
+    "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+    "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Yonsei/2학년 2학기/신호및시스템/Properties of DT F.S/Properties of DT F.S.md",
     "Yonsei/2학년 2학기/신호및시스템/Fourier Series Representation of Periodic Signals.md",
     "Yonsei/2학년 2학기/신호및시스템/F.S. Representation of DT Periodic Signals/F.S. Representation of DT Periodic Signals.md",
