@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ca8d28176cb3781a",
+        "id": "c6ac9d7b2698cd45",
         "type": "tabs",
         "children": [
           {
-            "id": "d43e1bf642216031",
+            "id": "c3d29e79aeede632",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Writing/프롬프트 엔지니어링 교과서.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Writing/프롬프트 엔지니어링 교과서.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-Writing/프롬프트 엔지니어링 교과서.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Writing/프롬프트 엔지니어링 교과서.md"
+                "file": "Home.md"
               }
             }
           },
@@ -169,10 +169,11 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "d43e1bf642216031",
+  "active": "c3d29e79aeede632",
   "lastOpenFiles": [
-    "03-Writing/세컨드 브레인.md",
+    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표자료.md",
     "03-Writing/프롬프트 엔지니어링 교과서.md",
+    "03-Writing/세컨드 브레인.md",
     "03-Writing/옵시디언 정리 일지.md",
     "03-Writing/세벌식은 왜 짱인가.md",
     "02-MOC/Blog/Blog.md",
@@ -196,7 +197,6 @@
     "99-Archive/99-Daily/99-Daily.md",
     "Home.md",
     "Template/template.md",
-    "03-Writing/키보드 자판.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",

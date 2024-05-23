@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "개인",
+      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md"
+    },
+    {
+      "basename": "발표자료",
+      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표자료.md"
+    },
+    {
       "basename": "프롬프트 엔지니어링 교과서",
       "path": "03-Writing/프롬프트 엔지니어링 교과서.md"
     },
@@ -93,10 +105,6 @@
       "path": "99-Archive/99-Daily/99-Daily.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "Processor",
       "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
     },
@@ -119,10 +127,6 @@
     {
       "basename": "13.4 Cauchy-Riemann Equations, Laplace’s Equation",
       "path": "Yonsei/2학년 2학기/공학수학(4)/13.4 Cauchy-Riemann Equations, Laplace’s Equation/13.4 Cauchy-Riemann Equations, Laplace’s Equation.md"
-    },
-    {
-      "basename": "개인",
-      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md"
     },
     {
       "basename": "세벌식",
@@ -195,10 +199,6 @@
     {
       "basename": "Embedded",
       "path": "02-MOC/Embedded system/Embedded/Embedded.md"
-    },
-    {
-      "basename": "아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그",
-      "path": "02-MOC/Embedded system/Embedded/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md"
     }
   ],
   "omittedPaths": [],
