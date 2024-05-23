@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Note 5 Analog to Digital Conversion",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
+      "basename": "프롬프트 엔지니어링 교과서",
+      "path": "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md"
+    },
+    {
+      "basename": "세벌식",
+      "path": "02-MOC/Blog/세벌식/세벌식.md"
+    },
+    {
+      "basename": "Processor",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
+      "basename": "CPP",
+      "path": "02-MOC/CPP/CPP.md"
+    },
+    {
+      "basename": "02-MOC",
+      "path": "02-MOC/02-MOC.md"
+    },
+    {
+      "basename": "00-Personal",
+      "path": "00-Personal/00-Personal.md"
+    },
+    {
+      "basename": "개인",
+      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md"
+    },
+    {
+      "basename": "생각해볼만한 주제들",
+      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md"
+    },
+    {
+      "basename": "흠냐링",
+      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md"
     },
     {
       "basename": "Note 7 Digital Transmission in an AWGN Channel",
       "path": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
     },
     {
+      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
+    },
+    {
       "basename": "Note 6 Baseband Digital Data Transmission",
       "path": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md"
     },
     {
-      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
+      "basename": "Note 5 Analog to Digital Conversion",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
     },
     {
       "basename": "Properties of DT F.S",
@@ -49,10 +85,6 @@
       "path": "Home.md"
     },
     {
-      "basename": "02-MOC",
-      "path": "02-MOC/02-MOC.md"
-    },
-    {
       "basename": "통신이론",
       "path": "Yonsei/3학년 1학기/통신이론/통신이론.md"
     },
@@ -85,20 +117,12 @@
       "path": "03-Writing/세벌식은 왜 짱인가.md"
     },
     {
-      "basename": "세벌식",
-      "path": "02-MOC/Blog/세벌식/세벌식.md"
-    },
-    {
       "basename": "Blog",
       "path": "02-MOC/Blog/Blog.md"
     },
     {
       "basename": "template",
       "path": "Template/template.md"
-    },
-    {
-      "basename": "00-Personal",
-      "path": "00-Personal/00-Personal.md"
     },
     {
       "basename": "Goals",
@@ -131,10 +155,6 @@
     {
       "basename": "Operating System",
       "path": "02-MOC/Operating System/Operating System.md"
-    },
-    {
-      "basename": "C & CPP",
-      "path": "02-MOC/C & CPP/C & CPP.md"
     },
     {
       "basename": "Control an 8x8 matrix of LEDs. - Arduino Documentation",
@@ -175,30 +195,6 @@
     {
       "basename": "Screenshot_2023-08-24_at_3.34.48_PM",
       "path": "Media/Screenshot_2023-08-24_at_3.34.48_PM.png"
-    },
-    {
-      "basename": "Untitled 13",
-      "path": "Media/Untitled 13.png"
-    },
-    {
-      "basename": "세컨드 브레인 - 옵시디언",
-      "path": "03-Writing/세컨드 브레인 - 옵시디언.md"
-    },
-    {
-      "basename": "Feedback",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md"
-    },
-    {
-      "basename": "생각해볼만한 주제들",
-      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md"
-    },
-    {
-      "basename": "옵시디언 정리 일지",
-      "path": "03-Writing/옵시디언 정리 일지.md"
-    },
-    {
-      "basename": "키보드 자판",
-      "path": "03-Writing/키보드 자판.md"
     }
   ],
   "omittedPaths": [],

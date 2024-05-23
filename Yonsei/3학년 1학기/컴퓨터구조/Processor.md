@@ -210,13 +210,41 @@ traditional pipeline model에는 총 다섯 가지의 stage가 존재하므로, 
 	마지막 WB stage에서 data를 register로 보내는 경우.
 	EX stage에서 branch address를 PC로 보내는 경우.
 
-## Abstract Representation of 5-stage Pipline
+## Abstract Representation of 5-stage Pipeline
 
 5-stage pipeline은 다음과 같은 diagram으로 나타낼 수 있다.
 
-![|600](https://i.imgur.com/pG7Lsuw.png)
+![|575](https://i.imgur.com/pG7Lsuw.png)
 
 shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 것이다.
-- **left-shading** : stage에서 wrting을 진행
-- **right-shading** : stage에서 reading을 진행
+- **left-shading**: stage에서 wrting을 진행
+- **right-shading**: stage에서 reading을 진행
 점선으로 이루어진 부분은 절대 접근하지 않는다는 뜻이다.
+
+## Illustration of Pipeline Execution
+
+![|475](https://i.imgur.com/wJJuo2l.png)
+
+- Pipeline execution은 instruction 단위로 표시된다.
+- 각각의 stage는 하나의 instruction 밖에 처리하지 못한다.
+- 기본적으로 *1cycle - 1stage*를 처리한다.
+- datapath를 나누지 않기 때문에 각 stage elements는 insturction 사이에 공유된다.
+
+## Pipeline Registers (FF)
+
+![|600](https://i.imgur.com/51OAPlV.png)
+
+- **Pipeline Registers**는 각 stage를 연결하는 레지스터로, 각 cycle이 지날 때마다 insturction이 통과하는 곳이다. 
+- pipeline 단계 간 동기화, 데이터 의존성 관리, 딜레이 조절에 관여한다.
+- 이름은 끼어있는 두 스테이지를 붙여 쓴다. (*IF/ID*)
+
+## IF (Instruction Fetch) Stage
+
+![|173](https://i.imgur.com/F5qGG5x.png)
+
+- instruction이 instruction memory에서 읽힌다.
+- (PC + 4)로 증가, `beq`를 이용한 경우 PC를 저장한다.
+
+## ID (Instruction Decode) Stage
+
+- 

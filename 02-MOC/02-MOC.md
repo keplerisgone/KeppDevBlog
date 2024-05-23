@@ -2,25 +2,25 @@
 
 %% Begin Waypoint %%
 - **[[Blog]]**
+	- **Books**
+		- [[프롬프트 엔지니어링 교과서]]
 	- **[[세벌식]]**
 	- [[옵시디언 노트를 티스토리 블로그에 올리기]]
 	- [[유튜브가 렉이 걸릴 때]]
-- **[[C & CPP]]**
-	- **[[C]]**
-	- **[[CPP]]**
-		- [[2023-04-23-CPPBasic]]
-		- [[C++ namespace]]
-		- [[C++ pointer, reference]]
-		- [[C++ Vector 벡터]]
-		- [[C++ 문자열 (string)]]
-		- [[C++ 반복문 (for, switch, while)]]
-		- [[C++ 조건문]]
-		- [[C++이란?]]
 - **[[Computer Science]]**
 	- **[[Computer Architecture]]**
 		- [[Data Compression]]
 		- [[Digital Information]]
 		- [[컴퓨터 과학 기초]]
+- **[[CPP]]**
+	- [[2023-04-23-CPPBasic]]
+	- [[C++ namespace]]
+	- [[C++ pointer, reference]]
+	- [[C++ Vector 벡터]]
+	- [[C++ 문자열 (string)]]
+	- [[C++ 반복문 (for, switch, while)]]
+	- [[C++ 조건문]]
+	- [[C++이란?]]
 - **[[Embedded system]]**
 	- **[[Embedded]]**
 		- [[아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그]]

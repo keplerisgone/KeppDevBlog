@@ -37,13 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+                "file": "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88f08e5e29598be1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+                "file": "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+                "file": "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
+                "file": "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md"
               }
             }
           },
@@ -194,12 +206,24 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "6052d308b92b483a",
+  "active": "f7487efc0466ea6c",
   "lastOpenFiles": [
+    "02-MOC/Blog/세벌식/세벌식.md",
+    "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md",
+    "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+    "02-MOC/Blog/Books",
+    "02-MOC/CPP/CPP.md",
+    "02-MOC/C & CPP/C & CPP.md",
+    "02-MOC/C & CPP/C/C.md",
+    "02-MOC/02-MOC.md",
+    "00-Personal/00-Personal.md",
+    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
+    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
+    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+    "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
-    "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Yonsei/2학년 2학기/신호및시스템/Properties of DT F.S/Properties of DT F.S.md",
     "Yonsei/2학년 2학기/신호및시스템/Fourier Series Representation of Periodic Signals.md",
     "Yonsei/2학년 2학기/신호및시스템/F.S. Representation of DT Periodic Signals/F.S. Representation of DT Periodic Signals.md",
@@ -209,20 +233,9 @@
     "Yonsei/2학년 2학기/신호및시스템/신호및시스템.md",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Home.md",
-    "02-MOC/02-MOC.md",
     "Yonsei/3학년 1학기/통신이론/통신이론.md",
     "02-MOC/Embedded system/Embedded system.md",
     "02-MOC/Embedded system/Embedded/Embedded.md",
-    "02-MOC/Embedded system/Embedded/아두이노, 라즈베리파이 차이점은- 용도부터 쉽게 알아보 - 네이버 블로그.md",
-    "99-Archive/PHP 문자열 비교.md",
-    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
-    "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
-    "03-Writing/세벌식은 왜 짱인가.md",
-    "02-MOC/Blog/세벌식/세벌식.md",
-    "02-MOC/Blog/Blog.md",
-    "Template/template.md",
-    "00-Personal/00-Personal.md",
-    "00-Personal/Goals.md",
     "Omnivore",
     "01-Project/LED 회로",
     "Media/Untitled 3 6.png",
@@ -233,7 +246,6 @@
     "Omnivore/2024-03-04",
     "Omnivore/2024-03-03",
     "Omnivore/2024-03-02",
-    "Omnivore/2024-03-01",
     "Media/Screenshot_2023-09-29_at_8.20.19_PM.png",
     "Media/Screenshot_2023-08-24_at_3.34.48_PM.png",
     "Media/Untitled 13.png",
