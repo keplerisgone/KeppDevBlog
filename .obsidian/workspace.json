@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4e17013f1d6afbf9",
+        "id": "ca8d28176cb3781a",
         "type": "tabs",
         "children": [
           {
-            "id": "0e7a2f4316f8358a",
+            "id": "d43e1bf642216031",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "03-Writing/프롬프트 엔지니어링 교과서.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "03-Writing/프롬프트 엔지니어링 교과서.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "03-Writing/프롬프트 엔지니어링 교과서.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "03-Writing/프롬프트 엔지니어링 교과서.md"
               }
             }
           },
@@ -169,35 +169,35 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "0e7a2f4316f8358a",
+  "active": "d43e1bf642216031",
   "lastOpenFiles": [
-    "Template/template.md",
-    "03-Writing/프롬프트 엔지니어링 교과서.md",
-    "03-Writing/키보드 자판.md",
-    "03-Writing/옵시디언 정리 일지.md",
     "03-Writing/세컨드 브레인.md",
-    "Yonsei/2학년 2학기/전자기학(1)/Electrostatic Actuator - 8조/Electrostatic Actuator - 8조.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
-    "Yonsei/2학년 2학기/공학수학(4)/13.4 Cauchy-Riemann Equations, Laplace’s Equation/13.4 Cauchy-Riemann Equations, Laplace’s Equation.md",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
-    "02-MOC/Blog/세벌식/세벌식.md",
-    "02-MOC/Blog/Books",
-    "02-MOC/CPP/CPP.md",
-    "02-MOC/C & CPP/C & CPP.md",
-    "02-MOC/C & CPP/C/C.md",
+    "03-Writing/프롬프트 엔지니어링 교과서.md",
+    "03-Writing/옵시디언 정리 일지.md",
+    "03-Writing/세벌식은 왜 짱인가.md",
+    "02-MOC/Blog/Blog.md",
+    "02-MOC/Blog/Books/Books.md",
     "02-MOC/02-MOC.md",
+    "01-Project/01-Project.md",
+    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
+    "01-Project/노닥노닥 라즈베리/임베디드 with 라즈베리파이.md",
+    "01-Project/LED 회로/Control an 8x8 matrix of LEDs. - Arduino Documentation.md",
+    "99-Archive/Functional Programming.md",
+    "99-Archive/C++로 문제 풀기.md",
+    "99-Archive/Web/PHP 문자열 비교.md",
+    "99-Archive/Web/Web.md",
+    "99-Archive/Wargame/Wargame.md",
+    "99-Archive/Robotgame/진행 상황.md",
+    "99-Archive/Robotgame/배터리 시스템.md",
+    "99-Archive/Robotgame/몬스터 구현.md",
     "00-Personal/00-Personal.md",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md",
-    "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
-    "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
-    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
-    "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
-    "Yonsei/2학년 2학기/신호및시스템/Properties of DT F.S/Properties of DT F.S.md",
-    "Yonsei/2학년 2학기/신호및시스템/Fourier Series Representation of Periodic Signals.md",
-    "Yonsei/2학년 2학기/신호및시스템/F.S. Representation of DT Periodic Signals/F.S. Representation of DT Periodic Signals.md",
-    "Yonsei/2학년 2학기/신호및시스템/FS and LTI Systems/FS and LTI Systems.md",
+    "02-MOC/Tech & Dev/Tech & Dev.md",
+    "02-MOC/Tech & Dev/Dev/Dev.md",
+    "99-Archive/99-Daily/99-Daily.md",
+    "Home.md",
+    "Template/template.md",
+    "03-Writing/키보드 자판.md",
+    "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",
     "01-Project/LED 회로",
