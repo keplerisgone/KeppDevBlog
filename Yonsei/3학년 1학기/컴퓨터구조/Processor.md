@@ -247,4 +247,83 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 
 ## ID (Instruction Decode) Stage
 
-- 
+![|212](https://i.imgur.com/fWGOiuq.png)
+
+- 두 개의 source register를 register file에서 읽고, 12-bit immediate field에서 immediate도 불러온다. 
+- instruction type을 고려하지 않고 불러오며, 좀 낭비같지만 간단한 방식이다.
+
+## EX (Exexution) Stage
+
+![|153](https://i.imgur.com/Txl9DHa.png)
+
+- instruction type에 의해 ALU의 할 일이 정해지면 instruction이 실행된다. 
+- MUX가 type에 맞게 operand를 가져온다. output은 EX/MEM으로 보내진다.
+
+## MEM (Memory) Stage
+
+![|166](https://i.imgur.com/Fu97bbB.png)
+
+- `store` 명령의 경우 연산 결과를 메모리에 저장한다. 
+- 저장된 메모리는 ID/EX나 EX/MEM을 통해 보내진다.
+- `load` 명령의 경우 EX stage에서 계산된 주소에서 data를 읽어온다. 
+- 읽은 data는 MEM/WB로 가 register에 쓰인다.
+
+## WB (Writeback) Stage
+
+![|425](https://i.imgur.com/ddaG1AA.png)
+
+- MEM/WB으로 전해진 data는 register file로 전달되어 register에 저장된다. 
+- 전달되는 data는 ALU의 연산 결과 혹은 data memory이며, MUX는 type에 맞게 이를 선택한다.
+- data가 register에 쓰여야하는 경우, destination register (`rd`)가 정의되어야 한다.
+	- 하지만 5-Stage 구조에서 하나의 data element는 한 번만 사용되기에 IF/ID register에 접근해 `rd`를 다시 찾아올 수 없다.
+	- 따라서 `rd`는 처음부터 pipeline을 따라 이동한다.
+
+## Exercise of Datapath Elements
+
+![|550](https://i.imgur.com/VuXvMcM.png)
+
+- 위 그림은 `ld` 명령의 datapath를 정리한 것이다.
+- right-shading은 read만 한다는 
+
+## Single-Cycle Pipeline Diagram
+
+![|650](https://i.imgur.com/y2A7OWK.png)
+
+- **single-cycle pipeline diagram**은 datapath를 하나의 cycle에서 어떤 stage에서 어떤 instruction을 처리하고 있는지를 나타낸 것이다.
+- 따라서 execution의 순서는 오른쪽부터 왼쪽이 된다.
+
+## Graphical Multi-Cycle Pipeline Diagram
+
+![](https://i.imgur.com/JlQXW96.png)
+
+- *multi-cycle diagram*은 각 cycle에서 어떤 instruction의 어떤 stage가 처리되고 있는지를 나타낸 것이다.
+
+## Pipeline Control Signals
+
+- **control signal**은 pipelined stage가 적절한 타이밍에 이루어질 수 있도록 돕는 역할을 한다.
+- 각 control signal은 docode logic에 의해 생성되며, pipeline resgister를 통과하며 하나씩 사용된다.
+- **IF** : 매 clock마다 PC, instruction을 읽기 때문에 control signal이 사용되지는 않는다.
+- **ID** : Decoder를 이용해 control signal이 생성된다.
+- **EX** : control signal과 instruction 정보(`funct3`, `rd`)가 pipeline register를 통해 전달된다. control signal은 **ALUOp**이다. ALU의 계산을 결정한다.
+- **MEM** : 메모리에서 data를 쓰거나 읽는지 파악한다(`MEMWrite`,`MEMRead`). 또한 branch가 선택됐을 경우 이를 IF 단계의 MUX로 보낸다(`PCSrc`).  
+- **WB** : 메모리의 data를 register로 보내거나(`MEMtoReg`) 연산 결과를 register로 보낸다(`RegWrite`).
+
+# Pipeline Hazards
+
+- **Pipeline Hazards**는 모종의 이유로 인해 위와 같은 pipeline 구조에서 intruction이 지연되는 현상을 말한다. 이를 *stalled*되었다고 한다.
+- stalled된 상태들 **bubble**이라고 한다.
+- pipeline hazard는 요인에 따라 **structural, data, control hazard**로 나뉠 수 있다.
+
+## Structural Hazards
+
+- **Structural Hazards**는 하드웨어적인 이유로 발생하는 hazard로, 하나의 element에 여러 개의 stage가 접근해야하는 경우에 발생한다. (간단하게 생각하면 줄이 밀렸어요)
+- memory를 multi-port로 만들거나, 여러 개의 ALU를 사용함으로써 해결할 수 있다.
+- 하드웨어적인 문제이기 때문에 자세히 다루지는 않도록 한다.
+
+## Data Hazards
+
+![|625](https://i.imgur.com/t1nlkIR.png)
+
+- **Data Hazard**는 데이터에 접근해야 하지만 해당 데이터가 준비되지 않았을 경우로, 데이터가 필요한 instruction이 stalled된다.
+- 이는 instruction의 dependent 관계에 의해 결정된다.
+- 아래는 

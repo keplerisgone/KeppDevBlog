@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6052d308b92b483a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "541b9940dfe5d8de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f7487efc0466ea6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88f08e5e29598be1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 260.5,
+    "collapsed": true
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -130,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md"
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
               }
             }
           },
@@ -208,8 +172,8 @@
   },
   "active": "f7487efc0466ea6c",
   "lastOpenFiles": [
-    "02-MOC/Blog/세벌식/세벌식.md",
     "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md",
+    "02-MOC/Blog/세벌식/세벌식.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
     "02-MOC/Blog/Books",
     "02-MOC/CPP/CPP.md",
