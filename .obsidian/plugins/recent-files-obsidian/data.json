@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "개인",
-      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md"
+      "basename": "Home",
+      "path": "Home.md"
     },
     {
       "basename": "Processor",
       "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
     },
     {
+      "basename": "template",
+      "path": "Template/template.md"
+    },
+    {
       "basename": "프롬프트 엔지니어링 교과서",
-      "path": "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md"
+      "path": "03-Writing/프롬프트 엔지니어링 교과서.md"
+    },
+    {
+      "basename": "키보드 자판",
+      "path": "03-Writing/키보드 자판.md"
+    },
+    {
+      "basename": "옵시디언 정리 일지",
+      "path": "03-Writing/옵시디언 정리 일지.md"
+    },
+    {
+      "basename": "세컨드 브레인",
+      "path": "03-Writing/세컨드 브레인.md"
+    },
+    {
+      "basename": "Electrostatic Actuator - 8조",
+      "path": "Yonsei/2학년 2학기/전자기학(1)/Electrostatic Actuator - 8조/Electrostatic Actuator - 8조.md"
+    },
+    {
+      "basename": "Arithmetic",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
+    },
+    {
+      "basename": "13.4 Cauchy-Riemann Equations, Laplace’s Equation",
+      "path": "Yonsei/2학년 2학기/공학수학(4)/13.4 Cauchy-Riemann Equations, Laplace’s Equation/13.4 Cauchy-Riemann Equations, Laplace’s Equation.md"
+    },
+    {
+      "basename": "개인",
+      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md"
     },
     {
       "basename": "세벌식",
@@ -81,10 +113,6 @@
       "path": "Yonsei/2학년 2학기/신호및시스템/신호및시스템.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "통신이론",
       "path": "Yonsei/3학년 1학기/통신이론/통신이론.md"
     },
@@ -119,10 +147,6 @@
     {
       "basename": "Blog",
       "path": "02-MOC/Blog/Blog.md"
-    },
-    {
-      "basename": "template",
-      "path": "Template/template.md"
     },
     {
       "basename": "Goals",
@@ -175,26 +199,6 @@
     {
       "basename": "Untitled 3 6",
       "path": "Media/Untitled 3 6.png"
-    },
-    {
-      "basename": "03_CPP_Flow 2",
-      "path": "Media/03_CPP_Flow 2.pdf"
-    },
-    {
-      "basename": "01_Linux_basic 2",
-      "path": "Media/01_Linux_basic 2.pdf"
-    },
-    {
-      "basename": "24-03-20 전회",
-      "path": "Media/24-03-20 전회.pdf"
-    },
-    {
-      "basename": "Screenshot_2023-09-29_at_8.20.19_PM",
-      "path": "Media/Screenshot_2023-09-29_at_8.20.19_PM.png"
-    },
-    {
-      "basename": "Screenshot_2023-08-24_at_3.34.48_PM",
-      "path": "Media/Screenshot_2023-08-24_at_3.34.48_PM.png"
     }
   ],
   "omittedPaths": [],

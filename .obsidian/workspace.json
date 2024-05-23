@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "98c856893534dfbf",
+        "id": "4e17013f1d6afbf9",
         "type": "tabs",
         "children": [
           {
-            "id": "f7487efc0466ea6c",
+            "id": "0e7a2f4316f8358a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 218.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md"
+                "file": "Home.md"
               }
             }
           },
@@ -170,10 +169,18 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "f7487efc0466ea6c",
+  "active": "0e7a2f4316f8358a",
   "lastOpenFiles": [
+    "Template/template.md",
+    "03-Writing/프롬프트 엔지니어링 교과서.md",
+    "03-Writing/키보드 자판.md",
+    "03-Writing/옵시디언 정리 일지.md",
+    "03-Writing/세컨드 브레인.md",
+    "Yonsei/2학년 2학기/전자기학(1)/Electrostatic Actuator - 8조/Electrostatic Actuator - 8조.md",
+    "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
+    "Yonsei/2학년 2학기/공학수학(4)/13.4 Cauchy-Riemann Equations, Laplace’s Equation/13.4 Cauchy-Riemann Equations, Laplace’s Equation.md",
+    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
-    "02-MOC/Blog/Books/프롬프트 엔지니어링 교과서.md",
     "02-MOC/Blog/세벌식/세벌식.md",
     "02-MOC/Blog/Books",
     "02-MOC/CPP/CPP.md",
@@ -181,7 +188,6 @@
     "02-MOC/C & CPP/C/C.md",
     "02-MOC/02-MOC.md",
     "00-Personal/00-Personal.md",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
@@ -192,14 +198,7 @@
     "Yonsei/2학년 2학기/신호및시스템/Fourier Series Representation of Periodic Signals.md",
     "Yonsei/2학년 2학기/신호및시스템/F.S. Representation of DT Periodic Signals/F.S. Representation of DT Periodic Signals.md",
     "Yonsei/2학년 2학기/신호및시스템/FS and LTI Systems/FS and LTI Systems.md",
-    "Yonsei/2학년 2학기/신호및시스템/The Response of LTI systems to complex exponentials/The Response of LTI systems to complex exponentials.md",
-    "Yonsei/2학년 2학기/신호및시스템/Magnitude-Phase Representation of the Frequency Response of LTI systems/Magnitude-Phase Representation of the Frequency Response of LTI systems.md",
-    "Yonsei/2학년 2학기/신호및시스템/신호및시스템.md",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
-    "Home.md",
-    "Yonsei/3학년 1학기/통신이론/통신이론.md",
-    "02-MOC/Embedded system/Embedded system.md",
-    "02-MOC/Embedded system/Embedded/Embedded.md",
     "Omnivore",
     "01-Project/LED 회로",
     "Media/Untitled 3 6.png",
