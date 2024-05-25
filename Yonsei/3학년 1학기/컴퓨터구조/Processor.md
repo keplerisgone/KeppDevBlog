@@ -332,5 +332,24 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 
 ### Detecting Data Dependency Between Instructions
 
+![|575](https://i.imgur.com/rzbvTO3.png)
+
 이런 instruction 사이의 dependency는 어떻게 판단할까? 
-- *ID/EX.rs1*, *ID/EX.rs2*는 각각 
+- *ID/EX.rs1*, *ID/EX.rs2*는 각각  ID/EX register에 존재하는 rs1, rs2 # 를 의미한다.
+- *EX/MEM*, *MEM/WB*도 마찬가지이다.
+- 따라서 다음과 같은 경우에만 data hazard가 발생한다.
+	- ID/EX.rs1 == EX/MEM.rd
+	- ID/EX.rs2 == EX/MEM.rd
+	- ID/EX.rs1 == MEM/WB.rd
+	- ID/EX.rs2 == MEM/WB.rd
+- 위 상황은 붉은 색 pipeline register가 문제임을 보여준다.
+
+## Pipeline Stalls
+
+![](https://i.imgur.com/IScZ6U6.png)
+
+- Hazard에 의해 instruction이 밀리는 현상을 pipeline stalls라고 한다. 이는 hazard를 해결하는 방법이긴 한데 성능 저하가 심하게 일어난다.
+
+## No Operations (Nops)
+
+- **Nop**은 pipeline stall로 인해 생긴 빈 자리를 채우는 instruction으로, 주로 **Bubble**로 표시된다. 
