@@ -344,16 +344,62 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 	- ID/EX.rs2 == MEM/WB.rd
 - 위 상황은 붉은 색 pipeline register가 문제임을 보여준다.
 
-## Pipeline Stalls
+### Pipeline Stalls
 
 ![](https://i.imgur.com/IScZ6U6.png)
 
 - Hazard에 의해 instruction이 밀리는 현상을 pipeline stalls라고 한다. 이는 hazard를 해결하는 방법이긴 한데 성능 저하가 심하게 일어난다.
-
-### No Operations (Nops)
-
 - **Nop**은 pipeline stall로 인해 생긴 빈 자리를 채우는 instruction으로, 주로 **Bubble**로 표시된다. 
 
-## Data Forwarding
+### Data Forwarding
 
-- WB stage를 기다리는 것보다는 
+![|550](https://i.imgur.com/G6FI9ND.png)
+
+- WB stage를 기다리는 것보다는 data가 준비되면 바로바로 전달하는 게 효과적이다. 
+- **Data forwarding**은 dependancy를 가지는 instruction이 data의 여부를 확인, 필요한 data가 pipeline register를 거치지 않고 전달된다.
+
+![|475](https://i.imgur.com/o5Epmap.png)
+
+- 이는 어떻게 이루어지는가? EX/MEM, MEM/WB는 **Forwarding unit**이라는 곳이 있는데, 이는 ALU의 MUX와 연결되어 pipeline register를 거치지 않고 data를 전달할 수 있다.
+- Forwarding unit은 다음과 같은 **Control Signal**로 관리된다.
+
+| MUX control                                     |      Operand source       | Description                                                                                |
+| ----------------------------------------------- | :-----------------------: | ------------------------------------------------------------------------------------------ |
+| ForwardA = 00<br>ForwardA = 01<br>ForwardA = 10 | ID/EX<br>EX/MEM<br>MEM/WB | rs1의 value를 register file에서 가져온다<br>rs1를 ALU result에서 가져온다<br>rs1을 data memory나 ALU에서 가져온다 |
+| ForwardB = 00<br>ForwardB = 01<br>ForwardB = 10 | ID/EX<br>EX/MEM<br>MEM/WB | rs2의 value를 register file에서 가져온다<br>rs2를 ALU result에서 가져온다<br>rs2을 data memory나 ALU에서 가져온다 |
+
+- 이 control signal 또한 pipelined된다. pipeline register로 전달된다는 뜻
+
+### Double Data Hazards
+
+![](https://i.imgur.com/2WRdKEE.png)
+
+- dependency가 연속적으로 있는 경우 위와 같이 forwarding이 일어난다.
+- 다만 EX/MEM에 data가 없을 경우에만 MEM/WB에서의 forwarding이 일어난다. 이는 경로를 최적화하기 위함이다.
+
+### Working with Immediate Operands
+
+![|270](https://i.imgur.com/SYFAGCZ.png)
+
+- R-type의 경우는 모두 register를 사용한다. 
+- 하지만 I-type의 경우는 immediate를 사용하기 때문에 이를 선택하기 위해 **Double MUX**를 사용한다.
+
+### Load-Use Data Hazards
+
+![|600](https://i.imgur.com/RuSZB7o.png)
+
+- Load instruction에서 Data hazard가 발생한 경우, 위와 같은 경우를 생각해보자.
+- ALU의 계산 결과가 stalled된 것이 아니라 MEM에서 가져온 결과에 의해 stalled된 것이다.
+- 따라서 EX/MEM, MEM/WB에서 일어나는 data forwarding으로 이를 해결할 수 없다. 
+- 이는 아래와 같이 complier가 instruction의 순서를 바꾸어 해결할 수 있다.
+
+![|600](https://i.imgur.com/kCkyOEi.png)
+
+## Control Hazards
+
+- **Control Hazards**는 branch instruction에 의해 일어나는 hazard이다. 따라서 **branch hazards**라고도 불린다 
+- 무조건 *branch condition*과 *target address*를 무조건 알아야 다음 instruction을 알 수 있기 때문에, 이를 해결하지 못하면 hazard가 발생한다.
+
+### Penalty for control hazards
+
+- 기본적으로 PC + 4에 기반해서 작동하되, 
