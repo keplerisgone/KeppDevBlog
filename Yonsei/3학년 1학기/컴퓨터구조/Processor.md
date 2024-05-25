@@ -333,4 +333,4 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 ### Detecting Data Dependency Between Instructions
 
 이런 instruction 사이의 dependency는 어떻게 판단할까? 
-- *ID/EX.rs1* 는 
+- *ID/EX.rs1*, *ID/EX.rs2*는 각각 
