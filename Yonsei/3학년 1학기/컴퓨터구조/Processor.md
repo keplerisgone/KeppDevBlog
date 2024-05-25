@@ -402,4 +402,65 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 
 ### Penalty for control hazards
 
-- 기본적으로 PC + 4에 기반해서 작동하되, 
+![|575](https://i.imgur.com/4uWYy5E.png)
+
+- 기본적으로 PC + 4에 기반해서 작동하되, branch를 타지 않았다고 가정하고 실행한다. 이때 MEM에서 결과가 나오기 전까지는 stalled되었는지 모른다.
+- 만약 branch가 선택되지 않았다면 위의 instruction은 모두 stalled된다.
+
+![](https://i.imgur.com/EQjBUXD.png)
+
+- hazard가 발생하는 근본적인 이유는 *branch target address*와 *branch decision if taken or not*을 모르기 때문에 발생한다. 그러면 최대한 빨리 계산하거나 추가적인 ALU가 필요하다.
+- 이중 **ID stage**에서 결과를 내는 방법은 너무 costly하기 때문에 쓰이지 않는다. (hardware resouce가 많이 필요함)
+
+### Branch Prediction
+
+- Control Hazard를 피하기 위한 가장 대표적인 방법이다. branch가 taken or not인지 예측한다.
+- **IF stage**에서 일어난다. **branch predictor**를 이용한다.
+- 기록을 저장하기 위해서 **branch target buffer**를 사용한다.
+
+![|525](https://i.imgur.com/89uk62t.png)
+
+1. **branch predictor**는 branch history를 저장한다.
+2. index는 (PC >> 2)%N이다. N은 buffer의 크기.
+3. 1이므로 taken으로 예측, 실제로는 not taken이면 0으로 재설정
+
+### How it Works
+
+![|550](https://i.imgur.com/iva3Pjp.png)
+
+- 가장 중요한 것은 *last branch history*에 의해서 prediction을 결정한다는 것이다.
+- 다만 아래와 같은 경우는 정확도가 너무 낮다는 문제가 있다.
+
+### 2-Bit Saturating Counters
+
+![|550](https://i.imgur.com/K69j8vI.png)
+
+- 정확도를 올리기 위해서 두 개의 bit를 사용할 수 있다. 
+- 맞는지 여부에는 상관없이 실제 결과에 따라 buffer가 업데이트 된다.
+
+![|575](https://i.imgur.com/aVExNyP.png)
+
+### Wrong-Path Execution
+
+![|575](https://i.imgur.com/jWk02Gg.png)
+
+- misprediction일 경우 나머지 insturction이 모두 stalled된다. 
+- 그래도 이런 panalty가 있을 수 있지..
+
+### Pipeline Flush
+
+- misprediction이 일어났을 경우 stalled된 instruction을 모두 버려야한다.
+- 평균적으로 하나의 branch는 6개의 instruction을 가지고 있다고 알려져 있다.
+
+## Instruction-Level Parallelism
+
+- 한 cycle에서 여러 개의 instruction을 실행하는 방법이다. 
+- **deeper pipeline**은 clock 속도를 높인 뒤 pipeline단계를 증가시키는 방법이다. 다만 power, thermal issue가 발생할 수도 있다.
+- **multi-issue pipeline**는 single clock cycle에 여러 개의 명령어를 실행하는 방법이다. 
+
+### Multi-issue Pipelined Execution
+
+![|575](https://i.imgur.com/CLmHn1G.png)
+
+- 위와 같이 하나의 cycle에서 instruction이 두 개씩 실행되는 것을 알 수 있다.
+- 이는 datapath에 additional stage를 추가함으로써 이루어진다.
