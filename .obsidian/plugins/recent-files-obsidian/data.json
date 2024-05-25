@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Processor",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
+      "basename": "Note 7 Digital Transmission in an AWGN Channel",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
+    },
+    {
       "basename": "개인",
       "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md"
     },
@@ -105,10 +113,6 @@
       "path": "99-Archive/99-Daily/99-Daily.md"
     },
     {
-      "basename": "Processor",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
-    },
-    {
       "basename": "template",
       "path": "Template/template.md"
     },
@@ -143,10 +147,6 @@
     {
       "basename": "흠냐링",
       "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md"
-    },
-    {
-      "basename": "Note 7 Digital Transmission in an AWGN Channel",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
     },
     {
       "basename": "Note 4 Effect of Noise on Analog Communication Systems",

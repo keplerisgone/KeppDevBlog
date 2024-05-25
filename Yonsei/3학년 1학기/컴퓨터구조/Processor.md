@@ -326,4 +326,11 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 
 - **Data Hazard**는 데이터에 접근해야 하지만 해당 데이터가 준비되지 않았을 경우로, 데이터가 필요한 instruction이 stalled된다.
 - 이는 instruction의 dependent 관계에 의해 결정된다.
-- 아래는 
+- 아래는 위 코드를 pipeline으로 나타낸 것이다. ALU의 계산 결과는 *WB stage*에서 memory나 register에 저장된다. 따라서 *x2* 데이터가 필요한 `and`, `or`, `add`, `sd`는 `sub`의 WB stage가 올 때까지 실행되지 못한다.
+
+![](https://i.imgur.com/9patlpc.png)
+
+### Detecting Data Dependency Between Instructions
+
+이런 instruction 사이의 dependency는 어떻게 판단할까? 
+- *ID/EX.rs1* 는 

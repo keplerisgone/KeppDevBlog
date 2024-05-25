@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md"
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
               }
             }
           },
@@ -171,6 +171,8 @@
   },
   "active": "c3d29e79aeede632",
   "lastOpenFiles": [
+    "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표자료.md",
     "Home.md",
     "03-Writing/프롬프트 엔지니어링 교과서.md",
@@ -195,8 +197,6 @@
     "00-Personal/00-Personal.md",
     "02-MOC/Tech & Dev/Tech & Dev.md",
     "02-MOC/Tech & Dev/Dev/Dev.md",
-    "99-Archive/99-Daily/99-Daily.md",
-    "Template/template.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",
