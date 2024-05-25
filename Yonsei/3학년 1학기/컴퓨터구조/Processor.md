@@ -350,6 +350,10 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 
 - Hazard에 의해 instruction이 밀리는 현상을 pipeline stalls라고 한다. 이는 hazard를 해결하는 방법이긴 한데 성능 저하가 심하게 일어난다.
 
-## No Operations (Nops)
+### No Operations (Nops)
 
 - **Nop**은 pipeline stall로 인해 생긴 빈 자리를 채우는 instruction으로, 주로 **Bubble**로 표시된다. 
+
+## Data Forwarding
+
+- WB stage를 기다리는 것보다는 
