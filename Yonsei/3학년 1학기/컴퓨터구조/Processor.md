@@ -464,3 +464,26 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 
 - 위와 같이 하나의 cycle에서 instruction이 두 개씩 실행되는 것을 알 수 있다.
 - 이는 datapath에 additional stage를 추가함으로써 이루어진다.
+
+![|550](https://i.imgur.com/bMiKmRb.png)
+
+### Considerations for Multi-Issue Pipeline
+
+- multi-issue pipeline 방법은 ILP를 maximize하기 위해서 작동해야 한다.
+- ALU는 IF 단계에서 instruction을 낭비시키지 않기 위해 조절한다.
+- *Data and control hazard*는 performance를 높이기 위해 이를 사용한다.
+- Data forwarding도 이를 위한 방법 중 하나이다.
+
+### Issue Slots and Issue Packets
+
+- multi-issue pipeline에서 insturction은 **Issue slots**에 저장된다.
+- 같은 cycle에 작동되는 instruction의 모임을 **issue packet**이라고 한다.
+- 만약 data hazard가 발견된다면 issue packet이 통째로 버려진다.
+- 이는 single complex instruction을 행하는 것과 비슷하다... (VLIW)?
+
+### Static Multiple Issue
+
+![|600](https://i.imgur.com/safwmob.png)
+
+- **Static Multi-issue**은 complie time에서 효율을 증가시키기 위해 instruction의 순서를 재배열하는 것이다.
+- 
