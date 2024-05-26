@@ -486,4 +486,15 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 ![|600](https://i.imgur.com/safwmob.png)
 
 - **Static Multi-issue**은 complie time에서 효율을 증가시키기 위해 instruction의 순서를 재배열하는 것이다.
-- 
+- 따라서 위와 같은 경우 효율이 5/4가 된다. 두 개의 ALU를 사용하는 경우 peak IPC 는 2지만..
+
+### Loop Unrolling
+
+![](https://i.imgur.com/xxKF4iR.png)
+
+- **Loop Unrolling**은 Loop statement를 다 풀어서 instruction을 쓰는 것이다. 
+- compile 단계에서 repetition의 수를 알 경우에만 사용 가능하다.
+- IPC는 1.75이다 (위 사진의 경우)
+
+### Register Renaming
+
