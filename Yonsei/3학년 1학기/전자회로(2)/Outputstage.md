@@ -104,3 +104,5 @@ $$I_{C}= I_{1}+ \frac{V_{p}\sin\omega{t}}{{R_{L}}}$$
 ### Push-pull Stage Power rating 
 
 ![](https://i.imgur.com/hKvlWYQ.png)
+
+하나의 transistor가 소모하는 전압을 측정하기 위해 
