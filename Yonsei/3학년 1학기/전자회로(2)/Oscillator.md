@@ -7,3 +7,13 @@
 oscillation은 다음과 같은 **Bark Hausen criteria oscillation condition**을 만족해야 한다.
 
 ![](https://i.imgur.com/JbYA93H.png)
+
+# Various Oscillator
+
+![](https://i.imgur.com/gWpczuJ.png)
+
+## Ring oscillator
+
+![](https://i.imgur.com/feN0v3C.png)
+
+![](https://i.imgur.com/ts8BPHN.png)
