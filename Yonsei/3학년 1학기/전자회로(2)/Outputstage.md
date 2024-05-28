@@ -86,5 +86,20 @@ pulse 신호는 위 domain과 마찬가지로 여러 frequency에서 신호가 �
 
 이러면 전체적인 gain도 떨어지지만, harmonics가 줄어드는 속도가 더 커서 괜찮다.
 
-# Time rating
+# Power rating
+
+transistor가 소모하는 power는 다음과 같이 계산할 수 있다. ($P_{av}$의 definiation)
+$$
+P_{av}= \frac{1}{T}\int_{0}^{T}I_{C}V_{CE}dt
+$$
+$$I_{C} = I_{1} + \frac{v_{out}}{R_{L}}, \ v_{out} = V_{p}\sin \omega t$$
+$$I_{C}= I_{1}+ \frac{V_{p}\sin\omega{t}}{{R_{L}}}$$
+아오 귀찮아서 사진으로 찍습니다
+
+![](https://i.imgur.com/QvtopbC.png)
+
+- max의 경우 : 모든 power가 transistor에서 소모될 경우 
+- min의 경우 : 소리에서 절반, transistor에서 절반 소모
+
+### Push-pull Stage Power rating 
 
