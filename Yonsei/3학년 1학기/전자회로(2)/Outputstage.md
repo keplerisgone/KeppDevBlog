@@ -103,3 +103,4 @@ $$I_{C}= I_{1}+ \frac{V_{p}\sin\omega{t}}{{R_{L}}}$$
 
 ### Push-pull Stage Power rating 
 
+![](https://i.imgur.com/hKvlWYQ.png)
