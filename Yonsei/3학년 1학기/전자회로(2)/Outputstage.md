@@ -71,3 +71,20 @@ $$R_{out}=\frac{r_{o2}//r_{o4}}{\beta_{*}}+ \frac{1}{g_{m}^{*}}$$
 ![](https://i.imgur.com/8ANZwwV.png)
 
 하지만 위는 ideal한 경우로, 실제로는 small signal이 불가능하다. 따라서 회색 circuit처럼 feedback을 걸어 linearity를 증가시키기도 한다.
+
+# Harmonics
+
+우리는 sin 신호를 보내고 싶지만 실제로는 pulse 신호와 유사한 것을 보내게 된다. 그러면 해당 신호는 frequency domain에서 다음과 같이 표현할 수 있다.
+
+![](https://i.imgur.com/6WS2QFm.png)
+
+pulse 신호는 위 domain과 마찬가지로 여러 frequency에서 신호가 보이게 되는데[](), 이 모임을 **harmonics**라고 한다.
+이는 신호를 왜곡시키는ㅔ 요인이며, spectral analyzer로 측정할 수 있다.
+이를 줄이기 위해서는 **loop gain**을 낮추는 방밥을 사용할 수 있는데, 이는 Ak를 높임으로써 해결할 수 있다.
+
+![](https://i.imgur.com/FoDIFal.png)
+
+이러면 전체적인 gain도 떨어지지만, harmonics가 줄어드는 속도가 더 커서 괜찮다.
+
+# Time rating
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "fddb38e918023cb4",
@@ -109,7 +109,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+            "file": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
+            "file": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,7 +138,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Spaces/Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
+            "file": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md"
           }
         }
       },
@@ -166,6 +166,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-omnivore:Omnivore": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,

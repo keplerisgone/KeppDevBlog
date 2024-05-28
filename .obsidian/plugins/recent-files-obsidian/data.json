@@ -5,6 +5,10 @@
       "path": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md"
     },
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "문제은행",
       "path": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "금융공학의이해(1)",
       "path": "Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Processor",
