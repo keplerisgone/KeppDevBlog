@@ -17,3 +17,29 @@ oscillation은 다음과 같은 **Bark Hausen criteria oscillation condition**�
 ![](https://i.imgur.com/feN0v3C.png)
 
 ![](https://i.imgur.com/ts8BPHN.png)
+
+## LC-oscillator
+
+![](https://i.imgur.com/YioXxUY.png)
+
+![](https://i.imgur.com/RJ8o4HW.png)
+
+## Cross-coupled oscillator
+
+![](https://i.imgur.com/vtZISQR.png)
+
+![](https://i.imgur.com/CS5rGa5.png)
+
+![](https://i.imgur.com/zdXp8GC.png)
+
+![](https://i.imgur.com/iRVnEFI.png)
+
+![](https://i.imgur.com/3ko9rQY.png)
+
+## Colpitts oscillator
+
+![](https://i.imgur.com/qiCT81t.png)
+
+![](https://i.imgur.com/OhPZsFf.png)
+
+![](https://i.imgur.com/CGiiEV3.png)
