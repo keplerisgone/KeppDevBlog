@@ -12,3 +12,6 @@
 	- Intifity capacity : 용량이 무한
 	- Infinite bandwidth : 한 번에 보내는 양에 제한 X
 	- No silicon cost : 크기 상관 없음
+
+# Locality Principles
+
