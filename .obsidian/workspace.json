@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md"
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md"
               }
             }
           },
@@ -173,15 +173,17 @@
   "active": "b7a0fe3afd4995d9",
   "lastOpenFiles": [
     "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md",
+    "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
+    "Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
     "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
+    "Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
+    "Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md",
+    "Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
+    "Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md",
     "Home.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
@@ -196,8 +198,6 @@
     "02-MOC/Blog/Books/Books.md",
     "02-MOC/02-MOC.md",
     "01-Project/01-Project.md",
-    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
-    "01-Project/노닥노닥 라즈베리/임베디드 with 라즈베리파이.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",

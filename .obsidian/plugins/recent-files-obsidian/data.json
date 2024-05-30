@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "문제은행",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md"
+      "basename": "Analog Filter",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md"
     },
     {
       "basename": "Oscillator",
       "path": "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md"
     },
     {
+      "basename": "전자회로(1) review",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md"
+    },
+    {
       "basename": "Outputstage",
       "path": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md"
+    },
+    {
+      "basename": "4주차",
+      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md"
+    },
+    {
+      "basename": "3주차",
+      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md"
+    },
+    {
+      "basename": "2주차",
+      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md"
+    },
+    {
+      "basename": "1주차",
+      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md"
+    },
+    {
+      "basename": "문제은행",
+      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md"
     },
     {
       "basename": "7주차",
@@ -23,22 +47,6 @@
     {
       "basename": "5주차",
       "path": "Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md"
-    },
-    {
-      "basename": "1주차",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md"
-    },
-    {
-      "basename": "2주차",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md"
-    },
-    {
-      "basename": "3주차",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md"
-    },
-    {
-      "basename": "4주차",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md"
     },
     {
       "basename": "금융공학의이해(1)",
@@ -191,14 +199,6 @@
     {
       "basename": "흠냐링",
       "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md"
-    },
-    {
-      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
-    },
-    {
-      "basename": "Note 6 Baseband Digital Data Transmission",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md"
     }
   ],
   "omittedPaths": [],
