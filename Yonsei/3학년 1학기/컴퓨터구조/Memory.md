@@ -15,3 +15,5 @@
 
 # Locality Principles
 
+- memory system은 **locality principles**에 기반해 동작한다.
+- 
