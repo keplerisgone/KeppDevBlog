@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Memory",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md"
+    },
+    {
+      "basename": "Processor",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
+      "basename": "Arithmetic",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
+    },
+    {
+      "basename": "Computer abstraction",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
+    },
+    {
+      "basename": "Instruction",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+    },
+    {
       "basename": "Analog Filter",
       "path": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md"
     },
@@ -55,10 +75,6 @@
     {
       "basename": "Home",
       "path": "Home.md"
-    },
-    {
-      "basename": "Processor",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
     },
     {
       "basename": "Note 7 Digital Transmission in an AWGN Channel",
@@ -177,28 +193,12 @@
       "path": "Yonsei/2학년 2학기/전자기학(1)/Electrostatic Actuator - 8조/Electrostatic Actuator - 8조.md"
     },
     {
-      "basename": "Arithmetic",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
-    },
-    {
       "basename": "13.4 Cauchy-Riemann Equations, Laplace’s Equation",
       "path": "Yonsei/2학년 2학기/공학수학(4)/13.4 Cauchy-Riemann Equations, Laplace’s Equation/13.4 Cauchy-Riemann Equations, Laplace’s Equation.md"
     },
     {
       "basename": "세벌식",
       "path": "02-MOC/Blog/세벌식/세벌식.md"
-    },
-    {
-      "basename": "CPP",
-      "path": "02-MOC/CPP/CPP.md"
-    },
-    {
-      "basename": "생각해볼만한 주제들",
-      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/생각해볼만한 주제들.md"
-    },
-    {
-      "basename": "흠냐링",
-      "path": "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/흠냐링.md"
     }
   ],
   "omittedPaths": [],
