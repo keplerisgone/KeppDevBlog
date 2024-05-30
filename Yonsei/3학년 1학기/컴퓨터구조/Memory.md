@@ -15,5 +15,7 @@
 
 # Locality Principles
 
+![|575](https://i.imgur.com/TI1NrLw.png)
+
 - memory system은 **locality principles**에 기반해 동작한다.
-- 
+- **Temporal locality**는 
