@@ -125,4 +125,4 @@
 
 ## Write-Back Cache
 
-
+- 위의 단점을 해결하기 위해서 **write-back cache**를 사용하기도 한다.
