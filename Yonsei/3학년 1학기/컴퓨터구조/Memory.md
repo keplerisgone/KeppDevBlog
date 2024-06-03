@@ -62,3 +62,67 @@
 - **miss rate**는 총 cache accesses에 대해 cache miss이 일어난 비율이다
 	- **miss time**은 cache에서 lower-level memory에 접근하는데 걸린 시간을 나타낸다.
 - 데이터가 cache에 존재하는지, 어느 block에 데이터가 있는지를 판단해야 한다.
+
+# Direct-Mapped Cache and Indexing
+
+![|600](https://i.imgur.com/J0gWShc.png)
+
+- **direct-mapped cache**는 cache와 memory간의 저장 방식을 나타내는 무언가이다.
+- cache는 모든 memory를 저장하기에는 부족하기 때문에, 특정한 방식에 따라 memory의 data를 저장한다.
+- memory의 data가 저장되는 **location**은 뒤의 *index*에 의해 결정된다. 
+	- `cache_index = block_address % num_cache_entries`
+- 나머지 bit는 **tag**가 되며, 이는 cache에 data가 저장되어있는지 판단하는 기준이 된다.
+- **valid bit**는 cache block에 존재하는 bit로, data의 유무를 알린다.
+- 아래는 판단 예시이다.
+
+![|550](https://i.imgur.com/FRHTQSo.png)
+
+## Direct-Mapped Cache Organization
+
+- cache의 정보가 다음과 같을 때..
+	- `# of cache block` : $2^n$ blocks
+	- `cache block size` : $2^m$ doublewords = $2^{m+3}$ bytes
+	- `total cache size` : $2^{n}\times 2^{m+3}$ bytes
+- memory address는 다음과 같은 정보를 가진다.
+	- `block offset` : $m+3$
+		- 요거는 cache block의 byte size만큼 memory를 차지하기 때문..
+	- `index` : $n$
+	- `tag` : $64-(n+m+3)$
+- total bits in cache는 $2^{n}\times (\text{block size}+\text{tag size}+\text{valid bit})= 2^{n}\times [2^{m}\times 64 + 64 - (n+m+3)+1]$가 되지만, 실제 cache size는 cache block의 byte로만 판정한다.
+
+![|525](https://i.imgur.com/EMPvwAg.png)
+
+- 참고 ) 데이터 사이즈
+
+
+## Example
+
+![|600](https://i.imgur.com/uMovHYl.png)
+
+![|600](https://i.imgur.com/36rigfO.png)
+
+# Data consistency and Write-Through Cache
+
+- `load` 명령은 다른 instruction이 dependency를 가질 수 있기 때문에 stall을 일으킬 수 있어 performance에 큰 하자를 일으킨다.
+- `store` 명령은 dependency를 가지지 않기 때문에 영향을 안 받을 것 같지만, **consistency** 문제를 일으킬 수 있다.
+
+![|600](https://i.imgur.com/sp2Cg9a.png)
+
+- `ld`의 경우 MEM에서 data를 불러오는 경우 consistency 문제가 발생하지 않지만, `sd`의 경우 core에 저장된 data를 cache까지밖에 전달하지 않으며, 이러면 cache와 mem이 일치하지 않는 경우가 발생한다. 이를 **consistency problem**이라고 한다.
+- 이를 해결하기 위해서는 **write-through cache**를 사용한다. 간단하게는 cache에 저장된 data를 MEM에 그대로 옮기는 것이다.
+
+## Write-Through Cache and Write Buffer
+
+- 하지만 위에서 배웠듯이 cache-MEM 접근은 엄청 오래 걸린다. (100cycle 정도)
+- 이걸 기다리려면 큰 stall이 발생할 것이다.
+- 일반적인 CPI가 1.0일 때, 10%가 store이고 cache->MEM이 100cycles가 걸린다면...
+	- 전체 CPI는 $1.0 + (0.1 \times 100) = 11$이 되어버린다.
+
+![|450](https://i.imgur.com/0H8yrQx.png)
+
+- 위와 같이 **write buffer**를 이용하면 이를 기다리지 않고 프로그램을 진행시킬 수 있다. buffer에서도 트래픽이 발생할 수는 있지만 그건 프로그램 알 바가 아니다.
+- write buffer의 사이즈는 latency gap을 없앨 만큼 커야 한다. 또한 cache-MEM 사이의 data 이동이 너무 많아진다는 단점이 있다.
+
+## Write-Back Cache
+
+
