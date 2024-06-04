@@ -126,3 +126,67 @@
 ## Write-Back Cache
 
 - 위의 단점을 해결하기 위해서 **write-back cache**를 사용하기도 한다.
+- 이는 *우선 cache에만 data를 저장하고 있다가*, cache가 다른 data로 교체될 때(drity) cache의 data를 memory에 씌우는 방식이다.
+	- 따라서 cache와 memory가 항상 같은 data를 갖는다는 보장이 없다.
+- cache에서 memory로 data가 이동한다는 것은 동일하기 때문에 write buffer는 여전히 필요하다.
+
+> [!note]
+> **dirty**는 더럽다는 뜻이 아니라 modify 되었다는 뜻이다.
+# Handling Cache Misses
+
+- cache miss는 원하는 data가 cache에 없을 경우이다. 이 때는 lower-level memory에 data를 요청한다.
+	- valid bit가 0이거나 tag가 안맞음
+- miss가 발생할 경우 data가 오는 걸 기다려야 하기 때문에 **stall**이 발생한다.
+- 두 가지 경우로 나뉜다.
+	- **instruction cache** : IF가 중지된다. insruction을 불러올 때까지 중지.
+	- **data cache** : data가 cache에 생길 때까지 중지된다.
+
+# Processor Execution Time
+
+- multi-level memory에서 execution time은 다음과 같은 두 가지로 나눌 수 있다.
+	- **pipeline execution cycles**
+	- **memory stalls**
+- 위 cycles에 clock period를 곱하면 총 execution time이 된다. 
+- memory stall는 주로 cache miss에 의해 일어나기 때문에, memory stall은 $\text{read stall cycles}+\text{write stall cycles}$로 계산할 수 있다. 
+$$\text{Read stall cycles} = \text{\# of reads} \times \text{read miss rate} \times \text{read miss penalty}$$
+$$\text{Write stall cycles}= (\text{\# of writes}\times\text{write miss rate}\times\text{write miss penalty}) +\text{write buffer stalls}$$
+- \# of OO 은 instruction의 개수를 말한다. `ld`나 `sd`.
+- 보통 두 명령의 penalty는 동일하다.
+## Memory Stall Cycles
+
+- write buffer는 buffer가 다 찼을 때만 stall이 일어난다.
+	- buffer가 적당히 크다고 가정하면 stall이 rare하게 일어난다.
+- 따라서 write buffer stall은 무시하고, write과 read는 동일한 miss rate를 가지므로 **cache miss rate**를 다음과 같이 정의하자.
+$$\text{Memory stall cycles}=\text{\# of memory accesses}\times\text{miss rate}\times\text{miss penalty}$$
+## Example
+
+![|475](https://i.imgur.com/wETuk1T.png)
+
+![|475](https://i.imgur.com/Mxd2a8S.png)
+
+![|500](https://i.imgur.com/qYzftfH.png)
+
+![|500](https://i.imgur.com/1PntAbk.png)
+
+# Average Memory Access Time
+
+- **AMAT**은 memory에 접근하는 평균 시간이다.
+$$\text{AMAT}= \text{time for a hit}+(\text{miss rate}\times\text{miss penalty})$$
+- 예를 들어 cache에 접근하는데 1cycle, miss penalty가 20cycle, miss rate가 5%면..
+	- $1+(0.05\times 20)=2\text{cycles}$.
+
+## Decreasing AMAT with Multi-Level Caches
+
+- cache는 L1, L2, L3의 계층 구조로 이루어져 있다. (L4는 생각하지 말자)
+- L1에 접근하는데 1cycle, miss rate는 2%.
+- L2에 접근하는데 20cycle(아래에 있으니까), miss rate는 25%.
+- 모든 miss penalty는 400cyles로 동일하다면...
+	- $1 + (0.02\times (20+(0.25\times 400)))=3.4\text{cycles}$이다.
+	- L1 단독은 $1 + (0.02 \times 400) = 9\text{cycles}$로, 계층을 활용하는 것이 이득이다.
+
+# Cache Miss Types
+
+- Cache Miss가 일어나는 이유에 따라 다음과 같이 나눌 수 있다.
+- **Compulsory miss**
+- **Capacity miss**
+- **Confilct miss**
