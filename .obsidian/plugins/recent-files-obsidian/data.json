@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Analog Filter",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md"
+    },
+    {
+      "basename": "Oscillator",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md"
+    },
+    {
+      "basename": "Differential Amplifier",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
+    },
+    {
+      "basename": "Frequency Response",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
+    },
+    {
+      "basename": "Feedback",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md"
+    },
+    {
       "basename": "문제은행",
       "path": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md"
     },
@@ -27,14 +47,6 @@
     {
       "basename": "Instruction",
       "path": "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
-    },
-    {
-      "basename": "Analog Filter",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md"
-    },
-    {
-      "basename": "Oscillator",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md"
     },
     {
       "basename": "전자회로(1) review",
@@ -187,18 +199,6 @@
     {
       "basename": "키보드 자판",
       "path": "03-Writing/키보드 자판.md"
-    },
-    {
-      "basename": "Electrostatic Actuator - 8조",
-      "path": "Yonsei/2학년 2학기/전자기학(1)/Electrostatic Actuator - 8조/Electrostatic Actuator - 8조.md"
-    },
-    {
-      "basename": "13.4 Cauchy-Riemann Equations, Laplace’s Equation",
-      "path": "Yonsei/2학년 2학기/공학수학(4)/13.4 Cauchy-Riemann Equations, Laplace’s Equation/13.4 Cauchy-Riemann Equations, Laplace’s Equation.md"
-    },
-    {
-      "basename": "세벌식",
-      "path": "02-MOC/Blog/세벌식/세벌식.md"
     }
   ],
   "omittedPaths": [],
