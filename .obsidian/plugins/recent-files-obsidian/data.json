@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Note 7 Digital Transmission in an AWGN Channel",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
+    },
+    {
+      "basename": "통신이론",
+      "path": "Yonsei/3학년 1학기/통신이론/통신이론.md"
+    },
+    {
+      "basename": "Differential Amplifier",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
+    },
+    {
       "basename": "Analog Filter",
       "path": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "Frequency Response",
       "path": "Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
-    },
-    {
-      "basename": "Differential Amplifier",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
     },
     {
       "basename": "문제은행",
@@ -87,10 +95,6 @@
     {
       "basename": "금융공학의이해(1)",
       "path": "Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md"
-    },
-    {
-      "basename": "Note 7 Digital Transmission in an AWGN Channel",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
     },
     {
       "basename": "개인",
@@ -195,10 +199,6 @@
     {
       "basename": "template",
       "path": "Template/template.md"
-    },
-    {
-      "basename": "키보드 자판",
-      "path": "03-Writing/키보드 자판.md"
     }
   ],
   "omittedPaths": [],
