@@ -85,6 +85,7 @@ f는 feedback 회로에서의 impedance, o는 open-loop impedance. open-loop imp
 Feedback 회로에서 return되는 신호의 polarity에 따라서 기능이 달라진다.
 - **Positive** : return된 신호가 입력 신호를 강화 -> 계속 커져요..?
 - **Negative** : return된 신호가 입력 신호를 방해 
+참고로 전부 **subtractor**를 이용하기 때문에 저런 결과가 나온다.
 
 > [!note]
 > - 둘의 차이를 출력!!!

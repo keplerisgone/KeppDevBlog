@@ -9,16 +9,20 @@
       "path": "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md"
     },
     {
-      "basename": "Differential Amplifier",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
+      "basename": "Outputstage",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md"
+    },
+    {
+      "basename": "Feedback",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md"
     },
     {
       "basename": "Frequency Response",
       "path": "Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
     },
     {
-      "basename": "Feedback",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md"
+      "basename": "Differential Amplifier",
+      "path": "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
     },
     {
       "basename": "문제은행",
@@ -51,10 +55,6 @@
     {
       "basename": "전자회로(1) review",
       "path": "Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md"
-    },
-    {
-      "basename": "Outputstage",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md"
     },
     {
       "basename": "4주차",

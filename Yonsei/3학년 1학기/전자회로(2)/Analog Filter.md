@@ -141,3 +141,39 @@ $$
 # Active Filter
 
 - 하지만 RLC 소자를 이용하는 것은 공간을 너무 많이 차지하므로 Op-amp를 이용한 Active filter를 주로 사용한다.
+- 일단 Op-amp를 사용하기 위해서 수식을 유도해보자.
+
+## HPF
+
+$$
+H(s) = \frac{\alpha^{2}}{s^{2}+\frac{\omega_{n}}{Q}s+\omega_{n}^{2}}
+$$
+를 다음과 같이 정리.
+
+![|350](https://i.imgur.com/jtBOFIs.png)
+
+- Laplace, function transform을 생각해보면 $1/s$ 를 integrator로 생각할 수 있다.
+- 합 연산은 Op-amp를 사용해 summing amplifier를 쓰면 된다. 이걸 좀 변형해서..
+
+![](https://i.imgur.com/cXL4WwC.png)
+
+- 이러면 우리가 원하는 수식을 이끌어 낼 수 있다.
+- 도중에 사용하는 *superposition*은 '그 전압원이 없다' 생각하고 정리한 다음에 합치는 것.
+	- 위 수식을 보면 $v_{a}$와 $v_{Y}$가 0일 때를 가정한 뒤 더한 것을 볼 수 있다.
+
+![|475](https://i.imgur.com/KCnwU4w.png)
+- 위는 모든 것을 종합한 회로이다. 위 수식의 $v_{X},\ v_{Y}$를 intergrator에 통과시킨 것으로 대입하면 된다.
+
+![|500](https://i.imgur.com/IKnNgfq.png)
+
+## Sallen-Key Filter (SK Filter)
+
+- 하나의 OP-amp로 second order LPF를 만들 수 있는 멋있는 filter이다.
+
+![|437](https://i.imgur.com/KC76er5.png)
+- 계산은 역시 손으로 쓰는 게 편하다.
+
+![|525](https://i.imgur.com/s8B88IO.png)
+
+> [!question]
+> 다양한 filter를 보면 전부 분모에 s 차수가 존재, 그러면 feddback 회로로 봐도 되는지?
