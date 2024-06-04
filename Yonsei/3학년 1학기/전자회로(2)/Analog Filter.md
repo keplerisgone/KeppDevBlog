@@ -51,9 +51,11 @@ $$
 - transfer function을 L로 time domain에서 나타내면 zero와 pole이 exponential로 나타나는데, 이 때 $\sigma$ 의 부호가 exponential의 모양을 결정하기 때문.
 
 # First-Order Filter
+
 $$
 H(s) = \alpha \frac{s+z_{1}}{s+p_{1}}
 $$
+
 - 위 수식으로 나타낸다.
 
 ![|575](https://i.imgur.com/BsoYjoZ.png)
@@ -63,22 +65,47 @@ $$
 ![](https://i.imgur.com/5RDy6Z6.png)
 
 - 이것도 한 번 분석해보자.
+- $R_{1}C_{1}$과 $R_{2}C_{2}$의 값에 따라 response가 달라지는 게 신기하다.
 
 # Second-Order Filter
+
 $$
 H(s)= \frac{\alpha^{2}+\beta s+\gamma}{s^{2}+\frac{\omega_{n}}{Q}s+\omega_{n}^{2}}
 $$
+
 - 수식으로는 위와 같이 나타낸다.
 - $\omega_n$과 $Q$는 계산된 수식에서 끌어내릴 수 있으며, 회로의 특징을 결정짓는 중요한 값이다.
 	- $\omega_n$은 값의 범위를, **Q**(quality factor)는 zero와 pole의 imaginary 정도를 결정한다.
 
-![|236](https://i.imgur.com/RRvmCmh.png)
+![|186](https://i.imgur.com/RRvmCmh.png)
 
-![|350](https://i.imgur.com/isJ7hYP.png)
+- 위 response에서 pole은 다음과 같다.
 
-- $\alpha=\beta=0$일 경우 : LPF
-- $\alpha= \gamma = 0$일 경우 : BPF
-- $\beta = \gamma=0$일 경우 : HPF
+$$s_{12}=- \frac{\omega_{n}}{2Q}\pm j\omega_{n}\sqrt{q- \frac{1}{4Q^{2}}}$$
+
+- 따라서 *Q가 작으면 real*이 되고, 크면 imaginary 성분이 강해진다. 
+
+![|375](https://i.imgur.com/Bler1tl.png)
+
+- Q가 $\frac{\sqrt{2}}{2}$보다 크면 oscillation, 작으면 그냥 쳐진다.
+	- oscillation이 살아있을 경우 peak는 $\omega_{n}\sqrt{1- \frac{1}{2Q^{2}}}$에서 이루어진다.
+	- peak magnitude는 $\frac{Q}{\sqrt{1-(4Q^{2})^{-1}}}$가 곱해진다고 한다.
+	- 물론 대부분의 경우에서 $4Q^{2}$가 크기 때문에 무시하고 $\omega_{n}$, $Q$로 생각한다.
+	- 이는 HPF에서도 동일, BPF에서는 좀 다르다.
+
+
+![|475](https://i.imgur.com/kTNjWFb.png)
+
+- 식에 따라서 계산해보면... 저렇게 나온다고 한다.
+
+> [!question]
+> 그러면 BPF에서는 Quality factor가 무슨 역할을 하는 것인가요
+
+![|250](https://i.imgur.com/isJ7hYP.png)
+
+- $\alpha=\beta=0$일 경우: LPF
+- $\alpha= \gamma = 0$일 경우: BPF
+- $\beta = \gamma=0$일 경우: HPF
 
 ## RLC Realizations
 
@@ -88,3 +115,29 @@ $$
 
 ![](https://i.imgur.com/evZEEc8.png)
  - 이것도 귀찮으면 어떡하려고.
+
+### LPF
+
+![|237](https://i.imgur.com/lTccj8Q.png)
+
+$$H(s) = \frac{R}{s^{2}RLC+sL+R}$$
+
+### HPF
+
+![|239](https://i.imgur.com/VQz3wee.png)
+
+$$
+H(s) = \frac{s^{2}RLC}{s^{2}RLC+sL+R}
+$$
+
+### BPF
+
+![|251](https://i.imgur.com/EwYMez7.png)
+
+$$
+H(s) = \frac{sL}{s^{2}RLC+sL+R}
+$$
+
+# Active Filter
+
+- 하지만 RLC 소자를 이용하는 것은 공간을 너무 많이 차지하므로 
