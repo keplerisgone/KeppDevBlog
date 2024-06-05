@@ -358,6 +358,24 @@ level이 여러 개 있을 때 signal은 어떻게 분석할까?
 
 ![](https://i.imgur.com/f2wN0qh.png)
 
-- 
+- one-dimensional에서 M개의 level로 나누는 경우는 위와 같이 하나의 수직선에서 나눈다. 
+	- 이 때 level이 몇 개든 길이의 총합은 1이다. 그러면 구분하기 어려워지겠지?
+- multidimension에서는 phase를 이용해 구분하거나 (위) 크기 + 위상을 이용해 구분한다. (아래)
+- 각 bit signal은 $E_{av}$를 가지는데, 이는 아래와 같다.
+$$E_{av}= \frac{1}{M}\sum_\limits{k=1}^{M}\int^{T}_{0}s_{k}^{2}(t)dt$$
+- binary-orthogonal한 signal은 평범한 2차원 공간에서 표현할 수 있다.
+
+## Multidimensional Orthogonal Signals 
+
+![](https://i.imgur.com/ALFw4wd.png)
+
+- orthogonal한 signal은 각 data를 표현하는 signal 하나하나가 다른 signal에 영향을 주지 않는다.
+- receive signal에 각 symbol signal ($s_{i}$)를 곱한 뒤 적분하면 1, 0이 나오므로 선택할 수 있다.
+- 이 신호를 받는 방법은 다음과 같다.
+
+![](https://i.imgur.com/3Y97FzD.png)
+
+
+
 
 ![](https://i.imgur.com/EXirVhy.png)
