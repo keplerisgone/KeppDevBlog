@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bb318bbec10edca7",
+        "id": "370d94f212480d84",
         "type": "tabs",
         "children": [
           {
-            "id": "9d8edaeacc00264a",
+            "id": "b9be7401505a308c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SB-type",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 218.5,
+    "collapsed": true
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -170,8 +171,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9d8edaeacc00264a",
+  "active": "b9be7401505a308c",
   "lastOpenFiles": [
+    "Yonsei/3학년 1학기/컴퓨터구조/Memory.md",
+    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
+    "Home.md",
     "Yonsei/3학년 1학기/통신이론/통신이론.md",
     "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
     "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
@@ -180,8 +184,6 @@
     "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
     "Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
-    "Home.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Memory.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
@@ -197,7 +199,6 @@
     "Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
-    "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/발표자료.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",

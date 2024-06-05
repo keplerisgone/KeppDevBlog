@@ -358,6 +358,6 @@ level이 여러 개 있을 때 signal은 어떻게 분석할까?
 
 ![](https://i.imgur.com/f2wN0qh.png)
 
-왜 써요 이거
+- 
 
 ![](https://i.imgur.com/EXirVhy.png)

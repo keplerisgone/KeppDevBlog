@@ -15,7 +15,7 @@
 
 # Locality Principles
 
-![|575](https://i.imgur.com/TI1NrLw.png)
+![|450](https://i.imgur.com/TI1NrLw.png)
 
 - memory system은 **locality principles**에 기반해 동작한다.
 - **Temporal locality**는 최근 접근한 데이터에 접근할 가능성이 높다는 경향을 의미한다
@@ -80,20 +80,19 @@
 ## Direct-Mapped Cache Organization
 
 - cache의 정보가 다음과 같을 때..
-	- `# of cache block` : $2^n$ blocks
-	- `cache block size` : $2^m$ doublewords = $2^{m+3}$ bytes
-	- `total cache size` : $2^{n}\times 2^{m+3}$ bytes
+	- `# of cache block`: $2^n$ blocks
+	- `cache block size`: $2^m$ doublewords = $2^{m+3}$ bytes
+	- `total cache size`: $2^{n}\times 2^{m+3}$ bytes
 - memory address는 다음과 같은 정보를 가진다.
-	- `block offset` : $m+3$
+	- `block offset`: $m+3$
 		- 요거는 cache block의 byte size만큼 memory를 차지하기 때문..
-	- `index` : $n$
-	- `tag` : $64-(n+m+3)$
+	- `index`: $n$
+	- `tag`: $64-(n+m+3)$
 - total bits in cache는 $2^{n}\times (\text{block size}+\text{tag size}+\text{valid bit})= 2^{n}\times [2^{m}\times 64 + 64 - (n+m+3)+1]$가 되지만, 실제 cache size는 cache block의 byte로만 판정한다.
 
 ![|525](https://i.imgur.com/EMPvwAg.png)
 
-- 참고 ) 데이터 사이즈
-
+- [ ] 참고) 데이터 사이즈
 
 ## Example
 
@@ -101,7 +100,7 @@
 
 ![|600](https://i.imgur.com/36rigfO.png)
 
-# Data consistency and Write-Through Cache
+# Data Consistency and Write-Through Cache
 
 - `load` 명령은 다른 instruction이 dependency를 가질 수 있기 때문에 stall을 일으킬 수 있어 performance에 큰 하자를 일으킨다.
 - `store` 명령은 dependency를 가지지 않기 때문에 영향을 안 받을 것 같지만, **consistency** 문제를 일으킬 수 있다.
@@ -132,14 +131,15 @@
 
 > [!note]
 > **dirty**는 더럽다는 뜻이 아니라 modify 되었다는 뜻이다.
+
 # Handling Cache Misses
 
 - cache miss는 원하는 data가 cache에 없을 경우이다. 이 때는 lower-level memory에 data를 요청한다.
 	- valid bit가 0이거나 tag가 안맞음
 - miss가 발생할 경우 data가 오는 걸 기다려야 하기 때문에 **stall**이 발생한다.
 - 두 가지 경우로 나뉜다.
-	- **instruction cache** : IF가 중지된다. insruction을 불러올 때까지 중지.
-	- **data cache** : data가 cache에 생길 때까지 중지된다.
+	- **instruction cache**: IF가 중지된다. insruction을 불러올 때까지 중지.
+	- **data cache**: data가 cache에 생길 때까지 중지된다.
 
 # Processor Execution Time
 
@@ -148,16 +148,22 @@
 	- **memory stalls**
 - 위 cycles에 clock period를 곱하면 총 execution time이 된다. 
 - memory stall는 주로 cache miss에 의해 일어나기 때문에, memory stall은 $\text{read stall cycles}+\text{write stall cycles}$로 계산할 수 있다. 
+
 $$\text{Read stall cycles} = \text{\# of reads} \times \text{read miss rate} \times \text{read miss penalty}$$
+
 $$\text{Write stall cycles}= (\text{\# of writes}\times\text{write miss rate}\times\text{write miss penalty}) +\text{write buffer stalls}$$
+
 - \# of OO 은 instruction의 개수를 말한다. `ld`나 `sd`.
 - 보통 두 명령의 penalty는 동일하다.
+
 ## Memory Stall Cycles
 
 - write buffer는 buffer가 다 찼을 때만 stall이 일어난다.
 	- buffer가 적당히 크다고 가정하면 stall이 rare하게 일어난다.
 - 따라서 write buffer stall은 무시하고, write과 read는 동일한 miss rate를 가지므로 **cache miss rate**를 다음과 같이 정의하자.
+
 $$\text{Memory stall cycles}=\text{\# of memory accesses}\times\text{miss rate}\times\text{miss penalty}$$
+
 ## Example
 
 ![|475](https://i.imgur.com/wETuk1T.png)
@@ -166,12 +172,14 @@ $$\text{Memory stall cycles}=\text{\# of memory accesses}\times\text{miss rate}\
 
 ![|500](https://i.imgur.com/qYzftfH.png)
 
-![|500](https://i.imgur.com/1PntAbk.png)
+![|350](https://i.imgur.com/1PntAbk.png)
 
 # Average Memory Access Time
 
 - **AMAT**은 memory에 접근하는 평균 시간이다.
+
 $$\text{AMAT}= \text{time for a hit}+(\text{miss rate}\times\text{miss penalty})$$
+
 - 예를 들어 cache에 접근하는데 1cycle, miss penalty가 20cycle, miss rate가 5%면..
 	- $1+(0.05\times 20)=2\text{cycles}$.
 
@@ -187,6 +195,42 @@ $$\text{AMAT}= \text{time for a hit}+(\text{miss rate}\times\text{miss penalty})
 # Cache Miss Types
 
 - Cache Miss가 일어나는 이유에 따라 다음과 같이 나눌 수 있다.
-- **Compulsory miss**
-- **Capacity miss**
-- **Confilct miss**
+- **Compulsory miss**: 데이터에 처음 접근할 경우 발생하는 miss. 필수적이다.
+- **Capacity miss**: 캐시 용량이 적어서 발생하는 miss. 
+	- 아래와 뭐가 다르겠냐 싶지만, 32kB cache에서 128kB array data에 접근하려는 경우를 말하는 것이다.
+- **Conflict miss**: 같은 캐시 세트에 여러 데이터가 있어 발생하는 miss.
+- compulsory miss와 capacity는 어쩔 수 없거나 hardware 문제이므로 conflict miss만 살펴보기로 하자.
+
+## Reducing Conflict Misses
+
+![](https://i.imgur.com/ffSKTEK.png)
+
+- direct-mapped cache에서 다른 data가 존재하면 miss가 발생한다.
+- 위와 같은 경우는 cache의 빈 공간이 많음에도 miss가 발생하는 안타까운 상태이다.
+	- cache block은 8byte, 8-entry이다. (3bit offset, 3bit index)
+
+## Set-Associative Cache
+
+![|550](https://i.imgur.com/kn89bLo.png)
+
+- cache를 n-way로 나눈다. 나눈 뒤의 각 block의 모음을 set이라고 한다.
+- index는 $\text{block address}\  \% \ \text{\# of sets}$로 바뀐다.
+- 이러면 하나의 인덱스에 여러 개의 데이터를 담을 수 있어 이득이다.
+
+![](https://i.imgur.com/Z1StBI0.png)
+- 위와 같이 n-way로 나눌 수 있다.
+- data를 탐색하기 위해서는 하나의 index의 각 way를 모두 봐야한다.
+- **direct**의 경우에는 data의 유무를 확인하기 위해 **tag comparison**만 진행하면 된다.
+- **fully**의 경우 하나를 찾을 때마다 모든 way의 tag를 봐야하지만, 저장할 수 있는 data가 가장 많다.
+
+![](https://i.imgur.com/VGHXdtc.png)
+
+- 이렇게 way 수를 늘릴 때마다 index가 줄어드는 만큼 tag가 길어진다.
+
+# Cache Block Replacement
+
+- 나 이거 잤는데
+
+# Cache-Aware Matrix Multiplication Example
+
+- 교재를 보지 않을래?
