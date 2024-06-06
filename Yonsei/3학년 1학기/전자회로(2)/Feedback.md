@@ -8,13 +8,17 @@
 
 $$ Y = \frac{A}{1+Ak}X \approx \frac{1}{k}X$$
 
+이를 **closed-loop gain**이라고 하며, $Ak = T$는 따로 **Loop gain**이라고 부른다.
 대부분 amplifier는 gain이 굉장히 높기 때문에 gain이 저렇게 수렴한다.
+
+loop gain은 loop를 끊어 계산할 수 있다.
 
 ## Properties of Feedback
 
 Feedback circuit은 다음과 같은 특징을 지닌다.
 
-- **Gain desensitization**: 회로의 gain에 대해 영향을 잘 받지 않는다.
+- **Gain desensitization**: 회로의 gain($A$)에 대해 영향을 잘 받지 않는다.
+	- 그 외에도 신호의 frequency, load resistance, signal amplitude의 영향을 크게 받지 않는다.
 
 ![|450](https://i.imgur.com/nevgQ7T.png)
 
@@ -77,7 +81,7 @@ f는 feedback 회로에서의 impedance, o는 open-loop impedance. open-loop imp
 
 넵. I/I는 알아서 생각해
 
-## Polarity if Feedback
+## Polarity of Feedback
 
 ![|625](https://i.imgur.com/KzdpIZo.png)
 (그림이 이상한 것 같다)
@@ -119,6 +123,21 @@ Bode plot을 이용해 Phase 정보도 살펴볼 수 있다.
 ![|600](https://i.imgur.com/NTan7QM.png)
 
 요런 느낌
+
+# 푸는 법
+
+1. 우선 feedback loop를 끊는다. I/O impedance 가 변화하는 정도에 따라 open, short를 정함에 유의한다. 
+	1. 만약 문제에서 저항이 높다던가 낮다던가 하는 조건이 주어지면 무시해도 된다.
+2. 이렇게 끊은 회로에서 구한 gain이 $A_{0, open}$이다. 
+3. $k$는 따로 feedback loop 부분만 뜯어서 구한다.
+4. $\frac{A_{0}}{1+A_{0}k}$를 구하면 closed-loop gain이 된다.
+
+## 종류에 따른 gain 구하는 법
+
+k는 회로가 작아서 구하기 쉬우니까 A에 대해서만 서술.
+
+- **V/V** : 평소에 구하듯이...
+- 
 # Example
 
 ## 12.1
