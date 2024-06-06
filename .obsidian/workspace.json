@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "370d94f212480d84",
+        "id": "228534876e591d84",
         "type": "tabs",
         "children": [
           {
-            "id": "b9be7401505a308c",
+            "id": "ef319dcdce84d30a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5,
-    "collapsed": true
+    "width": 218.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
+                "file": "Home.md"
               }
             }
           },
@@ -171,16 +170,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b9be7401505a308c",
+  "active": "ef319dcdce84d30a",
   "lastOpenFiles": [
+    "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
+    "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
+    "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
+    "Yonsei/3학년 1학기/통신이론/통신이론.md",
+    "Home.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Memory.md",
     "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
-    "Home.md",
-    "Yonsei/3학년 1학기/통신이론/통신이론.md",
     "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
-    "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
     "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md",
-    "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
     "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
     "Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
@@ -197,7 +197,6 @@
     "Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md",
-    "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
     "Yonsei/3학년 1학기/문학환경과곁사슬문학의이해/발표자료/개인.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
