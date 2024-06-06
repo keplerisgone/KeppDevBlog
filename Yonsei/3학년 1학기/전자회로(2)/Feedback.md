@@ -137,7 +137,14 @@ Bode plot을 이용해 Phase 정보도 살펴볼 수 있다.
 k는 회로가 작아서 구하기 쉬우니까 A에 대해서만 서술.
 
 - **V/V** : 평소에 구하듯이...
-- 
+- **I/V** :  transimpedance를 구해야 하는데, output 저항이 곧 transimpedance임을 생각하면 괜찮다. 이걸로 한 단에서  voltage output 으로 바꾼 뒤 V/V를 쓰자.
+- **V/I** : transconductance의 정의를 이용하자.
+-  **I/I** : 같은 current라 좀 쉽다. 다만 feedback current가 output 쪽으로 들어가는 방향이다.
+
+> [!note]
+> - current divider는 다음과 같이 구할 수 있다.
+> - $\frac{\text{갈라지는데 남겨진 저항}}{\text{갈라지는 저항의 총합}}$
+> - current의 경우는 output impedance를 특이하게 구한다. series로 구해버리는 것이 특징.
 # Example
 
 ## 12.1
