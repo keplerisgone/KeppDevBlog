@@ -17,4 +17,7 @@ $\therefore R_{1}=10\text{kohm},\ C = 0.07215\text{nF}$
 
 $f_{3}= 3000\text{kHz} = \frac{1}{0.693\times(R_{1}+R_{2})C} = \frac{1}{0.693\times 2R_{1}C}$
 $R_{1}C = 0.3607\mu\text{ohmF}$
-$\therefore R_{1}=10\text{kohm},\ C = 0.03607\text{nF}$
+$\therefore R_{1}=10\text{kohm},\ C = 0.02405\text{nF}$
+
+
+

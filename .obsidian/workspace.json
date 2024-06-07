@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md"
+                "file": "Home.md"
               }
             }
           },
@@ -172,6 +172,7 @@
   },
   "active": "7617902b590cb9f0",
   "lastOpenFiles": [
+    "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
     "Home.md",
     "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
     "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
@@ -181,7 +182,6 @@
     "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
     "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md",
-    "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
     "Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
