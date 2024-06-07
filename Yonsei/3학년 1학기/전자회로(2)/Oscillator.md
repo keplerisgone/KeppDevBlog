@@ -46,6 +46,10 @@ $$
 \frac{\omega}{\omega_{p}} = \sqrt{3},\ g_{m}R_{D}=2
 $$
 
+> [!question]
+> - 네 개를 연결시키면 안 되는 이유?
+> - CS stage를 쓰면 어떨까?
+
 ## LC-oscillator
 
 ![|575](https://i.imgur.com/YioXxUY.png)
@@ -59,6 +63,7 @@ Z_{in1}(s) = sL \frac{1}{sC} = \frac{sL}{s^{2}LC+1}
 $$
 $$Z_{in2}(s) = \frac{sRL}{s^{2}RLC+sL+R}$$
 - resistance가 존재하면 에너지를 계속 잡아먹기 때문에 신호가 줄어든다. 
+	- oscillation도 하지 않는다.
 
 ![](https://i.imgur.com/m5tZHgL.png)
 
