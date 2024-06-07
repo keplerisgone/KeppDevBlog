@@ -10,28 +10,17 @@ RISC-V의 프로세서를 이해하기 위해서, 다음과 같은 7가지의 �
 
 프로세서의 실행은 다음과 같이 이루어진다.
 
-#### Step 1
-
-프로세서는 PC(program counter)가 가리키는 값을 instruction memory에게 주고, instruction corresponding을 PC에게 가져다 준다. 이는  instruction의 종류를 판단하는데 사용한다.
-
-#### Step 2
-
-instruction의 종류와 이에 사용할 operand fields를 결정하고, 해당 레지스터의 값을 읽는다. 예를 들어, `ls` 같은 경우는 rs1이 필요할 것이다.
-
-#### Step 3
-
-**ALU**가 연산을 수행한다. ALU가 하는 행동은 instruction의 종류마다 다르다.
-- `add`, `sub`, `and`, `or`의 경우 평범한 arithmetic operation을 진행한다.
-- `ld`, `sd`와 같은 메모리 연산의 경우는 메모리 주소를 계산하는 연산을 진행한다. 이는 add와 본질적으로 동일하긴 하다.
-- `beq`와 같은 branch instruction은 testing을 진행한다. 이는 내부적으로 sub을 진행한 뒤 0인지 아닌지를 비교하는 방식으로 이루어진다. 
-	- `blt` 와 같은 다른 branch instruction도 똑같다, 이 때는 sign 부호로 비교한다
-
-#### Step 4
-
-ALU의 연산 이후 행동을 수행한다. 이 또한 instruction의 type 별로 다르다. 
-- arithmetic-logical의 경우 `rd`에 결과를 저장한다.
-- memory instruction의 경우 data memory에 접근, 데이터를 저장하거나 불러온다.
-- branch의 경우는 PC의 위치를 바꾼다. branch가 따로 정해지지 않았을 경우, 다음 PC를 부른다. (PC + 4)
+- **Step 1** :  프로세서는 PC(program counter)가 가리키는 값을 instruction memory에게 주고, instruction corresponding을 PC에게 가져다 준다. 이는  instruction의 종류를 판단하는데 사용한다.
+- **Step 2** :  instruction의 종류와 이에 사용할 operand fields를 결정하고, 해당 레지스터의 값을 읽는다. 예를 들어, `ls` 같은 경우는 rs1이 필요할 것이다.
+- **Step 3** : **ALU**가 연산을 수행한다. ALU가 하는 행동은 instruction의 종류마다 다르다.
+	- `add`, `sub`, `and`, `or`의 경우 평범한 arithmetic operation을 진행한다.
+	- `ld`, `sd`와 같은 메모리 연산의 경우는 메모리 주소를 계산하는 연산을 진행한다. 이는 add와 본질적으로 동일하긴 하다.
+	- `beq`와 같은 branch instruction은 testing을 진행한다. 이는 내부적으로 sub을 진행한 뒤 0인지 아닌지를 비교하는 방식으로 이루어진다. 
+		- `blt` 와 같은 다른 branch instruction도 똑같다, 이 때는 sign 부호로 비교한다
+- **Step 4** : ALU의 연산 이후 행동을 수행한다. 이 또한 instruction의 type 별로 다르다. 
+	- arithmetic-logical의 경우 `rd`에 결과를 저장한다.
+	- memory instruction의 경우 data memory에 접근, 데이터를 저장하거나 불러온다.
+	- branch의 경우는 PC의 위치를 바꾼다. branch가 따로 정해지지 않았을 경우, 다음 PC를 부른다. (PC + 4)
 
 # Basic Implementation of RISC-V Processor
 
@@ -76,23 +65,27 @@ processor fetch의 첫 번째 단계는 **Instruction Fetch**이다. 이는 총 
 
 ## Register File
 
+![|450](https://i.imgur.com/Fs6REjQ.png)
+
 RISC-v에 존재하는 32개의 레지스터는 **register file**라는 데이터 구조에 저장된다. register number는 instruction format에 따라 이름이 붙여진다. (rs1, rs2, rd) 이는 어떤 레지스터에 데이터를 저장하고 읽을지 결정한다. 또한 source operand, destination operand에 접근할 수 있다. 
 레지스터 파일은 multi-ported이기 때문에, 하나의 사이클에 multiple register가 접근할 수 있다. 
 
 ### Multi-Ported Register File
 
-![|600](https://i.imgur.com/TnsWBOw.png)
+![|550](https://i.imgur.com/TnsWBOw.png)
 (저따구로 생겨서 한 번에 두 개의 source operand를 뽑아낼 수 있다~)
 
 ## ALU Execution
 
-![|575](https://i.imgur.com/JoHtyNF.png)
+![|525](https://i.imgur.com/JoHtyNF.png)
 
 R-type instruction에서는 두 개의 source operands를 register file에서 읽어오며, ALU가 요고들로 계산을 한다. 
 I, S-type instruction에서는 12-bit immediate value는 sign-extended 64bits로 변하며, ALU로 전달된다. 
-SB-type instruction에서는 우선 12-bit immediate value를 진행한 후, 2-byte offset 대로 left shift한 뒤, upper ALU에서 계산을 진행한다. lower ALU은 결과를 비교하는 역할을 한다. 0이랑 비교!!!
+SB-type instruction에서는 우선 12-bit immediate value를 진행한 후, 2-byte offset 대로 left shift한 뒤, upper ALU에서 계산을 진행한다 (-> Branch target). lower ALU은 결과를 비교하는 역할을 한다. 0이랑 비교!!!
 
 ## Data Memory Access
+
+![|475](https://i.imgur.com/6IvlD6a.png)
 
 ALU는 메모리에 어떻게 접근할까? 메모리 주소를 어떻게 계산해서 접근할까?
 이는 base register value에 sign-extended immediate offset을 더해서 계산한다.
@@ -107,7 +100,7 @@ ALU는 메모리에 어떻게 접근할까? 메모리 주소를 어떻게 계산
 
 ## ALU Control Signals
 
-위에서 받은 opcode는 ALU control signal로 번역되어 ALU에 들어간다. 아주 많은 instruction들은 네 가지의 종류(add, sub, and, or)로 바뀌어 들어간다.
+위에서 받은 instruction opcode는 ALU control signal로 번역되어 ALU에 들어간다. 아주 많은 instruction들은 네 가지의 종류(add, sub, and, or)로 바뀌어 들어간다.
 
 ![|600](https://i.imgur.com/UvGTXOu.png)
 
@@ -170,11 +163,11 @@ An (Pretty ugly) example of pipelining, it achives a *16/7* speedup, not 4.
 
 # Single-cycle Vs Pipelined Executions
 
-**Single-cycle model**'s clock period is determined by its the slowest instruction, but the slowest **stage** determines the clock period with **Pipelining execution**. The 'stage' doesn't means *instruction*, but *the datapath elements in processor*. Thus the pipelining execution typically results in a *longer execution time per instruction* than the single-cycle execution. 
+**Single-cycle model**'s clock period is determined by its the slowest instruction, but the slowest **stage** determines the clock period with **Pipelining execution**. The 'stage' doesn't means *instruction*, but *the datapath elements in processor*. Thus the pipelining execution typically results in a *longer execution time per instruction* than the single-cycle execution with unbalanced pipeline stages. 
 
 The Single-cycle model can improve its performance by reducing its **latency**, and Piplining execution can improve its performance by increasing **throughput**. **Latency** is related to *the execution time of an instruction*, **Throughput** is related to *the amount of data transfered per time*. like capacitance?
 
-만약 instruction의 개수가 충분히 크다면, single-cycle에 대한 pipelining의 actual speedup은 다음과 같이 계산할 수 있다.
+만약 instruction의 개수가 충분히 크고 pipeline stage가 완벽한 균형을 가질 경우, single-cycle에 대한 pipelining의 actual speedup은 다음과 같이 계산할 수 있다.
 
 $$ \text{Time between insructions}_\text{pipelined} = \frac{\text{Time between instructions}_\text{single-cycle}}{\text{Number of pipline stages}}$$
 
@@ -189,6 +182,11 @@ $$ \text{Time between insructions}_\text{pipelined} = \frac{\text{Time between i
 
 In the above table, Actual speedup for three loads is **12/7**, not 4.
 If instructions are repeated many times, the overall speedup approaches to **a ratio of gap between their first and last load instructions**.
+
+![|600](https://i.imgur.com/rSBe3RF.png)
+
+- total exe time of single cycle : $\text{instruction time}\times\text{number of inst.}$
+- total exe time of pipeline : $\text{instruction time}+(\text{number of instruction}-1)\cdot\text{stage time}$
 
 # Traditional 5-stage Pipeline Model
 
@@ -220,6 +218,7 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 - **left-shading**: stage에서 wrting을 진행
 - **right-shading**: stage에서 reading을 진행
 점선으로 이루어진 부분은 절대 접근하지 않는다는 뜻이다.
+- 따라서 read-only인 ID(register)는 왼쪽이 항상 점선일 것이다.
 
 ## Illustration of Pipeline Execution
 
@@ -250,6 +249,7 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 ![|212](https://i.imgur.com/fWGOiuq.png)
 
 - 두 개의 source register를 register file에서 읽고, 12-bit immediate field에서 immediate도 불러온다. 
+	- immediate는 나갈 때 64bit로 확장된다.
 - instruction type을 고려하지 않고 불러오며, 좀 낭비같지만 간단한 방식이다.
 
 ## EX (Exexution) Stage
@@ -275,7 +275,7 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 - MEM/WB으로 전해진 data는 register file로 전달되어 register에 저장된다. 
 - 전달되는 data는 ALU의 연산 결과 혹은 data memory이며, MUX는 type에 맞게 이를 선택한다.
 - data가 register에 쓰여야하는 경우, destination register (`rd`)가 정의되어야 한다.
-	- 하지만 5-Stage 구조에서 하나의 data element는 한 번만 사용되기에 IF/ID register에 접근해 `rd`를 다시 찾아올 수 없다.
+	- 하지만 5-Stage 구조에서 하나의 data element는 한 번만 사용되기에 IF/ID register에 접근해 `rd`를 다시 찾아올 수 없다. (이후 연산에 따라 지워질 수 있음)
 	- 따라서 `rd`는 처음부터 pipeline을 따라 이동한다.
 
 ## Exercise of Datapath Elements
@@ -287,22 +287,27 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 
 ## Single-Cycle Pipeline Diagram
 
-![|650](https://i.imgur.com/y2A7OWK.png)
+![|600](https://i.imgur.com/y2A7OWK.png)
 
 - **single-cycle pipeline diagram**은 datapath를 하나의 cycle에서 어떤 stage에서 어떤 instruction을 처리하고 있는지를 나타낸 것이다.
 - 따라서 execution의 순서는 오른쪽부터 왼쪽이 된다.
 
 ## Graphical Multi-Cycle Pipeline Diagram
 
-![](https://i.imgur.com/JlQXW96.png)
+![|575](https://i.imgur.com/JlQXW96.png)
 
 - *multi-cycle diagram*은 각 cycle에서 어떤 instruction의 어떤 stage가 처리되고 있는지를 나타낸 것이다.
 
 ## Pipeline Control Signals
 
+![|550](https://i.imgur.com/0iZEfC8.png)
+
 - **control signal**은 pipelined stage가 적절한 타이밍에 이루어질 수 있도록 돕는 역할을 한다.
 - 각 control signal은 docode logic에 의해 생성되며, pipeline resgister를 통과하며 하나씩 사용된다.
-- **IF** : 매 clock마다 PC, instruction을 읽기 때문에 control signal이 사용되지는 않는다.
+
+![|600](https://i.imgur.com/x68wrOM.png)
+
+- **IF** : 매 clock마다 PC, instruction을 읽기 때문에 control signal이 사용되지는 않는다. (애초에 생성되지 않는다.)
 - **ID** : Decoder를 이용해 control signal이 생성된다.
 - **EX** : control signal과 instruction 정보(`funct3`, `rd`)가 pipeline register를 통해 전달된다. control signal은 **ALUOp**이다. ALU의 계산을 결정한다.
 - **MEM** : 메모리에서 data를 쓰거나 읽는지 파악한다(`MEMWrite`,`MEMRead`). 또한 branch가 선택됐을 경우 이를 IF 단계의 MUX로 보낸다(`PCSrc`).  
@@ -322,13 +327,13 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 
 ## Data Hazards
 
-![|625](https://i.imgur.com/t1nlkIR.png)
+![|600](https://i.imgur.com/t1nlkIR.png)
 
 - **Data Hazard**는 데이터에 접근해야 하지만 해당 데이터가 준비되지 않았을 경우로, 데이터가 필요한 instruction이 stalled된다.
 - 이는 instruction의 dependent 관계에 의해 결정된다.
 - 아래는 위 코드를 pipeline으로 나타낸 것이다. ALU의 계산 결과는 *WB stage*에서 memory나 register에 저장된다. 따라서 *x2* 데이터가 필요한 `and`, `or`, `add`, `sd`는 `sub`의 WB stage가 올 때까지 실행되지 못한다.
 
-![](https://i.imgur.com/9patlpc.png)
+![|600](https://i.imgur.com/9patlpc.png)
 
 ### Detecting Data Dependency Between Instructions
 
@@ -343,12 +348,14 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 	- ID/EX.rs1 == MEM/WB.rd
 	- ID/EX.rs2 == MEM/WB.rd
 - 위 상황은 붉은 색 pipeline register가 문제임을 보여준다.
+	- 같은 line에 존재하는 register가 문제인듯?
 
 ### Pipeline Stalls
 
 ![](https://i.imgur.com/IScZ6U6.png)
 
 - Hazard에 의해 instruction이 밀리는 현상을 pipeline stalls라고 한다. 이는 hazard를 해결하는 방법이긴 한데 성능 저하가 심하게 일어난다.
+- 위의 방법으로 판단한 dependency가 발생하면 나머지 자리를 전부 bubble로 채워버린다.
 - **Nop**은 pipeline stall로 인해 생긴 빈 자리를 채우는 instruction으로, 주로 **Bubble**로 표시된다. 
 
 ### Data Forwarding
@@ -361,6 +368,7 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 ![|475](https://i.imgur.com/o5Epmap.png)
 
 - 이는 어떻게 이루어지는가? EX/MEM, MEM/WB는 **Forwarding unit**이라는 곳이 있는데, 이는 ALU의 MUX와 연결되어 pipeline register를 거치지 않고 data를 전달할 수 있다.
+- ID/EX에는 hazard 발생 여부를 파악하기 위해 rs1, rs2, rd를 담아놓는다.
 - Forwarding unit은 다음과 같은 **Control Signal**로 관리된다.
 
 | MUX control                                     |      Operand source       | Description                                                                                |
@@ -369,13 +377,14 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 | ForwardB = 00<br>ForwardB = 01<br>ForwardB = 10 | ID/EX<br>EX/MEM<br>MEM/WB | rs2의 value를 register file에서 가져온다<br>rs2를 ALU result에서 가져온다<br>rs2을 data memory나 ALU에서 가져온다 |
 
 - 이 control signal 또한 pipelined된다. pipeline register로 전달된다는 뜻
+- control signal은 ALU로 전달되어 연산을 수행한다. 
 
 ### Double Data Hazards
 
 ![](https://i.imgur.com/2WRdKEE.png)
 
 - dependency가 연속적으로 있는 경우 위와 같이 forwarding이 일어난다.
-- 다만 EX/MEM에 data가 없을 경우에만 MEM/WB에서의 forwarding이 일어난다. 이는 경로를 최적화하기 위함이다.
+- 다만 EX/MEM에 data forwarding이 없을 경우에만 MEM/WB에서의 forwarding이 일어난다. 이는 경로를 최적화하기 위함이다.
 
 ### Working with Immediate Operands
 
@@ -410,7 +419,8 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 ![](https://i.imgur.com/EQjBUXD.png)
 
 - hazard가 발생하는 근본적인 이유는 *branch target address*와 *branch decision if taken or not*을 모르기 때문에 발생한다. 그러면 최대한 빨리 계산하거나 추가적인 ALU가 필요하다.
-- 이중 **ID stage**에서 결과를 내는 방법은 너무 costly하기 때문에 쓰이지 않는다. (hardware resouce가 많이 필요함)
+- 우선 branch target은 ID stage에서 계산된다. 이는 위의 프로세서 구조에서도 확인할 수 있다.
+- branch decision을 **ID stage**에서 결과를 내는 방법은 너무 costly하기 때문에 쓰이지 않는다. (hardware resouce가 많이 필요함)
 
 ### Branch Prediction
 
