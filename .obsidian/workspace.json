@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md"
               }
             }
           },
@@ -173,8 +173,8 @@
   "active": "7617902b590cb9f0",
   "lastOpenFiles": [
     "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
-    "Home.md",
     "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
+    "Home.md",
     "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
     "Yonsei/3학년 1학기/통신이론/통신이론.md",

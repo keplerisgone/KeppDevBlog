@@ -16,6 +16,7 @@ Outputstage는 주로 오디오 시스템을 구성하는데 사용된다.
 ![](https://i.imgur.com/3kjmZIk.png)
 
 여기서 1W의 소리를 내고싶다면 $V_p$의 값이 4V가 되어야 한다. 즉 output voltage가 4V가 되어야 한다.
+	power는 voltage가 AC로 인가되기 때문에 rms를 사용해서 구한다.
 gain을 구할 때는 무조건 $\frac{1}{g_{m}} < \frac{R_{L}}{10} = 0.8$이어야만 $A_{v} \approx 1$이 성립한다. 이러면 $I_{C}$가 32.5mA이어야겠죠! 따라서 output voltage는 $I_{C}\times R_{L} = 260mV$가 된다. 
 
 ![|500](https://i.imgur.com/trly7Yt.png)
@@ -24,7 +25,7 @@ gain을 구할 때는 무조건 $\frac{1}{g_{m}} < \frac{R_{L}}{10} = 0.8$이어
 
 ![|325](https://i.imgur.com/aYEUDyj.png)
 
-위와 같이 발생하는 신호의 왜곡을 **Distortion**이라고 한다. 이를 표현하는 지표는 **THD**(Total harmonic distortion)이다. distortion은 harmonic의 개수와 크기로 표현된다. 이를 제거하는데는 feddback이 관여한다. 
+위와 같이 발생하는 신호의 왜곡을 **Distortion**이라고 한다. 이를 표현하는 지표는 **THD**(Total harmonic distortion)이다. distortion은 harmonic의 개수와 크기로 표현된다. 이를 제거하는데는 feedback이 관여한다. 
 
 # Push-Pull Outputstage
 
@@ -38,12 +39,19 @@ gain을 구할 때는 무조건 $\frac{1}{g_{m}} < \frac{R_{L}}{10} = 0.8$이어
 다만 이러면 출력이 다음과 같이 변하는데, 중간에 발생하는 zero crossing을 **cross-over distortion**이라고 한다.
 
 ![|425](https://i.imgur.com/ic2nSdb.png)
-
+$$
+\begin{align*}
+V_{out}=V_{in}+|V_{BE2}| &\ \text{for very negative inputs}\\
+V_{out}=V_{in}-V_{BE1}\ &\ \text{for very positive inputs}
+\end{align*}
+$$
+- $V_{BE}=V_{T}\ln{(I_{C1}/I_{S})}$로 구할 수 있다.
 이를 없애기 위해서 DC 전압원을 달아 그래프를 움직임으로써 dead zone을 없앨 수 있다. 다음과 같은 세 가지 방법이 있다.
 
 ![|400](https://i.imgur.com/wcPvUdw.png)
 
 하지만 실제로는 DC battery를 달 수 없으므로, diode를 연결한 뒤 전류를 공급한다. current source는 current mirror로 대체한다. 
+	diode의 내부 저항을 무시할 수도 있고, 안 무시할 수도 있다. (당연)
 
 ![|350](https://i.imgur.com/a4ZTAQc.png)
 
@@ -108,12 +116,16 @@ $$I_{C}= I_{1}+ \frac{V_{p}\sin\omega{t}}{{R_{L}}}$$
 
 - max의 경우: 모든 power가 transistor에서 소모될 경우 
 - min의 경우: 소리에서 절반, transistor에서 절반 소모
+> [!note]
+> - $I_{1}= V_{p}/R_{L}$이 되는 이유는 그게 outputstage의 동작 조건이기 때문이다.
+> - output peak 전압이 가해졌을 때 $I_{1}$을 다 빼앗아가면 회로가 동작하지 않는다. 
 
 ### Push-pull Stage Power Rating
 
 ![](https://i.imgur.com/hKvlWYQ.png)
 
 하나의 transistor가 소모하는 전압을 측정하기 위해 계산하는 과정, transistor가 두 개이기 때문에 $\frac{T}{2}$를 사용하는 것이다. 편미분을 이용해 max 값을 구한다.
+- positive/negative의 경우 주기의 절반을 사용, positive/negative 둘 중 하나가 될 경우 나머지 transistor는 동작하지 않음, 모든 전류가 output 단으로 흘러감.
 
 # Efficiency
 

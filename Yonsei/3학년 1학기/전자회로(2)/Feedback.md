@@ -115,6 +115,7 @@ Bode plot을 이용해 Phase 정보도 살펴볼 수 있다.
 왜 phase 정보로 stability를 알아낼 수 있는걸까??
 -> negative feedback이 phase shift로 인해 positive feedback이 되어 oscillation이 일어날 수 있기 때문!
 그래서 phase가 180도 이상이 되는 주파수를 알아내 조심해야 함.
+- 하나의 pole에 의해서는 $-90\degree$의 phase shift를 갖는다.
 
 - 정확히 **zero/pole**에서는 $\pm 45 \degree$를 가진다.
 - **one-tenth zero/pole**에서는 phase의 변화가 시작
@@ -123,6 +124,9 @@ Bode plot을 이용해 Phase 정보도 살펴볼 수 있다.
 ![|600](https://i.imgur.com/NTan7QM.png)
 
 요런 느낌
+- stable 하기 위해서는 oscillation하지 않는다는 것이므로, phase shift가 180도 이상되는 곳에서 gain이 1 이하여야 한다.
+	- 다만 $|KH|$의 phase와 gain으로 계산한다. Feedback 기준이라는 뜻.
+- 이를 높은 gain에서 이루기 위해서는 frequency compensation이 필요한데, 이는 pole을 옮겨서 bandwidth를 포기하는 대신 -180 shift에서 gain이 빠르게 감소하도록 하는 것이다.
 
 # 푸는 법
 
