@@ -81,7 +81,7 @@ $$
 
 - 위 response에서 pole은 다음과 같다.
 
-$$s_{12}=- \frac{\omega_{n}}{2Q}\pm j\omega_{n}\sqrt{q- \frac{1}{4Q^{2}}}$$
+$$s_{12}=- \frac{\omega_{n}}{2Q}\pm j\omega_{n}\sqrt{1- \frac{1}{4Q^{2}}}$$
 
 - 따라서 *Q가 작으면 real*이 되고, 크면 imaginary 성분이 강해진다. 
 
