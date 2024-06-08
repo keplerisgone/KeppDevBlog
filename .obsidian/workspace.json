@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md"
               }
             }
           },
@@ -172,8 +172,8 @@
   },
   "active": "7617902b590cb9f0",
   "lastOpenFiles": [
-    "Yonsei/3학년 1학기/컴퓨터구조/Remainder.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+    "Yonsei/3학년 1학기/컴퓨터구조/Reminder.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Memory.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
     "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",

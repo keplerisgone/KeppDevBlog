@@ -150,7 +150,6 @@
 - memory stall는 주로 cache miss에 의해 일어나기 때문에, memory stall은 $\text{read stall cycles}+\text{write stall cycles}$로 계산할 수 있다. 
 
 $$\text{Read stall cycles} = \text{\# of reads} \times \text{read miss rate} \times \text{read miss penalty}$$
-
 $$\text{Write stall cycles}= (\text{\# of writes}\times\text{write miss rate}\times\text{write miss penalty}) +\text{write buffer stalls}$$
 
 - \# of OO 은 instruction의 개수를 말한다. `ld`나 `sd`.
@@ -164,7 +163,7 @@ $$\text{Write stall cycles}= (\text{\# of writes}\times\text{write miss rate}\ti
 
 $$\text{Memory stall cycles}=\text{\# of memory accesses}\times\text{miss rate}\times\text{miss penalty}$$
 
-## Example
+## Example*
 
 ![|475](https://i.imgur.com/wETuk1T.png)
 
@@ -226,7 +225,7 @@ $$\text{AMAT}= \text{time for a hit}+(\text{miss rate}\times\text{miss penalty})
 ![](https://i.imgur.com/VGHXdtc.png)
 
 - 이렇게 way 수를 늘릴 때마다 index가 줄어드는 만큼 tag가 길어진다.
-
+34page~
 # Cache Block Replacement
 
 - 나 이거 잤는데

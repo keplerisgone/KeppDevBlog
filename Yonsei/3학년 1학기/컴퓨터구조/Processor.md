@@ -500,7 +500,7 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 
 ### Loop Unrolling
 
-![](https://i.imgur.com/xxKF4iR.png)
+![|600](https://i.imgur.com/xxKF4iR.png)
 
 - **Loop Unrolling**은 Loop statement를 다 풀어서 instruction을 쓰는 것이다. 
 - compile 단계에서 repetition의 수를 알 경우에만 사용 가능하다.
