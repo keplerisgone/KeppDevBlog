@@ -75,4 +75,5 @@ $$
 
 $$
 - instruction code
+branch에서 주소를 이동할 때는 2단위로 움직인다
 - branch immediate

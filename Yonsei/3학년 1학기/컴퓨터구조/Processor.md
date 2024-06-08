@@ -508,3 +508,8 @@ shading이 된 부분은 해당 instruction이 접근하는 부분을 나타낸 
 
 ### Register Renaming
 
+![|575](https://i.imgur.com/vWDHdLZ.png)
+
+- not true data hazard를 없애기 위해 사용하는 방법이다. 
+	- 위와 같은 경우 add, sd, ld에서 x31 레지스터를 사용하는데, 이들 사이에 진짜 data flow가 존재하는 dependency가 있는 것은 아니고, 그냥 이름이 같은 register를 사용하는 것 뿐이다.
+- 이 경우는 많은 register가 필요한데, 이는..

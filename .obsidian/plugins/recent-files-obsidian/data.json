@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Instruction",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+    },
+    {
       "basename": "Processor",
       "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
+      "basename": "Reminder",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Reminder.md"
     },
     {
       "basename": "Memory",
@@ -11,14 +19,6 @@
     {
       "basename": "Computer abstraction",
       "path": "Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
-    },
-    {
-      "basename": "Instruction",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
-    },
-    {
-      "basename": "Reminder",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Reminder.md"
     },
     {
       "basename": "Arithmetic",
