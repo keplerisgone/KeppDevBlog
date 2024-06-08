@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80ada3c1264682a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md"
+                "file": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
               }
             }
           },
@@ -172,23 +184,23 @@
   },
   "active": "7617902b590cb9f0",
   "lastOpenFiles": [
-    "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Memory.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Reminder.md",
     "Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
+    "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
+    "Yonsei/3학년 1학기/컴퓨터구조/Reminder.md",
+    "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
+    "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
+    "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
     "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
     "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md",
     "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
-    "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
     "Home.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
     "Yonsei/3학년 1학기/통신이론/통신이론.md",
     "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
     "Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
     "Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
     "Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md",

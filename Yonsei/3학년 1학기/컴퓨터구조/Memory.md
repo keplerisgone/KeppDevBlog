@@ -225,11 +225,31 @@ $$\text{AMAT}= \text{time for a hit}+(\text{miss rate}\times\text{miss penalty})
 ![](https://i.imgur.com/VGHXdtc.png)
 
 - 이렇게 way 수를 늘릴 때마다 index가 줄어드는 만큼 tag가 길어진다.
-34page~
+
+## Example
+
+- cache는 4096 blocks이고, 각각은 2 doublewords (16byte) 이다. 
+- memory address는 32bit이다.
+- total number of tag bits in a direct-mapped, two-way, four-way, fullay-associative structure? (tag size를 구하는 거면 cache block을 곱해야 한다.)
+	- $4096 = 2^{12}$, $16 = 2^4$, offset = 4 bit, index = 12 bit, tag = 16bit
+	- two-way : offset = 4 bit, index = 11 bit, tag = 17 bit 
+
 # Cache Block Replacement
 
-- 나 이거 잤는데
+- 위 cache map에서, 각 set이 모두 차있을 수도 있다. 이 때 다른 data가 사용될 경우, 이미 존재하는 cache block을 치워야 한다.
+- 이 때 **Least Recently Used**(LRU) 방법을 사용한다. 즉, 가장 먼저 사용된 cache를 먼저 대체한다.
+- two-way의 경우, 이를 나타내는 1bit가 사용된다.
 
 # Cache-Aware Matrix Multiplication Example
 
-- 교재를 보지 않을래?
+![|600](https://i.imgur.com/EMSRgKA.png)
+
+- Matrix 연산은 큰 메모리에 접근해야 하기 때문에 cache 성능에 큰 영향을 받는다.
+- 일반적인 연산의 경우, 행~의 경우에는 4개의 cache block에 접근하지만, 열의 경우 16개의 cache block에 접근해야 하는 끔찍한 경우가 발생한다.
+
+![|600](https://i.imgur.com/mzvv9VK.png)
+
+- 따라서 위와 같이 block을 새로 나누어 연산을 진행한다. 
+- Spatial locality : cache에 있는 data에 모두 접근.
+- Temporal locality : 각각의 cache block이 여러 번 사용된다.
+- cass miss가 감소하며, 메모리 효율을 증가시킬 수 있다.
