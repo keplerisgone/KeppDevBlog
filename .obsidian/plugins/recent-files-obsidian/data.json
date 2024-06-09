@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Processor",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
       "basename": "Instruction",
       "path": "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
     },
     {
-      "basename": "Processor",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+      "basename": "Bipolar Amplifier (5) (찐찐찐막)",
+      "path": "Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (5) (찐찐찐막)/Bipolar Amplifier (5) (찐찐찐막).md"
+    },
+    {
+      "basename": "전자회로(1)",
+      "path": "Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md"
+    },
+    {
+      "basename": "Cascode Stage & Current Mirrors",
+      "path": "Yonsei/2학년 2학기/전자회로(1)/Cascode Stage & Current Mirrors/Cascode Stage & Current Mirrors.md"
     },
     {
       "basename": "Reminder",
@@ -187,18 +199,6 @@
     {
       "basename": "몬스터 구현",
       "path": "99-Archive/Robotgame/몬스터 구현.md"
-    },
-    {
-      "basename": "00-Personal",
-      "path": "00-Personal/00-Personal.md"
-    },
-    {
-      "basename": "Tech & Dev",
-      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
-    },
-    {
-      "basename": "Dev",
-      "path": "02-MOC/Tech & Dev/Dev/Dev.md"
     }
   ],
   "omittedPaths": [],
