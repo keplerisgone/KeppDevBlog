@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Memory",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md"
+    },
+    {
+      "basename": "Processor",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
+    },
+    {
+      "basename": "Reminder",
+      "path": "Yonsei/3학년 1학기/컴퓨터구조/Reminder.md"
+    },
+    {
       "basename": "Oscillator",
       "path": "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md"
     },
@@ -17,10 +29,6 @@
       "path": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md"
     },
     {
-      "basename": "Processor",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
-    },
-    {
       "basename": "Instruction",
       "path": "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
     },
@@ -35,14 +43,6 @@
     {
       "basename": "Cascode Stage & Current Mirrors",
       "path": "Yonsei/2학년 2학기/전자회로(1)/Cascode Stage & Current Mirrors/Cascode Stage & Current Mirrors.md"
-    },
-    {
-      "basename": "Reminder",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Reminder.md"
-    },
-    {
-      "basename": "Memory",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md"
     },
     {
       "basename": "Computer abstraction",

@@ -237,7 +237,8 @@ $$\text{AMAT}= \text{time for a hit}+(\text{miss rate}\times\text{miss penalty})
 # Cache Block Replacement
 
 - 위 cache map에서, 각 set이 모두 차있을 수도 있다. 이 때 다른 data가 사용될 경우, 이미 존재하는 cache block을 치워야 한다.
-- 이 때 **Least Recently Used**(LRU) 방법을 사용한다. 즉, 가장 먼저 사용된 cache를 먼저 대체한다.
+- 이 때 **Least Recently Used**(LRU) 방법을 사용한다. 즉, 가장 과거에 사용된 cache를 먼저 대체한다.
+	- LRU는 가장 최근에 사용된 block이다.
 - two-way의 경우, 이를 나타내는 1bit가 사용된다.
 
 # Cache-Aware Matrix Multiplication Example
