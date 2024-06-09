@@ -116,7 +116,6 @@ Bode plot을 이용해 Phase 정보도 살펴볼 수 있다.
 -> negative feedback이 phase shift로 인해 positive feedback이 되어 oscillation이 일어날 수 있기 때문!
 그래서 phase가 180도 이상이 되는 주파수를 알아내 조심해야 함.
 - 하나의 pole에 의해서는 $-90\degree$의 phase shift를 갖는다.
-
 - 정확히 **zero/pole**에서는 $\pm 45 \degree$를 가진다.
 - **one-tenth zero/pole**에서는 phase의 변화가 시작
 - **ten times zero/pole**에서는 $\pm 90\degree$를 가진다.
