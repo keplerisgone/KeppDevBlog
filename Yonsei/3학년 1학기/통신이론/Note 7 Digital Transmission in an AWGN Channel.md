@@ -394,3 +394,12 @@ $$E_{av}= \frac{1}{M}\sum_\limits{k=1}^{M}\int^{T}_{0}s_{k}^{2}(t)dt$$
 ![](https://i.imgur.com/o6u8IWp.png)
 
 - orthogonal signal은 다음과 같이 나타낼 수 있다. 
+
+![](https://i.imgur.com/sEYBEAY.png)
+
+- orthogonal signal의 SER과 BER은 위와 같이 구할 수 있다. 
+- 어떤 한 symbol을 잡는다.
+	- 전체 경우의 수에서 각 bit가 오류나는 개수를 구하고, 경우의 수를 곱한다.
+	- symbol을 이루는 bit 수를 곱한다.
+- 이를 수식으로 정리하면
+$$P_{b}= \frac{2^{k-1}}{2^{k}-1}P_{M}$$
