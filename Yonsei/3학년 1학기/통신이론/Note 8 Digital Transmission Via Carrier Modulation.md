@@ -95,3 +95,22 @@
 ![](https://i.imgur.com/kZrsZDa.png)
 
 - rectangular를 이용하거나 circular 모양을 이용한다.
+
+![](https://i.imgur.com/LMDVxA0.png)
+
+- 요것도 똑같다. received signal은 noise도 받고 두 개로 나뉘어진다.
+
+![](https://i.imgur.com/65DJ5rA.png)
+
+- error probability. M-ary의 경우와 같다. 수식에 때려넣은 것과 같다.
+
+![](https://i.imgur.com/nXnH0V8.png)
+
+- 두 개의 축을(orthogonal한) 이용하는 것이기 때문에 4-PAM, 16-QAM은 error 확률이 같다.
+
+# Frequency Shift keying
+
+![](https://i.imgur.com/dQq8wVZ.png)
+
+- OFDM의 기초가 되어서 알아보는 것이지, 시험에는 좀?
+- 
