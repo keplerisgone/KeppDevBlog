@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "608468483432e4aa",
+        "id": "f68fd75c22452f31",
         "type": "tabs",
         "children": [
           {
-            "id": "da044a86b3687ac1",
+            "id": "c7d1ddd6a0021d07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 5
   },
   "right": {
     "id": "fddb38e918023cb4",
@@ -109,7 +109,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
+            "file": "Home.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
+            "file": "Home.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,7 +138,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md"
+            "file": "Home.md"
           }
         }
       },
@@ -181,10 +181,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da044a86b3687ac1",
+  "active": "c7d1ddd6a0021d07",
   "lastOpenFiles": [
     "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
     "Home.md",
+    "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
     "Spaces/Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Spaces/Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
     "03-Resources/Computer Architecture/Digital Information.md",
@@ -209,7 +210,6 @@
     "Media/Pasted image 20240225001005.png",
     "02-Area/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
     "99-Daily/2024_02_23.md",
-    "99-Daily/2024_02_16.md",
     "Spaces/Home",
     "Spaces"
   ]
