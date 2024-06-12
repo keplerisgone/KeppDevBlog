@@ -375,7 +375,22 @@ $$E_{av}= \frac{1}{M}\sum_\limits{k=1}^{M}\int^{T}_{0}s_{k}^{2}(t)dt$$
 
 ![](https://i.imgur.com/3Y97FzD.png)
 
+- 받는 신호에 따라 선택하는 signal이 달라진다. 
+- 요것을 선택했을 때 signal이 그거일 확률은 Gaussian으로 구할 수 있다.
+- Detection은 역시 likelihood로 판단한다.
 
+![](https://i.imgur.com/8YBidrY.png)
 
+- orthogonal signal은 다음과 같이 구현할 수 있다. 
+- 시간 축을 쪼개서 구현할 수 있고, 서로 다른 두 signal끼리 곱하면 0이 되기 때문에 orthogonal하다.
+- energy는 저렇게 구한다.
 
-![](https://i.imgur.com/EXirVhy.png)
+![](https://i.imgur.com/FKby1MH.png)
+
+- amplitude와는 다르게 level의 개수가 늘어날수록 error probability가 낮아지는 것을 알 수 있다. 
+- 이는 signal이 orthogonal하지 않아 서로에게 영향을 주지 않고, amplitude는 같은 공간을 점유하는 것이기 때문에 다른 결과가 나타난다.
+- orthogonal은 각자 error 확률은 같지만 보내는 bit 수가 같아 확률은 낮아진다.
+
+![](https://i.imgur.com/o6u8IWp.png)
+
+- orthogonal signal은 다음과 같이 나타낼 수 있다. 
