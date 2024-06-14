@@ -113,4 +113,16 @@
 ![](https://i.imgur.com/dQq8wVZ.png)
 
 - OFDM의 기초가 되어서 알아보는 것이지, 시험에는 좀?
-- 
+- 주파수를 나누어서 사용하는 것이기 때문에 level이 늘어날수록 BW가 늘어나지만, 비례로 늘어나지는 않는다.
+
+![](https://i.imgur.com/xc2gRz1.png)
+
+- orthogonal 하다는 것을 통해.. 저런걸 유도할 수 있는데 그래도 뭔소린지 모르겠다
+
+![](https://i.imgur.com/mMeAaMr.png)
+
+- M-ary FSK는 각자 같은 energy를 가진다. 
+
+![](https://i.imgur.com/n9y1jVn.png)
+
+![](https://i.imgur.com/4C2Kl93.png)
