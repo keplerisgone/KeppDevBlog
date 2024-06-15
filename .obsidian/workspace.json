@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cb14ce1ef5fe6488",
+        "id": "f360ba32d9287f2b",
         "type": "tabs",
         "children": [
           {
-            "id": "c22e6f8de59347e3",
+            "id": "6e9857ce4904d254",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -162,8 +170,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c22e6f8de59347e3",
+  "active": "6e9857ce4904d254",
   "lastOpenFiles": [
+    "03-Writing/세컨드 브레인.md",
+    "03-Writing/세벌식은 왜 짱인가.md",
+    "02-MOC/02-MOC.md",
+    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
+    "02-MOC/Blog/Blog.md",
+    "02-MOC/Blog/세벌식/세벌식.md",
+    "02-MOC/Blog/Books/Books.md",
+    "00-Personal/00-Personal.md",
+    "01-Project/01-Project.md",
+    "99-Archive/C++로 문제 풀기.md",
+    "99-Archive/Web/Web.md",
+    "99-Archive/Robotgame/몬스터 구현.md",
+    "99-Archive/Robotgame/진행 상황.md",
+    "99-Archive/Robotgame/Prefab 모음.md",
+    "99-Archive/Robotgame/배터리 시스템.md",
+    "99-Archive/Robotgame/보스 1페이즈.md",
+    "99-Archive/Robotgame/Senti.md",
+    "99-Archive/Robotgame/보스 2페.md",
+    "Template/template.md",
     "Home.md",
     "Yonsei/3학년 1학기/통신이론/통신이론.md",
     "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md",
@@ -171,25 +198,6 @@
     "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
     "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md",
-    "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md",
-    "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Memory.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Processor.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Reminder.md",
-    "Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md",
-    "Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (5) (찐찐찐막)/Bipolar Amplifier (5) (찐찐찐막).md",
-    "Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md",
-    "Yonsei/2학년 2학기/전자회로(1)/Cascode Stage & Current Mirrors/Cascode Stage & Current Mirrors.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md",
-    "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md",
-    "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md",
-    "Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/2주차.md",
-    "Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",
