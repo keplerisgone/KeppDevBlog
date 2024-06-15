@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Blog/Books/Books.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Blog/Books/Books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Blog/Books/Books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "02-MOC/Blog/Books/Books.md"
               }
             }
           },
@@ -172,13 +172,15 @@
   },
   "active": "6e9857ce4904d254",
   "lastOpenFiles": [
+    "02-MOC/Blog/Books/나라는 착각.md",
     "03-Writing/세컨드 브레인.md",
-    "03-Writing/세벌식은 왜 짱인가.md",
-    "02-MOC/02-MOC.md",
-    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
-    "02-MOC/Blog/Blog.md",
-    "02-MOC/Blog/세벌식/세벌식.md",
     "02-MOC/Blog/Books/Books.md",
+    "02-MOC/Blog/Blog.md",
+    "02-MOC/02-MOC.md",
+    "Home.md",
+    "03-Writing/세벌식은 왜 짱인가.md",
+    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
+    "02-MOC/Blog/세벌식/세벌식.md",
     "00-Personal/00-Personal.md",
     "01-Project/01-Project.md",
     "99-Archive/C++로 문제 풀기.md",
@@ -191,13 +193,11 @@
     "99-Archive/Robotgame/Senti.md",
     "99-Archive/Robotgame/보스 2페.md",
     "Template/template.md",
-    "Home.md",
     "Yonsei/3학년 1학기/통신이론/통신이론.md",
     "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
     "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
-    "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",

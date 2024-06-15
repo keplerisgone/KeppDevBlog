@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Books",
+      "path": "02-MOC/Blog/Books/Books.md"
+    },
+    {
+      "basename": "나라는 착각",
+      "path": "02-MOC/Blog/Books/나라는 착각.md"
+    },
+    {
+      "basename": "세컨드 브레인",
+      "path": "03-Writing/세컨드 브레인.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "02-MOC/Blog/Blog.md"
+    },
+    {
+      "basename": "02-MOC",
+      "path": "02-MOC/02-MOC.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -9,32 +29,16 @@
       "path": "03-Writing/프롬프트 엔지니어링 교과서.md"
     },
     {
-      "basename": "세컨드 브레인",
-      "path": "03-Writing/세컨드 브레인.md"
-    },
-    {
       "basename": "세벌식은 왜 짱인가",
       "path": "03-Writing/세벌식은 왜 짱인가.md"
-    },
-    {
-      "basename": "02-MOC",
-      "path": "02-MOC/02-MOC.md"
     },
     {
       "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
       "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
     },
     {
-      "basename": "Blog",
-      "path": "02-MOC/Blog/Blog.md"
-    },
-    {
       "basename": "세벌식",
       "path": "02-MOC/Blog/세벌식/세벌식.md"
-    },
-    {
-      "basename": "Books",
-      "path": "02-MOC/Blog/Books/Books.md"
     },
     {
       "basename": "00-Personal",
@@ -195,10 +199,6 @@
     {
       "basename": "5주차",
       "path": "Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md"
-    },
-    {
-      "basename": "금융공학의이해(1)",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/금융공학의이해(1).md"
     }
   ],
   "omittedPaths": [],
