@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Note 5 Analog to Digital Conversion",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
+    },
+    {
+      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
+    },
+    {
       "basename": "Books",
       "path": "02-MOC/Blog/Books/Books.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "7주차",
       "path": "Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md"
-    },
-    {
-      "basename": "6주차",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/6주차.md"
-    },
-    {
-      "basename": "5주차",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/5주차.md"
     }
   ],
   "omittedPaths": [],

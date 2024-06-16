@@ -53,6 +53,15 @@ aliasing이 일어나게 하지 않는 최소한의 sampling rate를 **Nyquist s
 
 ![](https://i.imgur.com/O220PeO.png)
 
+$$
+\begin{align*}
+H(f) &= T_{s}\Pi (\frac{f}{2W'})\\
+
+\end{align*}
+$$
+
+![|325](https://i.imgur.com/Gt7GmzO.png)
+- $W'$는 filter의 범위를 뜻함. 위 수식은 $f_{s}= 2W$를 가정한 것임.
 ## Quantization
 
 Sampling 이후의 signal 값을 특정 값으로 round하는 과정이다. Discrete-time, discrete-amplitude signal이 된다. 
