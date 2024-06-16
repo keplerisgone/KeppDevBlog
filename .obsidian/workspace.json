@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
+                "file": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md"
               }
             }
           },
@@ -170,8 +170,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6e9857ce4904d254",
+  "active": "01e00628f9a5170e",
   "lastOpenFiles": [
+    "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
     "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "02-MOC/Blog/Books/Books.md",
     "02-MOC/Blog/Books/나라는 착각.md",
@@ -197,7 +198,6 @@
     "Yonsei/3학년 1학기/통신이론/통신이론.md",
     "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
-    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",

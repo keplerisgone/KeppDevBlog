@@ -102,7 +102,7 @@ a_{k}=
 -1 &\text{if the input }b_{k}\ \text{is symbol }0
 \end{cases}
 $$
-받은 signal은 $s(t) = a_k * g(t) =  \sum_\limits{k=-\infty}^{\infty}a_{k}g(t-kT_{b})$로 나타낼 수 있다. $T_b$는 **Bit duration**이다. 
+받은 signal은 $s(t) = a_k * g(t) =  \sum_\limits{k=-\infty}^{\infty}a_{k}g(t-kT_{b})$로 나타낼 수 있다. $T_b$는 **Bit duration**이다. $g(t)$는 pulse겠지? $T_b$는 pulse duration일 것이다.
 
 ![](https://i.imgur.com/pOZEiRd.png)
 
