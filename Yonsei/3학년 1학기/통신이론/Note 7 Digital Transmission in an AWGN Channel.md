@@ -333,7 +333,7 @@ Binary signal의 경우 다음과 같이 다양한 방법으로 나타낼 수 �
 ![](https://i.imgur.com/ShUAybi.png)
 
 이후 **Power normalization**을 진행한다. power의 평균이 1이 되도록 만들면 된다.
-power normalization을 진행하는 이유는 위 그래프에서처럼 각 symbol마다 다른 진폭 level을 가지는 상황을 방지하기 위해서이다.
+power normalization을 진행하는 이유는 총 power의 합은 동일해야 하기 때문
 
 ![](https://i.imgur.com/NTR7bW6.png)
 
