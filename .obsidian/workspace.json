@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md"
+                "file": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
               }
             }
           },
@@ -172,9 +172,9 @@
   },
   "active": "6e9857ce4904d254",
   "lastOpenFiles": [
+    "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
     "02-MOC/Blog/Blog.md",
     "02-MOC/02-MOC.md",
-    "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
     "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
     "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
