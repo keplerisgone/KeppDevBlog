@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Note 7 Digital Transmission in an AWGN Channel",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
+      "basename": "개발자 기술 면접 노트",
+      "path": "02-MOC/Blog/Books/개발자 기술 면접 노트.md"
+    },
+    {
+      "basename": "나라는 착각",
+      "path": "02-MOC/Blog/Books/나라는 착각.md"
+    },
+    {
+      "basename": "Books",
+      "path": "02-MOC/Blog/Books/Books.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "02-MOC/Blog/Blog.md"
     },
     {
       "basename": "Note 8 Digital Transmission Via Carrier Modulation",
       "path": "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md"
+    },
+    {
+      "basename": "Note 7 Digital Transmission in an AWGN Channel",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
     },
     {
       "basename": "Note 6 Baseband Digital Data Transmission",
@@ -21,20 +37,8 @@
       "path": "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
     },
     {
-      "basename": "Books",
-      "path": "02-MOC/Blog/Books/Books.md"
-    },
-    {
-      "basename": "나라는 착각",
-      "path": "02-MOC/Blog/Books/나라는 착각.md"
-    },
-    {
       "basename": "세컨드 브레인",
       "path": "03-Writing/세컨드 브레인.md"
-    },
-    {
-      "basename": "Blog",
-      "path": "02-MOC/Blog/Blog.md"
     },
     {
       "basename": "02-MOC",
@@ -195,10 +199,6 @@
     {
       "basename": "1주차",
       "path": "Yonsei/3학년 1학기/금융공학의이해(1)/1주차.md"
-    },
-    {
-      "basename": "7주차",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/7주차.md"
     }
   ],
   "omittedPaths": [],
