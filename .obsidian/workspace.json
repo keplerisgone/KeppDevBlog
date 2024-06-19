@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md"
+                "file": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
               }
             }
           },
@@ -172,19 +172,19 @@
   },
   "active": "6e9857ce4904d254",
   "lastOpenFiles": [
-    "Home.md",
-    "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
-    "Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
+    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
+    "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
+    "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
+    "Home.md",
+    "Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
     "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
     "02-MOC/Blog/Blog.md",
     "02-MOC/02-MOC.md",
-    "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md",
     "02-MOC/Blog/Books/Books.md",
     "02-MOC/Blog/Books/나라는 착각.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
-    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "03-Writing/세컨드 브레인.md",
     "03-Writing/세벌식은 왜 짱인가.md",
     "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
