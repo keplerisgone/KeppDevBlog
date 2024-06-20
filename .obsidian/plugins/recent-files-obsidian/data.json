@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Note 8 Digital Transmission Via Carrier Modulation",
+      "path": "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md"
+    },
+    {
       "basename": "Note 7 Digital Transmission in an AWGN Channel",
       "path": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
     },
@@ -21,10 +29,6 @@
       "path": "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "Note 2 Amplitude modulation",
       "path": "Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "02-MOC",
       "path": "02-MOC/02-MOC.md"
-    },
-    {
-      "basename": "Note 8 Digital Transmission Via Carrier Modulation",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md"
     },
     {
       "basename": "Books",
