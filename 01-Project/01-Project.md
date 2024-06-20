@@ -5,6 +5,8 @@
 	- [[Control an 8x8 matrix of LEDs. - Arduino Documentation]]
 - **[[노닥노닥 라즈베리]]**
 	- [[임베디드 with 라즈베리파이]]
+- **[[임베디드 SW개발]]**
+- **[[하루하나 오일러 프로젝트]]**
 
 %% End Landmark %%
 

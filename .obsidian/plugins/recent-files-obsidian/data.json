@@ -1,8 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "하루하나 오일러 프로젝트",
+      "path": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md"
+    },
+    {
+      "basename": "노닥노닥 라즈베리",
+      "path": "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md"
+    },
+    {
+      "basename": "임베디드 SW개발",
+      "path": "01-Project/임베디드 SW개발/임베디드 SW개발.md"
+    },
+    {
+      "basename": "나는 커서 뭘 할까",
+      "path": "00-Personal/나는 커서 뭘 할까.canvas"
+    },
+    {
+      "basename": "00-Personal",
+      "path": "00-Personal/00-Personal.md"
+    },
+    {
+      "basename": "Goals",
+      "path": "00-Personal/Goals.md"
+    },
+    {
+      "basename": "Life",
+      "path": "00-Personal/Life.md"
+    },
+    {
+      "basename": "Tech & Dev",
+      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
+    },
+    {
+      "basename": "유튜브가 렉이 걸릴 때",
+      "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
+    },
+    {
+      "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
+      "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
+    },
+    {
       "basename": "개발자 기술 면접 노트",
       "path": "02-MOC/Blog/Books/개발자 기술 면접 노트.md"
+    },
+    {
+      "basename": "나라는 착각",
+      "path": "02-MOC/Blog/Books/나라는 착각.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "02-MOC/Blog/Blog.md"
+    },
+    {
+      "basename": "02-MOC",
+      "path": "02-MOC/02-MOC.md"
+    },
+    {
+      "basename": "01-Project",
+      "path": "01-Project/01-Project.md"
     },
     {
       "basename": "Home",
@@ -37,20 +93,8 @@
       "path": "Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md"
     },
     {
-      "basename": "Blog",
-      "path": "02-MOC/Blog/Blog.md"
-    },
-    {
-      "basename": "02-MOC",
-      "path": "02-MOC/02-MOC.md"
-    },
-    {
       "basename": "Books",
       "path": "02-MOC/Blog/Books/Books.md"
-    },
-    {
-      "basename": "나라는 착각",
-      "path": "02-MOC/Blog/Books/나라는 착각.md"
     },
     {
       "basename": "세컨드 브레인",
@@ -65,20 +109,8 @@
       "path": "03-Writing/세벌식은 왜 짱인가.md"
     },
     {
-      "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
-      "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
-    },
-    {
       "basename": "세벌식",
       "path": "02-MOC/Blog/세벌식/세벌식.md"
-    },
-    {
-      "basename": "00-Personal",
-      "path": "00-Personal/00-Personal.md"
-    },
-    {
-      "basename": "01-Project",
-      "path": "01-Project/01-Project.md"
     },
     {
       "basename": "C++로 문제 풀기",
@@ -167,38 +199,6 @@
     {
       "basename": "전자회로(1)",
       "path": "Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md"
-    },
-    {
-      "basename": "Cascode Stage & Current Mirrors",
-      "path": "Yonsei/2학년 2학기/전자회로(1)/Cascode Stage & Current Mirrors/Cascode Stage & Current Mirrors.md"
-    },
-    {
-      "basename": "Computer abstraction",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Computer abstraction.md"
-    },
-    {
-      "basename": "Arithmetic",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Arithmetic.md"
-    },
-    {
-      "basename": "문제은행",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/문제은행.md"
-    },
-    {
-      "basename": "Differential Amplifier",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Differential Amplifier.md"
-    },
-    {
-      "basename": "전자회로(1) review",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/전자회로(1) review.md"
-    },
-    {
-      "basename": "4주차",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/4주차.md"
-    },
-    {
-      "basename": "3주차",
-      "path": "Yonsei/3학년 1학기/금융공학의이해(1)/3주차.md"
     }
   ],
   "omittedPaths": [],

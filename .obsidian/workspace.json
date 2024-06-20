@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "64b771c2c223471c",
+        "id": "867176aea118e391",
         "type": "tabs",
         "children": [
           {
-            "id": "43e26229dfd75bcd",
+            "id": "a64589f901f7ae69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
+                "file": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
+                "file": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
+                "file": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md"
+                "file": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md"
               }
             }
           },
@@ -171,8 +170,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "43e26229dfd75bcd",
+  "active": "a64589f901f7ae69",
   "lastOpenFiles": [
+    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
+    "01-Project/임베디드 SW개발/임베디드 SW개발.md",
+    "00-Personal/나는 커서 뭘 할까.canvas",
+    "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
+    "01-Project/임베디드 SW개발",
+    "00-Personal/00-Personal.md",
+    "00-Personal/Goals.md",
+    "00-Personal/Life.md",
+    "02-MOC/Tech & Dev/Tech & Dev.md",
+    "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
+    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
+    "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
+    "02-MOC/Blog/Books/나라는 착각.md",
+    "02-MOC/Blog/Blog.md",
+    "02-MOC/02-MOC.md",
+    "01-Project/01-Project.md",
+    "Untitled.md",
+    "01-Project/하루하나 오일러 프로젝트",
     "Home.md",
     "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
@@ -180,25 +197,10 @@
     "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
     "Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
-    "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
-    "02-MOC/Blog/Blog.md",
-    "02-MOC/02-MOC.md",
     "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md",
     "02-MOC/Blog/Books/Books.md",
-    "02-MOC/Blog/Books/나라는 착각.md",
     "03-Writing/세컨드 브레인.md",
     "03-Writing/세벌식은 왜 짱인가.md",
-    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
-    "02-MOC/Blog/세벌식/세벌식.md",
-    "00-Personal/00-Personal.md",
-    "01-Project/01-Project.md",
-    "99-Archive/C++로 문제 풀기.md",
-    "99-Archive/Web/Web.md",
-    "99-Archive/Robotgame/몬스터 구현.md",
-    "99-Archive/Robotgame/진행 상황.md",
-    "99-Archive/Robotgame/Prefab 모음.md",
-    "99-Archive/Robotgame/배터리 시스템.md",
-    "99-Archive/Robotgame/보스 1페이즈.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",
@@ -209,12 +211,9 @@
     "Omnivore/2024-03-11",
     "Omnivore/2024-03-06",
     "Omnivore/2024-03-04",
-    "Omnivore/2024-03-03",
-    "Omnivore/2024-03-02",
     "Media/Screenshot_2023-09-29_at_8.20.19_PM.png",
     "Media/Screenshot_2023-08-24_at_3.34.48_PM.png",
     "Media/Untitled 13.png",
-    "00-Personal/나는 커서 뭘 할까.canvas",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
     "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
     "Media/Screenshot_2023-12-09_at_2.21.28_PM.png",
