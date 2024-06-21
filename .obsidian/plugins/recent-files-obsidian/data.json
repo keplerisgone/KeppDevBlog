@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Github Profile & Blog 꾸미기",
+      "path": "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md"
+    },
+    {
+      "basename": "Git & GitHub",
+      "path": "02-MOC/Git & GitHub/Git & GitHub.md"
+    },
+    {
       "basename": "하루하나 오일러 프로젝트",
       "path": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md"
     },
@@ -59,10 +71,6 @@
     {
       "basename": "01-Project",
       "path": "01-Project/01-Project.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Note 8 Digital Transmission Via Carrier Modulation",
@@ -191,14 +199,6 @@
     {
       "basename": "Instruction",
       "path": "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
-    },
-    {
-      "basename": "Bipolar Amplifier (5) (찐찐찐막)",
-      "path": "Yonsei/2학년 2학기/전자회로(1)/Bipolar Amplifier (5) (찐찐찐막)/Bipolar Amplifier (5) (찐찐찐막).md"
-    },
-    {
-      "basename": "전자회로(1)",
-      "path": "Yonsei/2학년 2학기/전자회로(1)/전자회로(1).md"
     }
   ],
   "omittedPaths": [],

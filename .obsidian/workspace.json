@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md"
+                "file": "Home.md"
               }
             }
           },
@@ -172,10 +172,12 @@
   },
   "active": "a64589f901f7ae69",
   "lastOpenFiles": [
+    "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
+    "02-MOC/Git & GitHub/Git & GitHub.md",
+    "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
     "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
     "01-Project/임베디드 SW개발/임베디드 SW개발.md",
     "00-Personal/나는 커서 뭘 할까.canvas",
-    "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
     "01-Project/임베디드 SW개발",
     "00-Personal/00-Personal.md",
     "00-Personal/Goals.md",
@@ -199,8 +201,6 @@
     "Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
     "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md",
     "02-MOC/Blog/Books/Books.md",
-    "03-Writing/세컨드 브레인.md",
-    "03-Writing/세벌식은 왜 짱인가.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",

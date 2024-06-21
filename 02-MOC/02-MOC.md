@@ -35,6 +35,7 @@
 		- [[라즈베리파이에 Linux 설치하기]]
 - **[[Git & GitHub]]**
 	- [[Branch merge 시에 충돌 해결법]]
+	- [[Github Profile & Blog 꾸미기]]
 	- [[기본적인 Git-GitHub 사용]]
 - **[[Linux]]**
 	- [[docker를 이용해서 편하게 리눅스 사용하기]]
