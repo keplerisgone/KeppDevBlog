@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "C++ 코딩테스트 세팅하기",
-      "path": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md"
+      "basename": "C++로 배우는 자료구조와 알고리즘",
+      "path": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md"
+    },
+    {
+      "basename": "임베디드 SW개발",
+      "path": "01-Project/임베디드 SW개발/임베디드 SW개발.md"
     },
     {
       "basename": "개발자 기술 면접 노트",
       "path": "02-MOC/Blog/Books/개발자 기술 면접 노트.md"
+    },
+    {
+      "basename": "C++ 코딩테스트 세팅하기",
+      "path": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md"
     },
     {
       "basename": "하루하나 코딩테스트",
@@ -31,10 +39,6 @@
     {
       "basename": "노닥노닥 라즈베리",
       "path": "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md"
-    },
-    {
-      "basename": "임베디드 SW개발",
-      "path": "01-Project/임베디드 SW개발/임베디드 SW개발.md"
     },
     {
       "basename": "나는 커서 뭘 할까",
@@ -195,10 +199,6 @@
     {
       "basename": "Processor",
       "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
-    },
-    {
-      "basename": "Reminder",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Reminder.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
+                "file": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
+                "file": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
+                "file": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md"
+                "file": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md"
               }
             }
           },
@@ -172,6 +172,9 @@
   },
   "active": "a64589f901f7ae69",
   "lastOpenFiles": [
+    "01-Project/임베디드 SW개발/임베디드 SW개발.md",
+    "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
+    "01-Project/C++로 배우는 자료구조와 알고리즘",
     "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
     "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
     "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md",
@@ -181,7 +184,6 @@
     "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
     "02-MOC/Git & GitHub/Git & GitHub.md",
     "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
-    "01-Project/임베디드 SW개발/임베디드 SW개발.md",
     "00-Personal/나는 커서 뭘 할까.canvas",
     "01-Project/임베디드 SW개발",
     "00-Personal/00-Personal.md",
@@ -201,7 +203,6 @@
     "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
     "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
-    "Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",
@@ -210,7 +211,6 @@
     "Omnivore/2024-03-14",
     "Omnivore/2024-03-12",
     "Omnivore/2024-03-11",
-    "Omnivore/2024-03-06",
     "Media/Screenshot_2023-09-29_at_8.20.19_PM.png",
     "Media/Screenshot_2023-08-24_at_3.34.48_PM.png",
     "Media/Untitled 13.png",
