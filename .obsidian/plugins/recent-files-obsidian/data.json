@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "무료로 영어 공부하기",
+      "path": "02-MOC/Blog/무료로 영어 공부하기.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "02-MOC/Blog/Blog.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -71,10 +79,6 @@
     {
       "basename": "나라는 착각",
       "path": "02-MOC/Blog/Books/나라는 착각.md"
-    },
-    {
-      "basename": "Blog",
-      "path": "02-MOC/Blog/Blog.md"
     },
     {
       "basename": "02-MOC",
@@ -195,10 +199,6 @@
     {
       "basename": "Memory",
       "path": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md"
-    },
-    {
-      "basename": "Processor",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
     }
   ],
   "omittedPaths": [],

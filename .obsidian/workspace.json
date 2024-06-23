@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d99681eaf2fc9def",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-MOC/Blog/무료로 영어 공부하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Blog/무료로 영어 공부하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Blog/무료로 영어 공부하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "02-MOC/Blog/무료로 영어 공부하기.md"
               }
             }
           },
@@ -170,8 +183,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "599ce412ae7a72dc",
+  "active": "d99681eaf2fc9def",
   "lastOpenFiles": [
+    "02-MOC/Blog/Blog.md",
+    "02-MOC/Blog/무료로 영어 공부하기.md",
+    "Home.md",
     "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
     "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md",
     "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
@@ -181,7 +197,6 @@
     "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
     "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
     "01-Project/하루하나 코딩테스트",
-    "Home.md",
     "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
     "02-MOC/Git & GitHub/Git & GitHub.md",
     "00-Personal/나는 커서 뭘 할까.canvas",
@@ -193,7 +208,6 @@
     "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
     "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
     "02-MOC/Blog/Books/나라는 착각.md",
-    "02-MOC/Blog/Blog.md",
     "02-MOC/02-MOC.md",
     "01-Project/01-Project.md",
     "Untitled.md",
@@ -202,7 +216,6 @@
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
     "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
     "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
-    "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",
