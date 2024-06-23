@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "867176aea118e391",
+        "id": "d2a36cc2423ffdbb",
         "type": "tabs",
         "children": [
           {
-            "id": "a64589f901f7ae69",
+            "id": "599ce412ae7a72dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md"
+                "file": "Home.md"
               }
             }
           },
@@ -170,20 +170,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a64589f901f7ae69",
+  "active": "599ce412ae7a72dc",
   "lastOpenFiles": [
-    "01-Project/임베디드 SW개발/임베디드 SW개발.md",
-    "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
-    "01-Project/C++로 배우는 자료구조와 알고리즘",
-    "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
     "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
     "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md",
+    "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
+    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
+    "01-Project/임베디드 SW개발/임베디드 SW개발.md",
+    "01-Project/C++로 배우는 자료구조와 알고리즘",
+    "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
     "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
     "01-Project/하루하나 코딩테스트",
     "Home.md",
     "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
     "02-MOC/Git & GitHub/Git & GitHub.md",
-    "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
     "00-Personal/나는 커서 뭘 할까.canvas",
     "01-Project/임베디드 SW개발",
     "00-Personal/00-Personal.md",
