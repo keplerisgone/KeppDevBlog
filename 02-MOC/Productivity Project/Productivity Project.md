@@ -3,6 +3,7 @@
 %% Begin Landmark %%
 - **[[Terminal]]**
 	- [[Homebrew 사용하기]]
+- [[깔끔한 생산성 앱, Slash]]
 
 %% End Landmark %%
 

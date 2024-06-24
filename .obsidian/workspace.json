@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "30941633b87741fa",
+        "id": "e7ad7a9633d030a9",
         "type": "tabs",
         "children": [
           {
-            "id": "daa63f8a63e64d4f",
+            "id": "927cbf186fdbbc9c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8afc4348b61a8f28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -183,29 +162,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8afc4348b61a8f28",
+  "active": "927cbf186fdbbc9c",
   "lastOpenFiles": [
-    "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
-    "Home.md",
-    "02-MOC/AI/OpenAI/OpenAI.md",
     "02-MOC/AI/OpenAI/ChatGPT 사용하기.md",
     "02-MOC/AI/AI.md",
+    "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
+    "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md",
+    "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
+    "01-Project/01-Project.md",
+    "02-MOC/Blog/무료로 영어 공부하기.md",
+    "02-MOC/AI/OpenAI/OpenAI.md",
+    "02-MOC/Git & GitHub/Git & GitHub.md",
+    "Home.md",
+    "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
+    "02-MOC/Productivity Project/깔끔한 생산성 앱, Slash.md",
+    "02-MOC/Productivity Project/Terminal/Terminal.md",
+    "02-MOC/Productivity Project/Productivity Project.md",
     "02-MOC/AI/OpenAI",
     "02-MOC/AI",
-    "02-MOC/Blog/무료로 영어 공부하기.md",
     "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
     "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
     "02-MOC/Blog/Blog.md",
-    "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
-    "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md",
     "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
     "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
     "01-Project/임베디드 SW개발/임베디드 SW개발.md",
     "01-Project/C++로 배우는 자료구조와 알고리즘",
     "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
-    "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
     "01-Project/하루하나 코딩테스트",
-    "02-MOC/Git & GitHub/Git & GitHub.md",
     "00-Personal/나는 커서 뭘 할까.canvas",
     "01-Project/임베디드 SW개발",
     "00-Personal/00-Personal.md",
@@ -213,11 +196,7 @@
     "00-Personal/Life.md",
     "02-MOC/Tech & Dev/Tech & Dev.md",
     "02-MOC/Blog/Books/나라는 착각.md",
-    "02-MOC/02-MOC.md",
-    "01-Project/01-Project.md",
-    "Untitled.md",
     "01-Project/하루하나 오일러 프로젝트",
-    "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Omnivore",
