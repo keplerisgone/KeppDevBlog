@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
+                "file": "01-Project/하루하나 오일러 프로젝트/1000보다 작은 자연수 중에서 3 또는 5의 배수를 모두 더하면?.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
+                "file": "01-Project/하루하나 오일러 프로젝트/1000보다 작은 자연수 중에서 3 또는 5의 배수를 모두 더하면?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
+                "file": "01-Project/하루하나 오일러 프로젝트/1000보다 작은 자연수 중에서 3 또는 5의 배수를 모두 더하면?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md"
+                "file": "01-Project/하루하나 오일러 프로젝트/1000보다 작은 자연수 중에서 3 또는 5의 배수를 모두 더하면?.md"
               }
             }
           },
@@ -172,12 +172,13 @@
   },
   "active": "927cbf186fdbbc9c",
   "lastOpenFiles": [
+    "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
+    "01-Project/하루하나 오일러 프로젝트/1000보다 작은 자연수 중에서 3 또는 5의 배수를 모두 더하면?.md",
+    "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
     "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md",
     "Home.md",
     "02-MOC/AI/OpenAI/ChatGPT 사용하기.md",
     "02-MOC/AI/AI.md",
-    "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
-    "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
     "01-Project/01-Project.md",
     "02-MOC/Blog/무료로 영어 공부하기.md",
     "02-MOC/AI/OpenAI/OpenAI.md",
@@ -203,7 +204,6 @@
     "00-Personal/Goals.md",
     "00-Personal/Life.md",
     "02-MOC/Tech & Dev/Tech & Dev.md",
-    "02-MOC/Blog/Books/나라는 착각.md",
     "01-Project/하루하나 오일러 프로젝트",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",

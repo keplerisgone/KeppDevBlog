@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1000보다 작은 자연수 중에서 3 또는 5의 배수를 모두 더하면?",
+      "path": "01-Project/하루하나 오일러 프로젝트/1000보다 작은 자연수 중에서 3 또는 5의 배수를 모두 더하면?.md"
+    },
+    {
+      "basename": "하루하나 오일러 프로젝트",
+      "path": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md"
+    },
+    {
       "basename": "C++ 코딩테스트 세팅하기",
       "path": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "AI",
       "path": "02-MOC/AI/AI.md"
-    },
-    {
-      "basename": "하루하나 오일러 프로젝트",
-      "path": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md"
     },
     {
       "basename": "01-Project",
@@ -195,10 +199,6 @@
     {
       "basename": "보스 2페",
       "path": "99-Archive/Robotgame/보스 2페.md"
-    },
-    {
-      "basename": "template",
-      "path": "Template/template.md"
     }
   ],
   "omittedPaths": [],
