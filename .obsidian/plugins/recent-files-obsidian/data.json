@@ -5,16 +5,24 @@
       "path": "Home.md"
     },
     {
-      "basename": "Github Profile & Blog 꾸미기",
-      "path": "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md"
-    },
-    {
       "basename": "무료로 영어 공부하기",
       "path": "02-MOC/Blog/무료로 영어 공부하기.md"
     },
     {
+      "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
+      "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
+    },
+    {
+      "basename": "유튜브가 렉이 걸릴 때",
+      "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
+    },
+    {
       "basename": "Blog",
       "path": "02-MOC/Blog/Blog.md"
+    },
+    {
+      "basename": "Github Profile & Blog 꾸미기",
+      "path": "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md"
     },
     {
       "basename": "C++ 코딩테스트 세팅하기",
@@ -67,14 +75,6 @@
     {
       "basename": "Tech & Dev",
       "path": "02-MOC/Tech & Dev/Tech & Dev.md"
-    },
-    {
-      "basename": "유튜브가 렉이 걸릴 때",
-      "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
-    },
-    {
-      "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
-      "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
     },
     {
       "basename": "나라는 착각",

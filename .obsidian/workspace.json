@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "faa4126e77155a40",
+        "id": "6c6dcc47974d7b9e",
         "type": "tabs",
         "children": [
           {
-            "id": "a9cddc1f95ffb380",
+            "id": "8afd068a708f4cda",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,12 +162,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a9cddc1f95ffb380",
+  "active": "8afd068a708f4cda",
   "lastOpenFiles": [
-    "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
     "02-MOC/Blog/무료로 영어 공부하기.md",
+    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
+    "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
     "02-MOC/Blog/Blog.md",
     "Home.md",
+    "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
     "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
     "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md",
     "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
@@ -192,8 +186,6 @@
     "00-Personal/Goals.md",
     "00-Personal/Life.md",
     "02-MOC/Tech & Dev/Tech & Dev.md",
-    "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
-    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
     "02-MOC/Blog/Books/나라는 착각.md",
     "02-MOC/02-MOC.md",
     "01-Project/01-Project.md",
