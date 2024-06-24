@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "ChatGPT 사용하기",
+      "path": "02-MOC/AI/OpenAI/ChatGPT 사용하기.md"
+    },
+    {
+      "basename": "OpenAI",
+      "path": "02-MOC/AI/OpenAI/OpenAI.md"
+    },
+    {
+      "basename": "AI",
+      "path": "02-MOC/AI/AI.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Analog Filter",
       "path": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md"
-    },
-    {
-      "basename": "Outputstage",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md"
-    },
-    {
-      "basename": "Feedback",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md"
-    },
-    {
-      "basename": "Memory",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md"
     }
   ],
   "omittedPaths": [],

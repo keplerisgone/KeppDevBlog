@@ -1,6 +1,9 @@
 # 02-MOC Overview
 
 %% Begin Waypoint %%
+- **[[AI]]**
+	- **[[OpenAI]]**
+		- [[ChatGPT 사용하기]]
 - **[[Blog]]**
 	- **[[Books]]**
 		- [[개발자 기술 면접 노트]]
