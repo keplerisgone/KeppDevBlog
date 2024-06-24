@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6c6dcc47974d7b9e",
+        "id": "30941633b87741fa",
         "type": "tabs",
         "children": [
           {
-            "id": "8afd068a708f4cda",
+            "id": "daa63f8a63e64d4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/AI/OpenAI/ChatGPT 사용하기.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/AI/OpenAI/ChatGPT 사용하기.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/AI/OpenAI/ChatGPT 사용하기.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/AI/OpenAI/ChatGPT 사용하기.md"
+                "file": "Home.md"
               }
             }
           },
@@ -170,7 +170,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8afd068a708f4cda",
+  "active": "daa63f8a63e64d4f",
   "lastOpenFiles": [
     "02-MOC/AI/OpenAI/OpenAI.md",
     "02-MOC/AI/OpenAI/ChatGPT 사용하기.md",
