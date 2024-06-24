@@ -11,8 +11,12 @@
             "id": "927cbf186fdbbc9c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md"
+              }
             }
           },
           {
@@ -164,16 +172,16 @@
   },
   "active": "927cbf186fdbbc9c",
   "lastOpenFiles": [
+    "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md",
+    "Home.md",
     "02-MOC/AI/OpenAI/ChatGPT 사용하기.md",
     "02-MOC/AI/AI.md",
     "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
-    "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md",
     "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
     "01-Project/01-Project.md",
     "02-MOC/Blog/무료로 영어 공부하기.md",
     "02-MOC/AI/OpenAI/OpenAI.md",
     "02-MOC/Git & GitHub/Git & GitHub.md",
-    "Home.md",
     "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
     "02-MOC/Productivity Project/깔끔한 생산성 앱, Slash.md",
     "02-MOC/Productivity Project/Terminal/Terminal.md",

@@ -17,3 +17,6 @@ https://omnivore.app/keplerisgone/vs-code-c-ide-mac-c-1903af0a3f4
 	- `"cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"`
 - 프로젝트 단위 컴파일
 	- `"cpp": "cd $dir && g++ -std=c++17 *.cpp -o $fileNameWithoutExt && $dir$fileNameWithoutExt",`
+	
+# Snippets 만들기
+
