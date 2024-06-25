@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "LunarVim 사용하기",
+      "path": "02-MOC/Productivity Project/Terminal/LunarVim 사용하기.md"
+    },
+    {
+      "basename": "Terminal",
+      "path": "02-MOC/Productivity Project/Terminal/Terminal.md"
+    },
+    {
+      "basename": "Productivity Project",
+      "path": "02-MOC/Productivity Project/Productivity Project.md"
+    },
+    {
       "basename": "Unity 기본",
       "path": "02-MOC/Unity/Unity 기본.md"
     },
@@ -49,10 +65,6 @@
       "path": "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "ChatGPT 사용하기",
       "path": "02-MOC/AI/OpenAI/ChatGPT 사용하기.md"
     },
@@ -75,14 +87,6 @@
     {
       "basename": "깔끔한 생산성 앱, Slash",
       "path": "02-MOC/Productivity Project/깔끔한 생산성 앱, Slash.md"
-    },
-    {
-      "basename": "Terminal",
-      "path": "02-MOC/Productivity Project/Terminal/Terminal.md"
-    },
-    {
-      "basename": "Productivity Project",
-      "path": "02-MOC/Productivity Project/Productivity Project.md"
     },
     {
       "basename": "유튜브가 렉이 걸릴 때",

@@ -2,6 +2,7 @@
 
 %% Begin Landmark %%
 - [[Homebrew 사용하기]]
+- [[LunarVim 사용하기]]
 
 %% End Landmark %%
 

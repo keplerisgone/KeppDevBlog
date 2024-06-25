@@ -57,6 +57,7 @@
 - **[[Productivity Project]]**
 	- **[[Terminal]]**
 		- [[Homebrew 사용하기]]
+		- [[LunarVim 사용하기]]
 	- [[깔끔한 생산성 앱, Slash]]
 - **[[Tech & Dev]]**
 	- **[[Algorithm]]**
