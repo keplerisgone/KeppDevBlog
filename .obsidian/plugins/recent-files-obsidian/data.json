@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Unity 기본",
+      "path": "02-MOC/Unity/Unity 기본.md"
+    },
+    {
+      "basename": "02-MOC",
+      "path": "02-MOC/02-MOC.md"
+    },
+    {
+      "basename": "C++로 배우는 자료구조와 알고리즘",
+      "path": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md"
+    },
+    {
+      "basename": "임베디드 SW개발",
+      "path": "01-Project/임베디드 SW개발/임베디드 SW개발.md"
+    },
+    {
+      "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
+      "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
+    },
+    {
+      "basename": "무료로 영어 공부하기",
+      "path": "02-MOC/Blog/무료로 영어 공부하기.md"
+    },
+    {
+      "basename": "OpenAI",
+      "path": "02-MOC/AI/OpenAI/OpenAI.md"
+    },
+    {
       "basename": "ChatGPT로 프로그래밍 하기",
       "path": "02-MOC/AI/OpenAI/ChatGPT로 프로그래밍 하기.md"
     },
@@ -37,14 +65,6 @@
       "path": "01-Project/01-Project.md"
     },
     {
-      "basename": "무료로 영어 공부하기",
-      "path": "02-MOC/Blog/무료로 영어 공부하기.md"
-    },
-    {
-      "basename": "OpenAI",
-      "path": "02-MOC/AI/OpenAI/OpenAI.md"
-    },
-    {
       "basename": "Git & GitHub",
       "path": "02-MOC/Git & GitHub/Git & GitHub.md"
     },
@@ -65,28 +85,12 @@
       "path": "02-MOC/Productivity Project/Productivity Project.md"
     },
     {
-      "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
-      "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
-    },
-    {
       "basename": "유튜브가 렉이 걸릴 때",
       "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
     },
     {
       "basename": "Blog",
       "path": "02-MOC/Blog/Blog.md"
-    },
-    {
-      "basename": "C++로 배우는 자료구조와 알고리즘",
-      "path": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md"
-    },
-    {
-      "basename": "노닥노닥 라즈베리",
-      "path": "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md"
-    },
-    {
-      "basename": "임베디드 SW개발",
-      "path": "01-Project/임베디드 SW개발/임베디드 SW개발.md"
     },
     {
       "basename": "개발자 기술 면접 노트",
@@ -115,10 +119,6 @@
     {
       "basename": "나라는 착각",
       "path": "02-MOC/Blog/Books/나라는 착각.md"
-    },
-    {
-      "basename": "02-MOC",
-      "path": "02-MOC/02-MOC.md"
     },
     {
       "basename": "Note 8 Digital Transmission Via Carrier Modulation",
@@ -195,10 +195,6 @@
     {
       "basename": "보스 1페이즈",
       "path": "99-Archive/Robotgame/보스 1페이즈.md"
-    },
-    {
-      "basename": "Senti",
-      "path": "99-Archive/Robotgame/Senti.md"
     }
   ],
   "omittedPaths": [],
