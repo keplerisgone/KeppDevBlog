@@ -4,3 +4,9 @@
 	- 컴포넌트는 오브젝트에 여러 기능을 부여
 - 에셋 : 리소스
 - 프리팹 : OPP
+
+- event 함수의 차이
+	- awake(), start(), onenable()
+	- fixedupdate(), update(), lateupdate()
+	- ondestroy(), ondisable()
+	- onapplicationquit()
