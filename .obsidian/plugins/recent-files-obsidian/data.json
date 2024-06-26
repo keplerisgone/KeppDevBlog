@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "ChatGPT 응용하기",
+      "path": "02-MOC/AI/OpenAI/ChatGPT 응용하기.md"
+    },
+    {
+      "basename": "OpenAI",
+      "path": "02-MOC/AI/OpenAI/OpenAI.md"
+    },
+    {
+      "basename": "ChatGPT 사용하기",
+      "path": "02-MOC/AI/OpenAI/ChatGPT 사용하기.md"
+    },
+    {
+      "basename": "AI",
+      "path": "02-MOC/AI/AI.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "02-MOC/Blog/Blog.md"
+    },
+    {
       "basename": "AstroVim 사용하기",
       "path": "02-MOC/Productivity Project/Terminal/AstroVim 사용하기.md"
     },
@@ -45,10 +65,6 @@
       "path": "02-MOC/Blog/무료로 영어 공부하기.md"
     },
     {
-      "basename": "OpenAI",
-      "path": "02-MOC/AI/OpenAI/OpenAI.md"
-    },
-    {
       "basename": "ChatGPT로 프로그래밍 하기",
       "path": "02-MOC/AI/OpenAI/ChatGPT로 프로그래밍 하기.md"
     },
@@ -69,14 +85,6 @@
       "path": "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md"
     },
     {
-      "basename": "ChatGPT 사용하기",
-      "path": "02-MOC/AI/OpenAI/ChatGPT 사용하기.md"
-    },
-    {
-      "basename": "AI",
-      "path": "02-MOC/AI/AI.md"
-    },
-    {
       "basename": "01-Project",
       "path": "01-Project/01-Project.md"
     },
@@ -95,10 +103,6 @@
     {
       "basename": "유튜브가 렉이 걸릴 때",
       "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
-    },
-    {
-      "basename": "Blog",
-      "path": "02-MOC/Blog/Blog.md"
     },
     {
       "basename": "개발자 기술 면접 노트",
@@ -195,10 +199,6 @@
     {
       "basename": "Prefab 모음",
       "path": "99-Archive/Robotgame/Prefab 모음.md"
-    },
-    {
-      "basename": "배터리 시스템",
-      "path": "99-Archive/Robotgame/배터리 시스템.md"
     }
   ],
   "omittedPaths": [],
