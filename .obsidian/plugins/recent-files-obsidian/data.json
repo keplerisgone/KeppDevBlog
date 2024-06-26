@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Home",
-      "path": "Home.md"
+      "basename": "AstroVim 사용하기",
+      "path": "02-MOC/Productivity Project/Terminal/AstroVim 사용하기.md"
+    },
+    {
+      "basename": "Terminal",
+      "path": "02-MOC/Productivity Project/Terminal/Terminal.md"
     },
     {
       "basename": "LunarVim 사용하기",
       "path": "02-MOC/Productivity Project/Terminal/LunarVim 사용하기.md"
     },
     {
-      "basename": "Terminal",
-      "path": "02-MOC/Productivity Project/Terminal/Terminal.md"
+      "basename": "Home",
+      "path": "Home.md"
     },
     {
       "basename": "Productivity Project",
@@ -195,10 +199,6 @@
     {
       "basename": "배터리 시스템",
       "path": "99-Archive/Robotgame/배터리 시스템.md"
-    },
-    {
-      "basename": "보스 1페이즈",
-      "path": "99-Archive/Robotgame/보스 1페이즈.md"
     }
   ],
   "omittedPaths": [],

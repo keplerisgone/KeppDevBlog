@@ -131,3 +131,178 @@ nvim
 ```
 
 이제 Lunarvim을 통해 강력한 Neovim 환경을 즐길 수 있습니다. 필요에 따라 설정 파일을 수정하고, 플러그인을 추가하면서 자신만의 커스터마이즈된 개발 환경을 만들어 나가세요.
+
+# C++ 개발 환경 만들기
+
+Lunarvim에서 C++ 개발을 위해 필요한 추가 설정을 설명드리겠습니다. C++ 개발을 위해서는 언어 서버 프로토콜(LSP), 자동 완성, 디버깅 등을 설정하는 것이 중요합니다. 아래는 Lunarvim을 C++ 개발에 맞게 설정하는 방법입니다.
+
+### 1. C++ 언어 서버 설치
+
+먼저, C++ 언어 서버를 설치해야 합니다. 가장 많이 사용되는 언어 서버는 `clangd`입니다. `clangd`는 C, C++, Objective-C 언어를 위한 LSP 서버입니다.
+
+#### 1.1 Clangd 설치
+
+##### Ubuntu:
+```sh
+sudo apt install clangd
+```
+
+##### macOS (Homebrew):
+```sh
+brew install llvm
+```
+설치 후, `clangd`를 PATH에 추가합니다.
+```sh
+echo 'export PATH="/usr/local/opt/llvm/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+### 2. Lunarvim 설정
+
+`~/.config/lvim/config.lua` 파일을 열어 C++ 개발을 위한 설정을 추가합니다.
+
+```lua
+-- ~/.config/lvim/config.lua
+
+-- general
+lvim.log.level = "warn"
+lvim.format_on_save = true
+lvim.colorscheme = "tokyonight"
+
+-- keymappings
+lvim.leader = "space"
+
+-- which-key mappings
+lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
+
+-- Enable Telescope fuzzy finder
+lvim.builtin.telescope.active = true
+
+-- Add Treesitter language parsers
+lvim.builtin.treesitter.ensure_installed = {
+  "bash",
+  "c",
+  "javascript",
+  "json",
+  "lua",
+  "python",
+  "typescript",
+  "tsx",
+  "css",
+  "rust",
+  "java",
+  "yaml",
+  "cpp",  -- C++ 추가
+}
+
+-- set a formatter
+local formatters = require "lvim.lsp.null-ls.formatters"
+formatters.setup {
+  { command = "clang-format", filetypes = { "c", "cpp", "objc", "objcpp" } },
+}
+
+-- set a linter
+local linters = require "lvim.lsp.null-ls.linters"
+linters.setup {
+  { command = "clang-tidy", filetypes = { "c", "cpp", "objc", "objcpp" } },
+}
+
+-- LSP 설정
+local lspconfig = require "lspconfig"
+lspconfig.clangd.setup {}
+
+-- Additional Plugins
+lvim.plugins = {
+    {"kyazdani42/nvim-tree.lua"},
+    {"hoob3rt/lualine.nvim"},
+}
+```
+
+### 3. CMake 설정
+
+C++ 프로젝트에서는 빌드 시스템으로 CMake를 많이 사용합니다. CMake를 설정하여 편리하게 빌드할 수 있도록 합니다.
+
+#### 3.1 CMake 설치
+
+##### Ubuntu:
+```sh
+sudo apt install cmake
+```
+
+##### macOS (Homebrew):
+```sh
+brew install cmake
+```
+
+#### 3.2 CMake 플러그인 추가
+
+`~/.config/lvim/config.lua` 파일에 CMake 관련 플러그인을 추가합니다.
+
+```lua
+-- Additional Plugins
+lvim.plugins = {
+    {"kyazdani42/nvim-tree.lua"},
+    {"hoob3rt/lualine.nvim"},
+    {"cdelledonne/vim-cmake"},  -- CMake 플러그인 추가
+}
+```
+
+### 4. 디버깅 설정
+
+디버깅을 위해 `nvim-dap` 플러그인을 설정합니다.
+
+#### 4.1 nvim-dap 및 dap-cpptools 설치
+
+`~/.config/lvim/config.lua` 파일에 디버깅 플러그인을 추가합니다.
+
+```lua
+-- Additional Plugins
+lvim.plugins = {
+    {"kyazdani42/nvim-tree.lua"},
+    {"hoob3rt/lualine.nvim"},
+    {"cdelledonne/vim-cmake"},
+    {"mfussenegger/nvim-dap"},  -- nvim-dap 플러그인 추가
+    {"rcarriga/nvim-dap-ui"},   -- nvim-dap-ui 플러그인 추가
+    {"theHamsta/nvim-dap-virtual-text"}, -- 디버깅 가상 텍스트 플러그인 추가
+    {"nvim-telescope/telescope-dap.nvim"}, -- Telescope 디버깅 플러그인 추가
+}
+
+-- DAP 설정
+local dap = require('dap')
+dap.adapters.cppdbg = {
+  id = 'cppdbg',
+  type = 'executable',
+  command = 'path/to/cpptools/extension/debugAdapters/bin/OpenDebugAD7',  -- cpptools 경로
+}
+
+dap.configurations.cpp = {
+  {
+    name = "Launch file",
+    type = "cppdbg",
+    request = "launch",
+    program = function()
+      return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
+    end,
+    cwd = '${workspaceFolder}',
+    stopOnEntry = false,
+    setupCommands = {
+      {
+        description = 'Enable pretty-printing for gdb',
+        text = '-enable-pretty-printing',
+        ignoreFailures = false
+      },
+    },
+  },
+}
+
+-- DAP UI 설정
+require("dapui").setup()
+require("nvim-dap-virtual-text").setup()
+```
+
+위 설정으로 Lunarvim에서 C++ 개발을 위한 기본적인 환경을 구축할 수 있습니다. 이제 C++ 파일을 열고 작업할 수 있으며, LSP, 자동 완성, 디버깅 등의 기능을 사용할 수 있습니다.
+
+`Failed to source /Users/zlzonpower/.local/share/lunarvim/site/pack/lazy/opt/nvim-treesitter/plugin/nvim-treesitter.lua` 에러 발생시 lvim 내부에서 `:Lazy sync` 입력으로 해결 가능!
+
+하지만 많은 사람들이 LunarVim은 오류가 잦다고 탈출하는 모양이다.
+[[AstroVim 사용하기]]로 가자!

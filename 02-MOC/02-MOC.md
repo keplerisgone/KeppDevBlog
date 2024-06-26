@@ -56,6 +56,7 @@
 	- [[운영체제(OS)란?]]
 - **[[Productivity Project]]**
 	- **[[Terminal]]**
+		- [[AstroVim 사용하기]]
 		- [[Homebrew 사용하기]]
 		- [[LunarVim 사용하기]]
 	- [[깔끔한 생산성 앱, Slash]]
