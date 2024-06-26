@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "가장 큰 소인수 구하기",
+      "path": "01-Project/하루하나 오일러 프로젝트/가장 큰 소인수 구하기.md"
+    },
+    {
       "basename": "피보나치 수열에서 4백만 이하이면서 짝수인 항의 합",
       "path": "01-Project/하루하나 오일러 프로젝트/피보나치 수열에서 4백만 이하이면서 짝수인 항의 합.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "세벌식은 왜 짱인가",
       "path": "03-Writing/세벌식은 왜 짱인가.md"
-    },
-    {
-      "basename": "세벌식",
-      "path": "02-MOC/Blog/세벌식/세벌식.md"
     }
   ],
   "omittedPaths": [],
