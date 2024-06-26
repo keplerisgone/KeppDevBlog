@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "알고리즘이란?",
+      "path": "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md"
+    },
+    {
+      "basename": "Algorithm",
+      "path": "02-MOC/Tech & Dev/Algorithm/Algorithm.md"
+    },
+    {
+      "basename": "Tech & Dev",
+      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
+    },
+    {
+      "basename": "02-MOC",
+      "path": "02-MOC/02-MOC.md"
+    },
+    {
+      "basename": "CPP",
+      "path": "02-MOC/CPP/CPP.md"
+    },
+    {
+      "basename": "Computer Science",
+      "path": "02-MOC/Computer Science/Computer Science.md"
+    },
+    {
       "basename": "ChatGPT 응용하기",
       "path": "02-MOC/AI/OpenAI/ChatGPT 응용하기.md"
     },
@@ -43,10 +67,6 @@
     {
       "basename": "Unity 기본",
       "path": "02-MOC/Unity/Unity 기본.md"
-    },
-    {
-      "basename": "02-MOC",
-      "path": "02-MOC/02-MOC.md"
     },
     {
       "basename": "C++로 배우는 자료구조와 알고리즘",
@@ -125,10 +145,6 @@
       "path": "00-Personal/Life.md"
     },
     {
-      "basename": "Tech & Dev",
-      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
-    },
-    {
       "basename": "나라는 착각",
       "path": "02-MOC/Blog/Books/나라는 착각.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "C++로 문제 풀기",
       "path": "99-Archive/C++로 문제 풀기.md"
-    },
-    {
-      "basename": "Web",
-      "path": "99-Archive/Web/Web.md"
-    },
-    {
-      "basename": "몬스터 구현",
-      "path": "99-Archive/Robotgame/몬스터 구현.md"
-    },
-    {
-      "basename": "진행 상황",
-      "path": "99-Archive/Robotgame/진행 상황.md"
-    },
-    {
-      "basename": "Prefab 모음",
-      "path": "99-Archive/Robotgame/Prefab 모음.md"
     }
   ],
   "omittedPaths": [],

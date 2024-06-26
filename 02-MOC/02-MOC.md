@@ -63,6 +63,7 @@
 	- [[깔끔한 생산성 앱, Slash]]
 - **[[Tech & Dev]]**
 	- **[[Algorithm]]**
+		- [[알고리즘이란?]]
 	- **[[Data Structure]]**
 		- [[Array & Linked List & ArrayList]]
 		- [[Array 배열]]

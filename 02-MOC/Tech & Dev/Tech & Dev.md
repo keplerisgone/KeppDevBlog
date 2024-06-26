@@ -2,6 +2,7 @@
 
 %% Begin Landmark %%
 - **[[Algorithm]]**
+	- [[알고리즘이란?]]
 - **[[Data Structure]]**
 	- [[Array & Linked List & ArrayList]]
 	- [[Array 배열]]

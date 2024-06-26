@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/AI/OpenAI/ChatGPT 응용하기.md",
+                "file": "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/AI/OpenAI/ChatGPT 응용하기.md",
+                "file": "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/AI/OpenAI/ChatGPT 응용하기.md",
+                "file": "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/AI/OpenAI/ChatGPT 응용하기.md"
+                "file": "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md"
               }
             }
           },
@@ -172,8 +172,14 @@
   },
   "active": "26093220ca3ef72f",
   "lastOpenFiles": [
-    "02-MOC/AI/OpenAI/OpenAI.md",
+    "02-MOC/Tech & Dev/Algorithm/Algorithm.md",
+    "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md",
+    "02-MOC/Tech & Dev/Tech & Dev.md",
+    "02-MOC/02-MOC.md",
+    "02-MOC/CPP/CPP.md",
+    "02-MOC/Computer Science/Computer Science.md",
     "02-MOC/AI/OpenAI/ChatGPT 응용하기.md",
+    "02-MOC/AI/OpenAI/OpenAI.md",
     "02-MOC/AI/OpenAI/ChatGPT 사용하기.md",
     "02-MOC/AI/AI.md",
     "02-MOC/Blog/Blog.md",
@@ -183,7 +189,6 @@
     "Home.md",
     "02-MOC/Productivity Project/Productivity Project.md",
     "02-MOC/Unity/Unity 기본.md",
-    "02-MOC/02-MOC.md",
     "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
     "01-Project/노닥노닥 라즈베리/임베디드 with 라즈베리파이.md",
     "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md",
@@ -193,11 +198,6 @@
     "02-MOC/AI/OpenAI/ChatGPT로 프로그래밍 하기.md",
     "01-Project/하루하나 오일러 프로젝트/1000보다 작은 자연수 중에서 3 또는 5의 배수를 모두 더하면?.md",
     "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md",
-    "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md",
-    "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md",
-    "01-Project/01-Project.md",
-    "02-MOC/Git & GitHub/Git & GitHub.md",
-    "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
     "02-MOC/AI/OpenAI",
     "02-MOC/AI",
     "01-Project/C++로 배우는 자료구조와 알고리즘",
