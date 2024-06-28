@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "asdfasdf",
+      "path": "asdfasdf.md"
+    },
+    {
+      "basename": "C++이란?",
+      "path": "02-MOC/CPP/C++이란?.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "00-Personal",
+      "path": "00-Personal/00-Personal.md"
+    },
+    {
       "basename": "세자리 수를 곱해 만들 수 있는 가장 큰 대칭수",
       "path": "01-Project/하루하나 오일러 프로젝트/세자리 수를 곱해 만들 수 있는 가장 큰 대칭수.md"
     },
@@ -81,10 +97,6 @@
       "path": "02-MOC/Productivity Project/Terminal/LunarVim 사용하기.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "Productivity Project",
       "path": "02-MOC/Productivity Project/Productivity Project.md"
     },
@@ -149,10 +161,6 @@
       "path": "00-Personal/나는 커서 뭘 할까.canvas"
     },
     {
-      "basename": "00-Personal",
-      "path": "00-Personal/00-Personal.md"
-    },
-    {
       "basename": "Goals",
       "path": "00-Personal/Goals.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Note 2 Amplitude modulation",
       "path": "Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md"
-    },
-    {
-      "basename": "Books",
-      "path": "02-MOC/Blog/Books/Books.md"
-    },
-    {
-      "basename": "세컨드 브레인",
-      "path": "03-Writing/세컨드 브레인.md"
     }
   ],
   "omittedPaths": [],
