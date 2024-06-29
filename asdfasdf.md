@@ -80,12 +80,21 @@ AI의 추첨 / 결과 계산이 따로따로 함수에 있음
 -> Moneymanager가 이걸 어떻게 쓸 것인가
 결과 계산 -> MoneyManager, 돈 늘리기 (애니메이션은 나중에 생각) -> AddMoney 함수?
 
-일단 신앙심이랑 돈을 늘림 -> 이쁘게 뭔갈 띄우자??
+> [!notes]
+> - 일단 신앙심이랑 돈을 늘림 -> 이쁘게 뭔갈 띄우자??
+> 	- DeltaText -> Position 지정해야함
 
 - GameManager
 
 1. MainMenu
+	1. 버튼 세 개
+	2. How to Play 넣어요??
 2. GamePlay
+	1. 
 3. GameOver / Clear
+	1. MoneyManager가 여기까지 오면 값(final score)만 GameManager한테 넘겨주고 Destroy
 
 화면 전환 코루틴?
+일단 로딩 화면 
+	더 그리기는 귀찮으니 일단 카드를 돌리자
+사운드.?
