@@ -81,3 +81,11 @@ AI의 추첨 / 결과 계산이 따로따로 함수에 있음
 결과 계산 -> MoneyManager, 돈 늘리기 (애니메이션은 나중에 생각) -> AddMoney 함수?
 
 일단 신앙심이랑 돈을 늘림 -> 이쁘게 뭔갈 띄우자??
+
+- GameManager
+
+1. MainMenu
+2. GamePlay
+3. GameOver / Clear
+
+화면 전환 코루틴?
