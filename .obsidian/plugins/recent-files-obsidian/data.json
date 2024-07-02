@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "asdfasdf",
-      "path": "99-Archive/6+1계명/asdfasdf.md"
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "C++로 배우는 자료구조와 알고리즘",
+      "path": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md"
     },
     {
       "basename": "6+1계명",
       "path": "99-Archive/6+1계명/6+1계명.md"
     },
     {
-      "basename": "C++이란?",
-      "path": "02-MOC/CPP/C++이란?.md"
+      "basename": "asdfasdf",
+      "path": "99-Archive/6+1계명/asdfasdf.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
+      "basename": "C++이란?",
+      "path": "02-MOC/CPP/C++이란?.md"
     },
     {
       "basename": "00-Personal",
@@ -107,10 +111,6 @@
     {
       "basename": "Unity 기본",
       "path": "02-MOC/Unity/Unity 기본.md"
-    },
-    {
-      "basename": "C++로 배우는 자료구조와 알고리즘",
-      "path": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md"
     },
     {
       "basename": "임베디드 SW개발",
