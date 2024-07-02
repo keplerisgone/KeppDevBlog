@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "asdfasdf.md",
+                "file": "99-Archive/6+1계명/asdfasdf.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "asdfasdf.md",
+                "file": "99-Archive/6+1계명/asdfasdf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "asdfasdf.md",
+                "file": "99-Archive/6+1계명/asdfasdf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "asdfasdf.md"
+                "file": "99-Archive/6+1계명/asdfasdf.md"
               }
             }
           },
@@ -185,8 +185,11 @@
   },
   "active": "5f42586d8f046575",
   "lastOpenFiles": [
+    "99-Archive/6+1계명/6+1계명.md",
+    "99-Archive/6+1계명/asdfasdf.md",
+    "99-Archive/6+1계명",
+    "01-Project/Untitled.canvas",
     "02-MOC/CPP/C++이란?.md",
-    "asdfasdf.md",
     "Home.md",
     "00-Personal/00-Personal.md",
     "01-Project/하루하나 오일러 프로젝트/세자리 수를 곱해 만들 수 있는 가장 큰 대칭수.md",
@@ -210,7 +213,6 @@
     "02-MOC/Productivity Project/Terminal/Terminal.md",
     "02-MOC/Productivity Project/Terminal/LunarVim 사용하기.md",
     "02-MOC/Productivity Project/Productivity Project.md",
-    "02-MOC/Unity/Unity 기본.md",
     "02-MOC/AI/OpenAI",
     "02-MOC/AI",
     "01-Project/C++로 배우는 자료구조와 알고리즘",
@@ -223,7 +225,6 @@
     "Omnivore",
     "01-Project/LED 회로",
     "Media/Untitled 3 6.png",
-    "Omnivore/2024-03-14",
     "Media/Screenshot_2023-09-29_at_8.20.19_PM.png",
     "Media/Screenshot_2023-08-24_at_3.34.48_PM.png",
     "Media/Untitled 13.png",

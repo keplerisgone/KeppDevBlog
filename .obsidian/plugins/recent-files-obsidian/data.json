@@ -2,7 +2,11 @@
   "recentFiles": [
     {
       "basename": "asdfasdf",
-      "path": "asdfasdf.md"
+      "path": "99-Archive/6+1계명/asdfasdf.md"
+    },
+    {
+      "basename": "6+1계명",
+      "path": "99-Archive/6+1계명/6+1계명.md"
     },
     {
       "basename": "C++이란?",
@@ -195,10 +199,6 @@
     {
       "basename": "Note 3 Angle Modulation",
       "path": "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md"
-    },
-    {
-      "basename": "Note 2 Amplitude modulation",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md"
     }
   ],
   "omittedPaths": [],
