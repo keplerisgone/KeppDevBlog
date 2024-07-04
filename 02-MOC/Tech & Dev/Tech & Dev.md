@@ -2,6 +2,8 @@
 
 %% Begin Landmark %%
 - **[[Algorithm]]**
+	- [[선택 정렬 (Selection Sort)]]
+	- [[알고리즘 패러다임]]
 	- [[알고리즘이란?]]
 - **[[Computer Science]]**
 	- **[[Computer Architecture]]**
