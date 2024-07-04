@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "알고리즘이란?",
+      "path": "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "02-MOC/Blog/Blog.md"
+    },
+    {
+      "basename": "Books",
+      "path": "02-MOC/Blog/Books/Books.md"
+    },
+    {
+      "basename": "나라는 착각",
+      "path": "02-MOC/Blog/Books/나라는 착각.md"
+    },
+    {
+      "basename": "개발자 기술 면접 노트",
+      "path": "02-MOC/Blog/Books/개발자 기술 면접 노트.md"
+    },
+    {
+      "basename": "Algorithm",
+      "path": "02-MOC/Tech & Dev/Algorithm/Algorithm.md"
+    },
+    {
+      "basename": "Data Structure",
+      "path": "02-MOC/Tech & Dev/Computer Science/Data Structure/Data Structure.md"
+    },
+    {
+      "basename": "Database",
+      "path": "02-MOC/Tech & Dev/Computer Science/Database/Database.md"
+    },
+    {
+      "basename": "Computer Science",
+      "path": "02-MOC/Tech & Dev/Computer Science/Computer Science.md"
+    },
+    {
+      "basename": "Tech & Dev",
+      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
+    },
+    {
+      "basename": "CPP",
+      "path": "02-MOC/CPP/CPP.md"
+    },
+    {
+      "basename": "02-MOC",
+      "path": "02-MOC/02-MOC.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -37,14 +85,6 @@
       "path": "02-MOC/CPP/C++ Vector 벡터.md"
     },
     {
-      "basename": "CPP",
-      "path": "02-MOC/CPP/CPP.md"
-    },
-    {
-      "basename": "02-MOC",
-      "path": "02-MOC/02-MOC.md"
-    },
-    {
       "basename": "피보나치 수열에서 4백만 이하이면서 짝수인 항의 합",
       "path": "01-Project/하루하나 오일러 프로젝트/피보나치 수열에서 4백만 이하이면서 짝수인 항의 합.md"
     },
@@ -55,22 +95,6 @@
     {
       "basename": "하루하나 오일러 프로젝트",
       "path": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md"
-    },
-    {
-      "basename": "알고리즘이란?",
-      "path": "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md"
-    },
-    {
-      "basename": "Algorithm",
-      "path": "02-MOC/Tech & Dev/Algorithm/Algorithm.md"
-    },
-    {
-      "basename": "Tech & Dev",
-      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
-    },
-    {
-      "basename": "Computer Science",
-      "path": "02-MOC/Computer Science/Computer Science.md"
     },
     {
       "basename": "ChatGPT 응용하기",
@@ -87,10 +111,6 @@
     {
       "basename": "AI",
       "path": "02-MOC/AI/AI.md"
-    },
-    {
-      "basename": "Blog",
-      "path": "02-MOC/Blog/Blog.md"
     },
     {
       "basename": "AstroVim 사용하기",
@@ -157,10 +177,6 @@
       "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
     },
     {
-      "basename": "개발자 기술 면접 노트",
-      "path": "02-MOC/Blog/Books/개발자 기술 면접 노트.md"
-    },
-    {
       "basename": "나는 커서 뭘 할까",
       "path": "00-Personal/나는 커서 뭘 할까.canvas"
     },
@@ -173,10 +189,6 @@
       "path": "00-Personal/Life.md"
     },
     {
-      "basename": "나라는 착각",
-      "path": "02-MOC/Blog/Books/나라는 착각.md"
-    },
-    {
       "basename": "Note 8 Digital Transmission Via Carrier Modulation",
       "path": "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Note 6 Baseband Digital Data Transmission",
       "path": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md"
-    },
-    {
-      "basename": "Note 5 Analog to Digital Conversion",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
-    },
-    {
-      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
-    },
-    {
-      "basename": "Note 3 Angle Modulation",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md"
     }
   ],
   "omittedPaths": [],

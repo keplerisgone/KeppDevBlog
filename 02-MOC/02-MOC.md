@@ -14,11 +14,6 @@
 	- **[[세벌식]]**
 	- [[옵시디언 노트를 티스토리 블로그에 올리기]]
 	- [[유튜브가 렉이 걸릴 때]]
-- **[[Computer Science]]**
-	- **[[Computer Architecture]]**
-		- [[Data Compression]]
-		- [[Digital Information]]
-		- [[컴퓨터 과학 기초]]
 - **[[CPP]]**
 	- [[2023-04-23-CPPBasic]]
 	- [[C++ namespace]]
@@ -53,8 +48,6 @@
 		- [[옵시디언에서 문서 스크랩하는 법]]
 	- **[[Obsidian Plugin]]**
 		- [[옵시디언에 이미지 똑똑하게 붙여넣기 - imgur]]
-- **[[Operating System]]**
-	- [[운영체제(OS)란?]]
 - **[[Productivity Project]]**
 	- **[[Terminal]]**
 		- [[AstroVim 사용하기]]
@@ -64,13 +57,24 @@
 - **[[Tech & Dev]]**
 	- **[[Algorithm]]**
 		- [[알고리즘이란?]]
-	- **[[Data Structure]]**
-		- [[Array & Linked List & ArrayList]]
-		- [[Array 배열]]
-		- [[Linked List 연결 리스트]]
-		- [[데이터 구조와 알고리즘]]
-		- [[선형 데이터 구조]]
-	- **[[Database]]**
+	- **[[Computer Science]]**
+		- **[[Computer Architecture]]**
+			- [[Data Compression]]
+			- [[Digital Information]]
+			- [[컴퓨터 과학 기초]]
+		- **[[Data Structure]]**
+			- [[Array & Linked List & ArrayList]]
+			- [[Array 배열]]
+			- [[Linked List 연결 리스트]]
+			- [[데이터 구조와 알고리즘]]
+			- [[선형 데이터 구조]]
+		- **[[Database]]**
+		- **[[Network]]**
+			- [[HTTP & HTTPS]]
+			- [[OSI 7 계층]]
+			- [[TCP 3 & 4 way handshake]]
+			- [[TCP,IP 흐름제어 & 혼잡제어]]
+		- **[[Software Engineering]]**
 	- **[[Design Pattern]]**
 	- **[[Dev]]**
 		- [[First Class Function]]
@@ -80,12 +84,8 @@
 		- [[참조 투명성]]
 		- [[함수의 Side Effect]]
 		- [[함수의 불변성]]
-	- **[[Network]]**
-		- [[HTTP & HTTPS]]
-		- [[OSI 7 계층]]
-		- [[TCP 3 & 4 way handshake]]
-		- [[TCP,IP 흐름제어 & 혼잡제어]]
-	- **[[Software Engineering]]**
+	- **[[Operating System]]**
+		- [[운영체제(OS)란?]]
 - **Unity**
 	- [[Unity 기본]]
 	- [[Unity 타일맵]]

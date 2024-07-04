@@ -3,13 +3,24 @@
 %% Begin Landmark %%
 - **[[Algorithm]]**
 	- [[알고리즘이란?]]
-- **[[Data Structure]]**
-	- [[Array & Linked List & ArrayList]]
-	- [[Array 배열]]
-	- [[Linked List 연결 리스트]]
-	- [[데이터 구조와 알고리즘]]
-	- [[선형 데이터 구조]]
-- **[[Database]]**
+- **[[Computer Science]]**
+	- **[[Computer Architecture]]**
+		- [[Data Compression]]
+		- [[Digital Information]]
+		- [[컴퓨터 과학 기초]]
+	- **[[Data Structure]]**
+		- [[Array & Linked List & ArrayList]]
+		- [[Array 배열]]
+		- [[Linked List 연결 리스트]]
+		- [[데이터 구조와 알고리즘]]
+		- [[선형 데이터 구조]]
+	- **[[Database]]**
+	- **[[Network]]**
+		- [[HTTP & HTTPS]]
+		- [[OSI 7 계층]]
+		- [[TCP 3 & 4 way handshake]]
+		- [[TCP,IP 흐름제어 & 혼잡제어]]
+	- **[[Software Engineering]]**
 - **[[Design Pattern]]**
 - **[[Dev]]**
 	- [[First Class Function]]
@@ -19,12 +30,8 @@
 	- [[참조 투명성]]
 	- [[함수의 Side Effect]]
 	- [[함수의 불변성]]
-- **[[Network]]**
-	- [[HTTP & HTTPS]]
-	- [[OSI 7 계층]]
-	- [[TCP 3 & 4 way handshake]]
-	- [[TCP,IP 흐름제어 & 혼잡제어]]
-- **[[Software Engineering]]**
+- **[[Operating System]]**
+	- [[운영체제(OS)란?]]
 
 %% End Landmark %%
 
