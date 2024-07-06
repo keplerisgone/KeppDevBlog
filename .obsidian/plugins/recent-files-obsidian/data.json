@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "재귀 함수",
+      "path": "02-MOC/Tech & Dev/Algorithm/재귀 함수.md"
+    },
+    {
       "basename": "알고리즘 패러다임",
       "path": "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Goals",
       "path": "00-Personal/Goals.md"
-    },
-    {
-      "basename": "Life",
-      "path": "00-Personal/Life.md"
     }
   ],
   "omittedPaths": [],
