@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md",
+                "file": "02-MOC/Tech & Dev/Computer Science/Software Engineering/객체 지향 프로그래밍.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md",
+                "file": "02-MOC/Tech & Dev/Computer Science/Software Engineering/객체 지향 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md",
+                "file": "02-MOC/Tech & Dev/Computer Science/Software Engineering/객체 지향 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md"
+                "file": "02-MOC/Tech & Dev/Computer Science/Software Engineering/객체 지향 프로그래밍.md"
               }
             }
           },
@@ -172,10 +172,14 @@
   },
   "active": "3243f20d8440d5b3",
   "lastOpenFiles": [
-    "02-MOC/Tech & Dev/Computer Science/Software Engineering/Software Engineering.md",
     "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md",
-    "02-MOC/CPP/CPP.md",
+    "02-MOC/Tech & Dev/Computer Science/Software Engineering/객체 지향 프로그래밍.md",
+    "02-MOC/Tech & Dev/Computer Science/Software Engineering/논리형 프로그래밍.md",
+    "02-MOC/Tech & Dev/Computer Science/Software Engineering/함수형 프로그래밍.md",
     "02-MOC/Tech & Dev/Design Pattern/Design Pattern.md",
+    "02-MOC/Tech & Dev/Computer Science/Software Engineering/절차적 프로그래밍.md",
+    "02-MOC/Tech & Dev/Computer Science/Software Engineering/Software Engineering.md",
+    "02-MOC/CPP/CPP.md",
     "02-MOC/Tech & Dev/Algorithm/재귀 함수.md",
     "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md",
     "02-MOC/Tech & Dev/Algorithm/선택 정렬 (Selection Sort).md",
@@ -194,12 +198,8 @@
     "Home.md",
     "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md",
     "99-Archive/6+1계명/6+1계명.md",
-    "99-Archive/6+1계명/asdfasdf.md",
     "99-Archive/6+1계명",
     "01-Project/Untitled.canvas",
-    "02-MOC/CPP/C++이란?.md",
-    "00-Personal/00-Personal.md",
-    "01-Project/하루하나 오일러 프로젝트/세자리 수를 곱해 만들 수 있는 가장 큰 대칭수.md",
     "02-MOC/AI/OpenAI",
     "02-MOC/AI",
     "01-Project/C++로 배우는 자료구조와 알고리즘",
