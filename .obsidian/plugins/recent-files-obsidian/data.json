@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "디자인 패턴 개요",
+      "path": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md"
+    },
+    {
+      "basename": "Software Engineering",
+      "path": "02-MOC/Tech & Dev/Computer Science/Software Engineering/Software Engineering.md"
+    },
+    {
+      "basename": "CPP",
+      "path": "02-MOC/CPP/CPP.md"
+    },
+    {
+      "basename": "Design Pattern",
+      "path": "02-MOC/Tech & Dev/Design Pattern/Design Pattern.md"
+    },
+    {
       "basename": "재귀 함수",
       "path": "02-MOC/Tech & Dev/Algorithm/재귀 함수.md"
     },
@@ -55,10 +71,6 @@
     {
       "basename": "Tech & Dev",
       "path": "02-MOC/Tech & Dev/Tech & Dev.md"
-    },
-    {
-      "basename": "CPP",
-      "path": "02-MOC/CPP/CPP.md"
     },
     {
       "basename": "02-MOC",
@@ -187,18 +199,6 @@
     {
       "basename": "깔끔한 생산성 앱, Slash",
       "path": "02-MOC/Productivity Project/깔끔한 생산성 앱, Slash.md"
-    },
-    {
-      "basename": "유튜브가 렉이 걸릴 때",
-      "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
-    },
-    {
-      "basename": "나는 커서 뭘 할까",
-      "path": "00-Personal/나는 커서 뭘 할까.canvas"
-    },
-    {
-      "basename": "Goals",
-      "path": "00-Personal/Goals.md"
     }
   ],
   "omittedPaths": [],

@@ -79,6 +79,7 @@
 			- [[TCP,IP 흐름제어 & 혼잡제어]]
 		- **[[Software Engineering]]**
 	- **[[Design Pattern]]**
+		- [[디자인 패턴 개요]]
 	- **[[Dev]]**
 		- [[First Class Function]]
 		- [[Lambda Calculus]]
