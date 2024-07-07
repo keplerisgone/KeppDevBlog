@@ -29,7 +29,7 @@
 		- [[절차적 프로그래밍]]
 		- [[함수형 프로그래밍]]
 - **[[Design Pattern]]**
-	- [[디자인 패턴 개요]]
+	- [[디자인 패턴 개요 + SOLID 원칙]]
 - **[[Dev]]**
 	- [[First Class Function]]
 	- [[Lambda Calculus]]

@@ -1,7 +1,7 @@
 # Design Pattern Overview
 
 %% Begin Landmark %%
-- [[디자인 패턴 개요]]
+- [[디자인 패턴 개요 + SOLID 원칙]]
 
 %% End Landmark %%
 

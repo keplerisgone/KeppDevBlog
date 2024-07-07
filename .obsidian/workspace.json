@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md",
+                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요 + SOLID 원칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md",
+                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요 + SOLID 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md",
+                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요 + SOLID 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md"
+                "file": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요 + SOLID 원칙.md"
               }
             }
           },
@@ -173,7 +173,7 @@
   "active": "3243f20d8440d5b3",
   "lastOpenFiles": [
     "02-MOC/Tech & Dev/Computer Science/Software Engineering/객체 지향 프로그래밍.md",
-    "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요.md",
+    "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요 + SOLID 원칙.md",
     "02-MOC/Tech & Dev/Computer Science/Software Engineering/논리형 프로그래밍.md",
     "02-MOC/Tech & Dev/Computer Science/Software Engineering/함수형 프로그래밍.md",
     "02-MOC/Tech & Dev/Design Pattern/Design Pattern.md",
