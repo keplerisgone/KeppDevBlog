@@ -1,8 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "기본적인 Git-GitHub 사용",
+      "path": "02-MOC/Git & GitHub/기본적인 Git-GitHub 사용.md"
+    },
+    {
+      "basename": "Branch merge 시에 충돌 해결법",
+      "path": "02-MOC/Git & GitHub/Branch merge 시에 충돌 해결법.md"
+    },
+    {
+      "basename": "Github Profile & Blog 꾸미기",
+      "path": "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md"
+    },
+    {
+      "basename": "Git & GitHub",
+      "path": "02-MOC/Git & GitHub/Git & GitHub.md"
+    },
+    {
+      "basename": "블로그를 운영해보자",
+      "path": "02-MOC/Blog/블로그를 운영해보자.md"
+    },
+    {
+      "basename": "Dev",
+      "path": "02-MOC/Tech & Dev/Dev/Dev.md"
+    },
+    {
+      "basename": "6+1계명",
+      "path": "99-Archive/6+1계명/6+1계명.md"
+    },
+    {
+      "basename": "Computer Architecture",
+      "path": "02-MOC/Tech & Dev/Computer Science/Computer Architecture/Computer Architecture.md"
+    },
+    {
+      "basename": "Data Structure",
+      "path": "02-MOC/Tech & Dev/Computer Science/Data Structure/Data Structure.md"
+    },
+    {
+      "basename": "Database",
+      "path": "02-MOC/Tech & Dev/Computer Science/Database/Database.md"
+    },
+    {
+      "basename": "무료로 영어 공부하기",
+      "path": "02-MOC/Blog/무료로 영어 공부하기.md"
+    },
+    {
       "basename": "디자인 패턴 개요 + SOLID 원칙",
       "path": "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요 + SOLID 원칙.md"
+    },
+    {
+      "basename": "유튜브가 렉이 걸릴 때",
+      "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
+    },
+    {
+      "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
+      "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
+    },
+    {
+      "basename": "Books",
+      "path": "02-MOC/Blog/Books/Books.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "02-MOC/Blog/Blog.md"
     },
     {
       "basename": "객체 지향 프로그래밍",
@@ -45,20 +105,8 @@
       "path": "02-MOC/Tech & Dev/Algorithm/선택 정렬 (Selection Sort).md"
     },
     {
-      "basename": "Computer Architecture",
-      "path": "02-MOC/Tech & Dev/Computer Science/Computer Architecture/Computer Architecture.md"
-    },
-    {
       "basename": "알고리즘이란?",
       "path": "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md"
-    },
-    {
-      "basename": "Blog",
-      "path": "02-MOC/Blog/Blog.md"
-    },
-    {
-      "basename": "Books",
-      "path": "02-MOC/Blog/Books/Books.md"
     },
     {
       "basename": "나라는 착각",
@@ -71,14 +119,6 @@
     {
       "basename": "Algorithm",
       "path": "02-MOC/Tech & Dev/Algorithm/Algorithm.md"
-    },
-    {
-      "basename": "Data Structure",
-      "path": "02-MOC/Tech & Dev/Computer Science/Data Structure/Data Structure.md"
-    },
-    {
-      "basename": "Database",
-      "path": "02-MOC/Tech & Dev/Computer Science/Database/Database.md"
     },
     {
       "basename": "Computer Science",
@@ -99,10 +139,6 @@
     {
       "basename": "C++로 배우는 자료구조와 알고리즘",
       "path": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md"
-    },
-    {
-      "basename": "6+1계명",
-      "path": "99-Archive/6+1계명/6+1계명.md"
     },
     {
       "basename": "asdfasdf",
@@ -163,42 +199,6 @@
     {
       "basename": "Terminal",
       "path": "02-MOC/Productivity Project/Terminal/Terminal.md"
-    },
-    {
-      "basename": "LunarVim 사용하기",
-      "path": "02-MOC/Productivity Project/Terminal/LunarVim 사용하기.md"
-    },
-    {
-      "basename": "Productivity Project",
-      "path": "02-MOC/Productivity Project/Productivity Project.md"
-    },
-    {
-      "basename": "Unity 기본",
-      "path": "02-MOC/Unity/Unity 기본.md"
-    },
-    {
-      "basename": "임베디드 SW개발",
-      "path": "01-Project/임베디드 SW개발/임베디드 SW개발.md"
-    },
-    {
-      "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
-      "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
-    },
-    {
-      "basename": "무료로 영어 공부하기",
-      "path": "02-MOC/Blog/무료로 영어 공부하기.md"
-    },
-    {
-      "basename": "ChatGPT로 프로그래밍 하기",
-      "path": "02-MOC/AI/OpenAI/ChatGPT로 프로그래밍 하기.md"
-    },
-    {
-      "basename": "C++ 코딩테스트 세팅하기",
-      "path": "01-Project/하루하나 코딩테스트/C++ 코딩테스트 세팅하기.md"
-    },
-    {
-      "basename": "하루하나 코딩테스트",
-      "path": "01-Project/하루하나 코딩테스트/하루하나 코딩테스트.md"
     }
   ],
   "omittedPaths": [],
