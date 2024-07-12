@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "리눅스가 필요한 이유",
+      "path": "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md"
+    },
+    {
+      "basename": "임베디드 SW개발",
+      "path": "01-Project/임베디드 SW개발/임베디드 SW개발.md"
+    },
+    {
+      "basename": "01-Project",
+      "path": "01-Project/01-Project.md"
+    },
+    {
       "basename": "Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기",
       "path": "02-MOC/Linux/Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "ChatGPT 응용하기",
       "path": "02-MOC/AI/OpenAI/ChatGPT 응용하기.md"
-    },
-    {
-      "basename": "OpenAI",
-      "path": "02-MOC/AI/OpenAI/OpenAI.md"
-    },
-    {
-      "basename": "ChatGPT 사용하기",
-      "path": "02-MOC/AI/OpenAI/ChatGPT 사용하기.md"
-    },
-    {
-      "basename": "AI",
-      "path": "02-MOC/AI/AI.md"
     }
   ],
   "omittedPaths": [],

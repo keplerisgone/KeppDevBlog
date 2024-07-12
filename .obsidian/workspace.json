@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/Linux/Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기.md",
+                "file": "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/Linux/Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기.md",
+                "file": "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/Linux/Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기.md",
+                "file": "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/Linux/Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기.md"
+                "file": "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md"
               }
             }
           },
@@ -172,8 +172,11 @@
   },
   "active": "9c2edd94034e7f95",
   "lastOpenFiles": [
-    "02-MOC/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
+    "01-Project/임베디드 SW개발/임베디드 SW개발.md",
+    "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md",
+    "01-Project/01-Project.md",
     "02-MOC/Linux/Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기.md",
+    "02-MOC/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
     "Home.md",
     "02-MOC/Git & GitHub/기본적인 Git-GitHub 사용.md",
     "02-MOC/Git & GitHub/Branch merge 시에 충돌 해결법.md",
@@ -196,9 +199,6 @@
     "02-MOC/Tech & Dev/Computer Science/Software Engineering/논리형 프로그래밍.md",
     "02-MOC/Tech & Dev/Computer Science/Software Engineering/함수형 프로그래밍.md",
     "02-MOC/Tech & Dev/Design Pattern/Design Pattern.md",
-    "02-MOC/Tech & Dev/Computer Science/Software Engineering/절차적 프로그래밍.md",
-    "02-MOC/Tech & Dev/Computer Science/Software Engineering/Software Engineering.md",
-    "02-MOC/CPP/CPP.md",
     "99-Archive/6+1계명",
     "01-Project/Untitled.canvas",
     "02-MOC/AI/OpenAI",

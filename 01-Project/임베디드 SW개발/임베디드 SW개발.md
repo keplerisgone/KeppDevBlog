@@ -1,7 +1,9 @@
 # 임베디드 SW개발 Overview
 
-%% Begin Landmark %%
+외부 유출은 안돼요@@@
 
+%% Begin Landmark %%
+- [[리눅스가 필요한 이유]]
 
 %% End Landmark %%
 
