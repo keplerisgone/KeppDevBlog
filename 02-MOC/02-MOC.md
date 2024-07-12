@@ -41,6 +41,7 @@
 	- [[Github Profile & Blog 꾸미기]]
 	- [[기본적인 Git-GitHub 사용]]
 - **[[Linux]]**
+	- [[Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기]]
 	- [[docker를 이용해서 편하게 리눅스 사용하기]]
 	- [[Linux란?]]
 - **[[Obsidian]]**

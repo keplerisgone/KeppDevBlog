@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기",
+      "path": "02-MOC/Linux/Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기.md"
+    },
+    {
+      "basename": "docker를 이용해서 편하게 리눅스 사용하기",
+      "path": "02-MOC/Linux/docker를 이용해서 편하게 리눅스 사용하기.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "기본적인 Git-GitHub 사용",
       "path": "02-MOC/Git & GitHub/기본적인 Git-GitHub 사용.md"
     },
@@ -133,10 +145,6 @@
       "path": "02-MOC/02-MOC.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "C++로 배우는 자료구조와 알고리즘",
       "path": "01-Project/C++로 배우는 자료구조와 알고리즘/C++로 배우는 자료구조와 알고리즘.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "AI",
       "path": "02-MOC/AI/AI.md"
-    },
-    {
-      "basename": "AstroVim 사용하기",
-      "path": "02-MOC/Productivity Project/Terminal/AstroVim 사용하기.md"
-    },
-    {
-      "basename": "Terminal",
-      "path": "02-MOC/Productivity Project/Terminal/Terminal.md"
     }
   ],
   "omittedPaths": [],
