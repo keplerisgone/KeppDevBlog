@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "1477c4a181385acc",
   "lastOpenFiles": [
+    "Home.md",
     "02-MOC/Tech & Dev/Algorithm/Algorithm.md",
     "02-MOC/Tech & Dev/Computer Science/Network/OSI 7 계층.md",
     "02-MOC/Tech & Dev/Computer Science/Network/Network.md",
@@ -197,7 +198,6 @@
     "02-MOC/Blog/암산 재밌다",
     "02-MOC/Linux/Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기.md",
     "02-MOC/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
-    "Home.md",
     "02-MOC/CS",
     "99-Archive/6+1계명",
     "01-Project/Untitled.canvas",

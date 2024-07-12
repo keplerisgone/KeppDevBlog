@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "알고리즘 패러다임",
+      "path": "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "선택 정렬 (Selection Sort)",
       "path": "02-MOC/Tech & Dev/Algorithm/선택 정렬 (Selection Sort).md"
-    },
-    {
-      "basename": "알고리즘 패러다임",
-      "path": "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md"
     },
     {
       "basename": "알고리즘이란?",
