@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6063703547d78945",
+        "id": "c5cbe19350515dfd",
         "type": "tabs",
         "children": [
           {
-            "id": "9c2edd94034e7f95",
+            "id": "1477c4a181385acc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md"
+                "file": "Home.md"
               }
             }
           },
@@ -145,8 +145,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,35 +169,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9c2edd94034e7f95",
+  "active": "1477c4a181385acc",
   "lastOpenFiles": [
+    "02-MOC/Tech & Dev/Algorithm/Algorithm.md",
+    "02-MOC/Tech & Dev/Computer Science/Network/OSI 7 계층.md",
+    "02-MOC/Tech & Dev/Computer Science/Network/Network.md",
+    "02-MOC/Blog/Blog Idea.md",
+    "02-MOC/Tech & Dev/Algorithm/선택 정렬 (Selection Sort).md",
+    "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md",
+    "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md",
+    "02-MOC/Tech & Dev/Computer Science/Computer Science.md",
+    "02-MOC/Tech & Dev/Tech & Dev.md",
+    "02-MOC/02-MOC.md",
+    "02-MOC/Blog/Blog.md",
+    "01-Project/임베디드 SW개발/02 리눅스 설치하기.md",
     "01-Project/임베디드 SW개발/임베디드 SW개발.md",
-    "01-Project/임베디드 SW개발/리눅스가 필요한 이유.md",
+    "01-Project/임베디드 SW개발/01 리눅스가 필요한 이유.md",
     "01-Project/01-Project.md",
+    "02-MOC/Blog/무료로 영어 공부하기.md",
+    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
+    "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
+    "02-MOC/Blog/블로그를 운영해보자.md",
+    "02-MOC/Blog/세벌식/세벌식.md",
+    "02-MOC/Tech & Dev/Computer Science/Computer Architecture/Computer Architecture.md",
+    "02-MOC/Tech & Dev/Algorithm/재귀 함수.md",
+    "02-MOC/Productivity Project/Productivity Project.md",
+    "02-MOC/Blog/암산 재밌다",
     "02-MOC/Linux/Docker를 이용해서 M1 맥북에서 x86 아키텍처 돌리기.md",
     "02-MOC/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
     "Home.md",
-    "02-MOC/Git & GitHub/기본적인 Git-GitHub 사용.md",
-    "02-MOC/Git & GitHub/Branch merge 시에 충돌 해결법.md",
-    "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md",
-    "02-MOC/Git & GitHub/Git & GitHub.md",
-    "02-MOC/Blog/블로그를 운영해보자.md",
-    "02-MOC/Tech & Dev/Dev/Dev.md",
-    "99-Archive/6+1계명/6+1계명.md",
-    "02-MOC/Tech & Dev/Computer Science/Computer Architecture/Computer Architecture.md",
-    "02-MOC/Tech & Dev/Computer Science/Data Structure/Data Structure.md",
-    "02-MOC/Tech & Dev/Computer Science/Database/Database.md",
-    "02-MOC/Blog/무료로 영어 공부하기.md",
-    "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요 + SOLID 원칙.md",
-    "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
-    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
-    "02-MOC/Blog/Books/Books.md",
-    "02-MOC/Blog/Blog.md",
     "02-MOC/CS",
-    "02-MOC/Tech & Dev/Computer Science/Software Engineering/객체 지향 프로그래밍.md",
-    "02-MOC/Tech & Dev/Computer Science/Software Engineering/논리형 프로그래밍.md",
-    "02-MOC/Tech & Dev/Computer Science/Software Engineering/함수형 프로그래밍.md",
-    "02-MOC/Tech & Dev/Design Pattern/Design Pattern.md",
     "99-Archive/6+1계명",
     "01-Project/Untitled.canvas",
     "02-MOC/AI/OpenAI",
@@ -210,7 +210,6 @@
     "01-Project/하루하나 오일러 프로젝트",
     "02-MOC/Blog/Books",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
-    "Omnivore",
     "Media/Untitled 3 6.png",
     "Media/Screenshot_2023-09-29_at_8.20.19_PM.png",
     "Media/Screenshot_2023-08-24_at_3.34.48_PM.png",
