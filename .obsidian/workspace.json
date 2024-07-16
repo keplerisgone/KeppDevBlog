@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f58009a01674bc2b",
+        "id": "05be74af4cf1a26b",
         "type": "tabs",
         "children": [
           {
-            "id": "1f653e160fb41a8c",
+            "id": "a211079ff922a2d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Linux/Linux 기본 명령어.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Linux/Linux 기본 명령어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Linux/Linux 기본 명령어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "02-MOC/Linux/Linux 기본 명령어.md"
               }
             }
           },
@@ -169,10 +169,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f653e160fb41a8c",
+  "active": "a211079ff922a2d2",
   "lastOpenFiles": [
-    "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md",
+    "02-MOC/Linux/Linux란?.md",
+    "02-MOC/Linux/Linux.md",
+    "02-MOC/Linux/Linux 기본 명령어.md",
+    "02-MOC/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
     "Home.md",
+    "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md",
     "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요 + SOLID 원칙.md",
     "02-MOC/Tech & Dev/Design Pattern/Design Pattern.md",
     "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md",
@@ -194,10 +198,6 @@
     "01-Project/임베디드 SW개발/01 리눅스가 필요한 이유.md",
     "01-Project/01-Project.md",
     "02-MOC/Blog/무료로 영어 공부하기.md",
-    "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md",
-    "02-MOC/Blog/유튜브가 렉이 걸릴 때.md",
-    "02-MOC/Blog/블로그를 운영해보자.md",
-    "02-MOC/Blog/세벌식/세벌식.md",
     "02-MOC/Blog/암산 재밌다",
     "02-MOC/CS",
     "99-Archive/6+1계명",
