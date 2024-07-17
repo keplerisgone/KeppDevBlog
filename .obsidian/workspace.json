@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "02-MOC/Blog/Books/개발자 기술 면접 노트.md"
               }
             }
           },
@@ -171,11 +171,13 @@
   },
   "active": "e023dd65f93eb5b3",
   "lastOpenFiles": [
+    "02-MOC/Blog/Books/Books.md",
+    "02-MOC/Blog/Blog.md",
+    "Home.md",
     "02-MOC/Tech & Dev/Algorithm/재귀 함수.md",
     "02-MOC/Tech & Dev/Algorithm/선택 정렬 (Selection Sort).md",
     "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md",
     "02-MOC/Tech & Dev/Tech & Dev.md",
-    "Home.md",
     "02-MOC/Linux/Linux 기본 명령어.md",
     "02-MOC/Linux/Linux란?.md",
     "02-MOC/Linux/Linux.md",
@@ -192,12 +194,10 @@
     "02-MOC/Blog/Blog Idea.md",
     "02-MOC/Tech & Dev/Computer Science/Computer Science.md",
     "02-MOC/02-MOC.md",
-    "02-MOC/Blog/Blog.md",
     "01-Project/임베디드 SW개발/02 리눅스 설치하기.md",
     "01-Project/임베디드 SW개발/임베디드 SW개발.md",
     "01-Project/임베디드 SW개발/01 리눅스가 필요한 이유.md",
     "01-Project/01-Project.md",
-    "02-MOC/Blog/무료로 영어 공부하기.md",
     "02-MOC/Blog/암산 재밌다",
     "02-MOC/CS",
     "99-Archive/6+1계명",
