@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "재귀 함수",
+      "path": "02-MOC/Tech & Dev/Algorithm/재귀 함수.md"
+    },
+    {
+      "basename": "선택 정렬 (Selection Sort)",
+      "path": "02-MOC/Tech & Dev/Algorithm/선택 정렬 (Selection Sort).md"
+    },
+    {
+      "basename": "알고리즘 패러다임",
+      "path": "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md"
+    },
+    {
+      "basename": "Tech & Dev",
+      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
+    },
+    {
       "basename": "Linux 기본 명령어",
       "path": "02-MOC/Linux/Linux 기본 명령어.md"
     },
@@ -15,14 +35,6 @@
     {
       "basename": "docker를 이용해서 편하게 리눅스 사용하기",
       "path": "02-MOC/Linux/docker를 이용해서 편하게 리눅스 사용하기.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
-      "basename": "알고리즘 패러다임",
-      "path": "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md"
     },
     {
       "basename": "디자인 패턴 개요 + SOLID 원칙",
@@ -45,10 +57,6 @@
       "path": "02-MOC/Tech & Dev/Algorithm/퀵 정렬 (Quick Sort).md"
     },
     {
-      "basename": "재귀 함수",
-      "path": "02-MOC/Tech & Dev/Algorithm/재귀 함수.md"
-    },
-    {
       "basename": "Algorithm",
       "path": "02-MOC/Tech & Dev/Algorithm/Algorithm.md"
     },
@@ -65,16 +73,8 @@
       "path": "02-MOC/Blog/Blog Idea.md"
     },
     {
-      "basename": "선택 정렬 (Selection Sort)",
-      "path": "02-MOC/Tech & Dev/Algorithm/선택 정렬 (Selection Sort).md"
-    },
-    {
       "basename": "Computer Science",
       "path": "02-MOC/Tech & Dev/Computer Science/Computer Science.md"
-    },
-    {
-      "basename": "Tech & Dev",
-      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
     },
     {
       "basename": "02-MOC",

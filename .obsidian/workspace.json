@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "05be74af4cf1a26b",
+        "id": "2cfc2ac30178f3f5",
         "type": "tabs",
         "children": [
           {
-            "id": "a211079ff922a2d2",
+            "id": "e023dd65f93eb5b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-MOC/Linux/Linux 기본 명령어.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-MOC/Linux/Linux 기본 명령어.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-MOC/Linux/Linux 기본 명령어.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-MOC/Linux/Linux 기본 명령어.md"
+                "file": "Home.md"
               }
             }
           },
@@ -169,28 +169,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a211079ff922a2d2",
+  "active": "e023dd65f93eb5b3",
   "lastOpenFiles": [
+    "02-MOC/Tech & Dev/Algorithm/재귀 함수.md",
+    "02-MOC/Tech & Dev/Algorithm/선택 정렬 (Selection Sort).md",
+    "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md",
+    "02-MOC/Tech & Dev/Tech & Dev.md",
+    "Home.md",
+    "02-MOC/Linux/Linux 기본 명령어.md",
     "02-MOC/Linux/Linux란?.md",
     "02-MOC/Linux/Linux.md",
-    "02-MOC/Linux/Linux 기본 명령어.md",
     "02-MOC/Linux/docker를 이용해서 편하게 리눅스 사용하기.md",
-    "Home.md",
-    "02-MOC/Tech & Dev/Algorithm/알고리즘 패러다임.md",
     "02-MOC/Tech & Dev/Design Pattern/디자인 패턴 개요 + SOLID 원칙.md",
     "02-MOC/Tech & Dev/Design Pattern/Design Pattern.md",
     "02-MOC/Tech & Dev/Algorithm/알고리즘이란?.md",
     "02-MOC/Tech & Dev/Algorithm/병합 정렬 (Merge Sort).md",
     "02-MOC/Tech & Dev/Algorithm/퀵 정렬 (Quick Sort).md",
-    "02-MOC/Tech & Dev/Algorithm/재귀 함수.md",
     "02-MOC/Tech & Dev/Algorithm/Algorithm.md",
     "02-MOC/Tech & Dev/Algorithm/Sort Algorithm",
     "02-MOC/Tech & Dev/Computer Science/Network/OSI 7 계층.md",
     "02-MOC/Tech & Dev/Computer Science/Network/Network.md",
     "02-MOC/Blog/Blog Idea.md",
-    "02-MOC/Tech & Dev/Algorithm/선택 정렬 (Selection Sort).md",
     "02-MOC/Tech & Dev/Computer Science/Computer Science.md",
-    "02-MOC/Tech & Dev/Tech & Dev.md",
     "02-MOC/02-MOC.md",
     "02-MOC/Blog/Blog.md",
     "01-Project/임베디드 SW개발/02 리눅스 설치하기.md",

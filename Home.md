@@ -2,7 +2,7 @@
 
 게임하는 MOSFET
 개발하는 kepler
-창작하는 dopler
+창작하는 doppler
 
 # 게임하기
 
