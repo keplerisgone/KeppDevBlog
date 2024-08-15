@@ -116,5 +116,13 @@
       ],
       "key": "]"
     }
+  ],
+  "tag-pane:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
   ]
 }

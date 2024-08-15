@@ -1,8 +1,7 @@
 # 00-Personal Overview
 
 %% Begin Waypoint %%
-- [[Goals]]
-- [[Life]]
+
 
 %% End Waypoint %%
 

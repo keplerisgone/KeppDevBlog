@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,33 +71,9 @@
           "type": "bookmarks",
           "state": {}
         }
-      },
-      {
-        "id": "b1aec551d86c7ccd",
-        "type": "leaf",
-        "state": {
-          "type": "mk-path-view",
-          "state": {}
-        }
-      },
-      {
-        "id": "1403eae7dc036fb1",
-        "type": "leaf",
-        "state": {
-          "type": "recent-files",
-          "state": {}
-        }
-      },
-      {
-        "id": "84f32304b51f5588",
-        "type": "leaf",
-        "state": {
-          "type": "mk-path-view",
-          "state": {}
-        }
       }
     ],
-    "currentTab": 5
+    "currentTab": 1
   },
   "right": {
     "id": "fddb38e918023cb4",
@@ -109,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md",
+            "file": "index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md",
+            "file": "index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md"
+            "file": "index.md"
           }
         }
       },
@@ -173,21 +149,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "homepage:Open homepage": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-omnivore:Omnivore": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "5c83775309476b43",
   "lastOpenFiles": [
+    "임베디드-공부를-시작해보자.md",
+    "index.md",
+    "Home.md",
     "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md",
     "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md",
     "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md",
     "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md",
-    "Home.md",
     "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md",
     "Yonsei/3학년 1학기/전자회로(2)/Feedback.md",
     "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md",
@@ -207,8 +180,6 @@
     "99-Daily/2024_03_14.md",
     "99-Daily/2024_03_09.md",
     "99-Daily/2024_03_07.md",
-    "99-Daily/2024_03_06.md",
-    "99-Daily/2024_03_03.md",
     "Media/Pasted image 20240225001005.png",
     "Spaces/Home",
     "Spaces"

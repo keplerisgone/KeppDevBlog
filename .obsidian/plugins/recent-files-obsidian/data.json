@@ -1,207 +1,29 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "임베디드-공부를-시작해보자",
+      "path": "임베디드-공부를-시작해보자.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
-    },
-    {
-      "basename": "Github Profile & Blog 꾸미기",
-      "path": "02-MOC/Git & GitHub/Github Profile & Blog 꾸미기.md"
-    },
-    {
-      "basename": "Git & GitHub",
-      "path": "02-MOC/Git & GitHub/Git & GitHub.md"
-    },
-    {
-      "basename": "하루하나 오일러 프로젝트",
-      "path": "01-Project/하루하나 오일러 프로젝트/하루하나 오일러 프로젝트.md"
-    },
-    {
-      "basename": "노닥노닥 라즈베리",
-      "path": "01-Project/노닥노닥 라즈베리/노닥노닥 라즈베리.md"
-    },
-    {
-      "basename": "임베디드 SW개발",
-      "path": "01-Project/임베디드 SW개발/임베디드 SW개발.md"
-    },
-    {
-      "basename": "나는 커서 뭘 할까",
-      "path": "00-Personal/나는 커서 뭘 할까.canvas"
     },
     {
       "basename": "00-Personal",
       "path": "00-Personal/00-Personal.md"
     },
     {
-      "basename": "Goals",
-      "path": "00-Personal/Goals.md"
+      "basename": "Dev",
+      "path": "02-MOC/Tech & Dev/Dev/Dev.md"
     },
     {
-      "basename": "Life",
-      "path": "00-Personal/Life.md"
-    },
-    {
-      "basename": "Tech & Dev",
-      "path": "02-MOC/Tech & Dev/Tech & Dev.md"
-    },
-    {
-      "basename": "유튜브가 렉이 걸릴 때",
-      "path": "02-MOC/Blog/유튜브가 렉이 걸릴 때.md"
-    },
-    {
-      "basename": "옵시디언 노트를 티스토리 블로그에 올리기",
-      "path": "02-MOC/Blog/옵시디언 노트를 티스토리 블로그에 올리기.md"
-    },
-    {
-      "basename": "개발자 기술 면접 노트",
-      "path": "02-MOC/Blog/Books/개발자 기술 면접 노트.md"
-    },
-    {
-      "basename": "나라는 착각",
-      "path": "02-MOC/Blog/Books/나라는 착각.md"
-    },
-    {
-      "basename": "Blog",
-      "path": "02-MOC/Blog/Blog.md"
-    },
-    {
-      "basename": "02-MOC",
-      "path": "02-MOC/02-MOC.md"
-    },
-    {
-      "basename": "01-Project",
-      "path": "01-Project/01-Project.md"
-    },
-    {
-      "basename": "Note 8 Digital Transmission Via Carrier Modulation",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 8 Digital Transmission Via Carrier Modulation.md"
-    },
-    {
-      "basename": "Note 7 Digital Transmission in an AWGN Channel",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 7 Digital Transmission in an AWGN Channel.md"
-    },
-    {
-      "basename": "Note 6 Baseband Digital Data Transmission",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 6 Baseband Digital Data Transmission.md"
-    },
-    {
-      "basename": "Note 5 Analog to Digital Conversion",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 5 Analog to Digital Conversion.md"
-    },
-    {
-      "basename": "Note 4 Effect of Noise on Analog Communication Systems",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 4 Effect of Noise on Analog Communication Systems.md"
-    },
-    {
-      "basename": "Note 3 Angle Modulation",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 3 Angle Modulation.md"
-    },
-    {
-      "basename": "Note 2 Amplitude modulation",
-      "path": "Yonsei/3학년 1학기/통신이론/Note 2 Amplitude modulation.md"
-    },
-    {
-      "basename": "Books",
-      "path": "02-MOC/Blog/Books/Books.md"
-    },
-    {
-      "basename": "세컨드 브레인",
-      "path": "03-Writing/세컨드 브레인.md"
-    },
-    {
-      "basename": "프롬프트 엔지니어링 교과서",
-      "path": "03-Writing/프롬프트 엔지니어링 교과서.md"
-    },
-    {
-      "basename": "세벌식은 왜 짱인가",
-      "path": "03-Writing/세벌식은 왜 짱인가.md"
-    },
-    {
-      "basename": "세벌식",
-      "path": "02-MOC/Blog/세벌식/세벌식.md"
-    },
-    {
-      "basename": "C++로 문제 풀기",
-      "path": "99-Archive/C++로 문제 풀기.md"
-    },
-    {
-      "basename": "Web",
-      "path": "99-Archive/Web/Web.md"
-    },
-    {
-      "basename": "몬스터 구현",
-      "path": "99-Archive/Robotgame/몬스터 구현.md"
-    },
-    {
-      "basename": "진행 상황",
-      "path": "99-Archive/Robotgame/진행 상황.md"
-    },
-    {
-      "basename": "Prefab 모음",
-      "path": "99-Archive/Robotgame/Prefab 모음.md"
-    },
-    {
-      "basename": "배터리 시스템",
-      "path": "99-Archive/Robotgame/배터리 시스템.md"
-    },
-    {
-      "basename": "보스 1페이즈",
-      "path": "99-Archive/Robotgame/보스 1페이즈.md"
-    },
-    {
-      "basename": "Senti",
-      "path": "99-Archive/Robotgame/Senti.md"
-    },
-    {
-      "basename": "보스 2페",
-      "path": "99-Archive/Robotgame/보스 2페.md"
-    },
-    {
-      "basename": "template",
-      "path": "Template/template.md"
-    },
-    {
-      "basename": "통신이론",
-      "path": "Yonsei/3학년 1학기/통신이론/통신이론.md"
-    },
-    {
-      "basename": "Oscillator",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Oscillator.md"
-    },
-    {
-      "basename": "Analog Filter",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Analog Filter.md"
-    },
-    {
-      "basename": "Outputstage",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Outputstage.md"
-    },
-    {
-      "basename": "Feedback",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Feedback.md"
-    },
-    {
-      "basename": "Memory",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Memory.md"
-    },
-    {
-      "basename": "Processor",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Processor.md"
-    },
-    {
-      "basename": "Reminder",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Reminder.md"
-    },
-    {
-      "basename": "Frequency Response",
-      "path": "Yonsei/3학년 1학기/전자회로(2)/Frequency Response.md"
-    },
-    {
-      "basename": "Instruction",
-      "path": "Yonsei/3학년 1학기/컴퓨터구조/Instruction.md"
+      "basename": "세벌식은-왜-짱인가",
+      "path": "03-Writing/세벌식은-왜-짱인가.md"
     }
   ],
-  "omittedPaths": [],
-  "maxLength": null,
-  "openType": "tab"
+  "omittedPaths": []
 }
