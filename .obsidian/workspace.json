@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d2db978bd99f3160",
+        "id": "2cfc2ac30178f3f5",
         "type": "tabs",
         "children": [
           {
-            "id": "3cea15d7ab8e49d6",
+            "id": "e023dd65f93eb5b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cantor-MX.md",
+                "file": "임베디드-커리큘럼을-짜보자.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Area",
+                "query": "index",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,20 +72,12 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "00d4b427daacc1ec",
-            "type": "leaf",
-            "state": {
-              "type": "trash-explorer",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 218.5
   },
   "right": {
     "id": "dbf408a4b9eabb7f",
@@ -101,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cantor-MX.md",
+                "file": "임베디드-커리큘럼을-짜보자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cantor-MX.md",
+                "file": "임베디드-커리큘럼을-짜보자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cantor-MX.md"
+                "file": "임베디드-커리큘럼을-짜보자.md"
               }
             }
           },
@@ -153,8 +145,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,46 +164,49 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3cea15d7ab8e49d6",
+  "active": "e023dd65f93eb5b3",
   "lastOpenFiles": [
-    "Home.md",
-    "04-운영체제-이론-맛보기-개념.md",
-    "00-Personal/00-Personal.md",
-    "02-MOC/Tech & Dev/Dev/Dev.md",
-    "02-MOC/Blog/Blog.md",
-    "03-Writing/세벌식은-왜-짱인가.md",
-    "03-Writing/임베디드-시스템의-개발-환경.md",
-    "03-Writing/옵시디언-정리-일지.md",
     "03-Writing/세컨드-브레인.md",
+    "index.md",
+    "06-서비스-데몬과-라이브러리-개발하기.md",
     "프롬프트-엔지니어링-교과서.md",
-    "Homebrew-사용하기.md",
-    "02-MOC/Tech & Dev/Computer Science/Computer-Science.md",
-    "02-MOC/Terminal/Terminal.md",
-    "LunarVim-사용하기.md",
-    "Astronvim-사용하기.md",
+    "피보나치-수열에서-4백만-이하이면서-짝수인-항의-합.md",
+    "재귀-함수.md",
+    "임베디드-커리큘럼을-짜보자.md",
+    "임베디드-공부를-시작해보자.md",
     "운영체제(OS)란?.md",
-    "02-MOC/Tech & Dev/Operating System/Operating-System.md",
-    "02-MOC/Tech & Dev/Design Pattern/Design-Pattern.md",
-    "02-MOC/Tech & Dev/Design Pattern/객체-지향-프로그래밍이란?.md",
+    "알고리즘이란?.md",
+    "알고리즘-패러다임.md",
+    "세자리-수를-곱해-만들-수-있는-가장-큰-대칭수.md",
+    "선형-데이터-구조.md",
+    "라즈베리파이에-Linux-설치하기.md",
+    "라즈베리파이를-세팅해보자-(mac).md",
+    "라즈베리파이-전원-스위치-만들기.md",
+    "라즈베리파이-개발환경-설정하기.md",
     "디자인-패턴-개요-+-SOLID-원칙.md",
-    "02-MOC/Tech & Dev/Computer Science/Software Engineering/함수형-프로그래밍.md",
-    "02-MOC/Tech & Dev/Computer Science/Software Engineering/절차적-프로그래밍.md",
-    "02-MOC/Tech & Dev/Computer Science/Software Engineering/논리형-프로그래밍.md",
-    "02-MOC/Tech & Dev/Computer Science/Software Engineering/Software-Engineering.md",
+    "데이터-구조와-알고리즘.md",
+    "기본적인-Git-GitHub-사용.md",
     "객체-지향-프로그래밍.md",
-    "TCP,IP-흐름제어-&-혼잡제어.md",
-    "04-Archive",
-    "00-Personal/나는-커서-뭘-할까.canvas",
+    "가장-큰-소인수-구하기.md",
+    "strace로-ls가-사용하는-시스템-콜-알아보기.md",
     "rename_files.py",
-    "01-Project/DIY split keyboard",
-    "01-Project/준비하기",
+    "docker를-이용해서-편하게-리눅스-사용하기.md",
+    "diary/diary.md",
+    "diary/2024-08-08.md",
+    "diary",
+    "Media/Screenshot 2024-08-15 at 14.37.51.png",
+    "Media/Screenshot 2024-08-08 at 16.19.42.png",
+    "Media/Screenshot 2024-08-08 at 00.11.14.png",
+    "04-Archive/Obsidian/Obsidian Plugin",
+    "04-Archive/Obsidian/Obsidian Basic",
+    "04-Archive/Obsidian",
+    "04-Archive",
+    "03-Writing",
+    "02-MOC/Unity",
+    "00-Personal/나는-커서-뭘-할까.canvas",
     "02-MOC/Tech & Dev/Algorithm/Sort Algorithm",
     "02-MOC/Blog/암산 재밌다",
-    "02-MOC/CS",
-    "99-Archive/6+1계명",
     "01-Project/Untitled.canvas",
-    "02-MOC/AI/OpenAI",
-    "02-MOC/AI",
     "00-Personal/나는 커서 뭘 할까.canvas",
     "Media/Screenshot 2024-05-20 at 12.12.28.png",
     "Media/Untitled 3 6.png",
@@ -220,9 +214,6 @@
     "Media/Screenshot_2023-08-24_at_3.34.48_PM.png",
     "Media/Untitled 13.png",
     "Media/Screenshot_2023-12-17_at_3.33.24_PM.png",
-    "Media/Screenshot_2023-11-08_at_7.58.02_PM.png",
-    "Media/Screenshot_2023-12-09_at_2.21.28_PM.png",
-    "Media/Screenshot_2023-12-09_at_1.48.44_PM.png",
-    "Media/Screenshot_2023-10-21_at_12.11.10_AM.png"
+    "Media/Screenshot_2023-11-08_at_7.58.02_PM.png"
   ]
 }
